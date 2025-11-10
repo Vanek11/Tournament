@@ -59,13 +59,21 @@
     const m = (url || "").match(/\/accounts\/(\d+)-/);
     return m ? m[1] : null;
   }
-  async function loadStatsJson(accountId) {
-    if (!accountId) throw new Error("Не найден accountId");
-    const base = window.CONFIG?.STATS_JSON_BASE || "./stats/";
-    const res = await fetch(`${base}${accountId}.json?ts=${Date.now()}`, { cache: "no-store" });
-    if (!res.ok) throw new Error(`stats ${res.status}`);
-    return await res.json();
+async function loadStatsJson(accountId) {
+  if (!accountId) throw new Error("Не найден accountId");
+  const v = Date.now();
+  const base = window.CONFIG?.STATS_JSON_BASE || "stats/";
+  let res = await fetch(`${base}${accountId}.json?ts=${v}`, { cache: "no-store" });
+  if (!res.ok && window.CONFIG?.RAW_FALLBACK) {
+    res = await fetch(`${window.CONFIG.RAW_FALLBACK}${accountId}.json?ts=${v}`, { cache: "no-store" });
   }
+  if (!res.ok) throw new Error(`stats ${res.status}`);
+
+  const data = await res.json();
+  if (data && data.error) throw new Error(data.error);   // <-- покажем реальную причину
+  return data;
+}
+
 
   // ======== рендер ========
   function render(){

@@ -2,7 +2,7 @@ name: Update tournament stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *" # каждые 30 минут
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
@@ -15,9 +15,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
-      - run: npx playwright install --with-deps chromium
-      - run: npm run scrape
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install # <-- вместо npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: npm run scrape
+
       - name: Commit stats
         uses: EndBug/add-and-commit@v9
         with:

@@ -46,6 +46,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 28px 20px 60px;
+  background-image: url("/img/background.png");
 }
 .header {
   display: flex;

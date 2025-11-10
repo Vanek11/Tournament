@@ -5,24 +5,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Турнир — Участники</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/icon.png">
 </head>
 
 <body>
     <div class="wrap">
         <header class="header">
             <div class="brand">
-                <div class="logo" aria-hidden="true"></div>
+                <div class="logo" aria-hidden="true">
+                    <img src="img/icon.png" alt="Логотип турнира">
+
+                </div>
                 <div>
                     <h1>Список участников турнира</h1>
-                    <p class="subtitle">Кликните «Статистика» — данные подтянем со страницы игрока на портале.</p>
+                    <p class="subtitle">Нажмите «Открыть на портале», чтобы перейти на профиль игрока на официальном
+                        сайте.</p>
                 </div>
             </div>
             <div class="pill">Всего: <span id="count">0</span></div>
         </header>
+
+        <!-- Блок с правилами (заглушка) -->
+        <section class="rules" aria-labelledby="rules-title">
+            <h2 id="rules-title">Правила турнира</h2>
+            <ol class="rules-list">
+                <li><strong>Формат:</strong> <em>заглушка</em> — здесь будет описание формата боёв (например, 5×5, BO3 и
+                    т.п.).</li>
+                <li><strong>Регламент:</strong> даты, время начала, дедлайны на подтверждение участия, тайминг туров.
+                </li>
+                <li><strong>Состав команд:</strong> минимальное/максимальное количество игроков, замены.</li>
+                <li><strong>Критерии победы:</strong> подсчёт очков, дополнительные параметры при равенстве.</li>
+                <li><strong>Дисциплина:</strong> допустимое поведение, санкции, спорные ситуации.</li>
+            </ol>
+            <div class="rules-actions">
+                <button type="button" class="btn secondary" disabled>Скачать полные правила (PDF) — скоро</button>
+            </div>
+        </section>
 
         <div class="toolbar" role="region" aria-label="Панель фильтров">
             <label class="input" aria-label="Поиск">
@@ -33,7 +56,7 @@
                 <input id="q" placeholder="Поиск по нику или тегу" autocomplete="off" />
             </label>
 
-            <!-- Кастомный dropdown (синий hover) -->
+            <!-- Кастомный dropdown сортировки -->
             <div class="dd" id="sortDd">
                 <button class="dd-btn" id="sortBtn" type="button" aria-haspopup="listbox" aria-expanded="false">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -62,7 +85,6 @@
     </div>
 
     <!-- Порядок важен -->
-    <script defer src="js/config.js"></script>
     <script defer src="js/data.participants.js"></script>
     <script defer src="js/app.js"></script>
 </body>

@@ -28,290 +28,7 @@
 * {
   box-sizing: border-box;
 }
-
-html,
-body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial,
-    "Noto Sans", sans-serif;
-  color: var(--text);
-  background: var(--bg), var(--bg-grad);
-  background-color: var(--bg);
-  line-height: 1.45;
-  letter-spacing: 0.2px;
-}
-.wrap {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 28px 20px 60px;
-}
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 22px;
-}
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-.logo {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #6ea8fe, #8a64ff);
-  box-shadow: var(--shadow);
-}
-h1 {
-  font-size: clamp(20px, 2.4vw, 28px);
-  margin: 0;
-  font-weight: 700;
-  letter-spacing: 0.4px;
-}
-.subtitle {
-  margin: 4px 0 0;
-  font-size: 14px;
-  color: var(--muted);
-}
-.pill {
-  padding: 10px 14px;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.06),
-    rgba(255, 255, 255, 0.02)
-  );
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  font-size: 13px;
-  color: var(--muted);
-}
-
-.toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
-  margin: 20px 0 24px;
-}
-.input {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 12px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  min-height: 42px;
-  transition: 0.2s ease;
-  backdrop-filter: blur(8px);
-}
-.input:focus-within {
-  box-shadow: var(--focus);
-  border-color: transparent;
-}
-.input input {
-  all: unset;
-  color: var(--text);
-  width: 240px;
-  font-size: 14px;
-}
-.kbd {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
-    monospace;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid var(--border);
-  padding: 2px 6px;
-  border-radius: 6px;
-}
-
-/* ===== Кастомный dropdown ===== */
-.dd {
-  position: relative;
-}
-.dd-btn {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 12px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  min-height: 42px;
-  backdrop-filter: blur(8px);
-  color: var(--text);
-  cursor: pointer;
-}
-.dd-btn:focus {
-  outline: none;
-  box-shadow: var(--focus);
-}
-.dd-caret {
-  margin-left: 6px;
-  opacity: 0.9;
-}
-.dd-menu {
-  display: none;
-  position: absolute;
-  z-index: 30;
-  top: calc(100% + 6px);
-  left: 0;
-  min-width: 260px;
-  background: #0e162b;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
-}
-.dd-menu.open {
-  display: block;
-}
-.dd-item {
-  list-style: none;
-  padding: 10px 12px;
-  cursor: pointer;
-  user-select: none;
-}
-.dd-item:hover,
-.dd-item[aria-selected="true"] {
-  background: var(--blue);
-  color: white;
-}
-
-/* ===== Карточки ===== */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 16px;
-}
-.card {
-  position: relative;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px;
-  overflow: hidden;
-  transition: transform 0.12s ease, background 0.2s ease, border-color 0.2s ease;
-  backdrop-filter: blur(8px);
-}
-.card:hover {
-  transform: translateY(-3px);
-  background: var(--card-hover);
-  border-color: rgba(255, 255, 255, 0.2);
-}
-.card:focus {
-  outline: none;
-  box-shadow: var(--focus);
-}
-.avatar {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  background: linear-gradient(135deg, #445, #778);
-  color: white;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
-}
-.title {
-  margin: 10px 0 2px;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.2px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.meta {
-  font-size: 13px;
-  color: var(--muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* ===== Действия и статистика ===== */
-.details {
-  margin-top: 12px;
-  border-top: 1px dashed var(--border);
-  padding-top: 12px;
-  font-size: 14px;
-}
-.actions {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 8px;
-}
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 10px 12px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--text);
-  cursor: pointer;
-}
-.btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-.btn.secondary {
-  background: #0f1a33;
-  border-color: #203255;
-}
-.btn.secondary:hover {
-  background: #132044;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 16px;
-  align-items: center;
-}
-.badge {
-  display: inline-flex;
-  gap: 8px;
-  align-items: center;
-  padding: 8px 10px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-}
-.badge .k {
-  color: var(--muted);
-}
-
-.spinner {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.25);
-  border-top-color: var(--accent);
-  animation: spin 1s linear infinite;
-}
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-.error {
-  color: #ff9b9b;
-}
-
-.footer-link {
-  font-size: 12px;
-  color: var(--muted);
-}
+/* Фон на весь экран, статичный */
 html,
 body {
   height: 100%;
@@ -319,6 +36,245 @@ body {
 body {
   margin: 0;
   background: url("../img/background.png") center / cover no-repeat fixed;
-  /* cover — растягиваем, no-repeat — не повторяем, fixed — не прокручиваем */
-  background-color: #0d1320; /* запасной тёмный цвет, если картинка не загрузится */
+  background-color: #0d1320;
+}
+/* Каркас */
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  color: #e8eefc;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  overflow: hidden; /* чтобы углы у изображения тоже были скруглёнными */
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain; /* целиком влезает, без обрезки */
+  background: transparent;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0;
+}
+.subtitle {
+  margin: 4px 0 0;
+  opacity: 0.8;
+}
+
+/* Правила (заглушка) */
+
+.rules {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 16px 18px;
+  margin: 8px 0 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: none;
+}
+.rules:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.rules h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+.rules-list {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.5;
+}
+.rules-actions {
+  margin-top: 12px;
+}
+
+/* Инпуты/кнопки/toolbar */
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 10px 0 18px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+.input input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  width: 240px;
+}
+.pill {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* Dropdown */
+.dd {
+  position: relative;
+}
+.dd-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.dd-caret {
+  margin-left: 4px;
+  opacity: 0.8;
+}
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 6px;
+  background: #0e1a2b;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  min-width: 220px;
+  padding: 6px;
+  display: none;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  z-index: 5;
+}
+.dd-menu.open {
+  display: block;
+}
+.dd-item {
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #dfe7fb;
+}
+.dd-item[aria-selected="true"],
+.dd-item:hover {
+  background: #1d3e71;
+}
+
+/* Сетка карточек */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+.card:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.28);
+}
+.title {
+  margin: 10px 0 4px;
+  font-weight: 700;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.meta {
+  opacity: 0.8;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+}
+.actions.only-portal .btn {
+  width: 100%;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: linear-gradient(180deg, #1f66ff, #0f44b2);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn.secondary {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+}
+.btn.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.hint {
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.empty {
+  opacity: 0.8;
+  padding: 16px;
+}
+
+footer {
+  opacity: 0.7;
+  margin: 16px 0 8px;
+}
+.kbd {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: #0e1a2b;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }

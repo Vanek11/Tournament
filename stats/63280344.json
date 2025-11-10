@@ -1,1 +1,1 @@
-{"accountId":"63280344","nickname":"11_vanek_11","error":"TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/63280344-11_vanek_11/\", waiting until \"networkidle\"\n","fetchedAt":"2025-11-10T20:40:44.340Z"}
+{"accountId":"63280344","nickname":"11_vanek_11","error":"TimeoutError: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/63280344-11_vanek_11/\", waiting until \"networkidle\"\n","fetchedAt":"2025-11-10T20:46:56.233Z"}

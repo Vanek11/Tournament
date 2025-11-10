@@ -1,0 +1,25 @@
+name: Update tournament stats
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *" # каждые 30 минут
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run scrape
+      - name: Commit stats
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "stats/*.json"
+          message: "Update stats [skip ci]"

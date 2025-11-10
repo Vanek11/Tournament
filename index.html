@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Турнир — Участники</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="brand">
+                <div class="logo" aria-hidden="true"></div>
+                <div>
+                    <h1>Список участников турнира</h1>
+                    <p class="subtitle">Кликните «Статистика» — данные подтянем со страницы игрока на портале.</p>
+                </div>
+            </div>
+            <div class="pill">Всего: <span id="count">0</span></div>
+        </header>
+
+        <div class="toolbar" role="region" aria-label="Панель фильтров">
+            <label class="input" aria-label="Поиск">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M21 21l-4.2-4.2m1.7-5.3a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+                <input id="q" placeholder="Поиск по нику или тегу" autocomplete="off" />
+            </label>
+
+            <!-- Кастомный dropdown (синий hover) -->
+            <div class="dd" id="sortDd">
+                <button class="dd-btn" id="sortBtn" type="button" aria-haspopup="listbox" aria-expanded="false">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M7 7h10M7 12h7M7 17h4" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" />
+                    </svg>
+                    <span id="sortLabel">По имени (А→Я)</span>
+                    <svg class="dd-caret" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                </button>
+                <ul class="dd-menu" id="sortMenu" role="listbox" aria-labelledby="sortBtn" tabindex="-1">
+                    <li class="dd-item" data-value="name-asc" role="option" aria-selected="true">По имени (А→Я)</li>
+                    <li class="dd-item" data-value="name-desc" role="option">По имени (Я→А)</li>
+                    <li class="dd-item" data-value="clan-asc" role="option">По клан-тегу (А→Я)</li>
+                    <li class="dd-item" data-value="clan-desc" role="option">По клан-тегу (Я→А)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="grid" class="grid" role="list" aria-label="Участники"></div>
+
+        <footer>
+            Подсказка: нажмите <span class="kbd">/</span> чтобы быстро перейти к поиску.
+        </footer>
+    </div>
+
+    <!-- Порядок важен -->
+    <script defer src="js/config.js"></script>
+    <script defer src="js/data.participants.js"></script>
+    <script defer src="js/app.js"></script>
+</body>
+
+</html>

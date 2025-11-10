@@ -1,0 +1,11 @@
+{
+  "name": "tournament-stats",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

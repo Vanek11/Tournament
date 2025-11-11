@@ -19,12 +19,13 @@
             <div class="brand">
                 <div class="logo" aria-hidden="true">
                     <img src="img/icon.png" alt="Логотип турнира">
-
                 </div>
                 <div>
                     <h1>Список участников турнира</h1>
-                    <p class="subtitle">Нажмите «Открыть на портале», чтобы перейти на профиль игрока на официальном
-                        сайте.</p>
+                    <p class="subtitle">
+                        Нажмите «Статистика», чтобы увидеть ключевые показатели прямо здесь.
+                        «Открыть на портале» — переход на профиль игрока.
+                    </p>
                 </div>
             </div>
             <div class="pill">Всего: <span id="count">0</span></div>
@@ -34,13 +35,11 @@
         <section class="rules" aria-labelledby="rules-title">
             <h2 id="rules-title">Правила турнира</h2>
             <ol class="rules-list">
-                <li><strong>Формат:</strong> <em>заглушка</em> — здесь будет описание формата боёв (например, 5×5, BO3 и
-                    т.п.).</li>
-                <li><strong>Регламент:</strong> даты, время начала, дедлайны на подтверждение участия, тайминг туров.
-                </li>
-                <li><strong>Состав команд:</strong> минимальное/максимальное количество игроков, замены.</li>
-                <li><strong>Критерии победы:</strong> подсчёт очков, дополнительные параметры при равенстве.</li>
-                <li><strong>Дисциплина:</strong> допустимое поведение, санкции, спорные ситуации.</li>
+                <li><strong>Формат:</strong> <em>заглушка</em> — описание формата боёв (5×5, BO3 и т.п.).</li>
+                <li><strong>Регламент:</strong> даты, тайминг туров, дедлайны подтверждения участия.</li>
+                <li><strong>Состав команд:</strong> мин/макс игроков, допустимые замены.</li>
+                <li><strong>Критерии победы:</strong> подсчёт очков, tie-break правила.</li>
+                <li><strong>Дисциплина:</strong> поведение, санкции, спорные ситуации.</li>
             </ol>
             <div class="rules-actions">
                 <button type="button" class="btn secondary" disabled>Скачать полные правила (PDF) — скоро</button>
@@ -80,7 +79,7 @@
         <div id="grid" class="grid" role="list" aria-label="Участники"></div>
 
         <footer>
-            Подсказка: нажмите <span class="kbd">/</span> чтобы быстро перейти к поиску.
+            Подсказка: нажмите <span class="kbd">/</span>, чтобы быстро перейти к поиску.
         </footer>
     </div>
 

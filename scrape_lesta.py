@@ -356,7 +356,7 @@ def save_index(out_dir: pathlib.Path, items: list[dict]) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     index_path = out_dir / "index.json"
     payload = {
-        "generatedAt": datetime.now(datetime.UTC).isoformat(timespec="seconds"),
+        "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "players": items,
     }
     index_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -388,11 +388,11 @@ def scrape_one(account_id: int, nickname: Optional[str] = None, session=None) ->
                     parsed = parsed2
 
         data.update(parsed)
-        data["fetchedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        data["fetchedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
         return data
     except Exception as e:
         data["error"] = f"{type(e).__name__}: {e}"
-        data["fetchedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        data["fetchedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
         return data
 
 def main():

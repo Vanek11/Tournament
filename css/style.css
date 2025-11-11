@@ -57,6 +57,14 @@ a {
   gap: 16px;
   margin-bottom: 16px;
 }
+
+.header_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
 .brand {
   display: flex;
   align-items: center;
@@ -77,7 +85,7 @@ a {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 34px;
   margin: 0;
 }
 .subtitle {

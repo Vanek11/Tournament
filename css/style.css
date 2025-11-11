@@ -441,3 +441,24 @@ footer {
 .card .actions {
   justify-content: center;
 }
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+} /* перенос при 3+ кнопках */
+.actions .btn {
+  flex: 1 1 auto;
+} /* выравнивание ширины */
+.actions.only-portal .btn {
+  width: 100%;
+} /* одна кнопка — во всю строку */
+
+.btn--icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn--icon svg {
+  width: 16px;
+  height: 16px;
+}

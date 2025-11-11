@@ -3,6 +3,10 @@ window.participants = [
     name: "11_vanek_11",
     clan: "WEIDE",
     lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/",
+    streams: [
+      { platform: "twitch",  url: "https://twitch.tv/vanek11" },
+      { platform: "youtube", url: "https://www.youtube.com/@vanek11/live" }
+    ],
     bucket: 1   // <— СИЛЬНЫЕ
   },
   {

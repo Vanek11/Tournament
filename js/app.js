@@ -115,14 +115,70 @@
     setLabel();
   })();
 
+  function guessPlatform(u){
+    try {
+      const h = new URL(u).hostname;
+      if (h.includes('twitch'))   return 'twitch';
+      if (h.includes('youtube') || h.includes('youtu.be')) return 'youtube';
+      if (h.includes('trovo'))    return 'trovo';
+      if (h.includes('goodgame')) return 'goodgame';
+      if (h.includes('wasd'))     return 'wasd';
+      if (h.includes('kick'))     return 'kick';
+      if (h.includes('vk'))       return 'vk';
+    } catch {}
+    return 'other';
+  }
+  function platformLabel(p){
+    return ({
+      twitch:'Twitch', youtube:'YouTube', trovo:'Trovo',
+      goodgame:'GoodGame', wasd:'WASD', kick:'Kick', vk:'VK', other:'Стрим'
+    })[p] || p;
+  }
+  function streamIcon(platform){
+    // маленькие одноцветные SVG, чтобы не тянуть иконки
+    switch(platform){
+      case 'twitch':   return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M4 3h16v9l-4 4h-4l-2 2H8v-2H4z"/></svg>`;
+      case 'youtube':  return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M10 8l6 4-6 4V8zm-7 4c0-5 0-5 5-5h8c5 0 5 0 5 5s0 5-5 5H8c-5 0-5 0-5-5z"/></svg>`;
+      case 'vk':       return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M3 7h3l2 4 2-4h3l-3 5 3 5h-3l-2-4-2 4H3l3-5z"/></svg>`;
+      case 'trovo':    return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M3 4h18l-8 8 2 8-5-5-7-11z"/></svg>`;
+      case 'kick':     return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M4 4h6v6H8v4h2v6H4v-6h2v-4H4zM14 4h6v6h-2v4h2v6h-6v-6h2v-4h-2z"/></svg>`;
+      case 'goodgame': return `<svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="12" r="9" fill="currentColor"/></svg>`;
+      case 'wasd':     return `<svg viewBox="0 0 24 24" width="16" height="16"><rect x="4" y="4" width="7" height="7" rx="2" fill="currentColor"/><rect x="13" y="4" width="7" height="7" rx="2" fill="currentColor"/><rect x="4" y="13" width="7" height="7" rx="2" fill="currentColor"/><rect x="13" y="13" width="7" height="7" rx="2" fill="currentColor"/></svg>`;
+      default:         return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>`;
+    }
+  }
+  function normalizeStreams(p){
+    const arr = [];
+    if (Array.isArray(p.streams)) arr.push(...p.streams.filter(s => s && s.url));
+    if (!arr.length && p.streamUrl) arr.push({ url: p.streamUrl });
+    return arr.map(s => ({ url: s.url, platform: s.platform || guessPlatform(s.url) }));
+  }
+
+
   function createCard(p, idx) {
     const card = document.createElement("div");
     card.className = "card"; card.tabIndex = 0;
 
     const initial = (p.name||"?").trim().charAt(0).toUpperCase();
     const portalLink = p.lestaUrl ? `<a class="btn secondary" href="${p.lestaUrl}" target="_blank" rel="noopener">Открыть на портале</a>` : "";
-    const statsBtn = p.id ? `<button class="btn secondary" data-action="toggle" data-idx="${idx}">Статистика</button>`
-                          : `<button class="btn" disabled title="Нет ID">Статистика</button>`;
+    const streams = normalizeStreams(p);
+
+    const statsBtn  = p.id
+      ? `<button class="btn secondary" data-action="toggle" data-idx="${idx}">Статистика</button>`
+      : `<button class="btn" disabled title="Нет ID">Статистика</button>`;
+
+    const portalBtn = p.lestaUrl
+      ? `<a class="btn secondary" href="${p.lestaUrl}" target="_blank" rel="noopener">Открыть на портале</a>`
+      : "";
+
+    const streamBtns = streams.map(s => `
+      <a class="btn secondary btn--icon" href="${s.url}" target="_blank" rel="noopener"
+        title="${platformLabel(s.platform)}">
+        ${streamIcon(s.platform)}<span>${platformLabel(s.platform)}</span>
+      </a>
+    `).join("");
+
+    const btnCount = (p.id ? 1 : 0) + (p.lestaUrl ? 1 : 0) + streams.length;
 
     card.innerHTML = `
       <div class="avatar" style="background:${colorFromName(p.name)}">
@@ -133,15 +189,17 @@
       <div class="meta">${p.clan ? 'Клан: ' + p.clan : '&nbsp;'}</div>
 
       <div class="details" id="details-${idx}">
-        <div class="actions ${p.lestaUrl && !p.id ? 'only-portal':''}">
+        <div class="actions ${btnCount === 1 ? 'only-portal' : ''}">
           ${statsBtn}
-          ${portalLink}
+          ${portalBtn}
+          ${streamBtns}
         </div>
         <div class="stats" id="stats-${idx}">
           ${!p.id ? '<div class="hint">У участника не задан id. Исправь data.participants.js</div>' : ''}
         </div>
       </div>
     `;
+
 
     card.addEventListener("click", async (e)=>{
       const btn = e.target.closest('[data-action="toggle"]');

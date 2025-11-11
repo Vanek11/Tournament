@@ -37,51 +37,47 @@ jobs:
 
           src = pathlib.Path("js/data.participants.js").read_text(encoding="utf-8")
 
-          # 1) убрать комментарии // и /* ... */
-          src = re.sub(r'//.*', '', src)
+          # 1) убрать блок-комменты /* ... */
           src = re.sub(r'/\*[\s\S]*?\*/', '', src)
 
-          # 2) вытащить массив между первой '[' и соответствующей ']'
+          # 2) убрать строковые //-комменты, НО не трогать http(s)://
+          #    используем lookbehind: символ перед // не должен быть ':'
+          src = re.sub(r'(?<!:)//.*', '', src)
+
+          # 3) взять массив между первой '[' и последней ']'
           i, j = src.find('['), src.rfind(']')
           if i == -1 or j == -1 or j <= i:
-              raise SystemExit("participants array not found")
-          arr_txt = src[i:j+1]
+              raise SystemExit("participants array not found in js/data.participants.js")
+          arr = src[i:j+1]
 
-          # 3) привести к JSON:
-          #    3.1) добавить кавычки вокруг ключей: name: -> "name":
-          arr_txt = re.sub(r'([{\s,])([A-Za-z_][A-Za-z0-9_]*)\s*:', r'\1"\2":', arr_txt)
-          #    3.2) убрать «висячие» запятые перед ] и }
-          arr_txt = re.sub(r',\s*(]|})', r'\1', arr_txt)
+          # 4) привести к JSON: кавычки на ключи и без висячих запятых
+          arr = re.sub(r'([{\s,])([A-Za-z_][A-Za-z0-9_]*)\s*:', r'\1"\2":', arr)
+          arr = re.sub(r',\s*(]|})', r'\1', arr)
 
-          participants = json.loads(arr_txt)
+          participants = json.loads(arr)
 
-          # 4) добить id и name из URL, если не указаны
+          # 5) парсим id/nick из lestaUrl при необходимости
           def parse_from_url(url):
               m = re.search(r'/accounts/(\d+)-([^/]+)/?$', url or '')
               if not m: return None, None
-              acc = int(m.group(1))
-              nick = m.group(2)
-              return acc, nick
+              return int(m.group(1)), m.group(2)
 
           for p in participants:
               acc, nick = parse_from_url(p.get("lestaUrl"))
-              if p.get("id") in (None, "", 0) and acc:
-                  p["id"] = acc
-              if not p.get("name") and nick:
-                  p["name"] = nick
+              if not p.get("id") and acc:  p["id"] = acc
+              if not p.get("name") and nick: p["name"] = nick
 
-          # 5) удалить дубликаты по id (последний побеждает)
+          # 6) уберём дубликаты по id (последний выигрывает)
           uniq = {}
           for p in participants:
-              if "id" in p and p["id"]:
-                  uniq[p["id"]] = p
+              if p.get("id"): uniq[p["id"]] = p
           participants = list(uniq.values())
 
           pathlib.Path("participants.json").write_text(
               json.dumps(participants, ensure_ascii=False, indent=2),
               encoding="utf-8"
           )
-          print("participants.json generated with", len(participants), "records")
+          print("participants.json generated:", len(participants))
           PY
 
       - name: Run scraper

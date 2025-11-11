@@ -135,18 +135,48 @@
     })[p] || p;
   }
   function streamIcon(platform){
-    // маленькие одноцветные SVG, чтобы не тянуть иконки
+    // одноцветные SVG (берут цвет из currentColor)
     switch(platform){
-      case 'twitch':   return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M4 3h16v9l-4 4h-4l-2 2H8v-2H4z"/></svg>`;
-      case 'youtube':  return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M10 8l6 4-6 4V8zm-7 4c0-5 0-5 5-5h8c5 0 5 0 5 5s0 5-5 5H8c-5 0-5 0-5-5z"/></svg>`;
-      case 'vk':       return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M3 7h3l2 4 2-4h3l-3 5 3 5h-3l-2-4-2 4H3l3-5z"/></svg>`;
-      case 'trovo':    return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M3 4h18l-8 8 2 8-5-5-7-11z"/></svg>`;
-      case 'kick':     return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M4 4h6v6H8v4h2v6H4v-6h2v-4H4zM14 4h6v6h-2v4h2v6h-6v-6h2v-4h-2z"/></svg>`;
-      case 'goodgame': return `<svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="12" r="9" fill="currentColor"/></svg>`;
-      case 'wasd':     return `<svg viewBox="0 0 24 24" width="16" height="16"><rect x="4" y="4" width="7" height="7" rx="2" fill="currentColor"/><rect x="13" y="4" width="7" height="7" rx="2" fill="currentColor"/><rect x="4" y="13" width="7" height="7" rx="2" fill="currentColor"/><rect x="13" y="13" width="7" height="7" rx="2" fill="currentColor"/></svg>`;
-      default:         return `<svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>`;
+      case 'twitch':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M4 3h16v10l-5 5h-4l-2 2H7v-2H4z"/>
+          <path fill="#0" d="M12 8h2v4h-2zM16 8h2v4h-2z" />
+        </svg>`;
+      case 'youtube':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <rect x="2" y="7" width="20" height="10" rx="3" fill="currentColor"></rect>
+          <path d="M10 9.5v5l5-2.5-5-2.5z" fill="#0"></path>
+        </svg>`;
+      case 'vk':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M3 7h3l2 4 2-4h3l-3 5 3 5h-3l-2-4-2 4H3l3-5z"/>
+        </svg>`;
+      case 'trovo':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M3 4h18l-8 8 2 8-5-5L3 4z"/>
+        </svg>`;
+      case 'kick':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M4 4h6v6H8v4h2v6H4v-6h2v-4H4zM14 4h6v6h-2v4h2v6h-6v-6h2v-4h-2z"/>
+        </svg>`;
+      case 'goodgame':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" fill="currentColor"></circle>
+        </svg>`;
+      case 'wasd':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <rect x="4"  y="4"  width="7" height="7" rx="2" fill="currentColor"></rect>
+          <rect x="13" y="4"  width="7" height="7" rx="2" fill="currentColor"></rect>
+          <rect x="4"  y="13" width="7" height="7" rx="2" fill="currentColor"></rect>
+          <rect x="13" y="13" width="7" height="7" rx="2" fill="currentColor"></rect>
+        </svg>`;
+      default:
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="currentColor" d="M8 5v14l11-7z"></path>
+        </svg>`;
     }
   }
+
   function normalizeStreams(p){
     const arr = [];
     if (Array.isArray(p.streams)) arr.push(...p.streams.filter(s => s && s.url));

@@ -21,49 +21,8 @@ window.participants = [
       lestaUrl: "https://tanki.su/ru/community/accounts/70467784-ScreamMyNames/"
     },
     {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
+      name: "Citramon4",
+      clan: "WEIDE",
+      lestaUrl: "https://tanki.su/ru/community/accounts/48487007-Citramon4/"
     },
-    {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
-    },
-    {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
-    },
-    {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
-    },
-    {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
-    },
-    {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
-    },
-    {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
-    },
-    {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
-    },
-    {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
-    },
-    // { name: "nickName1", clan: "ABC", lestaUrl: "https://tanki.su/ru/community/accounts/<ID>-<nick>/" },
 ];

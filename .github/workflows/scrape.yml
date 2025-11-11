@@ -1,113 +1,50 @@
 name: Update tournament stats
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch: # запуск вручную из Actions
   schedule:
-    - cron: "23 */6 * * *" # каждые 6 часов
-  push:
-    paths:
-      - "js/data.participants.js"
-      - "scrape_lesta.py"
-      - ".github/workflows/scrape.yml"
+    - cron: "0 */3 * * *" # каждые 3 часа (UTC). Можешь поставить '0 0 * * *' — раз в день
 
 permissions:
-  contents: write
+  contents: write # нужно, чтобы коммитить изменения
+
+concurrency:
+  group: scrape-stats
+  cancel-in-progress: false
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          python-version: "3.13"
+          fetch-depth: 0
 
-      - name: Install deps (pip + Playwright)
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
         run: |
-          python -m pip install -U pip
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
 
-      - name: Generate participants.json from js/data.participants.js
-        run: |
-          python - << 'PY'
-          import re, json, pathlib
-
-          src = pathlib.Path("js/data.participants.js").read_text(encoding="utf-8")
-
-          # 1) убрать блок-комменты /* ... */
-          src = re.sub(r'/\*[\s\S]*?\*/', '', src)
-
-          # 2) убрать строковые //-комменты, НО не трогать http(s)://
-          #    используем lookbehind: символ перед // не должен быть ':'
-          src = re.sub(r'(?<!:)//.*', '', src)
-
-          # 3) взять массив между первой '[' и последней ']'
-          i, j = src.find('['), src.rfind(']')
-          if i == -1 or j == -1 or j <= i:
-              raise SystemExit("participants array not found in js/data.participants.js")
-          arr = src[i:j+1]
-
-          # 4) привести к JSON: кавычки на ключи и без висячих запятых
-          arr = re.sub(r'([{\s,])([A-Za-z_][A-Za-z0-9_]*)\s*:', r'\1"\2":', arr)
-          arr = re.sub(r',\s*(]|})', r'\1', arr)
-
-          participants = json.loads(arr)
-
-          # 5) парсим id/nick из lestaUrl при необходимости
-          def parse_from_url(url):
-              m = re.search(r'/accounts/(\d+)-([^/]+)/?$', url or '')
-              if not m: return None, None
-              return int(m.group(1)), m.group(2)
-
-          for p in participants:
-              acc, nick = parse_from_url(p.get("lestaUrl"))
-              if not p.get("id") and acc:  p["id"] = acc
-              if not p.get("name") and nick: p["name"] = nick
-
-          # 6) уберём дубликаты по id (последний выигрывает)
-          uniq = {}
-          for p in participants:
-              if p.get("id"): uniq[p["id"]] = p
-          participants = list(uniq.values())
-
-          pathlib.Path("participants.json").write_text(
-              json.dumps(participants, ensure_ascii=False, indent=2),
-              encoding="utf-8"
-          )
-          print("participants.json generated:", len(participants))
-          PY
+      - name: Install Playwright Chromium
+        run: python -m playwright install chromium
 
       - name: Run scraper
         run: python scrape_lesta.py --input participants.json --out stats --delay 1.5
 
-      - name: Build stats/index.json (aggregate)
+      - name: Commit stats if changed
         run: |
-          python - << 'PY'
-          import json, glob, os, pathlib
-          data = {}
-          for path in glob.glob("stats/*.json"):
-              base = os.path.basename(path)
-              if base in ("index.json", "all.json"): 
-                  continue
-              d = json.load(open(path, encoding="utf-8"))
-              key = str(d.get("accountId") or os.path.splitext(base)[0])
-              data[key] = d
-          out = pathlib.Path("stats/index.json")
-          out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-          print("Wrote", out, "with", len(data), "records")
-          PY
-
-      - name: Commit stats
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats/*.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update stats [skip ci]"
+          if [[ -n "$(git status --porcelain stats)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add stats/
+            git commit -m "chore(stats): refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
+          else
+            echo "No changes in stats/"
           fi

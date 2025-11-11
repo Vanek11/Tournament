@@ -1,0 +1,26 @@
+[33madeb4fa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m scrape.yml 3.2 + scrape_lesta.py 2.1
+[33m2ae5641[m chore: update stats [skip ci]
+[33m837e6df[m add participants
+[33m1eb9600[m chore: update stats [skip ci]
+[33m9ccdeaa[m scrape_lesta.py 2.0
+[33m91a7460[m scrape.yml 3.1
+[33m82d6553[m scrape.yml 3.0
+[33m3f84729[m scrape.yml
+[33mcd9d95b[m add participants
+[33ma109b72[m workflow
+[33m5537dd2[m add parser + stats on site
+[33m6420582[m rework: no stats, css, add icons
+[33mc1b10cc[m Update stats [skip ci]
+[33mc6d099a[m Update stats [skip ci]
+[33m617f62c[m Add background image
+[33m1ff96c2[m Scraper: robust flow (ID-first, Rendertron, Jina) + better parse + image
+[33m0f02dd8[m Update stats [skip ci]
+[33m7a4b20b[m UI: показать error + RAW fallback; Scraper: таймаут/Rendertron
+[33m450a6f9[m update 2.0 players.json + data,pparticipants.js
+[33me4076b9[m Update stats [skip ci]
+[33m21bc6b5[m Update stats [skip ci]
+[33m5ab4d61[m update 2.0 scrape.yml
+[33mb4861be[m update scrape.yml
+[33m34affd0[m package.json
+[33mdab046f[m Initial commit: tournament site + stats pipeline
+[33mb6d97a6[m Initial commit

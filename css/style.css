@@ -482,6 +482,15 @@ footer {
   flex-wrap: wrap;
   margin-top: 12px;
 }
+.rules-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+/* Переключатель на кислотно-зелёный (добавь класс на <body>) */
 .theme-neon-links {
   --link: #39ff14; /* неоново-зелёный */
   --link-hover: #9bff84;
@@ -514,6 +523,7 @@ a:not(.btn):focus-visible {
 .rules a:not(.btn) {
   font-weight: 600;
 }
+
 /* === Карусель правил (в твоём стеклянном стиле) === */
 .rules-cards {
   width: var(--rules-width, auto);

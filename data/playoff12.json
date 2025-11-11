@@ -1,0 +1,40 @@
+{
+  "teams": [
+    { "seed": 1,  "name": "Team #1",  "players": ["A1","B1","C1"] },
+    { "seed": 2,  "name": "Team #2",  "players": ["A2","B2","C2"] },
+    { "seed": 3,  "name": "Team #3",  "players": ["A3","B3","C3"] },
+    { "seed": 4,  "name": "Team #4",  "players": ["A4","B4","C4"] },
+    { "seed": 5,  "name": "Team #5",  "players": ["A5","B5","C5"] },
+    { "seed": 6,  "name": "Team #6",  "players": ["A6","B6","C6"] },
+    { "seed": 7,  "name": "Team #7",  "players": ["A7","B7","C7"] },
+    { "seed": 8,  "name": "Team #8",  "players": ["A8","B8","C8"] },
+    { "seed": 9,  "name": "Team #9",  "players": ["A9","B9","C9"] },
+    { "seed": 10, "name": "Team #10", "players": ["A10","B10","C10"] },
+    { "seed": 11, "name": "Team #11", "players": ["A11","B11","C11"] },
+    { "seed": 12, "name": "Team #12", "players": ["A12","B12","C12"] }
+  ],
+  "results": {
+    "W-R1-M1": null,
+    "W-R1-M2": null,
+    "W-R1-M3": null,
+    "W-R1-M4": null,
+    "W-Q1": null,
+    "W-Q2": null,
+    "W-Q3": null,
+    "W-Q4": null,
+    "W-S1": null,
+    "W-S2": null,
+    "W-F":  null,
+    "L-R1-M1": null,
+    "L-R1-M2": null,
+    "L-R1-M3": null,
+    "L-R1-M4": null,
+    "L-R2-M1": null,
+    "L-R2-M2": null,
+    "L-R3-M1": null,
+    "L-R3-M2": null,
+    "L-F": null,
+    "GF": null,
+    "P3": null
+  }
+}

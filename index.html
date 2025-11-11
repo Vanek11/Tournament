@@ -190,10 +190,84 @@
             Подсказка: нажмите <span class="kbd">/</span>, чтобы быстро перейти к поиску.
         </footer>
     </div>
+    <!-- ВЕРХНЯЯ СЕТКА -->
+    <div class="bracket" id="Winners">
+        <div class="round">
+            <h2>1/8 Финала</h2>
+
+            <div class="match" id="W-R1-M1"></div> <!-- 5 vs 12 -->
+            <div class="match" id="W-R1-M2"></div> <!-- 6 vs 11 -->
+            <div class="match" id="W-R1-M3"></div> <!-- 7 vs 10 -->
+            <div class="match" id="W-R1-M4"></div> <!-- 8 vs 9 -->
+        </div>
+
+        <div class="round">
+            <h2>1/4 Финала</h2>
+            <div class="match" id="W-Q1"></div> <!-- 1 vs W(8v9) -->
+            <div class="match" id="W-Q2"></div> <!-- 4 vs W(5v12) -->
+            <div class="match" id="W-Q3"></div> <!-- 3 vs W(6v11) -->
+            <div class="match" id="W-Q4"></div> <!-- 2 vs W(7v10) -->
+        </div>
+
+        <div class="round">
+            <h2>1/2 Финала</h2>
+            <div class="match" id="W-S1"></div>
+            <div class="match" id="W-S2"></div>
+        </div>
+
+        <div class="round">
+            <h2>Финал верхней</h2>
+            <div class="match" id="W-F"></div>
+        </div>
+
+        <div class="round grand">
+            <h2>Гранд-Финал</h2>
+            <div class="match" id="GF"></div>
+        </div>
+    </div>
+
+    <!-- НИЖНЯЯ СЕТКА -->
+    <div class="bracket" id="Losers">
+        <div class="round">
+            <h2>LB-R1</h2>
+            <div class="match" id="L-R1-M1"></div>
+            <div class="match" id="L-R1-M2"></div>
+            <div class="match" id="L-R1-M3"></div>
+            <div class="match" id="L-R1-M4"></div>
+        </div>
+
+        <div class="round">
+            <h2>LB-R2</h2>
+            <div class="match" id="L-R2-M1"></div>
+            <div class="match" id="L-R2-M2"></div>
+        </div>
+
+        <div class="round">
+            <h2>LB-R3</h2>
+            <div class="match" id="L-R3-M1"></div>
+            <div class="match" id="L-R3-M2"></div>
+        </div>
+
+        <div class="round">
+            <h2>Финал нижней</h2>
+            <div class="match" id="L-F"></div>
+        </div>
+
+        <div class="round grand">
+            <h2>Матч за 3-е</h2>
+            <div class="match" id="P3"></div>
+        </div>
+    </div>
 
     <!-- Порядок важен -->
     <script defer src="js/data.participants.js"></script>
     <script defer src="js/app.js"></script>
+    script>
+    // На GitHub Pages держи false (публичный режим),
+    // у себя локально можешь временно поставить true для отладки кликами.
+    window.BRACKET_CAN_EDIT = false;
+    </script>
+    <script defer src="js/bracket.runner.js"></script>
 </body>
 
 </html>

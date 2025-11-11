@@ -66,6 +66,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 .brand {
@@ -620,4 +621,187 @@ a:not(.btn):focus-visible {
   .rcard {
     padding: 12px 12px;
   }
+}
+.bracket {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 30px 0;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.round h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.match {
+  min-width: 210px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  backdrop-filter: blur(3px);
+}
+
+.team {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.team:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.team-name {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.players {
+  font-size: 12px;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.coming {
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+/* Гранд финал — акцент */
+.round.grand .match {
+  border-color: #ffd84d;
+  box-shadow: 0 0 10px #ffd84d;
+}
+/* --- Bracket (светлая тема, центрирование колонок) --- */
+.brkt--light {
+  color: #fff;
+}
+.brkt__h {
+  margin: 0 0 8px;
+}
+.brkt__box {
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+.brkt__title {
+  font-weight: 700;
+  opacity: 0.95;
+  margin: 0 0 8px;
+}
+
+.brkt__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  gap: 22px;
+}
+.round {
+  display: grid;
+  gap: 18px;
+  align-content: center; /* <-- «пирамидка» по центру */
+  justify-items: center;
+}
+.round::before {
+  content: attr(data-label);
+  color: #fff;
+  opacity: 0.7;
+  font-weight: 600;
+  margin-bottom: -4px;
+}
+
+.match {
+  width: 100%;
+  max-width: 260px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  padding: 10px 12px;
+  text-align: center;
+}
+.match__hdr {
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.75;
+  margin-bottom: 6px;
+}
+
+.slot {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 6px 8px;
+  margin-top: 6px;
+  min-height: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.slot .seed {
+  display: inline-block;
+  min-width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  background: #111827;
+  color: #fff;
+  padding: 0 6px;
+}
+.slot .team-name {
+  font-weight: 700;
+}
+.slot .players {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.brkt__finals {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+/* линии */
+.brkt__lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+svg.brkt__lines polyline {
+  stroke: #fff;
+  stroke-width: 2;
+  fill: none;
+  opacity: 0.85;
+}
+svg.brkt__lines polyline.drop {
+  stroke-dasharray: 8 6;
+  opacity: 0.75;
 }

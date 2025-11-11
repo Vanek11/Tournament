@@ -25,6 +25,9 @@
   --focus: 0 0 0 3px rgba(110, 168, 254, 0.35),
     0 12px 24px rgba(110, 168, 254, 0.18);
   --rules-width: auto;
+  --link: #ff9a1f; /* Оранжевый по умолчанию */
+  --link-hover: #ffd08a;
+  --link-underline: currentColor;
 }
 * {
   box-sizing: border-box;
@@ -471,4 +474,140 @@ footer {
   height: 16px;
   flex: 0 0 16px;
   opacity: 0.95;
+}
+.rules-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.theme-neon-links {
+  --link: #39ff14; /* неоново-зелёный */
+  --link-hover: #9bff84;
+  --link-underline: color-mix(in oklab, #39ff14 60%, transparent);
+}
+
+/* Применяем только к текстовым ссылкам, кнопки не трогаем */
+a:not(.btn) {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--link-underline);
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+a:not(.btn):hover {
+  color: var(--link-hover);
+  text-decoration-thickness: 2px;
+}
+
+a:not(.btn):focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08),
+    0 0 0 6px color-mix(in oklab, var(--link) 45%, transparent);
+  border-radius: 6px;
+}
+
+/* Специально подчёркнем ссылки в блоке правил (читаемость) */
+.rules a:not(.btn) {
+  font-weight: 600;
+}
+/* === Карусель правил (в твоём стеклянном стиле) === */
+.rules-cards {
+  width: var(--rules-width, auto);
+  margin: 18px auto 0;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 12px 12px 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.rc-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.rc-title {
+  margin: 0;
+  font-size: 18px;
+}
+.rc-count {
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+.rc-viewport {
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px; /* сглаживаем края при свайпе */
+}
+.rc-track {
+  display: flex;
+  transition: transform 0.35s ease;
+  will-change: transform;
+}
+.rcard {
+  flex: 0 0 100%;
+  padding: 14px 16px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  color: var(--text);
+}
+.rcard h4 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+.rcard ul {
+  margin: 0 0 0 18px;
+  line-height: 1.5;
+}
+.rcard ol {
+  margin: 0 0 0 20px;
+  line-height: 1.5;
+}
+
+.rc-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.rc-prev,
+.rc-next {
+  min-width: 44px;
+  justify-content: center;
+}
+.rc-dots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.rc-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+}
+.rc-dot[aria-selected="true"] {
+  background: var(--accent);
+  border-color: color-mix(in oklab, var(--accent) 70%, white);
+}
+
+/* адаптив — чтобы кнопки не съедали место */
+@media (max-width: 640px) {
+  .rc-title {
+    font-size: 16px;
+  }
+  .rcard {
+    padding: 12px 12px;
+  }
 }

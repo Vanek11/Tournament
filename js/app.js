@@ -380,3 +380,121 @@
 
   render();
 })();
+
+// === Карусель "Правила — карточки" ===
+(function initRulesCarousel(){
+  const track = document.getElementById('rcTrack');
+  if (!track) return; // блока нет — выходим
+
+  const viewport = document.getElementById('rcViewport');
+  const prevBtn  = document.getElementById('rcPrev');
+  const nextBtn  = document.getElementById('rcNext');
+  const dotsBox  = document.getElementById('rcDots');
+  const curEl    = document.getElementById('rcCur');
+  const totEl    = document.getElementById('rcTotal');
+
+  // Слайды (реальные)
+  const slides = Array.from(track.children);
+  const N = slides.length;
+  totEl && (totEl.textContent = N);
+
+  // Клонируем крайние для бесшовного цикла
+  const firstClone = slides[0].cloneNode(true);
+  const lastClone  = slides[N-1].cloneNode(true);
+  firstClone.setAttribute('data-clone','1');
+  lastClone.setAttribute('data-clone','1');
+  track.insertBefore(lastClone, slides[0]);
+  track.appendChild(firstClone);
+
+  let idx = 1;                 // начинаем с первого реального
+  let allow = true;            // защита от дабл-кликов
+  const speed = 350;           // .35s как в CSS
+
+  function setTransform(noAnim=false){
+    if (noAnim) track.style.transition = 'none';
+    track.style.transform = `translateX(-${idx*100}%)`;
+    if (noAnim) { track.offsetHeight; track.style.transition='transform .35s ease'; }
+  }
+
+  function updateUI(){
+    if (curEl) curEl.textContent = ((idx-1+N)%N)+1;
+    if (dotsBox){
+      [...dotsBox.children].forEach((d,i)=>{
+        d.setAttribute('aria-selected', i===((idx-1+N)%N) ? 'true' : 'false');
+      });
+    }
+    // подстраиваем высоту под активную карточку
+    const active = track.children[idx];
+    if (active){
+      const h = active.getBoundingClientRect().height;
+      viewport.style.height = h + 'px';
+    }
+  }
+
+  // Инициализация
+  setTransform(true);
+  updateUI();
+
+  // Точки навигации
+  if (dotsBox){
+    for (let i=0;i<N;i++){
+      const b = document.createElement('button');
+      b.className = 'rc-dot';
+      b.type = 'button';
+      b.setAttribute('role','tab');
+      b.setAttribute('aria-label', `Карточка ${i+1}`);
+      b.addEventListener('click', ()=>goTo(i));
+      dotsBox.appendChild(b);
+    }
+  }
+
+  function go(delta){
+    if (!allow) return;
+    allow = false;
+    idx += delta;
+    track.style.transition = 'transform .35s ease';
+    setTransform();
+
+    setTimeout(()=>{ // после анимации проверим "прыжок"
+      if (idx === 0){             // ушли в левый клон → прыжок на последний реальный
+        idx = N;
+        setTransform(true);
+      } else if (idx === N+1){    // ушли в правый клон → прыжок на первый реальный
+        idx = 1;
+        setTransform(true);
+      }
+      updateUI();
+      allow = true;
+    }, speed);
+  }
+  function goTo(realIndex){       // realIndex: 0..N-1
+    const target = realIndex + 1; // смещение из-за левого клона
+    if (target===idx) return;
+    idx = target;
+    setTransform();
+    setTimeout(()=>{ updateUI(); }, speed);
+  }
+
+  prevBtn && prevBtn.addEventListener('click', ()=>go(-1));
+  nextBtn && nextBtn.addEventListener('click', ()=>go(1));
+
+  // Клавиатура
+  track.addEventListener('keydown', (e)=>{
+    if (e.key === 'ArrowLeft')  { e.preventDefault(); go(-1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); go(1); }
+  });
+  track.tabIndex = 0; // чтобы ловить стрелки
+
+  // Свайп
+  let x0=null, t0=0;
+  viewport.addEventListener('touchstart', (e)=>{ x0=e.touches[0].clientX; t0=Date.now(); }, {passive:true});
+  viewport.addEventListener('touchend', (e)=>{
+    if (x0===null) return; const dx = e.changedTouches[0].clientX - x0;
+    const dt = Date.now()-t0; x0=null;
+    if (Math.abs(dx)>40 && dt<600){ go(dx>0 ? -1 : 1); }
+  });
+
+  // На ресайз подгоняем высоту
+  window.addEventListener('resize', updateUI);
+})();
+

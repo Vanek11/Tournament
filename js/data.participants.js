@@ -16,9 +16,9 @@ window.participants = [
       lestaUrl: "https://tanki.su/ru/community/accounts/31734601-I_WoLf__/"
     },
     {
-      name: "11_vanek_11",
-      clan: "31ИВТ",
-      lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/"
+      name: "ScreamMyNames",
+      clan: "WEIDE",
+      lestaUrl: "https://tanki.su/ru/community/accounts/70467784-ScreamMyNames/"
     },
     {
       name: "11_vanek_11",

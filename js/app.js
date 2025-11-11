@@ -1,7 +1,12 @@
 // UI без внешнего API: тянем локальные JSON из /stats
 (function () {
   const $ = (s, r = document) => r.querySelector(s);
-  const participants = (window.participants || []).map(p => ({...p}));
+  const participants = (window.participants || []).map(p => ({
+  ...p,
+  bucket: Number(p.bucket ?? 2) // по умолчанию — средние
+}));
+
+
 
   // добьём id из lestaUrl, если его забыли
   for (const p of participants) {
@@ -53,16 +58,34 @@
   // ======== поиск + сортировка ========
   function calcList() {
     let list = participants.slice();
+
     const q = state.q.trim().toLowerCase();
-    if (q) list = list.filter(p => (p.name||"").toLowerCase().includes(q) || (p.clan||"").toLowerCase().includes(q));
+    if (q) {
+      list = list.filter(p =>
+        (p.name||"").toLowerCase().includes(q) ||
+        (p.clan||"").toLowerCase().includes(q)
+      );
+    }
+
     const [field, dir] = state.sort.split("-");
-    list.sort((a,b)=>{
-      const av = (field==='clan' ? (a.clan||'') : (a.name||'')).toLocaleLowerCase('ru');
-      const bv = (field==='clan' ? (b.clan||'') : (b.name||'')).toLocaleLowerCase('ru');
-      if(av < bv) return dir==='asc' ? -1 : 1;
-      if(av > bv) return dir==='asc' ? 1 : -1;
-      return 0;
-    });
+    const k = dir === "asc" ? 1 : -1;
+
+    if (field === "bucket") {
+      list.sort((a,b) => {
+        const d = (a.bucket ?? 2) - (b.bucket ?? 2);
+        if (d !== 0) return d * k;
+        // внутри одной корзины — как раньше по имени
+        return (a.name||"").localeCompare((b.name||""), "ru") * 1;
+      });
+    } else {
+      list.sort((a,b)=>{
+        const av = (field==='clan' ? (a.clan||'') : (a.name||'')).toLocaleLowerCase('ru');
+        const bv = (field==='clan' ? (b.clan||'') : (b.name||'')).toLocaleLowerCase('ru');
+        if(av < bv) return dir==='asc' ? -1 : 1;
+        if(av > bv) return dir==='asc' ?  1 : -1;
+        return 0;
+      });
+    }
     return list;
   }
 
@@ -74,7 +97,9 @@
         "name-asc":"По имени (А→Я)",
         "name-desc":"По имени (Я→А)",
         "clan-asc":"По клан-тегу (А→Я)",
-        "clan-desc":"По клан-тегу (Я→А)"
+        "clan-desc":"По клан-тегу (Я→А)",
+        "bucket-asc": "По корзине (1→3)",
+        "bucket-desc": "По корзине (3→1)"
       };
       label.textContent = map[state.sort] || "Сортировка";
       [...menu.children].forEach(li => li.setAttribute("aria-selected", li.dataset.value === state.sort ? "true" : "false"));
@@ -90,46 +115,118 @@
     setLabel();
   })();
 
+  function createCard(p, idx) {
+    const card = document.createElement("div");
+    card.className = "card"; card.tabIndex = 0;
+
+    const initial = (p.name||"?").trim().charAt(0).toUpperCase();
+    const portalLink = p.lestaUrl ? `<a class="btn secondary" href="${p.lestaUrl}" target="_blank" rel="noopener">Открыть на портале</a>` : "";
+    const statsBtn = p.id ? `<button class="btn secondary" data-action="toggle" data-idx="${idx}">Статистика</button>`
+                          : `<button class="btn" disabled title="Нет ID">Статистика</button>`;
+
+    card.innerHTML = `
+      <div class="avatar" style="background:${colorFromName(p.name)}">
+        ${initial}
+        <span class="bucket-badge b-${p.bucket}" title="Корзина ${p.bucket}"></span>
+      </div>
+      <div class="title" title="${p.name}">${p.name}</div>
+      <div class="meta">${p.clan ? 'Клан: ' + p.clan : '&nbsp;'}</div>
+
+      <div class="details" id="details-${idx}">
+        <div class="actions ${p.lestaUrl && !p.id ? 'only-portal':''}">
+          ${statsBtn}
+          ${portalLink}
+        </div>
+        <div class="stats" id="stats-${idx}">
+          ${!p.id ? '<div class="hint">У участника не задан id. Исправь data.participants.js</div>' : ''}
+        </div>
+      </div>
+    `;
+
+    card.addEventListener("click", async (e)=>{
+      const btn = e.target.closest('[data-action="toggle"]');
+      if(!btn) return;
+      await toggleStats(idx, p, card);
+    });
+
+    return card;
+  }
+
+  function sectionTitle(k) {
+    return k === 1 ? "Корзина 1"
+        : k === 2 ? "Корзина 2"
+        :           "Корзина 3";
+  }
+
+  // сортировка ВНУТРИ секции: если выбран bucket-режим — сортируем по имени (А→Я),
+  // иначе используем текущую сортировку state.sort (name/clan asc/desc)
+  function sortInsideBucket(arr) {
+    const use = state.sort.startsWith("bucket-") ? "name-asc" : state.sort;
+    const [field, dir] = use.split("-");
+    const k = dir === "asc" ? 1 : -1;
+
+    return arr.sort((a,b)=>{
+      const av = (field==='clan' ? (a.clan||'') : (a.name||'')).toLocaleLowerCase('ru');
+      const bv = (field==='clan' ? (b.clan||'') : (b.name||'')).toLocaleLowerCase('ru');
+      if(av < bv) return -1*k;
+      if(av > bv) return  1*k;
+      return 0;
+    });
+  }
+
+
   // ======== рендер ========
   function render(){
     const grid = $("#grid");
     grid.innerHTML = "";
+
     const list = calcList();
-    if(!list.length){ grid.innerHTML = '<div class="empty" role="status">Ничего не найдено. Измените запрос.</div>'; }
-    list.forEach((p, idx)=>{
-      const card = document.createElement("div");
-      card.className = "card"; card.tabIndex = 0;
+    if(!list.length){
+      grid.innerHTML = '<div class="empty" role="status">Ничего не найдено. Измените запрос.</div>';
+      $("#count").textContent = 0;
+      return;
+    }
 
-      const initial = (p.name||"?").trim().charAt(0).toUpperCase();
-      const portalLink = p.lestaUrl ? `<a class="btn secondary" href="${p.lestaUrl}" target="_blank" rel="noopener">Открыть на портале</a>` : "";
+    // Группируем
+    const buckets = {1:[],2:[],3:[]};
+    for (const p of list) (buckets[p.bucket] || buckets[2]).push(p);
 
-      const statsBtn = p.id ? `<button class="btn secondary" data-action="toggle" data-idx="${idx}">Статистика</button>` :
-        `<button class="btn" disabled title="Нет ID">Статистика</button>`;
+    // Порядок секций зависит от выбранной сортировки по корзине
+    // по умолчанию 1→3, если выбран bucket-desc — 3→1
+    let order = [1,2,3];
+    if (state.sort === "bucket-desc") order = [3,2,1];
 
-      card.innerHTML = `
-        <div class="avatar" style="background:${colorFromName(p.name)}">${initial}</div>
-        <div class="title" title="${p.name}">${p.name}</div>
-        <div class="meta">${p.clan ? 'Клан: ' + p.clan : '&nbsp;'}</div>
+    let idx = 0;
+    const paint = (k, arr) => {
+      if(!arr.length) return;
 
-        <div class="details" id="details-${idx}">
-          <div class="actions ${p.lestaUrl && !p.id ? 'only-portal':''}">
-            ${statsBtn}
-            ${portalLink}
-          </div>
-          <div class="stats" id="stats-${idx}">${!p.id ? '<div class="hint">У участника не задан id. Исправь data.participants.js</div>' : ''}</div>
+      // внутри секции отсортируем (см. хелпер)
+      sortInsideBucket(arr);
+
+      const sec = document.createElement("section");
+      sec.className = "bucket";
+      sec.innerHTML = `
+        <div class="bucket__header">
+          <div class="bucket__title">${sectionTitle(k)}</div>
+          <div class="bucket__count">Количество участников: ${arr.length}</div>
         </div>
+        <div class="bucket__grid"></div>
       `;
+      const wrap = sec.querySelector(".bucket__grid");
 
-      card.addEventListener("click", async (e)=>{
-        const btn = e.target.closest('[data-action="toggle"]');
-        if(!btn) return;
-        await toggleStats(idx, p, card);
+      arr.forEach(p => {
+        const card = createCard(p, idx++);
+        wrap.appendChild(card);
       });
 
-      $("#grid").appendChild(card);
-    });
+      grid.appendChild(sec);
+    };
+
+    order.forEach(k => paint(k, buckets[k]));
     $("#count").textContent = list.length;
   }
+
+
 
   async function toggleStats(idx, p, card){
     if (!p.id) return;
@@ -152,6 +249,24 @@
       state.expanded.set(idx, false);
     }
   }
+
+    // === ширина списка участников = ширина блока "Правила турнира"
+  function syncGridToRules() {
+    const rules = document.querySelector('.rules'); // твой блок правил
+    if (!rules) return;
+    const w = Math.round(rules.getBoundingClientRect().width);
+    document.documentElement.style.setProperty('--rules-width', w + 'px');
+  }
+
+  window.addEventListener('resize', syncGridToRules);
+  const rulesEl = document.querySelector('.rules');
+  if (rulesEl) {
+    const ro = new ResizeObserver(syncGridToRules);
+    ro.observe(rulesEl);
+  }
+
+  syncGridToRules();
+
 
   function renderStats(i){
     return `

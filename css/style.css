@@ -24,6 +24,7 @@
   --radius-sm: 12px;
   --focus: 0 0 0 3px rgba(110, 168, 254, 0.35),
     0 12px 24px rgba(110, 168, 254, 0.18);
+  --rules-width: auto;
 }
 * {
   box-sizing: border-box;
@@ -337,4 +338,106 @@ footer {
   color: #ffd5d5;
   padding: 10px 12px;
   border-radius: 10px;
+}
+/* секции корзин */
+.bucket {
+  margin-top: 28px;
+}
+.bucket__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25) inset;
+}
+.bucket__title {
+  font-size: 14px;
+  opacity: 0.95;
+}
+.bucket__count {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* сетка карточек внутри секции — если у тебя уже есть класс грид-контейнера,
+   можно переиспользовать его */
+.bucket__grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 14px;
+}
+
+/* бейдж корзины на аватарке */
+.avatar {
+  position: relative;
+} /* чтобы бейдж позиционировался относительно аватарки */
+.bucket-badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+.b-1 {
+  background: #c52cc5;
+} /* фиолетовый — сильные */
+.b-2 {
+  background: #38e3e9;
+} /* бирюзовый — средние */
+.b-3 {
+  background: #49e770;
+} /* зеленый — слабые */
+/* #grid больше не должен быть общим гридом: он просто контейнер секций */
+#grid {
+  display: block; /* перекрываем .grid */
+  width: var(--rules-width); /* = ширине .rules */
+  margin-inline: auto; /* центрируем */
+}
+
+/* Ровно 3 колонки карточек в каждой корзине */
+.bucket__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card {
+  width: 100%;
+}
+
+/* Адаптив по желанию */
+@media (max-width: 1024px) {
+  .bucket__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .bucket__grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Центрируем верхнюю часть карточки */
+.card .avatar {
+  margin-left: auto;
+  margin-right: auto; /* аватар по центру */
+  margin-top: 2px; /* опционально, чтобы чуть отступить от верха */
+}
+
+.card .title,
+.card .meta {
+  text-align: center; /* ник и клан по центру */
+}
+.card .actions {
+  justify-content: center;
 }

@@ -9,8 +9,7 @@
   а не через page.content().
 - Маппим подписи → значения и сохраняем JSON.
 """
-import os
-import random
+
 import re
 import json
 import time
@@ -465,25 +464,6 @@ def main():
 
     # единый файл
     save_index(out_dir, all_rows)
-
-
-def fetch_html(url: str, session: Optional[requests.Session] = None, timeout=30) -> str:
-    sess = session or Session()
-    # читаем таймауты из переменных окружения (для CI)
-    conn_to = int(os.getenv("SCRAPE_CONNECT_TIMEOUT", "15"))
-    read_to = int(os.getenv("SCRAPE_READ_TIMEOUT", "30"))
-    headers = {
-        "User-Agent": random.choice([
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0 Safari/537.36",
-            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
-        ]),
-        "Accept-Language": "ru,en;q=0.9",
-        "Referer": "https://tanki.su/",
-    }
-    # отдельные таймауты соединения и чтения
-    resp = sess.get(url, headers=headers, timeout=(conn_to, read_to))
-    resp.raise_for_status()
-    return resp.text
 
 if __name__ == "__main__":
     main()

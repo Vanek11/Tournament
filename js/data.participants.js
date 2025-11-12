@@ -40,7 +40,13 @@ window.participants = [
     name: "HaIIuJIa",
     clan: "MERCY",
     lestaUrl: "https://tanki.su/ru/community/accounts/208174535-HaIIuJIa/",
-    bucket: 1
+    bucket: 1,
+        streams: [
+      { platform: "vk",  url: "https://live.vkvideo.ru/haiiujia" },
+      { platform: "youtube", url: "https://www.youtube.com/@HaIIuJIa" },
+      { platform: "twitch", url: "https://www.twitch.tv/haiiujla" },
+      { platform: "trovo", url: "https://trovo.live/s/HaIluJIa" }
+    ]
   },
   {
     name: "PROKTOJlOG",

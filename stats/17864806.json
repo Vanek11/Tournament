@@ -1,18 +1,18 @@
 {
   "accountId": 17864806,
   "nickname": "Aleksey4star",
-  "battles": 36804,
-  "wins": 19837,
-  "winRate": 53.9,
-  "avgDmg": 1490,
+  "battles": 36813,
+  "wins": 19839,
+  "winRate": 53.89,
+  "avgDmg": 1491,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 68.73,
-  "global_rating": 8594,
+  "global_rating": 8593,
   "avgExp": 649,
   "maxExp": 2780,
   "maxFrags": 9,
   "masterCount": 144,
   "vehiclesCount": 305,
-  "fetchedAt": "2025-11-12T22:17:19Z"
+  "fetchedAt": "2025-11-12T22:29:43Z"
 }

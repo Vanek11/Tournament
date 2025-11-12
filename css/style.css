@@ -11,7 +11,7 @@
       #15203b 0%,
       rgba(21, 32, 59, 0) 55%
     );
-  --bg-backet-grad: linear-gradient(135deg, hsl(157 65% 55%), hsl(197 65% 45%)),
+  --bg-backet-grad: linear-gradient(135deg, hsl(157 65% 55%), hsl(197 65% 45%));
   --card: rgba(255, 255, 255, 0.06);
   --card-hover: rgba(255, 255, 255, 0.1);
   --border: rgba(255, 255, 255, 0.12);

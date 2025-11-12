@@ -1,19 +1,64 @@
 window.participants = [
+// =================== КОРЗИНА 1 ===================
   {
-    name: "11_vanek_11",
-    clan: "WEIDE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/",
-    streams: [
-      { platform: "twitch",  url: "https://twitch.tv/vanek11" },
-      { platform: "youtube", url: "https://www.youtube.com/@vanek11/live" }
-    ],
-    bucket: 1   // <— СИЛЬНЫЕ
+    name: "JIauM",
+    clan: "QGS",
+    lestaUrl: "https://tanki.su/ru/community/accounts/121158863-JIauM/",
+    bucket: 1
   },
   {
-    name: "TheVinchester",
+    name: "_WonderWul_",
     clan: "WEIDE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
-    bucket: 2   // <— СРЕДНИЕ
+    lestaUrl: "https://tanki.su/ru/community/accounts/33974749-_WonderWul_/",
+    bucket: 1
+  },
+  {
+    name: "_8888_8888_",
+    clan: "G_O_W",
+    lestaUrl: "https://tanki.su/ru/community/accounts/24040492-_8888_8888_/",
+    bucket: 1
+  },
+  {
+    name: "Fl0wers_",
+    clan: "JIMMI",
+    lestaUrl: "https://tanki.su/ru/community/accounts/130831468-Fl0wers_/",
+    bucket: 1
+  },
+  {
+    name: "IIac",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/123578506-IIac/",
+    bucket: 1
+  },
+  {
+    name: "SIXsix",
+    clan: "MERCY",
+    lestaUrl: "https://tanki.su/ru/community/accounts/172140333-SIXsix/",
+    bucket: 1
+  },
+  {
+    name: "HaIIuJIa",
+    clan: "MERCY",
+    lestaUrl: "https://tanki.su/ru/community/accounts/208174535-HaIIuJIa/",
+    bucket: 1
+  },
+  {
+    name: "PROKTOJlOG",
+    clan: "Без клана",
+    lestaUrl: "https://tanki.su/ru/community/accounts/2455009-PROKTOJlOG/",
+    bucket: 1
+  },
+  {
+    name: "kalkylatorWN8_SST",
+    clan: "Без клана",
+    lestaUrl: "https://tanki.su/ru/community/accounts/20705422-kalkylatorWN8_SST/",
+    bucket: 1
+  },
+  {
+    name: "AlexHelicopter",
+    clan: "Без клана",
+    lestaUrl: "https://tanki.su/ru/community/accounts/2213900-AlexHelicopter/",
+    bucket: 1
   },
   {
     name: "I_WoLf__",
@@ -22,15 +67,158 @@ window.participants = [
     bucket: 1
   },
   {
+    name: "Заглушка",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/31734601-I_WoLf__/",
+    bucket: 1
+  },
+
+  // =================== КОРЗИНА 2 ===================
+  {
+    name: "CJIa6blu_Mycop",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/28909483-CJIa6blu_Mycop/",
+    bucket: 2
+  },
+  {
+    name: "Soind",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/2682543-Soind/",
+    bucket: 2
+  },
+  {
+    name: "DuT9l_4epHo6blJl9l",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/76905788-DuT9l_4epHo6blJl9l/",
+    bucket: 2
+  },
+  {
+    name: "rHuJIb_9I",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/10961226-rHuJIb_9I/",
+    bucket: 2
+  },
+  {
+    name: "Aleksandrov_Live",
+    clan: "AL1VE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/57988616-Aleksandrov_Live/",
+    bucket: 2
+  },
+  {
+    name: "TheVinchester",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    bucket: 2
+  },
+  {
     name: "ScreamMyNames",
     clan: "WEIDE",
     lestaUrl: "https://tanki.su/ru/community/accounts/70467784-ScreamMyNames/",
-    bucket: 3   // <— СЛАБЫЕ
+    bucket: 2
+  },
+  {
+    name: "11_vanek_11",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/63280344-11_vanek_11/",
+    bucket: 2
   },
   {
     name: "Citramon4",
     clan: "WEIDE",
     lestaUrl: "https://tanki.su/ru/community/accounts/48487007-Citramon4/",
     bucket: 2
-  }
+  },
+  {
+    name: "Заглушка",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    bucket: 2
+  },
+  {
+    name: "Заглушка",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    bucket: 2
+  },
+  {
+    name: "Заглушка",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    bucket: 2
+  },
+
+// =================== КОРЗИНА 3 ===================
+
+  {
+    name: "CrazylFoxy",
+    clan: "Без клана",
+    lestaUrl: "https://tanki.su/ru/community/accounts/67463356-CrazylFoxy/",
+    bucket: 3
+  },
+  {
+    name: "TyFJIu_MyFJlu",
+    clan: "ALIGT",
+    lestaUrl: "https://tanki.su/ru/community/accounts/12255344-TyFJIu_MyFJlu/",
+    bucket: 3
+  },
+  {
+    name: "Aleksey4star",
+    clan: "OHEGO",
+    lestaUrl: "https://tanki.su/ru/community/accounts/17864806-Aleksey4star/",
+    bucket: 3
+  },
+  {
+    name: "Mishgan61",
+    clan: "OHEGO",
+    lestaUrl: "https://tanki.su/ru/community/accounts/328441-Mishgan61/",
+    bucket: 3
+  },
+  {
+    name: "_MogHbIu_MaJIb4uK",
+    clan: "OHEGO",
+    lestaUrl: "https://tanki.su/ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/",
+    bucket: 3
+  },
+  {
+    name: "O_k_Y_p_A_n_T",
+    clan: "OHEGO",
+    lestaUrl: "https://tanki.su/ru/community/accounts/72380096-O_k_Y_p_A_n_T/",
+    bucket: 3
+  },
+  {
+    name: "Xsides",
+    clan: "OHEGO",
+    lestaUrl: "https://tanki.su/ru/community/accounts/170363-Xsides/",
+    bucket: 3
+  },
+  {
+    name: "EHoTiK_TToJIoCKyH",
+    clan: "V-A-B",
+    lestaUrl: "https://tanki.su/ru/community/accounts/90586270-EHoTiK_TToJIoCKyH/",
+    bucket: 3
+  },
+  {
+    name: "Weedman_Pro",
+    clan: "OHEGO",
+    lestaUrl: "https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/",
+    bucket: 3
+  },
+  {
+    name: "AskidMobile",
+    clan: "OHEGO",
+    lestaUrl: "https://tanki.su/ru/community/accounts/4162197-AskidMobile/",
+    bucket: 3
+  },
+  {
+    name: "Заглушка",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    bucket: 3
+  },
+  {
+    name: "Заглушка",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    bucket: 3
+  },
 ];

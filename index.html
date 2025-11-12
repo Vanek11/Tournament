@@ -190,6 +190,16 @@
             Подсказка: нажмите <span class="kbd">/</span>, чтобы быстро перейти к поиску.
         </footer>
     </div>
+
+    <!-- Команды после жеребьёвки -->
+    <section class="teams teams--light teams--3col" id="teams">
+        <div class="teams__header">
+            <h2>Сформированные команды</h2>
+        </div>
+        <div class="teams__grid" id="teams-grid"></div>
+    </section>
+
+
     <!-- ВЕРХНЯЯ СЕТКА -->
     <div class="bracket" id="Winners">
         <div class="round">
@@ -268,6 +278,8 @@
     window.BRACKET_CAN_EDIT = false;
     </script>
     <script defer src="js/bracket.runner.js"></script>
+    <script defer src="js/teams.render.js"></script>
+
 </body>
 
 </html>

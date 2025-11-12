@@ -11,6 +11,7 @@
       #15203b 0%,
       rgba(21, 32, 59, 0) 55%
     );
+  --bg-backet-grad: linear-gradient(135deg, hsl(157 65% 55%), hsl(197 65% 45%)),
   --card: rgba(255, 255, 255, 0.06);
   --card-hover: rgba(255, 255, 255, 0.1);
   --border: rgba(255, 255, 255, 0.12);
@@ -28,6 +29,7 @@
   --link: #ff9a1f; /* Оранжевый по умолчанию */
   --link-hover: #ffd08a;
   --link-underline: currentColor;
+  --rules-width: 1150px;
 }
 * {
   box-sizing: border-box;
@@ -804,4 +806,92 @@ svg.brkt__lines polyline {
 svg.brkt__lines polyline.drop {
   stroke-dasharray: 8 6;
   opacity: 0.75;
+}
+
+/* ширина блока как у "Правил" + центрирование */
+.teams {
+  width: min(var(--rules-width, 1200px), 100%);
+  margin: 28px auto 14px;
+}
+
+/* ===== сетка карточек ===== */
+.teams__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.teams__header h2 {
+  margin: 0;
+  color: #e8eefc;
+  font-size: 18px;
+}
+
+/* светлая тема карточек (как уже делали) */
+.teams--light .team-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  border-radius: 16px;
+  padding: 16px;
+  color: #0f172a;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+.teams--light .team-card:hover {
+  background: #fff;
+}
+.teams--light .seed-badge {
+  min-width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  background: lightskyblue;
+  color: #0b1320;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+.teams--light .team-card.top4 {
+  outline: 2px solid #ffd54f;
+  outline-offset: 2px;
+}
+
+/* === РОВНО ТРИ КОЛОНКИ === */
+.teams--3col .teams__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* фикс: 3 столбика */
+  gap: 18px;
+}
+
+/* одинаковая “плотность” карточек */
+.team-card {
+  display: flex;
+  flex-direction: column;
+}
+.player-tags {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tag {
+  padding: 4px 8px;
+  width: 100%;
+  text-align: center;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  color: #0b1320;
+  font-size: 12px;
+}
+
+/* адаптив: на средних — 2 колонки, на узких — 1 */
+@media (max-width: 1100px) {
+  .teams--3col .teams__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .teams--3col .teams__grid {
+    grid-template-columns: 1fr;
+  }
 }

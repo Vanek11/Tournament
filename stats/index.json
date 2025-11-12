@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2025-11-12T09:12:25Z",
+  "generatedAt": "2025-11-12T12:18:18Z",
   "players": [
     {
       "accountId": 63280344,
-      "nickname": "11_vanek_11",
+      "nickname": "Мои игровые профили:",
       "battles": 49756,
       "wins": 28421,
       "winRate": 57.12,
@@ -17,7 +17,7 @@
       "maxFrags": 10,
       "masterCount": 215,
       "vehiclesCount": 420,
-      "fetchedAt": "2025-11-12T09:12:05Z"
+      "fetchedAt": "2025-11-12T12:17:55Z"
     },
     {
       "accountId": 70467784,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 87,
       "vehiclesCount": 140,
-      "fetchedAt": "2025-11-12T09:12:10Z"
+      "fetchedAt": "2025-11-12T12:18:00Z"
     },
     {
       "accountId": 31734601,
@@ -53,7 +53,7 @@
       "maxFrags": 10,
       "masterCount": 176,
       "vehiclesCount": 258,
-      "fetchedAt": "2025-11-12T09:12:14Z"
+      "fetchedAt": "2025-11-12T12:18:04Z"
     },
     {
       "accountId": 20778095,
@@ -71,11 +71,11 @@
       "maxFrags": 10,
       "masterCount": 51,
       "vehiclesCount": 90,
-      "fetchedAt": "2025-11-12T09:12:19Z"
+      "fetchedAt": "2025-11-12T12:18:09Z"
     },
     {
       "accountId": 48487007,
-      "nickname": "Citramon4",
+      "nickname": "Мои игровые профили:",
       "battles": 28563,
       "wins": 16424,
       "winRate": 57.5,
@@ -89,7 +89,7 @@
       "maxFrags": 10,
       "masterCount": 124,
       "vehiclesCount": 218,
-      "fetchedAt": "2025-11-12T09:12:24Z"
+      "fetchedAt": "2025-11-12T12:18:17Z"
     }
   ]
 }

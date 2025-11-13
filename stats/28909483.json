@@ -1,14 +1,18 @@
 {
   "accountId": 28909483,
   "nickname": "CJIa6blu_Mycop",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 43542,
+  "wins": 25973,
+  "winRate": 59.65,
+  "avgDmg": 2197,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/28909483-CJIa6blu_Mycop/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7faa010d3260>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-13T16:07:58Z"
+  "hitsPercents": 70.86,
+  "global_rating": 10791,
+  "avgExp": 932,
+  "maxExp": 2904,
+  "maxFrags": 10,
+  "masterCount": 125,
+  "vehiclesCount": 246,
+  "fetchedAt": "2025-11-13T18:16:58Z"
 }

@@ -220,7 +220,7 @@ window.participants = [
   },
   {
     name: "Arrow_134",
-    clan: "WEIDE",
+    clan: "RMOVE",
     lestaUrl: "https://tanki.su/ru/community/accounts/115214305-Arrow_134/",
     bucket: 3
   },

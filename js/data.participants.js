@@ -189,9 +189,9 @@ window.participants = [
     bucket: 3
   },
   {
-    name: "O_k_U_p_A_n_T",
+    name: "O_k_Y_p_A_n_T",
     clan: "OHEGO",
-    lestaUrl: "https://tanki.su/ru/community/accounts/129280647-O_k_U_p_A_n_T/",
+    lestaUrl: "https://tanki.su/ru/community/accounts/72380096-O_k_Y_p_A_n_T/",
     bucket: 3
   },
   {

@@ -1,18 +1,14 @@
 {
   "accountId": 33974749,
   "nickname": "_WonderWul_",
-  "battles": 33079,
-  "wins": 19011,
-  "winRate": 57.47,
-  "avgDmg": 2289,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 73.41,
-  "global_rating": 9948,
-  "avgExp": 887,
-  "maxExp": 3215,
-  "maxFrags": 10,
-  "masterCount": 174,
-  "vehiclesCount": 312,
-  "fetchedAt": "2025-11-13T00:45:08Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/33974749-_WonderWul_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fd1e30428a0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-13T04:31:26Z"
 }

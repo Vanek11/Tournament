@@ -34,19 +34,22 @@ window.participants = [
     name: "SIXsix",
     clan: "MERCY",
     lestaUrl: "https://tanki.su/ru/community/accounts/172140333-SIXsix/",
-    bucket: 1
+    bucket: 1,
+      streams: [
+        { platform: "tg",  url: "https://t.me/sixplayers" }
+      ]
   },
   {
     name: "HaIIuJIa",
     clan: "MERCY",
     lestaUrl: "https://tanki.su/ru/community/accounts/208174535-HaIIuJIa/",
     bucket: 1,
-        streams: [
-      { platform: "vk",  url: "https://live.vkvideo.ru/haiiujia" },
-      { platform: "youtube", url: "https://www.youtube.com/@HaIIuJIa" },
-      { platform: "twitch", url: "https://www.twitch.tv/haiiujla" },
-      { platform: "trovo", url: "https://trovo.live/s/HaIluJIa" }
-    ]
+      streams: [
+        { platform: "vk",  url: "https://live.vkvideo.ru/haiiujia" },
+        { platform: "youtube", url: "https://www.youtube.com/@HaIIuJIa" },
+        { platform: "twitch", url: "https://www.twitch.tv/haiiujla" },
+        { platform: "trovo", url: "https://trovo.live/s/HaIluJIa" }
+      ]
   },
   {
     name: "PROKTOJlOG",
@@ -105,9 +108,9 @@ window.participants = [
     bucket: 2
   },
   {
-    name: "Aleksandrov_Live",
-    clan: "AL1VE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/57988616-Aleksandrov_Live/",
+    name: "New_KPuBou",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/89288809-New_KPuBou/",
     bucket: 2
   },
   {
@@ -186,9 +189,9 @@ window.participants = [
     bucket: 3
   },
   {
-    name: "O_k_Y_p_A_n_T",
+    name: "O_k_U_p_A_n_T",
     clan: "OHEGO",
-    lestaUrl: "https://tanki.su/ru/community/accounts/72380096-O_k_Y_p_A_n_T/",
+    lestaUrl: "https://tanki.su/ru/community/accounts/129280647-O_k_U_p_A_n_T/",
     bucket: 3
   },
   {
@@ -216,9 +219,9 @@ window.participants = [
     bucket: 3
   },
   {
-    name: "Заглушка",
+    name: "Arrow_134",
     clan: "WEIDE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    lestaUrl: "https://tanki.su/ru/community/accounts/115214305-Arrow_134/",
     bucket: 3
   },
   {

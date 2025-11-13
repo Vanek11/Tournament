@@ -115,25 +115,50 @@
     setLabel();
   })();
 
-  function guessPlatform(u){
-    try {
-      const h = new URL(u).hostname;
-      if (h.includes('twitch'))   return 'twitch';
-      if (h.includes('youtube') || h.includes('youtu.be')) return 'youtube';
-      if (h.includes('trovo'))    return 'trovo';
-      if (h.includes('goodgame')) return 'goodgame';
-      if (h.includes('wasd'))     return 'wasd';
-      if (h.includes('kick'))     return 'kick';
-      if (h.includes('vk'))       return 'vk';
-    } catch {}
-    return 'other';
+function guessPlatform(u){
+  try {
+    const url = new URL(u);
+    const h = url.hostname.toLowerCase();
+    const p = url.protocol.toLowerCase();
+
+    if (h.includes('twitch')) return 'twitch';
+    if (h.includes('youtube') || h.includes('youtu.be')) return 'youtube';
+    if (h.includes('trovo')) return 'trovo';
+    if (h.includes('goodgame')) return 'goodgame';
+    if (h.includes('wasd')) return 'wasd';
+    if (h.includes('kick')) return 'kick';
+    if (h.includes('vk')) return 'vk';
+
+    // Telegram (http(s) и deep links)
+    if (
+      p === 'tg:' ||
+      h === 't.me' ||
+      h.endsWith('telegram.me') ||
+      h.endsWith('telegram.org') ||
+      h.endsWith('web.telegram.org')
+    ) return 'telegram';
+
+  } catch {
+    // если строка вида tg://resolve?domain=...
+    if (/^tg:\/\//i.test(u)) return 'telegram';
   }
+  return 'other';
+}
+
   function platformLabel(p){
     return ({
-      twitch:'Twitch', youtube:'YouTube', trovo:'Trovo',
-      goodgame:'GoodGame', wasd:'WASD', kick:'Kick', vk:'VK', other:'Стрим'
+      twitch:'Twitch',
+      youtube:'YouTube',
+      trovo:'Trovo',
+      goodgame:'GoodGame',
+      wasd:'WASD',
+      kick:'Kick',
+      vk:'VK',
+      telegram:'Telegram',
+      other:'Стрим'
     })[p] || p;
   }
+
   function streamIcon(platform){
     // одноцветные SVG (берут цвет из currentColor)
     switch(platform){
@@ -169,6 +194,12 @@
           <rect x="13" y="4"  width="7" height="7" rx="2" fill="currentColor"></rect>
           <rect x="4"  y="13" width="7" height="7" rx="2" fill="currentColor"></rect>
           <rect x="13" y="13" width="7" height="7" rx="2" fill="currentColor"></rect>
+        </svg>`;
+      case 'tg':
+      case 'telegram':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <!-- упрощённый бумажный самолётик -->
+          <path fill="currentColor" d="M21.3 4.2 2.6 11.8a.9.9 0 0 0 .1 1.7l4.7 1.4 1.8 4.9a.9.9 0 0 0 1.6.1l2.8-4 4.7 3.4a.9.9 0 0 0 1.4-.6l2.6-12.9a.9.9 0 0 0-1-.96zM8.7 13.6l8.5-6.1-6.9 7.6-.5 2.5-1.1-3z"/>
         </svg>`;
       default:
         return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">

@@ -1,18 +1,14 @@
 {
   "accountId": 63280344,
-  "nickname": "Мои игровые профили:",
-  "battles": 49758,
-  "wins": 28422,
-  "winRate": 57.12,
-  "avgDmg": 1856,
+  "nickname": "11_vanek_11",
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 68.73,
-  "global_rating": 9175,
-  "avgExp": 815,
-  "maxExp": 3671,
-  "maxFrags": 10,
-  "masterCount": 215,
-  "vehiclesCount": 420,
-  "fetchedAt": "2025-11-13T12:22:02Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/63280344-11_vanek_11/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7faa010d3cb0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-13T16:19:03Z"
 }

@@ -1,14 +1,18 @@
 {
   "accountId": 48487007,
   "nickname": "Citramon4",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 28563,
+  "wins": 16424,
+  "winRate": 57.5,
+  "avgDmg": 2194,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/48487007-Citramon4/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fd1e30400e0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-13T04:59:56Z"
+  "hitsPercents": 75.39,
+  "global_rating": 9584,
+  "avgExp": 858,
+  "maxExp": 2880,
+  "maxFrags": 10,
+  "masterCount": 124,
+  "vehiclesCount": 218,
+  "fetchedAt": "2025-11-13T06:18:23Z"
 }

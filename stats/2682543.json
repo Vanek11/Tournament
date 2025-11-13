@@ -1,14 +1,18 @@
 {
   "accountId": 2682543,
   "nickname": "Soind",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 74697,
+  "wins": 42480,
+  "winRate": 56.87,
+  "avgDmg": 1573,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2682543-Soind/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fd1e3040350>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-13T04:48:51Z"
+  "hitsPercents": 69.2,
+  "global_rating": 9386,
+  "avgExp": 768,
+  "maxExp": 3633,
+  "maxFrags": 11,
+  "masterCount": 311,
+  "vehiclesCount": 702,
+  "fetchedAt": "2025-11-13T06:17:52Z"
 }

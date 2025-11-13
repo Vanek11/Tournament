@@ -1,14 +1,18 @@
 {
   "accountId": 121158863,
   "nickname": "JIauM",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 31372,
+  "wins": 20254,
+  "winRate": 64.56,
+  "avgDmg": 2945,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/121158863-JIauM/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fd1e3042240>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-13T04:29:50Z"
+  "hitsPercents": 70.25,
+  "global_rating": 11943,
+  "avgExp": 1157,
+  "maxExp": 3563,
+  "maxFrags": 12,
+  "masterCount": 181,
+  "vehiclesCount": 241,
+  "fetchedAt": "2025-11-13T06:16:58Z"
 }

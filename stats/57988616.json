@@ -1,9 +1,9 @@
 {
   "accountId": 57988616,
   "nickname": "Aleksandrov_Live",
-  "battles": 84889,
-  "wins": 53251,
-  "winRate": 62.73,
+  "battles": 84895,
+  "wins": 53246,
+  "winRate": 62.72,
   "avgDmg": 2698,
   "avgFrags": null,
   "surviveRate": null,
@@ -14,5 +14,5 @@
   "maxFrags": 11,
   "masterCount": 340,
   "vehiclesCount": 418,
-  "fetchedAt": "2025-11-12T22:29:13Z"
+  "fetchedAt": "2025-11-13T00:46:15Z"
 }

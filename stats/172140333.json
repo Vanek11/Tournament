@@ -1,18 +1,14 @@
 {
   "accountId": 172140333,
   "nickname": "SIXsix",
-  "battles": 9201,
-  "wins": 5766,
-  "winRate": 62.67,
-  "avgDmg": 3303,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 79.04,
-  "global_rating": 10408,
-  "avgExp": 1132,
-  "maxExp": 2969,
-  "maxFrags": 9,
-  "masterCount": 86,
-  "vehiclesCount": 139,
-  "fetchedAt": "2025-11-14T09:05:35Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/172140333-SIXsix/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3654109fd0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-14T13:16:26Z"
 }

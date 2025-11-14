@@ -1,18 +1,14 @@
 {
   "accountId": 2213900,
   "nickname": "AlexHelicopter",
-  "battles": 19083,
-  "wins": 10675,
-  "winRate": 55.94,
-  "avgDmg": 1956,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 71.38,
-  "global_rating": 9335,
-  "avgExp": 814,
-  "maxExp": 3366,
-  "maxFrags": 10,
-  "masterCount": 110,
-  "vehiclesCount": 270,
-  "fetchedAt": "2025-11-14T03:42:05Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2213900-AlexHelicopter/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4fb12afa10>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-14T07:21:21Z"
 }

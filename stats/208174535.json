@@ -1,18 +1,18 @@
 {
   "accountId": 208174535,
   "nickname": "HaIIuJIa",
-  "battles": 4268,
-  "wins": 2599,
-  "winRate": 60.9,
-  "avgDmg": 3062,
+  "battles": 4283,
+  "wins": 2609,
+  "winRate": 60.92,
+  "avgDmg": 3065,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 75.95,
-  "global_rating": 9027,
+  "hitsPercents": 75.99,
+  "global_rating": 9034,
   "avgExp": 1066,
   "maxExp": 2727,
   "maxFrags": 7,
   "masterCount": 28,
   "vehiclesCount": 49,
-  "fetchedAt": "2025-11-13T21:05:02Z"
+  "fetchedAt": "2025-11-14T00:45:39Z"
 }

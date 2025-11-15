@@ -1,14 +1,18 @@
 {
   "accountId": 208174535,
   "nickname": "HaIIuJIa",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 4283,
+  "wins": 2609,
+  "winRate": 60.92,
+  "avgDmg": 3065,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/208174535-HaIIuJIa/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-15T04:45:28Z"
+  "hitsPercents": 75.99,
+  "global_rating": 9034,
+  "avgExp": 1066,
+  "maxExp": 2727,
+  "maxFrags": 7,
+  "masterCount": 28,
+  "vehiclesCount": 49,
+  "fetchedAt": "2025-11-15T06:15:58Z"
 }

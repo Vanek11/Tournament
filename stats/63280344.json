@@ -1,14 +1,18 @@
 {
   "accountId": 63280344,
   "nickname": "11_vanek_11",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 49771,
+  "wins": 28429,
+  "winRate": 57.12,
+  "avgDmg": 1856,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/63280344-11_vanek_11/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-15T05:08:20Z"
+  "hitsPercents": 68.73,
+  "global_rating": 9176,
+  "avgExp": 816,
+  "maxExp": 3671,
+  "maxFrags": 10,
+  "masterCount": 216,
+  "vehiclesCount": 420,
+  "fetchedAt": "2025-11-15T06:17:00Z"
 }

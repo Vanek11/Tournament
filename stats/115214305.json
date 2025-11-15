@@ -1,14 +1,18 @@
 {
   "accountId": 115214305,
   "nickname": "Arrow_134",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 28755,
+  "wins": 16149,
+  "winRate": 56.16,
+  "avgDmg": 1801,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/115214305-Arrow_134/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-15T05:30:54Z"
+  "hitsPercents": 72.95,
+  "global_rating": 8774,
+  "avgExp": 862,
+  "maxExp": 2898,
+  "maxFrags": 9,
+  "masterCount": 75,
+  "vehiclesCount": 241,
+  "fetchedAt": "2025-11-15T06:18:03Z"
 }

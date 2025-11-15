@@ -1,14 +1,18 @@
 {
   "accountId": 70467784,
   "nickname": "ScreamMyNames",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 11650,
+  "wins": 7183,
+  "winRate": 61.66,
+  "avgDmg": 3164,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/70467784-ScreamMyNames/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-15T05:06:26Z"
+  "hitsPercents": 80.36,
+  "global_rating": 10938,
+  "avgExp": 1063,
+  "maxExp": 2847,
+  "maxFrags": 10,
+  "masterCount": 87,
+  "vehiclesCount": 140,
+  "fetchedAt": "2025-11-15T06:16:54Z"
 }

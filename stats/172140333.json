@@ -1,14 +1,18 @@
 {
   "accountId": 172140333,
   "nickname": "SIXsix",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 9201,
+  "wins": 5766,
+  "winRate": 62.67,
+  "avgDmg": 3303,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/172140333-SIXsix/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-15T04:43:34Z"
+  "hitsPercents": 79.04,
+  "global_rating": 10408,
+  "avgExp": 1132,
+  "maxExp": 2969,
+  "maxFrags": 9,
+  "masterCount": 86,
+  "vehiclesCount": 139,
+  "fetchedAt": "2025-11-15T06:15:50Z"
 }

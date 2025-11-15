@@ -1,18 +1,14 @@
 {
   "accountId": 20778095,
   "nickname": "TheVinchester",
-  "battles": 14473,
-  "wins": 7912,
-  "winRate": 54.67,
-  "avgDmg": 1373,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 74.58,
-  "global_rating": 8003,
-  "avgExp": 640,
-  "maxExp": 2942,
-  "maxFrags": 10,
-  "masterCount": 51,
-  "vehiclesCount": 90,
-  "fetchedAt": "2025-11-15T00:44:50Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/20778095-TheVinchester/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-15T05:04:32Z"
 }

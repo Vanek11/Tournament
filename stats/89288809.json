@@ -1,18 +1,14 @@
 {
   "accountId": 89288809,
   "nickname": "New_KPuBou",
-  "battles": 47171,
-  "wins": 28378,
-  "winRate": 60.16,
-  "avgDmg": 2594,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 68.71,
-  "global_rating": 11304,
-  "avgExp": 999,
-  "maxExp": 3432,
-  "maxFrags": 9,
-  "masterCount": 219,
-  "vehiclesCount": 362,
-  "fetchedAt": "2025-11-15T00:44:45Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/89288809-New_KPuBou/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-15T05:02:38Z"
 }

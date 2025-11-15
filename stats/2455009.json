@@ -1,14 +1,18 @@
 {
   "accountId": 2455009,
   "nickname": "PROKTOJlOG",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 31168,
+  "wins": 16775,
+  "winRate": 53.82,
+  "avgDmg": 1482,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2455009-PROKTOJlOG/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3624532960>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-15T13:16:30Z"
+  "hitsPercents": 58.97,
+  "global_rating": 7747,
+  "avgExp": 656,
+  "maxExp": 3447,
+  "maxFrags": 8,
+  "masterCount": 127,
+  "vehiclesCount": 395,
+  "fetchedAt": "2025-11-15T15:05:11Z"
 }

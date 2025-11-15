@@ -1,14 +1,18 @@
 {
   "accountId": 208174535,
-  "nickname": "HaIIuJIa",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 4287,
+  "wins": 2612,
+  "winRate": 60.93,
+  "avgDmg": 3066,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/208174535-HaIIuJIa/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3624531c40>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-15T13:14:55Z"
+  "hitsPercents": 76.01,
+  "global_rating": 9037,
+  "avgExp": 1066,
+  "maxExp": 2727,
+  "maxFrags": 7,
+  "masterCount": 28,
+  "vehiclesCount": 49,
+  "fetchedAt": "2025-11-15T15:05:01Z"
 }

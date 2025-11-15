@@ -1,18 +1,14 @@
 {
   "accountId": 90586270,
   "nickname": "EHoTiK_TToJIoCKyH",
-  "battles": 23772,
-  "wins": 13058,
-  "winRate": 54.93,
-  "avgDmg": 1786,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 65.31,
-  "global_rating": 9123,
-  "avgExp": 803,
-  "maxExp": 2798,
-  "maxFrags": 9,
-  "masterCount": 106,
-  "vehiclesCount": 306,
-  "fetchedAt": "2025-11-15T09:06:21Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/90586270-EHoTiK_TToJIoCKyH/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3624533380>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-15T13:48:11Z"
 }

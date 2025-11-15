@@ -1,18 +1,14 @@
 {
   "accountId": 4162197,
   "nickname": "AskidMobile",
-  "battles": 65951,
-  "wins": 35561,
-  "winRate": 53.92,
-  "avgDmg": 1620,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 66.55,
-  "global_rating": 9154,
-  "avgExp": 801,
-  "maxExp": 2943,
-  "maxFrags": 10,
-  "masterCount": 144,
-  "vehiclesCount": 400,
-  "fetchedAt": "2025-11-15T09:06:30Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/4162197-AskidMobile/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f3624552360>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-15T13:51:21Z"
 }

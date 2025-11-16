@@ -1,18 +1,18 @@
 {
   "accountId": 123578506,
-  "nickname": "Мои игровые профили:",
-  "battles": 15619,
-  "wins": 8669,
-  "winRate": 55.5,
-  "avgDmg": 2348,
+  "nickname": "IIac",
+  "battles": 15627,
+  "wins": 8675,
+  "winRate": 55.51,
+  "avgDmg": 2349,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 73.54,
-  "global_rating": 9212,
+  "global_rating": 9214,
   "avgExp": 862,
   "maxExp": 2754,
   "maxFrags": 12,
   "masterCount": 89,
   "vehiclesCount": 228,
-  "fetchedAt": "2025-11-16T19:35:47Z"
+  "fetchedAt": "2025-11-16T21:05:17Z"
 }

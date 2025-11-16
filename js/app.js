@@ -44,15 +44,40 @@
     return arr.find(x => Number(x.accountId) === Number(id)) || null;
   }
 
-  async function loadStats(id) {
-    // 1) пробуем общий файл
-    const viaIndex = await loadFromIndex(id);
-    if (viaIndex) return viaIndex;
+  function looksBrokenNick(nick) {
+    const s = (nick || '').trim();
+    return !s || /игров(ые|ой)\s+профил/i.test(s);
+  }
 
-    // 2) fallback — пофайлово
-    const r = await fetch(`stats/${id}.json`, { cache: "no-store" });
-    if (!r.ok) throw new Error(`Файл stats/${id}.json не найден`);
-    return r.json();
+  async function loadStats(id, fallbackNick) {
+    // 1) пробуем общий индекс
+    const viaIndex = await loadFromIndex(id);
+    if (viaIndex && !looksBrokenNick(viaIndex.nickname)) {
+      return viaIndex;
+    }
+
+    // 2) персональный файл
+    try {
+      const r = await fetch(`stats/${id}.json?v=${Date.now()}`, { cache: "no-store" });
+      if (!r.ok) throw new Error();
+      const j = await r.json();
+
+      // если ник кривой — берём p.name как запасной
+      if (looksBrokenNick(j.nickname)) {
+        if (fallbackNick && fallbackNick.trim()) j.nickname = fallbackNick.trim();
+        else j.nickname = `ID ${id}`;
+      }
+      return j;
+    } catch {
+      // 3) если персонального файла нет, но индекс есть — тоже подменим ник
+      if (viaIndex) {
+        if (looksBrokenNick(viaIndex.nickname)) {
+          viaIndex.nickname = (fallbackNick && fallbackNick.trim()) ? fallbackNick.trim() : `ID ${id}`;
+        }
+        return viaIndex;
+      }
+      throw new Error(`Файл stats/${id}.json не найден`);
+    }
   }
 
   // ======== поиск + сортировка ========
@@ -355,7 +380,7 @@ function guessPlatform(u){
     if(!isOpen){
       box.innerHTML = '<div class="hint">Загружаем данные…</div>';
       try{
-        const i = await loadStats(p.id);
+        const i = await loadStats(p.id, p.name);
         box.innerHTML = renderStats(i);
         state.expanded.set(idx, true);
       }catch(err){

@@ -1,0 +1,16 @@
+{
+  "teams": [
+    { "name": "Team #1",  "players": ["A1","B1","C1"] },
+    { "name": "Team #2",  "players": ["A2","B2","C2"] },
+    { "name": "Team #3",  "players": ["A3","B3","C3"] },
+    { "name": "Team #4",  "players": ["A4","B4","C4"] },
+    { "name": "Team #5",  "players": ["A5","B5","C5"] },
+    { "name": "Team #6",  "players": ["A6","B6","C6"] },
+    { "name": "Team #7",  "players": ["A7","B7","C7"] },
+    { "name": "Team #8",  "players": ["A8","B8","C8"] },
+    { "name": "Team #9",  "players": ["A9","B9","C9"] },
+    { "name": "Team #10", "players": ["A10","B10","C10"] },
+    { "name": "Team #11", "players": ["A11","B11","C11"] },
+    { "name": "Team #12", "players": ["A12","B12","C12"] }
+  ]
+}

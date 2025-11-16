@@ -4,7 +4,7 @@
   const COUNT = document.getElementById('teams-count');
   if (!GRID) return;
 
-  const URL = 'data/playoff12.json';
+  const URL = 'data/teams.json';
 
   fetch(`${URL}?v=${Date.now()}`, { cache: 'no-store' })
     .then(r => r.json())

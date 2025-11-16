@@ -1,14 +1,18 @@
 {
   "accountId": 48487007,
-  "nickname": "Citramon4",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 28574,
+  "wins": 16430,
+  "winRate": 57.5,
+  "avgDmg": 2194,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/48487007-Citramon4/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-16T10:11:56Z"
+  "hitsPercents": 75.39,
+  "global_rating": 9585,
+  "avgExp": 858,
+  "maxExp": 2880,
+  "maxFrags": 10,
+  "masterCount": 124,
+  "vehiclesCount": 218,
+  "fetchedAt": "2025-11-16T12:19:05Z"
 }

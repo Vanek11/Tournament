@@ -1,14 +1,18 @@
 {
   "accountId": 121158863,
   "nickname": "JIauM",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 31393,
+  "wins": 20264,
+  "winRate": 64.55,
+  "avgDmg": 2945,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/121158863-JIauM/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-16T09:55:33Z"
+  "hitsPercents": 70.26,
+  "global_rating": 11943,
+  "avgExp": 1157,
+  "maxExp": 3563,
+  "maxFrags": 12,
+  "masterCount": 181,
+  "vehiclesCount": 242,
+  "fetchedAt": "2025-11-16T12:17:23Z"
 }

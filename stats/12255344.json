@@ -1,18 +1,14 @@
 {
   "accountId": 12255344,
   "nickname": "TyFJIu_MyFJlu",
-  "battles": 34648,
-  "wins": 17601,
-  "winRate": 50.8,
-  "avgDmg": 1148,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 66.61,
-  "global_rating": 7225,
-  "avgExp": 565,
-  "maxExp": 2825,
-  "maxFrags": 10,
-  "masterCount": 61,
-  "vehiclesCount": 229,
-  "fetchedAt": "2025-11-17T13:15:02Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/12255344-TyFJIu_MyFJlu/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7e5ca2f590>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-17T16:38:20Z"
 }

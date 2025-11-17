@@ -1,18 +1,14 @@
 {
   "accountId": 123578506,
-  "nickname": "Мои игровые профили:",
-  "battles": 15627,
-  "wins": 8675,
-  "winRate": 55.51,
-  "avgDmg": 2349,
+  "nickname": "IIac",
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 73.54,
-  "global_rating": 9214,
-  "avgExp": 862,
-  "maxExp": 2754,
-  "maxFrags": 12,
-  "masterCount": 89,
-  "vehiclesCount": 228,
-  "fetchedAt": "2025-11-17T09:18:38Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/123578506-IIac/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-17T12:55:22Z"
 }

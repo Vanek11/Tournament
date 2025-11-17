@@ -1,14 +1,18 @@
 {
   "accountId": 20705422,
   "nickname": "kalkylatorWN8_SST",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 12128,
+  "wins": 7719,
+  "winRate": 63.65,
+  "avgDmg": 3223,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/20705422-kalkylatorWN8_SST/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7e5cbc99a0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-17T16:16:08Z"
+  "hitsPercents": 80.31,
+  "global_rating": 11037,
+  "avgExp": 1176,
+  "maxExp": 3273,
+  "maxFrags": 11,
+  "masterCount": 112,
+  "vehiclesCount": 164,
+  "fetchedAt": "2025-11-17T18:07:04Z"
 }

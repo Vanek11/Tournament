@@ -1,14 +1,18 @@
 {
   "accountId": 111965257,
   "nickname": "Punisherr",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 30991,
+  "wins": 20355,
+  "winRate": 65.68,
+  "avgDmg": 3694,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/111965257-Punisherr/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7e5cbca960>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-17T16:20:53Z"
+  "hitsPercents": 78.08,
+  "global_rating": 12473,
+  "avgExp": 1264,
+  "maxExp": 3375,
+  "maxFrags": 10,
+  "masterCount": 185,
+  "vehiclesCount": 202,
+  "fetchedAt": "2025-11-17T18:07:23Z"
 }

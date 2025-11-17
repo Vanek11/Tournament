@@ -1,14 +1,18 @@
 {
   "accountId": 89288809,
   "nickname": "New_KPuBou",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 47196,
+  "wins": 28388,
+  "winRate": 60.15,
+  "avgDmg": 2595,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/89288809-New_KPuBou/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f7e5cbca720>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-17T16:28:49Z"
+  "hitsPercents": 68.71,
+  "global_rating": 11305,
+  "avgExp": 999,
+  "maxExp": 3432,
+  "maxFrags": 9,
+  "masterCount": 219,
+  "vehiclesCount": 362,
+  "fetchedAt": "2025-11-17T18:07:58Z"
 }

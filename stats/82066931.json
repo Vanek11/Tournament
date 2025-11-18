@@ -1,18 +1,14 @@
 {
   "accountId": 82066931,
   "nickname": "_MogHbIu_MaJIb4uK",
-  "battles": 5915,
-  "wins": 3374,
-  "winRate": 57.04,
-  "avgDmg": 1916,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 64.65,
-  "global_rating": 8839,
-  "avgExp": 898,
-  "maxExp": 4220,
-  "maxFrags": 10,
-  "masterCount": 28,
-  "vehiclesCount": 72,
-  "fetchedAt": "2025-11-18T09:16:59Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-18T12:23:44Z"
 }

@@ -1,14 +1,18 @@
 {
   "accountId": 33974749,
   "nickname": "_WonderWul_",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 33166,
+  "wins": 19070,
+  "winRate": 57.5,
+  "avgDmg": 2290,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/33974749-_WonderWul_/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-19T09:46:24Z"
+  "hitsPercents": 73.42,
+  "global_rating": 9955,
+  "avgExp": 888,
+  "maxExp": 3215,
+  "maxFrags": 10,
+  "masterCount": 175,
+  "vehiclesCount": 313,
+  "fetchedAt": "2025-11-19T12:22:24Z"
 }

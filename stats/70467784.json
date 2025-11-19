@@ -1,14 +1,18 @@
 {
   "accountId": 70467784,
   "nickname": "ScreamMyNames",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 11650,
+  "wins": 7183,
+  "winRate": 61.66,
+  "avgDmg": 3164,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/70467784-ScreamMyNames/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5f7b4e0f20>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-19T10:11:21Z"
+  "hitsPercents": 80.36,
+  "global_rating": 10938,
+  "avgExp": 1063,
+  "maxExp": 2847,
+  "maxFrags": 10,
+  "masterCount": 87,
+  "vehiclesCount": 140,
+  "fetchedAt": "2025-11-19T12:25:10Z"
 }

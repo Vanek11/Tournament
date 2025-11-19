@@ -1,18 +1,14 @@
 {
   "accountId": 130831468,
   "nickname": "Fl0wers_",
-  "battles": 13697,
-  "wins": 8504,
-  "winRate": 62.09,
-  "avgDmg": 2901,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 76.75,
-  "global_rating": 10575,
-  "avgExp": 1109,
-  "maxExp": 3407,
-  "maxFrags": 10,
-  "masterCount": 98,
-  "vehiclesCount": 153,
-  "fetchedAt": "2025-11-19T06:19:37Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/130831468-Fl0wers_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f5f7c67d0a0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-19T09:49:36Z"
 }

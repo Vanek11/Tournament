@@ -1,9 +1,9 @@
 {
   "accountId": 12255344,
   "nickname": "TyFJIu_MyFJlu",
-  "battles": 34670,
-  "wins": 17612,
-  "winRate": 50.8,
+  "battles": 34671,
+  "wins": 17616,
+  "winRate": 50.81,
   "avgDmg": 1149,
   "avgFrags": null,
   "surviveRate": null,
@@ -14,5 +14,5 @@
   "maxFrags": 10,
   "masterCount": 61,
   "vehiclesCount": 229,
-  "fetchedAt": "2025-11-18T18:20:25Z"
+  "fetchedAt": "2025-11-19T01:05:57Z"
 }

@@ -1,14 +1,18 @@
 {
   "accountId": 208174535,
-  "nickname": "HaIIuJIa",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 4328,
+  "wins": 2638,
+  "winRate": 60.95,
+  "avgDmg": 3069,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/208174535-HaIIuJIa/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/208174535-HaIIuJIa/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-20T06:06:28Z"
+  "hitsPercents": 76.02,
+  "global_rating": 9049,
+  "avgExp": 1066,
+  "maxExp": 2727,
+  "maxFrags": 7,
+  "masterCount": 28,
+  "vehiclesCount": 49,
+  "fetchedAt": "2025-11-20T09:14:29Z"
 }

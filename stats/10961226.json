@@ -1,14 +1,18 @@
 {
   "accountId": 10961226,
-  "nickname": "rHuJIb_9I",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 89732,
+  "wins": 53211,
+  "winRate": 59.3,
+  "avgDmg": 1814,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/10961226-rHuJIb_9I/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/10961226-rHuJIb_9I/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-20T18:21:21Z"
+  "hitsPercents": 65.36,
+  "global_rating": 10521,
+  "avgExp": 870,
+  "maxExp": 3338,
+  "maxFrags": 11,
+  "masterCount": 442,
+  "vehiclesCount": 540,
+  "fetchedAt": "2025-11-20T21:16:13Z"
 }

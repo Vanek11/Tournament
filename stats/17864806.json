@@ -1,14 +1,18 @@
 {
   "accountId": 17864806,
   "nickname": "Aleksey4star",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 36820,
+  "wins": 19842,
+  "winRate": 53.89,
+  "avgDmg": 1491,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/17864806-Aleksey4star/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-20T16:48:07Z"
+  "hitsPercents": 68.73,
+  "global_rating": 8593,
+  "avgExp": 649,
+  "maxExp": 2780,
+  "maxFrags": 9,
+  "masterCount": 144,
+  "vehiclesCount": 305,
+  "fetchedAt": "2025-11-20T18:22:15Z"
 }

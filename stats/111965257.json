@@ -1,14 +1,18 @@
 {
   "accountId": 111965257,
-  "nickname": "Punisherr",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 31165,
+  "wins": 20454,
+  "winRate": 65.63,
+  "avgDmg": 3685,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/111965257-Punisherr/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-20T16:25:14Z"
+  "hitsPercents": 78.1,
+  "global_rating": 12469,
+  "avgExp": 1262,
+  "maxExp": 3375,
+  "maxFrags": 10,
+  "masterCount": 185,
+  "vehiclesCount": 203,
+  "fetchedAt": "2025-11-20T18:20:48Z"
 }

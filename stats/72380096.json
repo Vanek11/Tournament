@@ -1,14 +1,18 @@
 {
   "accountId": 72380096,
   "nickname": "O_k_Y_p_A_n_T",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 23379,
+  "wins": 12723,
+  "winRate": 54.42,
+  "avgDmg": 1722,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/72380096-O_k_Y_p_A_n_T/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-20T16:53:50Z"
+  "hitsPercents": 65.42,
+  "global_rating": 8427,
+  "avgExp": 803,
+  "maxExp": 2709,
+  "maxFrags": 12,
+  "masterCount": 77,
+  "vehiclesCount": 274,
+  "fetchedAt": "2025-11-20T18:22:36Z"
 }

@@ -1,14 +1,18 @@
 {
   "accountId": 170363,
   "nickname": "Xsides",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 16240,
+  "wins": 8479,
+  "winRate": 52.21,
+  "avgDmg": 1256,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/170363-Xsides/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-20T16:55:45Z"
+  "hitsPercents": 64.54,
+  "global_rating": 6815,
+  "avgExp": 669,
+  "maxExp": 2598,
+  "maxFrags": 11,
+  "masterCount": 47,
+  "vehiclesCount": 230,
+  "fetchedAt": "2025-11-20T18:22:44Z"
 }

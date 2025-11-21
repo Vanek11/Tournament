@@ -1,14 +1,18 @@
 {
   "accountId": 82066931,
   "nickname": "_MogHbIu_MaJIb4uK",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 5929,
+  "wins": 3380,
+  "winRate": 57.01,
+  "avgDmg": 1915,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.wait_for_function: Timeout 45000ms exceeded.",
-  "fetchedAt": "2025-11-20T21:18:13Z"
+  "hitsPercents": 64.64,
+  "global_rating": 8837,
+  "avgExp": 897,
+  "maxExp": 4220,
+  "maxFrags": 10,
+  "masterCount": 28,
+  "vehiclesCount": 73,
+  "fetchedAt": "2025-11-21T00:47:36Z"
 }

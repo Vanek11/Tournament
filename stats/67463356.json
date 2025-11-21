@@ -1,14 +1,18 @@
 {
   "accountId": 67463356,
   "nickname": "CrazylFoxy",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 39918,
+  "wins": 21296,
+  "winRate": 53.35,
+  "avgDmg": 1498,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/67463356-CrazylFoxy/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-21T05:19:03Z"
+  "hitsPercents": 66.22,
+  "global_rating": 8218,
+  "avgExp": 725,
+  "maxExp": 2750,
+  "maxFrags": 8,
+  "masterCount": 100,
+  "vehiclesCount": 351,
+  "fetchedAt": "2025-11-21T06:20:33Z"
 }

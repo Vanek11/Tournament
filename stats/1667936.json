@@ -1,14 +1,18 @@
 {
   "accountId": 1667936,
   "nickname": "Weedman_Pro",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 64179,
+  "wins": 33091,
+  "winRate": 51.56,
+  "avgDmg": 1356,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-21T05:34:19Z"
+  "hitsPercents": 68.69,
+  "global_rating": 7076,
+  "avgExp": 709,
+  "maxExp": 2942,
+  "maxFrags": 9,
+  "masterCount": 119,
+  "vehiclesCount": 337,
+  "fetchedAt": "2025-11-21T06:21:30Z"
 }

@@ -1,14 +1,18 @@
 {
   "accountId": 328441,
   "nickname": "Mishgan61",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 58591,
+  "wins": 30233,
+  "winRate": 51.6,
+  "avgDmg": 1651,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/328441-Mishgan61/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-21T05:24:47Z"
+  "hitsPercents": 67.49,
+  "global_rating": 7727,
+  "avgExp": 670,
+  "maxExp": 2605,
+  "maxFrags": 10,
+  "masterCount": 94,
+  "vehiclesCount": 300,
+  "fetchedAt": "2025-11-21T06:20:55Z"
 }

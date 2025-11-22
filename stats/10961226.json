@@ -1,14 +1,18 @@
 {
   "accountId": 10961226,
-  "nickname": "rHuJIb_9I",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 89767,
+  "wins": 53241,
+  "winRate": 59.31,
+  "avgDmg": 1814,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/10961226-rHuJIb_9I/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-22T09:37:06Z"
+  "hitsPercents": 65.36,
+  "global_rating": 10522,
+  "avgExp": 870,
+  "maxExp": 3338,
+  "maxFrags": 11,
+  "masterCount": 443,
+  "vehiclesCount": 541,
+  "fetchedAt": "2025-11-22T12:22:12Z"
 }

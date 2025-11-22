@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2025-11-22T09:44:48Z",
+  "generatedAt": "2025-11-22T12:24:56Z",
   "players": [
     {
       "accountId": 121158863,
-      "nickname": "JIauM",
+      "nickname": "Мои игровые профили:",
       "battles": 31346,
       "wins": 20240,
       "winRate": 64.57,
@@ -17,13 +17,13 @@
       "maxFrags": 12,
       "masterCount": 182,
       "vehiclesCount": 241,
-      "fetchedAt": "2025-11-22T09:29:00Z"
+      "fetchedAt": "2025-11-22T12:19:37Z"
     },
     {
       "accountId": 33974749,
       "nickname": "_WonderWul_",
-      "battles": 33185,
-      "wins": 19081,
+      "battles": 33189,
+      "wins": 19084,
       "winRate": 57.5,
       "avgDmg": 2292,
       "avgFrags": null,
@@ -35,35 +35,43 @@
       "maxFrags": 10,
       "masterCount": 176,
       "vehiclesCount": 313,
-      "fetchedAt": "2025-11-22T09:29:05Z"
+      "fetchedAt": "2025-11-22T12:19:42Z"
     },
     {
       "accountId": 24040492,
       "nickname": "_8888_8888_",
-      "battles": 0,
-      "wins": null,
-      "winRate": 0.0,
-      "avgDmg": 0,
+      "battles": 95160,
+      "wins": 57353,
+      "winRate": 60.27,
+      "avgDmg": 2635,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": null,
-      "global_rating": 0,
-      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/24040492-_8888_8888_/\", waiting until \"domcontentloaded\"\n",
-      "fetchedAt": "2025-11-22T09:30:28Z"
+      "hitsPercents": 74.04,
+      "global_rating": 11941,
+      "avgExp": 987,
+      "maxExp": 4217,
+      "maxFrags": 12,
+      "masterCount": 275,
+      "vehiclesCount": 447,
+      "fetchedAt": "2025-11-22T12:19:49Z"
     },
     {
       "accountId": 130831468,
-      "nickname": "Fl0wers_",
-      "battles": 0,
-      "wins": null,
-      "winRate": 0.0,
-      "avgDmg": 0,
+      "nickname": "Мои игровые профили:",
+      "battles": 13697,
+      "wins": 8504,
+      "winRate": 62.09,
+      "avgDmg": 2901,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": null,
-      "global_rating": 0,
-      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/130831468-Fl0wers_/\", waiting until \"domcontentloaded\"\n",
-      "fetchedAt": "2025-11-22T09:32:23Z"
+      "hitsPercents": 76.75,
+      "global_rating": 10575,
+      "avgExp": 1109,
+      "maxExp": 3407,
+      "maxFrags": 10,
+      "masterCount": 98,
+      "vehiclesCount": 153,
+      "fetchedAt": "2025-11-22T12:20:07Z"
     },
     {
       "accountId": 123578506,
@@ -81,25 +89,21 @@
       "maxFrags": 12,
       "masterCount": 89,
       "vehiclesCount": 228,
-      "fetchedAt": "2025-11-22T09:32:29Z"
+      "fetchedAt": "2025-11-22T12:20:15Z"
     },
     {
       "accountId": 172140333,
       "nickname": "SIXsix",
-      "battles": 9215,
-      "wins": 5776,
-      "winRate": 62.68,
-      "avgDmg": 3304,
+      "battles": 0,
+      "wins": null,
+      "winRate": 0.0,
+      "avgDmg": 0,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 79.05,
-      "global_rating": 10410,
-      "avgExp": 1132,
-      "maxExp": 2969,
-      "maxFrags": 9,
-      "masterCount": 86,
-      "vehiclesCount": 139,
-      "fetchedAt": "2025-11-22T09:32:34Z"
+      "hitsPercents": null,
+      "global_rating": 0,
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/172140333-SIXsix/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/172140333-SIXsix/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-22T12:20:27Z"
     },
     {
       "accountId": 208174535,
@@ -117,25 +121,25 @@
       "maxFrags": 7,
       "masterCount": 28,
       "vehiclesCount": 49,
-      "fetchedAt": "2025-11-22T09:32:40Z"
+      "fetchedAt": "2025-11-22T12:20:39Z"
     },
     {
       "accountId": 2455009,
       "nickname": "PROKTOJlOG",
-      "battles": 31263,
+      "battles": 31264,
       "wins": 16823,
       "winRate": 53.81,
       "avgDmg": 1486,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 59.01,
+      "hitsPercents": 59.02,
       "global_rating": 7755,
       "avgExp": 657,
       "maxExp": 3447,
       "maxFrags": 8,
       "masterCount": 128,
       "vehiclesCount": 396,
-      "fetchedAt": "2025-11-22T09:32:45Z"
+      "fetchedAt": "2025-11-22T12:20:45Z"
     },
     {
       "accountId": 20705422,
@@ -153,25 +157,29 @@
       "maxFrags": 11,
       "masterCount": 112,
       "vehiclesCount": 164,
-      "fetchedAt": "2025-11-22T09:32:50Z"
+      "fetchedAt": "2025-11-22T12:20:52Z"
     },
     {
       "accountId": 2213900,
       "nickname": "AlexHelicopter",
-      "battles": 0,
-      "wins": null,
-      "winRate": 0.0,
-      "avgDmg": 0,
+      "battles": 19216,
+      "wins": 10757,
+      "winRate": 55.98,
+      "avgDmg": 1961,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": null,
-      "global_rating": 0,
-      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/2213900-AlexHelicopter/\", waiting until \"domcontentloaded\"\n",
-      "fetchedAt": "2025-11-22T09:34:12Z"
+      "hitsPercents": 71.47,
+      "global_rating": 9352,
+      "avgExp": 817,
+      "maxExp": 3366,
+      "maxFrags": 10,
+      "masterCount": 111,
+      "vehiclesCount": 273,
+      "fetchedAt": "2025-11-22T12:21:06Z"
     },
     {
       "accountId": 31734601,
-      "nickname": "I_WoLf__",
+      "nickname": "Мои игровые профили:",
       "battles": 20413,
       "wins": 12905,
       "winRate": 63.22,
@@ -185,11 +193,11 @@
       "maxFrags": 10,
       "masterCount": 178,
       "vehiclesCount": 259,
-      "fetchedAt": "2025-11-22T09:35:21Z"
+      "fetchedAt": "2025-11-22T12:21:23Z"
     },
     {
       "accountId": 111965257,
-      "nickname": "Punisherr",
+      "nickname": "Мои игровые профили:",
       "battles": 31285,
       "wins": 20526,
       "winRate": 65.61,
@@ -203,11 +211,11 @@
       "maxFrags": 10,
       "masterCount": 188,
       "vehiclesCount": 207,
-      "fetchedAt": "2025-11-22T09:35:27Z"
+      "fetchedAt": "2025-11-22T12:21:33Z"
     },
     {
       "accountId": 28909483,
-      "nickname": "CJIa6blu_Mycop",
+      "nickname": "Мои игровые профили:",
       "battles": 43588,
       "wins": 26005,
       "winRate": 59.66,
@@ -221,11 +229,11 @@
       "maxFrags": 10,
       "masterCount": 126,
       "vehiclesCount": 246,
-      "fetchedAt": "2025-11-22T09:35:32Z"
+      "fetchedAt": "2025-11-22T12:21:42Z"
     },
     {
       "accountId": 2682543,
-      "nickname": "Soind",
+      "nickname": "Мои игровые профили:",
       "battles": 74792,
       "wins": 42534,
       "winRate": 56.87,
@@ -239,11 +247,11 @@
       "maxFrags": 11,
       "masterCount": 311,
       "vehiclesCount": 702,
-      "fetchedAt": "2025-11-22T09:35:37Z"
+      "fetchedAt": "2025-11-22T12:21:55Z"
     },
     {
       "accountId": 76905788,
-      "nickname": "DuT9l_4epHo6blJl9l",
+      "nickname": "Мои игровые профили:",
       "battles": 20682,
       "wins": 10403,
       "winRate": 50.3,
@@ -257,21 +265,25 @@
       "maxFrags": 12,
       "masterCount": 62,
       "vehiclesCount": 269,
-      "fetchedAt": "2025-11-22T09:35:43Z"
+      "fetchedAt": "2025-11-22T12:22:04Z"
     },
     {
       "accountId": 10961226,
-      "nickname": "rHuJIb_9I",
-      "battles": 0,
-      "wins": null,
-      "winRate": 0.0,
-      "avgDmg": 0,
+      "nickname": "Мои игровые профили:",
+      "battles": 89767,
+      "wins": 53241,
+      "winRate": 59.31,
+      "avgDmg": 1814,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": null,
-      "global_rating": 0,
-      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/10961226-rHuJIb_9I/\", waiting until \"domcontentloaded\"\n",
-      "fetchedAt": "2025-11-22T09:37:06Z"
+      "hitsPercents": 65.36,
+      "global_rating": 10522,
+      "avgExp": 870,
+      "maxExp": 3338,
+      "maxFrags": 11,
+      "masterCount": 443,
+      "vehiclesCount": 541,
+      "fetchedAt": "2025-11-22T12:22:12Z"
     },
     {
       "accountId": 89288809,
@@ -289,11 +301,11 @@
       "maxFrags": 9,
       "masterCount": 219,
       "vehiclesCount": 363,
-      "fetchedAt": "2025-11-22T09:37:48Z"
+      "fetchedAt": "2025-11-22T12:22:18Z"
     },
     {
       "accountId": 20778095,
-      "nickname": "TheVinchester",
+      "nickname": "Мои игровые профили:",
       "battles": 14481,
       "wins": 7917,
       "winRate": 54.67,
@@ -307,11 +319,11 @@
       "maxFrags": 10,
       "masterCount": 51,
       "vehiclesCount": 90,
-      "fetchedAt": "2025-11-22T09:37:53Z"
+      "fetchedAt": "2025-11-22T12:22:28Z"
     },
     {
       "accountId": 70467784,
-      "nickname": "ScreamMyNames",
+      "nickname": "Мои игровые профили:",
       "battles": 11650,
       "wins": 7183,
       "winRate": 61.66,
@@ -325,11 +337,11 @@
       "maxFrags": 10,
       "masterCount": 87,
       "vehiclesCount": 140,
-      "fetchedAt": "2025-11-22T09:38:35Z"
+      "fetchedAt": "2025-11-22T12:22:41Z"
     },
     {
       "accountId": 63280344,
-      "nickname": "11_vanek_11",
+      "nickname": "Мои игровые профили:",
       "battles": 49848,
       "wins": 28478,
       "winRate": 57.13,
@@ -343,7 +355,7 @@
       "maxFrags": 10,
       "masterCount": 217,
       "vehiclesCount": 423,
-      "fetchedAt": "2025-11-22T09:38:40Z"
+      "fetchedAt": "2025-11-22T12:22:55Z"
     },
     {
       "accountId": 48487007,
@@ -361,7 +373,7 @@
       "maxFrags": 10,
       "masterCount": 124,
       "vehiclesCount": 218,
-      "fetchedAt": "2025-11-22T09:38:50Z"
+      "fetchedAt": "2025-11-22T12:23:02Z"
     },
     {
       "accountId": 67463356,
@@ -379,11 +391,11 @@
       "maxFrags": 8,
       "masterCount": 100,
       "vehiclesCount": 351,
-      "fetchedAt": "2025-11-22T09:38:56Z"
+      "fetchedAt": "2025-11-22T12:23:10Z"
     },
     {
       "accountId": 12255344,
-      "nickname": "TyFJIu_MyFJlu",
+      "nickname": "Мои игровые профили:",
       "battles": 34714,
       "wins": 17645,
       "winRate": 50.83,
@@ -397,7 +409,7 @@
       "maxFrags": 10,
       "masterCount": 61,
       "vehiclesCount": 229,
-      "fetchedAt": "2025-11-22T09:39:02Z"
+      "fetchedAt": "2025-11-22T12:23:28Z"
     },
     {
       "accountId": 17864806,
@@ -415,7 +427,7 @@
       "maxFrags": 9,
       "masterCount": 144,
       "vehiclesCount": 305,
-      "fetchedAt": "2025-11-22T09:39:07Z"
+      "fetchedAt": "2025-11-22T12:23:36Z"
     },
     {
       "accountId": 328441,
@@ -433,11 +445,11 @@
       "maxFrags": 10,
       "masterCount": 94,
       "vehiclesCount": 300,
-      "fetchedAt": "2025-11-22T09:39:12Z"
+      "fetchedAt": "2025-11-22T12:23:42Z"
     },
     {
       "accountId": 82066931,
-      "nickname": "_MogHbIu_MaJIb4uK",
+      "nickname": "Мои игровые профили:",
       "battles": 5955,
       "wins": 3393,
       "winRate": 56.98,
@@ -451,7 +463,7 @@
       "maxFrags": 10,
       "masterCount": 28,
       "vehiclesCount": 74,
-      "fetchedAt": "2025-11-22T09:39:17Z"
+      "fetchedAt": "2025-11-22T12:23:48Z"
     },
     {
       "accountId": 72380096,
@@ -469,7 +481,7 @@
       "maxFrags": 12,
       "masterCount": 78,
       "vehiclesCount": 276,
-      "fetchedAt": "2025-11-22T09:39:23Z"
+      "fetchedAt": "2025-11-22T12:24:09Z"
     },
     {
       "accountId": 170363,
@@ -487,21 +499,25 @@
       "maxFrags": 11,
       "masterCount": 47,
       "vehiclesCount": 231,
-      "fetchedAt": "2025-11-22T09:39:28Z"
+      "fetchedAt": "2025-11-22T12:24:16Z"
     },
     {
       "accountId": 90586270,
       "nickname": "EHoTiK_TToJIoCKyH",
-      "battles": 0,
-      "wins": null,
-      "winRate": 0.0,
-      "avgDmg": 0,
+      "battles": 23834,
+      "wins": 13104,
+      "winRate": 54.98,
+      "avgDmg": 1788,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": null,
-      "global_rating": 0,
-      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/90586270-EHoTiK_TToJIoCKyH/\", waiting until \"domcontentloaded\"\n",
-      "fetchedAt": "2025-11-22T09:40:51Z"
+      "hitsPercents": 65.32,
+      "global_rating": 9137,
+      "avgExp": 804,
+      "maxExp": 2798,
+      "maxFrags": 9,
+      "masterCount": 106,
+      "vehiclesCount": 310,
+      "fetchedAt": "2025-11-22T12:24:23Z"
     },
     {
       "accountId": 1667936,
@@ -514,22 +530,26 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/\", waiting until \"domcontentloaded\"\n",
-      "fetchedAt": "2025-11-22T09:42:14Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-22T12:24:38Z"
     },
     {
       "accountId": 4162197,
       "nickname": "AskidMobile",
-      "battles": 0,
-      "wins": null,
-      "winRate": 0.0,
-      "avgDmg": 0,
+      "battles": 65951,
+      "wins": 35561,
+      "winRate": 53.92,
+      "avgDmg": 1620,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": null,
-      "global_rating": 0,
-      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/4162197-AskidMobile/\", waiting until \"domcontentloaded\"\n",
-      "fetchedAt": "2025-11-22T09:44:09Z"
+      "hitsPercents": 66.55,
+      "global_rating": 9154,
+      "avgExp": 801,
+      "maxExp": 2943,
+      "maxFrags": 10,
+      "masterCount": 144,
+      "vehiclesCount": 400,
+      "fetchedAt": "2025-11-22T12:24:45Z"
     },
     {
       "accountId": 115214305,
@@ -547,7 +567,7 @@
       "maxFrags": 9,
       "masterCount": 75,
       "vehiclesCount": 241,
-      "fetchedAt": "2025-11-22T09:44:46Z"
+      "fetchedAt": "2025-11-22T12:24:54Z"
     }
   ]
 }

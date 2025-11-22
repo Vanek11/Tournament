@@ -1,14 +1,18 @@
 {
   "accountId": 4162197,
   "nickname": "AskidMobile",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 65951,
+  "wins": 35561,
+  "winRate": 53.92,
+  "avgDmg": 1620,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/4162197-AskidMobile/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-22T09:44:09Z"
+  "hitsPercents": 66.55,
+  "global_rating": 9154,
+  "avgExp": 801,
+  "maxExp": 2943,
+  "maxFrags": 10,
+  "masterCount": 144,
+  "vehiclesCount": 400,
+  "fetchedAt": "2025-11-22T12:24:45Z"
 }

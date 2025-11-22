@@ -1,18 +1,18 @@
 {
   "accountId": 2455009,
   "nickname": "PROKTOJlOG",
-  "battles": 31263,
+  "battles": 31264,
   "wins": 16823,
   "winRate": 53.81,
   "avgDmg": 1486,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 59.01,
+  "hitsPercents": 59.02,
   "global_rating": 7755,
   "avgExp": 657,
   "maxExp": 3447,
   "maxFrags": 8,
   "masterCount": 128,
   "vehiclesCount": 396,
-  "fetchedAt": "2025-11-22T09:32:45Z"
+  "fetchedAt": "2025-11-22T12:20:45Z"
 }

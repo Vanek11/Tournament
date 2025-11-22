@@ -9,6 +9,6 @@
   "surviveRate": null,
   "hitsPercents": null,
   "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-22T09:42:14Z"
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-22T12:24:38Z"
 }

@@ -1,14 +1,18 @@
 {
   "accountId": 2682543,
-  "nickname": "Soind",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 74770,
+  "wins": 42522,
+  "winRate": 56.87,
+  "avgDmg": 1573,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/2682543-Soind/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/2682543-Soind/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-21T21:07:42Z"
+  "hitsPercents": 69.21,
+  "global_rating": 9387,
+  "avgExp": 768,
+  "maxExp": 3633,
+  "maxFrags": 11,
+  "masterCount": 311,
+  "vehiclesCount": 702,
+  "fetchedAt": "2025-11-22T00:47:45Z"
 }

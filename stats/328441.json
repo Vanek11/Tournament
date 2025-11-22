@@ -1,18 +1,14 @@
 {
   "accountId": 328441,
   "nickname": "Mishgan61",
-  "battles": 58591,
-  "wins": 30233,
-  "winRate": 51.6,
-  "avgDmg": 1651,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 67.49,
-  "global_rating": 7727,
-  "avgExp": 670,
-  "maxExp": 2605,
-  "maxFrags": 10,
-  "masterCount": 94,
-  "vehiclesCount": 300,
-  "fetchedAt": "2025-11-22T12:23:42Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.wait_for_function: Timeout 45000ms exceeded.",
+  "fetchedAt": "2025-11-22T15:09:52Z"
 }

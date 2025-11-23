@@ -9,6 +9,6 @@
   "surviveRate": null,
   "hitsPercents": null,
   "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/67463356-CrazylFoxy/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba756f30>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-23T10:33:51Z"
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/67463356-CrazylFoxy/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-23T13:46:55Z"
 }

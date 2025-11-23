@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-23T10:49:44Z",
+  "generatedAt": "2025-11-23T14:05:37Z",
   "players": [
     {
       "accountId": 121158863,
@@ -12,8 +12,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/121158863-JIauM/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7375c0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:00:36Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/121158863-JIauM/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:10:28Z"
     },
     {
       "accountId": 33974749,
@@ -26,8 +26,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/33974749-_WonderWul_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba755d90>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:02:11Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/33974749-_WonderWul_/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:12:11Z"
     },
     {
       "accountId": 24040492,
@@ -40,8 +40,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/24040492-_8888_8888_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7349b0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:03:46Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/24040492-_8888_8888_/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:13:53Z"
     },
     {
       "accountId": 130831468,
@@ -54,8 +54,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/130831468-Fl0wers_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7371d0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:05:21Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/130831468-Fl0wers_/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:15:36Z"
     },
     {
       "accountId": 123578506,
@@ -68,8 +68,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/123578506-IIac/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba756300>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:06:56Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/123578506-IIac/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:17:18Z"
     },
     {
       "accountId": 172140333,
@@ -82,8 +82,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/172140333-SIXsix/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba735760>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:08:31Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/172140333-SIXsix/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:19:01Z"
     },
     {
       "accountId": 208174535,
@@ -96,8 +96,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/208174535-HaIIuJIa/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba734080>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:10:06Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/208174535-HaIIuJIa/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:20:44Z"
     },
     {
       "accountId": 2455009,
@@ -110,8 +110,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2455009-PROKTOJlOG/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba737920>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:11:41Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/2455009-PROKTOJlOG/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:22:40Z"
     },
     {
       "accountId": 20705422,
@@ -124,8 +124,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/20705422-kalkylatorWN8_SST/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7569c0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:13:16Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/20705422-kalkylatorWN8_SST/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:24:29Z"
     },
     {
       "accountId": 2213900,
@@ -138,8 +138,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2213900-AlexHelicopter/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7375c0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:14:51Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/2213900-AlexHelicopter/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:26:12Z"
     },
     {
       "accountId": 31734601,
@@ -152,8 +152,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/31734601-I_WoLf__/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7369c0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:16:26Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/31734601-I_WoLf__/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:27:54Z"
     },
     {
       "accountId": 111965257,
@@ -166,8 +166,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/111965257-Punisherr/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba756e70>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:18:01Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/111965257-Punisherr/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:29:49Z"
     },
     {
       "accountId": 28909483,
@@ -180,8 +180,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/28909483-CJIa6blu_Mycop/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7350d0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:19:36Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/28909483-CJIa6blu_Mycop/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:31:32Z"
     },
     {
       "accountId": 2682543,
@@ -194,8 +194,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2682543-Soind/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba737ad0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:21:12Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/2682543-Soind/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:33:15Z"
     },
     {
       "accountId": 76905788,
@@ -208,8 +208,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/76905788-DuT9l_4epHo6blJl9l/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba8fffb0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:22:46Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/76905788-DuT9l_4epHo6blJl9l/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:34:58Z"
     },
     {
       "accountId": 10961226,
@@ -222,8 +222,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/10961226-rHuJIb_9I/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7576b0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:24:21Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/10961226-rHuJIb_9I/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:36:40Z"
     },
     {
       "accountId": 89288809,
@@ -236,8 +236,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/89288809-New_KPuBou/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba737680>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:25:57Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/89288809-New_KPuBou/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:38:23Z"
     },
     {
       "accountId": 20778095,
@@ -250,8 +250,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/20778095-TheVinchester/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7348f0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:27:32Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/20778095-TheVinchester/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:40:06Z"
     },
     {
       "accountId": 70467784,
@@ -264,8 +264,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/70467784-ScreamMyNames/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba757650>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:29:07Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/70467784-ScreamMyNames/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:41:48Z"
     },
     {
       "accountId": 63280344,
@@ -278,8 +278,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/63280344-11_vanek_11/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba736a80>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:30:42Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/63280344-11_vanek_11/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:43:30Z"
     },
     {
       "accountId": 48487007,
@@ -292,8 +292,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/48487007-Citramon4/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba7379b0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:32:17Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/48487007-Citramon4/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:45:13Z"
     },
     {
       "accountId": 67463356,
@@ -306,8 +306,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/67463356-CrazylFoxy/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba756f30>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:33:51Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/67463356-CrazylFoxy/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:46:55Z"
     },
     {
       "accountId": 12255344,
@@ -320,8 +320,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/12255344-TyFJIu_MyFJlu/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba798350>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:35:27Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/12255344-TyFJIu_MyFJlu/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:48:38Z"
     },
     {
       "accountId": 17864806,
@@ -334,8 +334,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/17864806-Aleksey4star/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba757710>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:37:02Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/17864806-Aleksey4star/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:51:43Z"
     },
     {
       "accountId": 328441,
@@ -348,8 +348,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/328441-Mishgan61/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba737bc0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:38:36Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/328441-Mishgan61/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:53:25Z"
     },
     {
       "accountId": 82066931,
@@ -362,8 +362,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba734a70>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:40:12Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:55:08Z"
     },
     {
       "accountId": 72380096,
@@ -376,8 +376,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/72380096-O_k_Y_p_A_n_T/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba736ed0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:41:48Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/72380096-O_k_Y_p_A_n_T/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:56:50Z"
     },
     {
       "accountId": 170363,
@@ -390,8 +390,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/170363-Xsides/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba737140>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:43:23Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/170363-Xsides/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T13:58:32Z"
     },
     {
       "accountId": 90586270,
@@ -404,8 +404,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/90586270-EHoTiK_TToJIoCKyH/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba757680>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:44:58Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/90586270-EHoTiK_TToJIoCKyH/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T14:00:27Z"
     },
     {
       "accountId": 1667936,
@@ -418,8 +418,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/1667936-Weedman_Pro/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba799070>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:46:32Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/1667936-Weedman_Pro/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T14:02:10Z"
     },
     {
       "accountId": 4162197,
@@ -432,8 +432,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/4162197-AskidMobile/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba756a20>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:48:07Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/4162197-AskidMobile/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T14:03:53Z"
     },
     {
       "accountId": 115214305,
@@ -446,8 +446,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/115214305-Arrow_134/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f05ba756b10>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T10:49:42Z"
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/115214305-Arrow_134/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-23T14:05:35Z"
     }
   ]
 }

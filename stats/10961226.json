@@ -1,18 +1,14 @@
 {
   "accountId": 10961226,
   "nickname": "rHuJIb_9I",
-  "battles": 89774,
-  "wins": 53245,
-  "winRate": 59.31,
-  "avgDmg": 1814,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 65.36,
-  "global_rating": 10522,
-  "avgExp": 870,
-  "maxExp": 3338,
-  "maxFrags": 11,
-  "masterCount": 443,
-  "vehiclesCount": 541,
-  "fetchedAt": "2025-11-23T00:53:16Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/10961226-rHuJIb_9I/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d079b0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-23T05:07:20Z"
 }

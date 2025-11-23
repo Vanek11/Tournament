@@ -1,18 +1,14 @@
 {
   "accountId": 20778095,
   "nickname": "TheVinchester",
-  "battles": 14481,
-  "wins": 7917,
-  "winRate": 54.67,
-  "avgDmg": 1374,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 74.58,
-  "global_rating": 8004,
-  "avgExp": 640,
-  "maxExp": 2942,
-  "maxFrags": 10,
-  "masterCount": 51,
-  "vehiclesCount": 90,
-  "fetchedAt": "2025-11-23T00:53:27Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/20778095-TheVinchester/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce7920>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-23T05:10:30Z"
 }

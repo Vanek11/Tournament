@@ -1,14 +1,18 @@
 {
   "accountId": 2455009,
   "nickname": "PROKTOJlOG",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 31273,
+  "wins": 16828,
+  "winRate": 53.81,
+  "avgDmg": 1486,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/2455009-PROKTOJlOG/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-23T13:22:40Z"
+  "hitsPercents": 59.02,
+  "global_rating": 7756,
+  "avgExp": 657,
+  "maxExp": 3447,
+  "maxFrags": 8,
+  "masterCount": 129,
+  "vehiclesCount": 396,
+  "fetchedAt": "2025-11-23T15:05:10Z"
 }

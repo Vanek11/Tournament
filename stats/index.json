@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-23T05:32:46Z",
+  "generatedAt": "2025-11-23T07:54:23Z",
   "players": [
     {
       "accountId": 121158863,
@@ -12,8 +12,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/121158863-JIauM/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce7020>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:43:30Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/121158863-JIauM/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3c950>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:05:16Z"
     },
     {
       "accountId": 33974749,
@@ -26,8 +26,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/33974749-_WonderWul_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d06060>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:45:05Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/33974749-_WonderWul_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5da60>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:06:51Z"
     },
     {
       "accountId": 24040492,
@@ -40,8 +40,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/24040492-_8888_8888_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce6a50>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:46:40Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/24040492-_8888_8888_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3f6b0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:08:26Z"
     },
     {
       "accountId": 130831468,
@@ -54,8 +54,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/130831468-Fl0wers_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce52e0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:48:15Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/130831468-Fl0wers_/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3d1c0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:10:01Z"
     },
     {
       "accountId": 123578506,
@@ -68,8 +68,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/123578506-IIac/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d065d0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:49:55Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/123578506-IIac/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3e030>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:11:36Z"
     },
     {
       "accountId": 172140333,
@@ -82,8 +82,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/172140333-SIXsix/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce62a0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:51:30Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/172140333-SIXsix/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3fce0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:13:10Z"
     },
     {
       "accountId": 208174535,
@@ -96,8 +96,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/208174535-HaIIuJIa/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce4ec0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:53:05Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/208174535-HaIIuJIa/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3f4a0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:14:46Z"
     },
     {
       "accountId": 2455009,
@@ -110,8 +110,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2455009-PROKTOJlOG/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce7dd0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:54:39Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2455009-PROKTOJlOG/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3ede0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:16:21Z"
     },
     {
       "accountId": 20705422,
@@ -124,8 +124,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/20705422-kalkylatorWN8_SST/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d06c90>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:56:14Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/20705422-kalkylatorWN8_SST/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5e660>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:17:56Z"
     },
     {
       "accountId": 2213900,
@@ -138,8 +138,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2213900-AlexHelicopter/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce70b0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:57:49Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2213900-AlexHelicopter/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3ee10>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:19:30Z"
     },
     {
       "accountId": 31734601,
@@ -152,8 +152,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/31734601-I_WoLf__/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce4740>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T04:59:24Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/31734601-I_WoLf__/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3cb30>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:21:05Z"
     },
     {
       "accountId": 111965257,
@@ -166,8 +166,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/111965257-Punisherr/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d07140>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:00:59Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/111965257-Punisherr/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5ea80>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:22:40Z"
     },
     {
       "accountId": 28909483,
@@ -180,8 +180,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/28909483-CJIa6blu_Mycop/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce5f70>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:02:35Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/28909483-CJIa6blu_Mycop/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3d7c0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:24:16Z"
     },
     {
       "accountId": 2682543,
@@ -194,8 +194,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2682543-Soind/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce7d70>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:04:10Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/2682543-Soind/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3c4d0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:25:51Z"
     },
     {
       "accountId": 76905788,
@@ -208,8 +208,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/76905788-DuT9l_4epHo6blJl9l/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5cb39e0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:05:45Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/76905788-DuT9l_4epHo6blJl9l/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3e8d0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:27:26Z"
     },
     {
       "accountId": 10961226,
@@ -222,8 +222,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/10961226-rHuJIb_9I/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d079b0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:07:20Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/10961226-rHuJIb_9I/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5f350>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:29:01Z"
     },
     {
       "accountId": 89288809,
@@ -236,8 +236,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/89288809-New_KPuBou/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d073e0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:08:55Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/89288809-New_KPuBou/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3f860>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:30:36Z"
     },
     {
       "accountId": 20778095,
@@ -250,8 +250,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/20778095-TheVinchester/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce7920>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:10:30Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/20778095-TheVinchester/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3f380>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:32:11Z"
     },
     {
       "accountId": 70467784,
@@ -264,8 +264,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/70467784-ScreamMyNames/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce5310>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:12:05Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/70467784-ScreamMyNames/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5e270>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:33:46Z"
     },
     {
       "accountId": 63280344,
@@ -278,8 +278,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/63280344-11_vanek_11/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce4b30>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:13:40Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/63280344-11_vanek_11/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3d280>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:35:21Z"
     },
     {
       "accountId": 48487007,
@@ -292,8 +292,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/48487007-Citramon4/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce7a40>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:15:15Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/48487007-Citramon4/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3e5d0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:36:56Z"
     },
     {
       "accountId": 67463356,
@@ -306,8 +306,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/67463356-CrazylFoxy/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d07320>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:16:50Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/67463356-CrazylFoxy/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff3160ff2c0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:38:31Z"
     },
     {
       "accountId": 12255344,
@@ -320,8 +320,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/12255344-TyFJIu_MyFJlu/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d48650>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:18:25Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/12255344-TyFJIu_MyFJlu/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5ffb0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:40:07Z"
     },
     {
       "accountId": 17864806,
@@ -334,8 +334,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/17864806-Aleksey4star/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d07770>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:20:00Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/17864806-Aleksey4star/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5f9e0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:41:42Z"
     },
     {
       "accountId": 328441,
@@ -348,8 +348,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/328441-Mishgan61/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce6b10>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:21:36Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/328441-Mishgan61/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3f890>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:43:17Z"
     },
     {
       "accountId": 82066931,
@@ -362,8 +362,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce6fc0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:23:11Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3e390>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:44:52Z"
     },
     {
       "accountId": 72380096,
@@ -376,8 +376,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/72380096-O_k_Y_p_A_n_T/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce72f0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:24:45Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/72380096-O_k_Y_p_A_n_T/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3f6b0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:46:27Z"
     },
     {
       "accountId": 170363,
@@ -390,8 +390,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/170363-Xsides/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5f98fe0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:26:20Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/170363-Xsides/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f3e690>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:48:02Z"
     },
     {
       "accountId": 90586270,
@@ -404,8 +404,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/90586270-EHoTiK_TToJIoCKyH/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d07260>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:27:55Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/90586270-EHoTiK_TToJIoCKyH/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5f710>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:49:37Z"
     },
     {
       "accountId": 1667936,
@@ -418,8 +418,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/1667936-Weedman_Pro/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5d49370>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:29:30Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/1667936-Weedman_Pro/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f98d10>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:51:12Z"
     },
     {
       "accountId": 4162197,
@@ -432,8 +432,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/4162197-AskidMobile/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce7c20>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:31:09Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/4162197-AskidMobile/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5f680>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:52:47Z"
     },
     {
       "accountId": 115214305,
@@ -446,8 +446,8 @@
       "surviveRate": null,
       "hitsPercents": null,
       "global_rating": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/115214305-Arrow_134/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f10a5ce6900>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-      "fetchedAt": "2025-11-23T05:32:44Z"
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/115214305-Arrow_134/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff315f5e780>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+      "fetchedAt": "2025-11-23T07:54:22Z"
     }
   ]
 }

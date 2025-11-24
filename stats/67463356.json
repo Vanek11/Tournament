@@ -1,18 +1,14 @@
 {
   "accountId": 67463356,
   "nickname": "CrazylFoxy",
-  "battles": 39983,
-  "wins": 21339,
-  "winRate": 53.37,
-  "avgDmg": 1500,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 66.23,
-  "global_rating": 8227,
-  "avgExp": 726,
-  "maxExp": 2750,
-  "maxFrags": 8,
-  "masterCount": 101,
-  "vehiclesCount": 353,
-  "fetchedAt": "2025-11-24T18:22:46Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/67463356-CrazylFoxy/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f79fa727770>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-24T22:27:07Z"
 }

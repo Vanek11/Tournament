@@ -1,14 +1,18 @@
 {
   "accountId": 1667936,
   "nickname": "Weedman_Pro",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 64263,
+  "wins": 33134,
+  "winRate": 51.56,
+  "avgDmg": 1357,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/1667936-Weedman_Pro/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb11c36cfe0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-24T10:51:14Z"
+  "hitsPercents": 68.71,
+  "global_rating": 7078,
+  "avgExp": 710,
+  "maxExp": 2942,
+  "maxFrags": 9,
+  "masterCount": 120,
+  "vehiclesCount": 340,
+  "fetchedAt": "2025-11-24T12:10:33Z"
 }

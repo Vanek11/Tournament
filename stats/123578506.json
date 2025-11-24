@@ -1,14 +1,18 @@
 {
   "accountId": 123578506,
   "nickname": "IIac",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 15696,
+  "wins": 8711,
+  "winRate": 55.5,
+  "avgDmg": 2353,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/123578506-IIac/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb11c30cef0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-24T10:11:41Z"
+  "hitsPercents": 73.55,
+  "global_rating": 9220,
+  "avgExp": 863,
+  "maxExp": 2754,
+  "maxFrags": 12,
+  "masterCount": 89,
+  "vehiclesCount": 228,
+  "fetchedAt": "2025-11-24T12:07:41Z"
 }

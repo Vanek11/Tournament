@@ -1,14 +1,18 @@
 {
   "accountId": 28909483,
   "nickname": "CJIa6blu_Mycop",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 43641,
+  "wins": 26036,
+  "winRate": 59.66,
+  "avgDmg": 2196,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/28909483-CJIa6blu_Mycop/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-25T07:38:02Z"
+  "hitsPercents": 70.86,
+  "global_rating": 10792,
+  "avgExp": 932,
+  "maxExp": 2904,
+  "maxFrags": 10,
+  "masterCount": 126,
+  "vehiclesCount": 248,
+  "fetchedAt": "2025-11-25T09:18:45Z"
 }

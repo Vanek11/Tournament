@@ -1,14 +1,18 @@
 {
   "accountId": 24040492,
   "nickname": "_8888_8888_",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 95161,
+  "wins": 57354,
+  "winRate": 60.27,
+  "avgDmg": 2635,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/24040492-_8888_8888_/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-25T07:18:58Z"
+  "hitsPercents": 74.04,
+  "global_rating": 11941,
+  "avgExp": 987,
+  "maxExp": 4217,
+  "maxFrags": 12,
+  "masterCount": 275,
+  "vehiclesCount": 447,
+  "fetchedAt": "2025-11-25T09:17:39Z"
 }

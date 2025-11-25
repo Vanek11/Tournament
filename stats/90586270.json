@@ -1,14 +1,18 @@
 {
   "accountId": 90586270,
   "nickname": "EHoTiK_TToJIoCKyH",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 23862,
+  "wins": 13124,
+  "winRate": 55.0,
+  "avgDmg": 1789,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/90586270-EHoTiK_TToJIoCKyH/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-25T08:06:12Z"
+  "hitsPercents": 65.33,
+  "global_rating": 9144,
+  "avgExp": 805,
+  "maxExp": 2798,
+  "maxFrags": 9,
+  "masterCount": 107,
+  "vehiclesCount": 311,
+  "fetchedAt": "2025-11-25T09:20:25Z"
 }

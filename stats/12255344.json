@@ -1,14 +1,18 @@
 {
   "accountId": 12255344,
   "nickname": "TyFJIu_MyFJlu",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 34751,
+  "wins": 17667,
+  "winRate": 50.84,
+  "avgDmg": 1151,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/12255344-TyFJIu_MyFJlu/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-25T07:54:45Z"
+  "hitsPercents": 66.6,
+  "global_rating": 7238,
+  "avgExp": 566,
+  "maxExp": 2825,
+  "maxFrags": 10,
+  "masterCount": 61,
+  "vehiclesCount": 229,
+  "fetchedAt": "2025-11-25T09:19:45Z"
 }

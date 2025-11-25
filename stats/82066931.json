@@ -1,14 +1,18 @@
 {
   "accountId": 82066931,
   "nickname": "_MogHbIu_MaJIb4uK",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 5960,
+  "wins": 3394,
+  "winRate": 56.95,
+  "avgDmg": 1913,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-25T08:00:29Z"
+  "hitsPercents": 64.66,
+  "global_rating": 8829,
+  "avgExp": 896,
+  "maxExp": 4220,
+  "maxFrags": 10,
+  "masterCount": 28,
+  "vehiclesCount": 76,
+  "fetchedAt": "2025-11-25T09:20:03Z"
 }

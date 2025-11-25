@@ -1,14 +1,18 @@
 {
   "accountId": 31734601,
-  "nickname": "I_WoLf__",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 20496,
+  "wins": 12953,
+  "winRate": 63.2,
+  "avgDmg": 2834,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/31734601-I_WoLf__/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-25T07:34:13Z"
+  "hitsPercents": 75.18,
+  "global_rating": 11251,
+  "avgExp": 977,
+  "maxExp": 3053,
+  "maxFrags": 10,
+  "masterCount": 180,
+  "vehiclesCount": 261,
+  "fetchedAt": "2025-11-25T09:18:33Z"
 }

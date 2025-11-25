@@ -1,14 +1,18 @@
 {
   "accountId": 72380096,
   "nickname": "O_k_Y_p_A_n_T",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 23544,
+  "wins": 12808,
+  "winRate": 54.4,
+  "avgDmg": 1722,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/72380096-O_k_Y_p_A_n_T/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f79fa705040>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-24T22:35:03Z"
+  "hitsPercents": 65.47,
+  "global_rating": 8426,
+  "avgExp": 803,
+  "maxExp": 2709,
+  "maxFrags": 12,
+  "masterCount": 79,
+  "vehiclesCount": 279,
+  "fetchedAt": "2025-11-25T01:30:52Z"
 }

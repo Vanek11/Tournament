@@ -1,18 +1,14 @@
 {
   "accountId": 170363,
   "nickname": "Xsides",
-  "battles": 16247,
-  "wins": 8484,
-  "winRate": 52.22,
-  "avgDmg": 1257,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 64.55,
-  "global_rating": 6818,
-  "avgExp": 669,
-  "maxExp": 2598,
-  "maxFrags": 11,
-  "masterCount": 47,
-  "vehiclesCount": 232,
-  "fetchedAt": "2025-11-26T00:49:47Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/170363-Xsides/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f73b63437a0>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-26T05:16:08Z"
 }

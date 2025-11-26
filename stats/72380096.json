@@ -1,18 +1,18 @@
 {
   "accountId": 72380096,
   "nickname": "O_k_Y_p_A_n_T",
-  "battles": 23544,
-  "wins": 12808,
-  "winRate": 54.4,
+  "battles": 23573,
+  "wins": 12826,
+  "winRate": 54.41,
   "avgDmg": 1722,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 65.47,
-  "global_rating": 8426,
+  "hitsPercents": 65.46,
+  "global_rating": 8428,
   "avgExp": 803,
   "maxExp": 2709,
   "maxFrags": 12,
   "masterCount": 79,
   "vehiclesCount": 279,
-  "fetchedAt": "2025-11-25T21:14:00Z"
+  "fetchedAt": "2025-11-26T00:49:42Z"
 }

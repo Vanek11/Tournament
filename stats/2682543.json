@@ -1,18 +1,14 @@
 {
   "accountId": 2682543,
   "nickname": "Soind",
-  "battles": 74899,
-  "wins": 42603,
-  "winRate": 56.88,
-  "avgDmg": 1574,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 69.18,
-  "global_rating": 9391,
-  "avgExp": 768,
-  "maxExp": 3633,
-  "maxFrags": 11,
-  "masterCount": 312,
-  "vehiclesCount": 707,
-  "fetchedAt": "2025-11-26T18:19:11Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/2682543-Soind/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-26T22:28:48Z"
 }

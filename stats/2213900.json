@@ -1,18 +1,14 @@
 {
   "accountId": 2213900,
-  "nickname": "Мои игровые профили:",
-  "battles": 19260,
-  "wins": 10786,
-  "winRate": 56.0,
-  "avgDmg": 1964,
+  "nickname": "AlexHelicopter",
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 71.47,
-  "global_rating": 9362,
-  "avgExp": 818,
-  "maxExp": 3366,
-  "maxFrags": 10,
-  "masterCount": 112,
-  "vehiclesCount": 275,
-  "fetchedAt": "2025-11-26T18:18:42Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/2213900-AlexHelicopter/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-26T22:21:11Z"
 }

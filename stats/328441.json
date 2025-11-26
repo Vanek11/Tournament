@@ -1,14 +1,18 @@
 {
   "accountId": 328441,
   "nickname": "Mishgan61",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "battles": 58653,
+  "wins": 30271,
+  "winRate": 51.61,
+  "avgDmg": 1651,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/328441-Mishgan61/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f73b6340560>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
-  "fetchedAt": "2025-11-26T05:11:23Z"
+  "hitsPercents": 67.5,
+  "global_rating": 7733,
+  "avgExp": 671,
+  "maxExp": 2605,
+  "maxFrags": 10,
+  "masterCount": 94,
+  "vehiclesCount": 303,
+  "fetchedAt": "2025-11-26T06:20:00Z"
 }

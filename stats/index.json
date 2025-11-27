@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-27T03:45:36Z",
+  "generatedAt": "2025-11-27T06:23:31Z",
   "players": [
     {
       "accountId": 121158863,
@@ -17,11 +17,11 @@
       "maxFrags": 12,
       "masterCount": 183,
       "vehiclesCount": 243,
-      "fetchedAt": "2025-11-27T03:42:06Z"
+      "fetchedAt": "2025-11-27T06:19:32Z"
     },
     {
       "accountId": 33974749,
-      "nickname": "Мои игровые профили:",
+      "nickname": "_WonderWul_",
       "battles": 33220,
       "wins": 19105,
       "winRate": 57.51,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 176,
       "vehiclesCount": 314,
-      "fetchedAt": "2025-11-27T03:42:13Z"
+      "fetchedAt": "2025-11-27T06:19:38Z"
     },
     {
       "accountId": 24040492,
@@ -53,11 +53,11 @@
       "maxFrags": 12,
       "masterCount": 275,
       "vehiclesCount": 447,
-      "fetchedAt": "2025-11-27T03:42:19Z"
+      "fetchedAt": "2025-11-27T06:19:44Z"
     },
     {
       "accountId": 130831468,
-      "nickname": "Мои игровые профили:",
+      "nickname": "Fl0wers_",
       "battles": 13697,
       "wins": 8504,
       "winRate": 62.09,
@@ -71,11 +71,11 @@
       "maxFrags": 10,
       "masterCount": 98,
       "vehiclesCount": 153,
-      "fetchedAt": "2025-11-27T03:42:29Z"
+      "fetchedAt": "2025-11-27T06:19:53Z"
     },
     {
       "accountId": 123578506,
-      "nickname": "IIac",
+      "nickname": "Мои игровые профили:",
       "battles": 15713,
       "wins": 8721,
       "winRate": 55.5,
@@ -89,11 +89,11 @@
       "maxFrags": 12,
       "masterCount": 90,
       "vehiclesCount": 230,
-      "fetchedAt": "2025-11-27T03:42:35Z"
+      "fetchedAt": "2025-11-27T06:20:02Z"
     },
     {
       "accountId": 172140333,
-      "nickname": "SIXsix",
+      "nickname": "Мои игровые профили:",
       "battles": 9242,
       "wins": 5794,
       "winRate": 62.69,
@@ -107,11 +107,11 @@
       "maxFrags": 9,
       "masterCount": 86,
       "vehiclesCount": 140,
-      "fetchedAt": "2025-11-27T03:42:50Z"
+      "fetchedAt": "2025-11-27T06:20:08Z"
     },
     {
       "accountId": 208174535,
-      "nickname": "HaIIuJIa",
+      "nickname": "Мои игровые профили:",
       "battles": 4436,
       "wins": 2708,
       "winRate": 61.05,
@@ -125,11 +125,11 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 50,
-      "fetchedAt": "2025-11-27T03:42:55Z"
+      "fetchedAt": "2025-11-27T06:20:13Z"
     },
     {
       "accountId": 2455009,
-      "nickname": "Мои игровые профили:",
+      "nickname": "PROKTOJlOG",
       "battles": 31334,
       "wins": 16864,
       "winRate": 53.82,
@@ -143,11 +143,11 @@
       "maxFrags": 8,
       "masterCount": 129,
       "vehiclesCount": 396,
-      "fetchedAt": "2025-11-27T03:43:03Z"
+      "fetchedAt": "2025-11-27T06:20:20Z"
     },
     {
       "accountId": 20705422,
-      "nickname": "kalkylatorWN8_SST",
+      "nickname": "Мои игровые профили:",
       "battles": 12139,
       "wins": 7720,
       "winRate": 63.6,
@@ -161,7 +161,7 @@
       "maxFrags": 11,
       "masterCount": 112,
       "vehiclesCount": 165,
-      "fetchedAt": "2025-11-27T03:43:09Z"
+      "fetchedAt": "2025-11-27T06:20:34Z"
     },
     {
       "accountId": 2213900,
@@ -179,7 +179,7 @@
       "maxFrags": 10,
       "masterCount": 112,
       "vehiclesCount": 275,
-      "fetchedAt": "2025-11-27T03:43:16Z"
+      "fetchedAt": "2025-11-27T06:20:41Z"
     },
     {
       "accountId": 31734601,
@@ -197,29 +197,25 @@
       "maxFrags": 10,
       "masterCount": 180,
       "vehiclesCount": 261,
-      "fetchedAt": "2025-11-27T03:43:21Z"
+      "fetchedAt": "2025-11-27T06:20:48Z"
     },
     {
       "accountId": 111965257,
       "nickname": "Punisherr",
-      "battles": 31527,
-      "wins": 20660,
-      "winRate": 65.53,
-      "avgDmg": 3668,
+      "battles": 0,
+      "wins": null,
+      "winRate": 0.0,
+      "avgDmg": 0,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 78.1,
-      "global_rating": 12463,
-      "avgExp": 1260,
-      "maxExp": 3375,
-      "maxFrags": 10,
-      "masterCount": 189,
-      "vehiclesCount": 208,
-      "fetchedAt": "2025-11-27T03:43:27Z"
+      "hitsPercents": null,
+      "global_rating": 0,
+      "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/111965257-Punisherr/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/111965257-Punisherr/\", waiting until \"domcontentloaded\"\n",
+      "fetchedAt": "2025-11-27T06:21:00Z"
     },
     {
       "accountId": 28909483,
-      "nickname": "CJIa6blu_Mycop",
+      "nickname": "Мои игровые профили:",
       "battles": 43661,
       "wins": 26044,
       "winRate": 59.65,
@@ -233,11 +229,11 @@
       "maxFrags": 10,
       "masterCount": 126,
       "vehiclesCount": 248,
-      "fetchedAt": "2025-11-27T03:43:33Z"
+      "fetchedAt": "2025-11-27T06:21:14Z"
     },
     {
       "accountId": 2682543,
-      "nickname": "Мои игровые профили:",
+      "nickname": "Soind",
       "battles": 74902,
       "wins": 42604,
       "winRate": 56.88,
@@ -251,11 +247,11 @@
       "maxFrags": 11,
       "masterCount": 312,
       "vehiclesCount": 708,
-      "fetchedAt": "2025-11-27T03:43:42Z"
+      "fetchedAt": "2025-11-27T06:21:19Z"
     },
     {
       "accountId": 76905788,
-      "nickname": "Мои игровые профили:",
+      "nickname": "DuT9l_4epHo6blJl9l",
       "battles": 20750,
       "wins": 10443,
       "winRate": 50.33,
@@ -269,7 +265,7 @@
       "maxFrags": 12,
       "masterCount": 62,
       "vehiclesCount": 269,
-      "fetchedAt": "2025-11-27T03:43:50Z"
+      "fetchedAt": "2025-11-27T06:21:24Z"
     },
     {
       "accountId": 10961226,
@@ -287,7 +283,7 @@
       "maxFrags": 11,
       "masterCount": 444,
       "vehiclesCount": 546,
-      "fetchedAt": "2025-11-27T03:43:59Z"
+      "fetchedAt": "2025-11-27T06:21:30Z"
     },
     {
       "accountId": 89288809,
@@ -305,7 +301,7 @@
       "maxFrags": 9,
       "masterCount": 221,
       "vehiclesCount": 364,
-      "fetchedAt": "2025-11-27T03:44:04Z"
+      "fetchedAt": "2025-11-27T06:21:37Z"
     },
     {
       "accountId": 20778095,
@@ -323,7 +319,7 @@
       "maxFrags": 10,
       "masterCount": 51,
       "vehiclesCount": 90,
-      "fetchedAt": "2025-11-27T03:44:11Z"
+      "fetchedAt": "2025-11-27T06:21:44Z"
     },
     {
       "accountId": 70467784,
@@ -341,7 +337,7 @@
       "maxFrags": 10,
       "masterCount": 87,
       "vehiclesCount": 140,
-      "fetchedAt": "2025-11-27T03:44:18Z"
+      "fetchedAt": "2025-11-27T06:21:49Z"
     },
     {
       "accountId": 63280344,
@@ -359,7 +355,7 @@
       "maxFrags": 10,
       "masterCount": 217,
       "vehiclesCount": 423,
-      "fetchedAt": "2025-11-27T03:44:23Z"
+      "fetchedAt": "2025-11-27T06:21:58Z"
     },
     {
       "accountId": 48487007,
@@ -377,11 +373,11 @@
       "maxFrags": 10,
       "masterCount": 126,
       "vehiclesCount": 219,
-      "fetchedAt": "2025-11-27T03:44:30Z"
+      "fetchedAt": "2025-11-27T06:22:03Z"
     },
     {
       "accountId": 67463356,
-      "nickname": "Мои игровые профили:",
+      "nickname": "CrazylFoxy",
       "battles": 40043,
       "wins": 21375,
       "winRate": 53.38,
@@ -395,11 +391,11 @@
       "maxFrags": 8,
       "masterCount": 102,
       "vehiclesCount": 355,
-      "fetchedAt": "2025-11-27T03:44:36Z"
+      "fetchedAt": "2025-11-27T06:22:07Z"
     },
     {
       "accountId": 12255344,
-      "nickname": "TyFJIu_MyFJlu",
+      "nickname": "Мои игровые профили:",
       "battles": 34799,
       "wins": 17695,
       "winRate": 50.85,
@@ -413,7 +409,7 @@
       "maxFrags": 10,
       "masterCount": 62,
       "vehiclesCount": 231,
-      "fetchedAt": "2025-11-27T03:44:42Z"
+      "fetchedAt": "2025-11-27T06:22:19Z"
     },
     {
       "accountId": 17864806,
@@ -431,11 +427,11 @@
       "maxFrags": 9,
       "masterCount": 144,
       "vehiclesCount": 305,
-      "fetchedAt": "2025-11-27T03:44:46Z"
+      "fetchedAt": "2025-11-27T06:22:24Z"
     },
     {
       "accountId": 328441,
-      "nickname": "Mishgan61",
+      "nickname": "Мои игровые профили:",
       "battles": 58686,
       "wins": 30288,
       "winRate": 51.61,
@@ -449,7 +445,7 @@
       "maxFrags": 10,
       "masterCount": 95,
       "vehiclesCount": 303,
-      "fetchedAt": "2025-11-27T03:44:53Z"
+      "fetchedAt": "2025-11-27T06:22:31Z"
     },
     {
       "accountId": 82066931,
@@ -467,7 +463,7 @@
       "maxFrags": 10,
       "masterCount": 28,
       "vehiclesCount": 76,
-      "fetchedAt": "2025-11-27T03:44:59Z"
+      "fetchedAt": "2025-11-27T06:22:35Z"
     },
     {
       "accountId": 72380096,
@@ -485,7 +481,7 @@
       "maxFrags": 12,
       "masterCount": 79,
       "vehiclesCount": 279,
-      "fetchedAt": "2025-11-27T03:45:05Z"
+      "fetchedAt": "2025-11-27T06:22:41Z"
     },
     {
       "accountId": 170363,
@@ -503,7 +499,7 @@
       "maxFrags": 11,
       "masterCount": 48,
       "vehiclesCount": 234,
-      "fetchedAt": "2025-11-27T03:45:11Z"
+      "fetchedAt": "2025-11-27T06:22:56Z"
     },
     {
       "accountId": 90586270,
@@ -521,11 +517,11 @@
       "maxFrags": 9,
       "masterCount": 107,
       "vehiclesCount": 311,
-      "fetchedAt": "2025-11-27T03:45:16Z"
+      "fetchedAt": "2025-11-27T06:23:04Z"
     },
     {
       "accountId": 1667936,
-      "nickname": "Weedman_Pro",
+      "nickname": "Мои игровые профили:",
       "battles": 64272,
       "wins": 33139,
       "winRate": 51.56,
@@ -539,11 +535,11 @@
       "maxFrags": 9,
       "masterCount": 120,
       "vehiclesCount": 341,
-      "fetchedAt": "2025-11-27T03:45:21Z"
+      "fetchedAt": "2025-11-27T06:23:13Z"
     },
     {
       "accountId": 4162197,
-      "nickname": "Мои игровые профили:",
+      "nickname": "AskidMobile",
       "battles": 65951,
       "wins": 35561,
       "winRate": 53.92,
@@ -557,11 +553,11 @@
       "maxFrags": 10,
       "masterCount": 144,
       "vehiclesCount": 400,
-      "fetchedAt": "2025-11-27T03:45:27Z"
+      "fetchedAt": "2025-11-27T06:23:23Z"
     },
     {
       "accountId": 115214305,
-      "nickname": "Arrow_134",
+      "nickname": "Мои игровые профили:",
       "battles": 28973,
       "wins": 16263,
       "winRate": 56.13,
@@ -575,7 +571,7 @@
       "maxFrags": 9,
       "masterCount": 75,
       "vehiclesCount": 241,
-      "fetchedAt": "2025-11-27T03:45:34Z"
+      "fetchedAt": "2025-11-27T06:23:29Z"
     }
   ]
 }

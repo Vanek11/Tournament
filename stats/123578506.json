@@ -1,14 +1,18 @@
 {
   "accountId": 123578506,
-  "nickname": "IIac",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 15713,
+  "wins": 8721,
+  "winRate": 55.5,
+  "avgDmg": 2354,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.wait_for_function: Timeout 45000ms exceeded.",
-  "fetchedAt": "2025-11-28T20:48:25Z"
+  "hitsPercents": 73.55,
+  "global_rating": 9222,
+  "avgExp": 863,
+  "maxExp": 2754,
+  "maxFrags": 12,
+  "masterCount": 90,
+  "vehiclesCount": 230,
+  "fetchedAt": "2025-11-28T21:41:23Z"
 }

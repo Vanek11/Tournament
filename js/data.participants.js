@@ -25,9 +25,9 @@ window.participants = [
     bucket: 1
   },
   {
-    name: "IIac",
-    clan: "WEIDE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/123578506-IIac/",
+    name: "qDanya",
+    clan: "ALFA-",
+    lestaUrl: "https://tanki.su/ru/community/accounts/126453902-qDanya/",
     bucket: 1
   },
   {
@@ -138,9 +138,9 @@ window.participants = [
     bucket: 2
   },
   {
-    name: "Заглушка",
+    name: "IIac",
     clan: "WEIDE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    lestaUrl: "https://tanki.su/ru/community/accounts/123578506-IIac/",
     bucket: 2
   },
   {
@@ -162,12 +162,6 @@ window.participants = [
     name: "CrazylFoxy",
     clan: "Без клана",
     lestaUrl: "https://tanki.su/ru/community/accounts/67463356-CrazylFoxy/",
-    bucket: 3
-  },
-  {
-    name: "TyFJIu_MyFJlu",
-    clan: "ALIGT",
-    lestaUrl: "https://tanki.su/ru/community/accounts/12255344-TyFJIu_MyFJlu/",
     bucket: 3
   },
   {
@@ -222,6 +216,12 @@ window.participants = [
     name: "Arrow_134",
     clan: "RMOVE",
     lestaUrl: "https://tanki.su/ru/community/accounts/115214305-Arrow_134/",
+    bucket: 3
+  },
+  {
+    name: "Заглушка",
+    clan: "WEIDE",
+    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
     bucket: 3
   },
   {

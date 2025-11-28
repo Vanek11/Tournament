@@ -895,3 +895,123 @@ svg.brkt__lines polyline.drop {
     grid-template-columns: 1fr;
   }
 }
+/* Пулы техники — компактная таблица */
+.pools-card .pools-table {
+  display: grid;
+  grid-template-columns: 1fr 2.2fr 1fr; /* верхняя | пулы | нижняя */
+  gap: 6px 12px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.pools-card .row {
+  display: contents;
+}
+.pools-card .row.head .cell {
+  font-weight: 700;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.pools-card .stage-start > .cell {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 8px;
+  margin-top: 4px;
+}
+
+.pools-card .cell {
+  /* общая «ячейка» */
+  color: #e9eef7;
+}
+
+.pools-card .uhead,
+.pools-card .lhead {
+  opacity: 0.75;
+}
+.pools-card .ulabel,
+.pools-card .llabel {
+  white-space: nowrap;
+  opacity: 0.9;
+}
+.pools-card .ulabel.ghost,
+.pools-card .llabel.ghost {
+  opacity: 0;
+}
+
+/* центральная колонка из 3 мини-столбцов: ТТ/СТ/ПТ */
+.pools-card .thead,
+.pools-card .tanks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+.pools-card .thead span {
+  font-weight: 700;
+  opacity: 0.8;
+  text-align: center;
+}
+tag_bucket {
+  padding: 4px 8px;
+  width: 100%;
+  text-align: center;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* «пилюли» танков */
+.pools-card .tag_bucket {
+  display: block;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: saturate(120%) blur(2px);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+/* сжатие на узких экранах */
+@media (max-width: 880px) {
+  .pools-card .pools-table {
+    grid-template-columns: 0.9fr 2fr 0.9fr;
+    font-size: 13px;
+  }
+}
+@media (max-width: 640px) {
+  .pools-card .pools-table {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .pools-card .row.head .cell {
+    display: none;
+  } /* прячем шапку */
+  .pools-card .ulabel,
+  .pools-card .llabel {
+    opacity: 0.8;
+  }
+  .pools-card .tanks {
+    grid-template-columns: repeat(3, minmax(90px, 1fr));
+  }
+  .pools-card .cell.lhead,
+  .pools-card .cell.uhead {
+    display: none;
+  }
+  .pools-card .cell.llabel::before {
+    content: "Нижняя: ";
+    opacity: 0.55;
+  }
+  .pools-card .cell.ulabel::before {
+    content: "Верхняя: ";
+    opacity: 0.55;
+  }
+}
+
+.pools-card .hint {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.7;
+}

@@ -444,14 +444,7 @@ def main():
         uniq[j["id"]] = j.get("name")
     jobs = [{"id": k, "name": v} for k, v in uniq.items()]
 
-    for i, job in enumerate(jobs, 1):
-        acc, name = job["id"], job.get("name")
-        print(f"[{i}/{len(jobs)}] {acc} ({name or '-'}) ... ", end="", flush=True)
-        data = scrape_one(acc, name, session=sess)
-        save_json(out_dir, data)
-        print("OK" if "error" not in data else f"ERR: {data['error']}")
-        time.sleep(args.delay)
-        all_rows: list[dict] = []
+    all_rows: list[dict] = []
 
     for i, job in enumerate(jobs, 1):
         acc, name = job["id"], job.get("name")

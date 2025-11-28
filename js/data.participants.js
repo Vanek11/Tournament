@@ -219,9 +219,9 @@ window.participants = [
     bucket: 3
   },
   {
-    name: "Заглушка",
-    clan: "WEIDE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    name: "BuTaJIuK_u3_IIuTepa",
+    clan: "OHEGO",
+    lestaUrl: "https://tanki.su/ru/community/accounts/23948104-BuTaJIuK_u3_IIuTepa/",
     bucket: 3
   },
   {

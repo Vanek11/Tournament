@@ -1,14 +1,18 @@
 {
   "accountId": 23948104,
-  "nickname": "BuTaJIuK_u3_IIuTepa",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 35035,
+  "wins": 17461,
+  "winRate": 49.84,
+  "avgDmg": 1094,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/23948104-BuTaJIuK_u3_IIuTepa/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-29T18:42:16Z"
+  "hitsPercents": 67.62,
+  "global_rating": 6011,
+  "avgExp": 558,
+  "maxExp": 2648,
+  "maxFrags": 10,
+  "masterCount": 49,
+  "vehiclesCount": 264,
+  "fetchedAt": "2025-11-29T21:05:41Z"
 }

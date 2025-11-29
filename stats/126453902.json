@@ -1,14 +1,18 @@
 {
   "accountId": 126453902,
-  "nickname": "qDanya",
-  "battles": 0,
-  "wins": null,
-  "winRate": 0.0,
-  "avgDmg": 0,
+  "nickname": "Мои игровые профили:",
+  "battles": 8109,
+  "wins": 5300,
+  "winRate": 65.36,
+  "avgDmg": 3664,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": null,
-  "global_rating": 0,
-  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/126453902-qDanya/\", waiting until \"domcontentloaded\"\n",
-  "fetchedAt": "2025-11-29T18:13:55Z"
+  "hitsPercents": 77.37,
+  "global_rating": 10889,
+  "avgExp": 1183,
+  "maxExp": 2802,
+  "maxFrags": 11,
+  "masterCount": 63,
+  "vehiclesCount": 91,
+  "fetchedAt": "2025-11-29T21:02:07Z"
 }

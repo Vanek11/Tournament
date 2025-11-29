@@ -1,18 +1,14 @@
 {
   "accountId": 72380096,
   "nickname": "O_k_Y_p_A_n_T",
-  "battles": 23678,
-  "wins": 12888,
-  "winRate": 54.43,
-  "avgDmg": 1721,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 65.42,
-  "global_rating": 8431,
-  "avgExp": 802,
-  "maxExp": 2709,
-  "maxFrags": 12,
-  "masterCount": 79,
-  "vehiclesCount": 280,
-  "fetchedAt": "2025-11-29T12:18:55Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/72380096-O_k_Y_p_A_n_T/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/72380096-O_k_Y_p_A_n_T/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-29T15:05:54Z"
 }

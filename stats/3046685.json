@@ -1,18 +1,14 @@
 {
   "accountId": 3046685,
   "nickname": "X0POLLIuu",
-  "battles": 80078,
-  "wins": 42986,
-  "winRate": 53.68,
-  "avgDmg": 1572,
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 68.56,
-  "global_rating": 8500,
-  "avgExp": 769,
-  "maxExp": 3144,
-  "maxFrags": 10,
-  "masterCount": 174,
-  "vehiclesCount": 434,
-  "fetchedAt": "2025-11-29T15:04:44Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: Timeout 80000ms exceeded.\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/3046685-X0POLLIuu/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-29T18:30:55Z"
 }

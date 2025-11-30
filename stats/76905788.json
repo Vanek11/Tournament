@@ -1,18 +1,14 @@
 {
   "accountId": 76905788,
-  "nickname": "Мои игровые профили:",
-  "battles": 20840,
-  "wins": 10499,
-  "winRate": 50.38,
-  "avgDmg": 1418,
+  "nickname": "DuT9l_4epHo6blJl9l",
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 65.78,
-  "global_rating": 6582,
-  "avgExp": 639,
-  "maxExp": 2915,
-  "maxFrags": 12,
-  "masterCount": 64,
-  "vehiclesCount": 270,
-  "fetchedAt": "2025-11-30T15:04:30Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "RuntimeError: Playwright DOM scrape failed: Page.goto: net::ERR_CONNECTION_CLOSED at https://tanki.su/ru/community/accounts/76905788-DuT9l_4epHo6blJl9l/\nCall log:\n  - navigating to \"https://tanki.su/ru/community/accounts/76905788-DuT9l_4epHo6blJl9l/\", waiting until \"domcontentloaded\"\n",
+  "fetchedAt": "2025-11-30T18:14:38Z"
 }

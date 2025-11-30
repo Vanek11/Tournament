@@ -1,18 +1,18 @@
 {
   "accountId": 23948104,
   "nickname": "Мои игровые профили:",
-  "battles": 35035,
-  "wins": 17461,
-  "winRate": 49.84,
-  "avgDmg": 1094,
+  "battles": 35061,
+  "wins": 17478,
+  "winRate": 49.85,
+  "avgDmg": 1095,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 67.62,
-  "global_rating": 6011,
-  "avgExp": 558,
+  "hitsPercents": 67.63,
+  "global_rating": 6015,
+  "avgExp": 559,
   "maxExp": 2648,
   "maxFrags": 10,
   "masterCount": 49,
   "vehiclesCount": 264,
-  "fetchedAt": "2025-11-29T21:05:41Z"
+  "fetchedAt": "2025-11-30T00:52:52Z"
 }

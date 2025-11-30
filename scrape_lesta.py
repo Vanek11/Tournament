@@ -2,21 +2,23 @@
 # -*- coding: utf-8 -*-
 """
 Скрапер статистики игроков с https://tanki.su
-Алгоритм:
-- Пробуем статику (requests + BS4).
-- Если ключевые поля пустые — рендерим страницу Playwright-ом,
-  дожидаемся появления чисел и СЧИТЫВАЕМ ИХ ИЗ DOM (page.evaluate),
-  а не через page.content().
-- Маппим подписи → значения и сохраняем JSON.
+
+Стратегия устойчивости:
+- Статика (requests + BS4).
+- Если ключевые поля пустые — Playwright с "мягким goto" и stealth.
+- Если и Playwright не дался — фолбэк Jina Reader (текстовая выдача).
+- Никогда не затираем хорошие JSON "нулём": при сбое оставляем старые.
+- index.json собираем как merge: старые + успешно обновлённые.
 """
 
 import re
 import json
 import time
+import random
 import asyncio
 import pathlib
 from datetime import datetime, timezone
-from typing import Dict, Optional, Iterable, Tuple
+from typing import Dict, Optional, Iterable, Tuple, List
 
 from bs4 import BeautifulSoup
 import requests
@@ -29,7 +31,7 @@ Session = requests.Session
 BASE = "https://tanki.su/ru/community/accounts"
 
 # ─────────────────────────────────────────────
-# Утилиты чисел
+# Утилиты чисел / нормализации
 
 def _clean_num(s: Optional[str]) -> Optional[float]:
     if not s:
@@ -85,48 +87,78 @@ def fetch_html(url: str, session: Optional[requests.Session] = None, timeout=30)
         "Referer": "https://tanki.su/",
     }
     last_err = None
-    for _ in range(3):
+    for i in range(3):
         try:
             resp = sess.get(url, headers=headers, timeout=timeout)
             resp.raise_for_status()
             return resp.text
         except Exception as e:
             last_err = e
-            time.sleep(1.0)
+            time.sleep(1.0 * (i + 1))
     raise last_err  # type: ignore[misc]
 
 # ─────────────────────────────────────────────
-# Рендер + чтение значений прямо из DOM
+# Рендер + чтение значений прямо из DOM (Playwright с улучшениями)
 
-async def _render_and_grab_dom_async(url: str, timeout_ms: int = 80000) -> Tuple[Dict[str, str], Optional[str]]:
+async def safe_goto(page, url: str) -> None:
+    """Мягкая навигация с тремя режимами ожидания и бэкоффом."""
+    modes = [("commit", 30000), ("domcontentloaded", 60000), ("load", 120000)]
+    for i, (wait_until, tm) in enumerate(modes):
+        try:
+            await page.goto(url, wait_until=wait_until, timeout=tm)
+            return
+        except Exception:
+            if i == len(modes) - 1:
+                raise
+            await asyncio.sleep(1.5 * (i + 1))
+
+async def _render_and_grab_dom_async(url: str) -> Tuple[Dict[str, str], Optional[str]]:
     from playwright.async_api import async_playwright
 
-    def _has_digits(s: Optional[str]) -> bool:
-        return bool(s and re.search(r"\d", s))
-
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+            ],
+        )
         context = await browser.new_context(
+            ignore_https_errors=True,
             user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                         "AppleWebKit/537.36 (KHTML, like Gecko) "
                         "Chrome/121.0 Safari/537.36"),
             locale="ru-RU",
             viewport={"width": 1280, "height": 900},
+            extra_http_headers={
+                "Accept-Language": "ru,en;q=0.9",
+                "Referer": "https://tanki.su/",
+            },
         )
 
-        # блокируем тяжёлые ресурсы (ускоряем и меньше шансов «вечно ждать»)
+        # stealth: прячем "webdriver", задаём языки/платформу
+        await context.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+            window.chrome = { runtime: {} };
+            Object.defineProperty(navigator, 'languages', {get: () => ['ru-RU','ru','en-US','en']});
+            Object.defineProperty(navigator, 'platform', {get: () => 'Win32'});
+        """)
+
+        page = await context.new_page()
+
+        # Блокируем только картинки/медиа (шрифты НЕ блокируем!)
         async def _route(route, request):
-            if request.resource_type in ("image", "media", "font"):
+            if request.resource_type in ("image", "media"):
                 await route.abort()
             else:
                 await route.continue_()
         await context.route("**/*", _route)
 
-        page = await context.new_page()
+        # Мягкий goto
+        await safe_goto(page, url)
 
-        await page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
-
-        # куки-баннер (мягкая попытка закрыть)
+        # Best effort: cookie-баннеры
         for sel in [
             'button:has-text("Соглас")',
             'button:has-text("Принять")',
@@ -142,62 +174,59 @@ async def _render_and_grab_dom_async(url: str, timeout_ms: int = 80000) -> Tuple
             except:
                 pass
 
-        # ждём, пока именно значения станут числовыми
-        await page.wait_for_selector(".stats_inner .stats_item .stats_text", timeout=45000)
+        # Ждём реальных числовых значений
+        await page.wait_for_selector(".stats_inner .stats_item .stats_value", timeout=60000)
         await page.wait_for_function(
             """() => {
-                const items = Array.from(document.querySelectorAll('.stats_inner .stats_item'));
-                let ok = 0;
-                for (const it of items) {
-                    const l = it.querySelector('.stats_text')?.textContent?.trim();
-                    const v = it.querySelector('.stats_value')?.textContent?.trim();
-                    if (l && v && /\\d/.test(v)) ok++;
-                }
-                return ok >= 5; // на странице как минимум несколько числовых показателей
+                const vals = Array.from(document.querySelectorAll('.stats_inner .stats_item .stats_value'))
+                    .map(n => n.textContent?.trim() || '');
+                return vals.some(v => /\\d/.test(v));
             }""",
-            timeout=45000
+            timeout=60000
         )
 
-        result = await page.evaluate(
-            """() => {
-                const out = {};
-                const items = document.querySelectorAll('.stats_inner .stats_item');
-                for (const it of items) {
-                    const lnode = it.querySelector('.stats_text');
-                    const vnode = it.querySelector('.stats_value');
-                    if (!lnode || !vnode) continue;
-                    const L = lnode.textContent?.trim() || '';
-                    let V = vnode.textContent?.trim() || '';
-                    out[L.replaceAll('\\u00AB','').replaceAll('\\u00BB','').toLowerCase()] = V;
-                }
-                const h1 = document.querySelector('h1');
-                const nickname = h1 ? h1.textContent.trim() : null;
-                return {stats: out, nickname};
-            }"""
-        )
-
-        stats_map = result.get("stats", {}) if isinstance(result, dict) else {}
-        nickname = result.get("nickname") if isinstance(result, dict) else None
+        result = await page.evaluate("""() => {
+            const out = {};
+            document.querySelectorAll('.stats_inner .stats_item').forEach(it => {
+                const l = it.querySelector('.stats_text')?.textContent?.trim() || '';
+                const v = it.querySelector('.stats_value')?.textContent?.trim() || '';
+                out[l.toLowerCase()] = v;
+            });
+            const h1 = document.querySelector('h1');
+            const nickname = h1 ? h1.textContent.trim() : null;
+            return {stats: out, nickname};
+        }""")
 
         await context.close()
         await browser.close()
 
-        # если вдруг цифр нет — как fallback обновим один раз
-        has_any = any(re.search(r"\d", v or "") for v in stats_map.values())
-        if not has_any:
-            # последний шанс
-            return {}, nickname
+        return result.get("stats", {}), result.get("nickname")
 
-        return stats_map, nickname
-
-def fetch_stats_rendered(url: str, timeout_ms: int = 80000) -> Tuple[Dict[str, str], Optional[str]]:
+def fetch_stats_rendered(url: str) -> Tuple[Dict[str, str], Optional[str]]:
     try:
-        return asyncio.run(_render_and_grab_dom_async(url, timeout_ms=timeout_ms))
+        return asyncio.run(_render_and_grab_dom_async(url))
     except Exception as e:
         raise RuntimeError(f"Playwright DOM scrape failed: {e}")
 
 # ─────────────────────────────────────────────
-# Парсинг из сырого HTML (статический) — как раньше
+# Фолбэк через Jina Reader (текст из отрендерённой страницы)
+
+def fetch_via_jina_text(url: str, timeout=60) -> Optional[str]:
+    try:
+        # Jina Reader: вернёт текст страницы, часто обходит сетевые капризы
+        proxied = "https://r.jina.ai/http/" + url.replace("https://", "").rstrip("/")
+        r = requests.get(
+            proxied, timeout=timeout,
+            headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "ru,en;q=0.9"}
+        )
+        if r.ok and len(r.text) > 500:
+            return r.text
+    except Exception:
+        pass
+    return None
+
+# ─────────────────────────────────────────────
+# Парсинг из сырого HTML (статический)
 
 def parse_profile_html_static(html: str, url: str) -> Dict:
     soup = BeautifulSoup(html, "lxml")
@@ -209,7 +238,6 @@ def parse_profile_html_static(html: str, url: str) -> Dict:
         tail = url.strip("/").split("/")[-1]
         nickname = tail.split("-", 1)[1] if "-" in tail else tail
 
-    # Собираем подписи → значения напрямую из .stats_item (если повезёт)
     stats_map: Dict[str, str] = {}
     inner = soup.select_one(".stats_inner")
     if inner:
@@ -224,16 +252,15 @@ def parse_profile_html_static(html: str, url: str) -> Dict:
     return _map_stats_to_data(stats_map, nickname, html)
 
 # ─────────────────────────────────────────────
-# Маппинг «подпись → значение» → итоговый JSON
+# Маппинг → итоговый JSON
 
 def _map_stats_to_data(stats_map_raw: Dict[str, str], nickname: Optional[str], html_for_fallback: Optional[str] = None) -> Dict:
-    # нормализуем ключи, чтобы не зависеть от регистров/пробелов
     stats_map = {_norm_label(k): v for k, v in stats_map_raw.items()}
 
     rating_txt = stats_map.get("личный рейтинг")
-    wins_txt   = stats_map.get("победы")                    # проценты
+    wins_txt   = stats_map.get("победы")
     battles_txt= stats_map.get("бои")
-    hits_txt   = stats_map.get("попадания")                 # проценты
+    hits_txt   = stats_map.get("попадания")
     dmg_txt    = stats_map.get("средний урон")
     avgexp_txt = stats_map.get("средний опыт за бой")
     maxexp_txt = stats_map.get("максимальный опыт за бой")
@@ -247,7 +274,7 @@ def _map_stats_to_data(stats_map_raw: Dict[str, str], nickname: Optional[str], h
     avgDmg        = _clean_int(dmg_txt) or 0
     avgExp        = _clean_int(avgexp_txt) if avgexp_txt else None
     maxExp        = _clean_int(maxexp_txt) if maxexp_txt else None
-    maxFrags      = _clean_int(maxfr_txt) if maxfr_txt else None
+    maxFrags      = _clean_int(maxfr_txt) if max_fr := maxfr_txt else None
 
     masterCount = vehiclesCount = None
     if master_txt:
@@ -275,7 +302,7 @@ def _map_stats_to_data(stats_map_raw: Dict[str, str], nickname: Optional[str], h
         "vehiclesCount": vehiclesCount,
     }
 
-    # Фоллбэки на случай «статический HTML» + нет DOM-значений:
+    # Фолбэки по сырому тексту
     if html_for_fallback:
         if data["battles"] == 0:
             m = RX["battles"].search(html_for_fallback)
@@ -308,7 +335,7 @@ def _map_stats_to_data(stats_map_raw: Dict[str, str], nickname: Optional[str], h
     return data
 
 # ─────────────────────────────────────────────
-# «Пусто?» — эвристика
+# Проверки валидности
 
 def seems_invalid(parsed: Dict) -> bool:
     zeros = 0
@@ -318,8 +345,10 @@ def seems_invalid(parsed: Dict) -> bool:
         zeros += 1
     if not parsed.get("avgDmg"):
         zeros += 1
-    # если 2+ ключевых поля пустые/нули — надо рендерить
     return zeros >= 2
+
+def is_good(data: Dict) -> bool:
+    return ("error" not in data) and (not seems_invalid(data))
 
 # ─────────────────────────────────────────────
 # Обвязка: список, сохранение
@@ -350,9 +379,18 @@ def save_json(out_dir: pathlib.Path, data: Dict):
     path = out_dir / f"{data['accountId']}.json"
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
+def load_index(out_dir: pathlib.Path) -> Dict[int, Dict]:
+    idx_path = out_dir / "index.json"
+    if not idx_path.exists():
+        return {}
+    try:
+        payload = json.loads(idx_path.read_text(encoding="utf-8"))
+        players = payload.get("players", [])
+        return {int(p.get("accountId")): p for p in players if "accountId" in p}
+    except Exception:
+        return {}
 
-# ── рядом с save_json ─────────────────────────────────────────────────────────
-def save_index(out_dir: pathlib.Path, items: list[dict]) -> None:
+def save_index(out_dir: pathlib.Path, items: List[Dict]) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     index_path = out_dir / "index.json"
     payload = {
@@ -362,7 +400,7 @@ def save_index(out_dir: pathlib.Path, items: list[dict]) -> None:
     index_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 # ─────────────────────────────────────────────
-# Основной пайп
+# Основной пайп одного профиля
 
 def scrape_one(account_id: int, nickname: Optional[str] = None, session=None) -> Dict:
     url = build_profile_url(account_id, nickname)
@@ -374,18 +412,25 @@ def scrape_one(account_id: int, nickname: Optional[str] = None, session=None) ->
         "hitsPercents": None, "global_rating": 0,
     }
     try:
-        # 1) пробуем статику
+        # 1) Статика
         html = fetch_html(url, session=session)
         parsed = parse_profile_html_static(html, url)
 
-        # 2) если пусто — читаем прямо из DOM через Playwright
+        # 2) DOM через Playwright — только если пусто
         if seems_invalid(parsed):
-            stats_map, dom_nickname = fetch_stats_rendered(url, timeout_ms=80000)
+            stats_map, dom_nickname = fetch_stats_rendered(url)
             if stats_map:
                 parsed2 = _map_stats_to_data(stats_map, dom_nickname or parsed.get("nickname"), None)
-                # если из DOM пришли осмысленные значения — используем их
                 if not seems_invalid(parsed2):
                     parsed = parsed2
+
+        # 3) Jina text fallback — если всё ещё пусто
+        if seems_invalid(parsed):
+            txt = fetch_via_jina_text(url)
+            if txt:
+                parsed3 = _map_stats_to_data({}, parsed.get("nickname"), txt)
+                if not seems_invalid(parsed3):
+                    parsed = parsed3
 
         data.update(parsed)
         data["fetchedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
@@ -395,6 +440,9 @@ def scrape_one(account_id: int, nickname: Optional[str] = None, session=None) ->
         data["fetchedAt"] = datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
         return data
 
+# ─────────────────────────────────────────────
+# CLI
+
 def main():
     import argparse
     ap = argparse.ArgumentParser(description="Скрапер статистики танкистов (tanki.su)")
@@ -402,7 +450,7 @@ def main():
     ap.add_argument("--url", type=str, nargs="*", help="Полные URL профилей")
     ap.add_argument("--input", type=str, help="participants.json или participants.txt/csv")
     ap.add_argument("--out", type=str, default="stats", help="Папка для JSON (default: stats)")
-    ap.add_argument("--delay", type=float, default=1.2, help="Пауза между запросами, сек")
+    ap.add_argument("--delay", type=float, default=1.2, help="Базовая пауза между запросами, сек (добавляется джиттер)")
     args = ap.parse_args()
 
     out_dir = pathlib.Path(args.out)
@@ -438,25 +486,43 @@ def main():
         print("Нечего парсить: укажи --id, --url или --input")
         return
 
-    # дедуп
+    # Дедуп по id
     uniq = {}
     for j in jobs:
         uniq[j["id"]] = j.get("name")
     jobs = [{"id": k, "name": v} for k, v in uniq.items()]
 
-    all_rows: list[dict] = []
+    # Загружаем предыдущий индекс для merge
+    prev_map = load_index(out_dir)
+    updated_map: Dict[int, Dict] = {}
 
     for i, job in enumerate(jobs, 1):
         acc, name = job["id"], job.get("name")
         print(f"[{i}/{len(jobs)}] {acc} ({name or '-'}) ... ", end="", flush=True)
-        data = scrape_one(acc, name, session=sess)
-        save_json(out_dir, data)          # оставим пофайлово — удобно дебажить
-        all_rows.append(data)             # собираем в общий массив
-        print("OK" if "error" not in data else f"ERR: {data['error']}")
-        time.sleep(args.delay)
 
-    # единый файл
-    save_index(out_dir, all_rows)
+        data = scrape_one(acc, name, session=sess)
+
+        dst = out_dir / f"{acc}.json"
+        if is_good(data):
+            save_json(out_dir, data)
+            updated_map[acc] = data
+            print("OK")
+        else:
+            # При сбое не перезаписываем хороший файл
+            if dst.exists():
+                print("SKIP: keep previous stats")
+                # оставим в индексе старую запись (из prev_map), если есть
+            else:
+                print(f"ERR: {data.get('error','invalid data')}")
+            # ничего не кладём в updated_map
+        time.sleep(args.delay + random.uniform(0.5, 1.2))
+
+    # Собираем индекс: старые + обновлённые
+    merged = dict(prev_map)
+    merged.update(updated_map)
+    # Превращаем в список; можно сортировать по accountId
+    items = [merged[k] for k in sorted(merged.keys())]
+    save_index(out_dir, items)
 
 if __name__ == "__main__":
     main()

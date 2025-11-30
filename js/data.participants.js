@@ -150,9 +150,9 @@ window.participants = [
     bucket: 2
   },
   {
-    name: "Заглушка",
+    name: "Awessome_",
     clan: "WEIDE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    lestaUrl: "https://tanki.su/ru/community/accounts/260637298-Awessome_/",
     bucket: 2
   },
 
@@ -225,9 +225,9 @@ window.participants = [
     bucket: 3
   },
   {
-    name: "Заглушка",
-    clan: "WEIDE",
-    lestaUrl: "https://tanki.su/ru/community/accounts/20778095-TheVinchester/",
+    name: "Hupper",
+    clan: "T-MAN",
+    lestaUrl: "https://tanki.su/ru/community/accounts/61780962-Hupper/",
     bucket: 3
   },
 ];

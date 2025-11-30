@@ -1,10 +1,10 @@
 {
   "accountId": 111965257,
-  "nickname": "Punisherr",
-  "battles": 31735,
-  "wins": 20764,
-  "winRate": 65.43,
-  "avgDmg": 3654,
+  "nickname": "Мои игровые профили:",
+  "battles": 31760,
+  "wins": 20784,
+  "winRate": 65.44,
+  "avgDmg": 3652,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 78.08,
@@ -14,5 +14,5 @@
   "maxFrags": 10,
   "masterCount": 189,
   "vehiclesCount": 208,
-  "fetchedAt": "2025-11-30T00:49:45Z"
+  "fetchedAt": "2025-11-30T03:53:06Z"
 }

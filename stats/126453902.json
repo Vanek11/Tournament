@@ -1,18 +1,14 @@
 {
   "accountId": 126453902,
-  "nickname": "Мои игровые профили:",
-  "battles": 8109,
-  "wins": 5300,
-  "winRate": 65.36,
-  "avgDmg": 3664,
+  "nickname": "qDanya",
+  "battles": 0,
+  "wins": null,
+  "winRate": 0.0,
+  "avgDmg": 0,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 77.37,
-  "global_rating": 10889,
-  "avgExp": 1183,
-  "maxExp": 2802,
-  "maxFrags": 11,
-  "masterCount": 63,
-  "vehiclesCount": 91,
-  "fetchedAt": "2025-11-30T06:14:23Z"
+  "hitsPercents": null,
+  "global_rating": 0,
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='tanki.su', port=443): Max retries exceeded with url: /ru/community/accounts/126453902-qDanya/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fc5b56e4290>, 'Connection to tanki.su timed out. (connect timeout=30)'))",
+  "fetchedAt": "2025-11-30T09:09:25Z"
 }

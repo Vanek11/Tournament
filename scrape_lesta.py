@@ -274,7 +274,7 @@ def _map_stats_to_data(stats_map_raw: Dict[str, str], nickname: Optional[str], h
     avgDmg        = _clean_int(dmg_txt) or 0
     avgExp        = _clean_int(avgexp_txt) if avgexp_txt else None
     maxExp        = _clean_int(maxexp_txt) if maxexp_txt else None
-    maxFrags      = _clean_int(maxfr_txt) if max_fr := maxfr_txt else None
+    maxFrags      = _clean_int(maxfr_txt) if maxfr_txt else None
 
     masterCount = vehiclesCount = None
     if master_txt:

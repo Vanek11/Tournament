@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2025-12-01T19:12:03Z",
+  "generatedAt": "2025-12-01T21:10:00Z",
   "players": [
     {
       "accountId": 170363,
       "nickname": "Xsides",
-      "battles": 16301,
-      "wins": 8511,
-      "winRate": 52.21,
+      "battles": 16313,
+      "wins": 8519,
+      "winRate": 52.22,
       "avgDmg": 1258,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 64.56,
-      "global_rating": 6817,
+      "hitsPercents": 64.55,
+      "global_rating": 6820,
       "avgExp": 669,
       "maxExp": 2598,
       "maxFrags": 11,
       "masterCount": 48,
       "vehiclesCount": 234,
-      "fetchedAt": "2025-12-01T12:22:53Z"
+      "fetchedAt": "2025-12-01T21:08:50Z"
     },
     {
       "accountId": 328441,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 49,
       "vehiclesCount": 264,
-      "fetchedAt": "2025-12-01T18:23:11Z"
+      "fetchedAt": "2025-12-01T21:09:58Z"
     },
     {
       "accountId": 24040492,
@@ -255,9 +255,9 @@
     },
     {
       "accountId": 28909483,
-      "nickname": "Мои игровые профили:",
-      "battles": 43693,
-      "wins": 26059,
+      "nickname": "CJIa6blu_Mycop",
+      "battles": 43700,
+      "wins": 26063,
       "winRate": 59.64,
       "avgDmg": 2198,
       "avgFrags": null,
@@ -269,7 +269,7 @@
       "maxFrags": 10,
       "masterCount": 126,
       "vehiclesCount": 248,
-      "fetchedAt": "2025-11-30T18:14:15Z"
+      "fetchedAt": "2025-12-01T21:04:00Z"
     },
     {
       "accountId": 31734601,
@@ -288,6 +288,24 @@
       "masterCount": 181,
       "vehiclesCount": 263,
       "fetchedAt": "2025-12-01T18:17:03Z"
+    },
+    {
+      "accountId": 31960984,
+      "nickname": "__NeRV",
+      "battles": 61668,
+      "wins": 30117,
+      "winRate": 48.84,
+      "avgDmg": 1149,
+      "avgFrags": null,
+      "surviveRate": null,
+      "hitsPercents": 67.22,
+      "global_rating": 6142,
+      "avgExp": 557,
+      "maxExp": 2784,
+      "maxFrags": 9,
+      "masterCount": 109,
+      "vehiclesCount": 413,
+      "fetchedAt": "2025-11-30T19:49:28Z"
     },
     {
       "accountId": 33974749,
@@ -432,24 +450,6 @@
       "masterCount": 64,
       "vehiclesCount": 270,
       "fetchedAt": "2025-11-30T18:16:34Z"
-    },
-    {
-      "accountId": 31960984,
-      "nickname": "__NeRV",
-      "battles": 61668,
-      "wins": 30117,
-      "winRate": 48.84,
-      "avgDmg": 1149,
-      "avgFrags": null,
-      "surviveRate": null,
-      "hitsPercents": 67.22,
-      "global_rating": 6142,
-      "avgExp": 557,
-      "maxExp": 2784,
-      "maxFrags": 9,
-      "masterCount": 109,
-      "vehiclesCount": 413,
-      "fetchedAt": "2025-11-30T19:49:28Z"
     },
     {
       "accountId": 89288809,

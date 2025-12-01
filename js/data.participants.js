@@ -198,9 +198,9 @@ window.participants = [
     bucket: 3
   },
   {
-    name: "_MogHbIu_MaJIb4uK",
-    clan: "OHEGO",
-    lestaUrl: "https://tanki.su/ru/community/accounts/82066931-_MogHbIu_MaJIb4uK/",
+    name: "__NeRV",
+    clan: "SCUFY",
+    lestaUrl: "https://tanki.su/ru/community/accounts/31960984-__NeRV/",
     bucket: 3
   },
   {
@@ -249,6 +249,9 @@ window.participants = [
     name: "Hupper",
     clan: "T-MAN",
     lestaUrl: "https://tanki.su/ru/community/accounts/61780962-Hupper/",
-    bucket: 3
+    bucket: 3,
+      streams: [
+        { platform: "vk",  url: "https://live.vkvideo.ru/hupper" }
+      ]
   },
 ];

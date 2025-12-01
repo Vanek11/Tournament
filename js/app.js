@@ -153,6 +153,8 @@ function guessPlatform(u){
     if (h.includes('wasd')) return 'wasd';
     if (h.includes('kick')) return 'kick';
     if (h.includes('vk')) return 'vk';
+    if (h.includes('rutube')) return 'rutube';
+
 
     // Telegram (http(s) и deep links)
     if (
@@ -180,6 +182,7 @@ function guessPlatform(u){
       kick:'Kick',
       vk:'VK',
       telegram:'Telegram',
+      rutube:'RUTUBE',
       other:'Стрим'
     })[p] || p;
   }
@@ -199,11 +202,14 @@ function guessPlatform(u){
         </svg>`;
       case 'vk':
         return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-          <path fill="currentColor" d="M3 7h3l2 4 2-4h3l-3 5 3 5h-3l-2-4-2 4H3l3-5z"/>
+          <path fill="currentColor" d="M12 2.04C6.48 2.04 2.04 6.48 2.04 12S6.48 21.96 12 21.96 21.96 17.52 21.96 12 17.52 2.04 12 2.04zm4.87 14.53h-1.41c-.54 0-.71-.44-1.69-1.42-.86-.84-1.24-.95-1.45-.95-.3 0-.38.09-.38.53v1.21c0 .38-.12.53-.9.53-1.66 0-3.51-1.06-4.81-3.03C4.97 11.47 4.5 10.1 4.5 9.89c0-.2.16-.35.57-.35h1.41c.42 0 .58.2.74.62.8 2.06 2.14 3.63 2.65 3.63.21 0 .3-.1.3-.58v-1.72c-.06-1.01-.61-1.08-.61-1.44 0-.17.14-.33.38-.33h2c.33 0 .43.16.43.49v2.62c0 .3.13.41.22.41.21 0 .38-.11.74-.43 1.14-1.02 1.99-2.67 1.99-2.67.11-.24.28-.46.69-.46h1.41c.56 0 .69.27.57.62-.24.67-1.57 2.65-1.66 2.8-.13.21-.18.3 0 .49.13.18.58.56.9.89.55.6.98 1.11 1.09 1.43.11.31-.07.49-.55.49z"/>
         </svg>`;
       case 'trovo':
         return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-          <path fill="currentColor" d="M3 4h18l-8 8 2 8-5-5L3 4z"/>
+          <g transform="translate(1 1) scale(0.88)">
+            <path fill="currentColor"
+              d="M9.2 2.5c.2-.9.8-1.5 1.7-1.5h6.5c.9 0 1.4.7 1.2 1.5l-1.8 7h5.2c.9 0 1.5.9 1.3 1.7l-2.2 8c-.2.6-.8 1-1.5 1l-5-.2c-.7 2.5-3.3 4.6-7 4-4.1-.7-6.6-5.7-3.8-9.3 2.4-3 7.1-3.5 9.8-.7 1 1 1 2.7-.1 3.7a2.7 2.7 0 0 1-3.7-.1 1.6 1.6 0 0 0 .1-2.5c-.7-.5-1.7-.4-2.3.2-1.5 1.4-1 3.9.8 5 1.9 1.2 4.5.7 5.7-1.2.6-1 .8-2.2.4-3.3l-5.5-.3c-.9 0-1.6-.8-1.4-1.7l1-3.8H5.1c-.9 0-1.5-.9-1.3-1.7l2-7.6c.2-.6.8-1 1.4-1H8c.4 0 .7-.3.8-.7l.4-1.3Z"/>
+          </g>
         </svg>`;
       case 'kick':
         return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
@@ -225,6 +231,14 @@ function guessPlatform(u){
         return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
           <!-- упрощённый бумажный самолётик -->
           <path fill="currentColor" d="M21.3 4.2 2.6 11.8a.9.9 0 0 0 .1 1.7l4.7 1.4 1.8 4.9a.9.9 0 0 0 1.6.1l2.8-4 4.7 3.4a.9.9 0 0 0 1.4-.6l2.6-12.9a.9.9 0 0 0-1-.96zM8.7 13.6l8.5-6.1-6.9 7.6-.5 2.5-1.1-3z"/>
+        </svg>`;
+      case 'rutube':
+        return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <!-- кольцо -->
+          <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+          <!-- R -->
+          <path fill="currentColor"
+            d="M8 6h6c2.8 0 4.5 1.6 4.5 4.2 0 2.2-1.3 3.7-3.4 4.1l3.3 4.7h-3.2L12.6 14H10v5H8V6Zm2 2v4h3.1c1.5 0 2.4-.7 2.4-2s-.9-2-2.4-2H10Z"/>
         </svg>`;
       default:
         return `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">

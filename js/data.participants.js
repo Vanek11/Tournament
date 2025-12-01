@@ -4,7 +4,11 @@ window.participants = [
     name: "JIauM",
     clan: "QGS",
     lestaUrl: "https://tanki.su/ru/community/accounts/121158863-JIauM/",
-    bucket: 1
+    bucket: 1,
+      streams: [
+        { platform: "vk",  url: "https://live.vkplay.ru/laim_" },
+        { platform: "youtube", url: "https://www.youtube.com/@JIauM_"}
+      ]
   },
   {
     name: "_WonderWul_",
@@ -16,7 +20,10 @@ window.participants = [
     name: "_8888_8888_",
     clan: "G_O_W",
     lestaUrl: "https://tanki.su/ru/community/accounts/24040492-_8888_8888_/",
-    bucket: 1
+    bucket: 1,
+      streams: [
+        { platform: "vk",  url: "https://live.vkvideo.ru/_8888_8888_" }
+      ]
   },
   {
     name: "Fl0wers_",
@@ -28,7 +35,10 @@ window.participants = [
     name: "qDanya",
     clan: "ALFA-",
     lestaUrl: "https://tanki.su/ru/community/accounts/126453902-qDanya/",
-    bucket: 1
+    bucket: 1,
+      streams: [
+        { platform: "vk",  url: "https://live.vkvideo.ru/qdanya" }
+      ]
   },
   {
     name: "SIXsix",
@@ -36,7 +46,8 @@ window.participants = [
     lestaUrl: "https://tanki.su/ru/community/accounts/172140333-SIXsix/",
     bucket: 1,
       streams: [
-        { platform: "tg",  url: "https://t.me/sixplayers" }
+        { platform: "tg",  url: "https://t.me/sixplayers" },
+        { platform: "vk",  url: "https://live.vkvideo.ru/sixsix" }
       ]
   },
   {
@@ -79,7 +90,11 @@ window.participants = [
     name: "Punisherr",
     clan: "PNIKA",
     lestaUrl: "https://tanki.su/ru/community/accounts/111965257-Punisherr/",
-    bucket: 1
+    bucket: 1,
+      streams: [
+        { platform: "youtube", url: "https://www.youtube.com/@666Punisher" },
+        { platform: "vk",  url: "https://live.vkvideo.ru/666punisher" },
+      ]
   },
 
   // =================== КОРЗИНА 2 ===================
@@ -162,7 +177,13 @@ window.participants = [
     name: "CrazylFoxy",
     clan: "Без клана",
     lestaUrl: "https://tanki.su/ru/community/accounts/67463356-CrazylFoxy/",
-    bucket: 3
+    bucket: 3,
+      streams: [
+        { platform: "vk",  url: "https://vkplay.live/crazylfoxy" },
+        { platform: "youtube", url: "https://www.youtube.com/@CrazyFoxy" },
+        { platform: "rutube", url: "https://rutube.ru/channel/1396606/" },
+        { platform: "trovo", url: "https://trovo.live/s/CrazyFoxy" }
+      ]
   },
   {
     name: "Aleksey4star",

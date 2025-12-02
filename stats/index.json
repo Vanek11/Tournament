@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-02T03:49:31Z",
+  "generatedAt": "2025-12-02T06:21:14Z",
   "players": [
     {
       "accountId": 170363,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 144,
       "vehiclesCount": 402,
-      "fetchedAt": "2025-12-02T00:47:49Z"
+      "fetchedAt": "2025-12-02T06:20:44Z"
     },
     {
       "accountId": 10961226,
@@ -179,7 +179,7 @@
       "maxFrags": 9,
       "masterCount": 144,
       "vehiclesCount": 305,
-      "fetchedAt": "2025-12-01T06:19:36Z"
+      "fetchedAt": "2025-12-02T06:19:53Z"
     },
     {
       "accountId": 20705422,
@@ -256,9 +256,9 @@
     {
       "accountId": 28909483,
       "nickname": "CJIa6blu_Mycop",
-      "battles": 43700,
-      "wins": 26063,
-      "winRate": 59.64,
+      "battles": 43705,
+      "wins": 26070,
+      "winRate": 59.65,
       "avgDmg": 2198,
       "avgFrags": null,
       "surviveRate": null,
@@ -269,7 +269,7 @@
       "maxFrags": 10,
       "masterCount": 126,
       "vehiclesCount": 248,
-      "fetchedAt": "2025-12-01T21:04:00Z"
+      "fetchedAt": "2025-12-02T06:18:11Z"
     },
     {
       "accountId": 31734601,
@@ -292,20 +292,20 @@
     {
       "accountId": 31960984,
       "nickname": "__NeRV",
-      "battles": 61668,
-      "wins": 30117,
+      "battles": 61675,
+      "wins": 30122,
       "winRate": 48.84,
       "avgDmg": 1149,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.22,
-      "global_rating": 6142,
+      "global_rating": 6143,
       "avgExp": 557,
       "maxExp": 2784,
       "maxFrags": 9,
       "masterCount": 109,
-      "vehiclesCount": 413,
-      "fetchedAt": "2025-11-30T19:49:28Z"
+      "vehiclesCount": 414,
+      "fetchedAt": "2025-12-02T06:20:05Z"
     },
     {
       "accountId": 33974749,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 215,
       "vehiclesCount": 348,
-      "fetchedAt": "2025-12-02T03:49:23Z"
+      "fetchedAt": "2025-12-02T06:21:02Z"
     },
     {
       "accountId": 63280344,
@@ -454,20 +454,20 @@
     {
       "accountId": 89288809,
       "nickname": "New_KPuBou",
-      "battles": 47433,
-      "wins": 28540,
-      "winRate": 60.17,
+      "battles": 47463,
+      "wins": 28563,
+      "winRate": 60.18,
       "avgDmg": 2595,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.69,
-      "global_rating": 11310,
+      "global_rating": 11311,
       "avgExp": 1000,
       "maxExp": 3432,
       "maxFrags": 9,
       "masterCount": 221,
       "vehiclesCount": 366,
-      "fetchedAt": "2025-12-01T06:18:25Z"
+      "fetchedAt": "2025-12-02T06:18:45Z"
     },
     {
       "accountId": 90586270,
@@ -507,21 +507,21 @@
     },
     {
       "accountId": 115214305,
-      "nickname": "Arrow_134",
-      "battles": 29044,
-      "wins": 16302,
+      "nickname": "Мои игровые профили:",
+      "battles": 29074,
+      "wins": 16319,
       "winRate": 56.13,
       "avgDmg": 1805,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 72.99,
-      "global_rating": 8776,
-      "avgExp": 862,
+      "global_rating": 8777,
+      "avgExp": 863,
       "maxExp": 2898,
       "maxFrags": 9,
       "masterCount": 75,
       "vehiclesCount": 241,
-      "fetchedAt": "2025-11-30T19:49:28Z"
+      "fetchedAt": "2025-12-02T06:20:55Z"
     },
     {
       "accountId": 121158863,

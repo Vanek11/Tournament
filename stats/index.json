@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-01T21:10:00Z",
+  "generatedAt": "2025-12-02T00:48:12Z",
   "players": [
     {
       "accountId": 170363,
@@ -130,8 +130,8 @@
     {
       "accountId": 4162197,
       "nickname": "AskidMobile",
-      "battles": 65963,
-      "wins": 35561,
+      "battles": 65974,
+      "wins": 35567,
       "winRate": 53.91,
       "avgDmg": 1621,
       "avgFrags": null,
@@ -142,8 +142,8 @@
       "maxExp": 2943,
       "maxFrags": 10,
       "masterCount": 144,
-      "vehiclesCount": 401,
-      "fetchedAt": "2025-12-01T09:20:47Z"
+      "vehiclesCount": 402,
+      "fetchedAt": "2025-12-02T00:47:49Z"
     },
     {
       "accountId": 10961226,
@@ -220,8 +220,8 @@
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 35061,
-      "wins": 17478,
+      "battles": 35064,
+      "wins": 17479,
       "winRate": 49.85,
       "avgDmg": 1095,
       "avgFrags": null,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 49,
       "vehiclesCount": 264,
-      "fetchedAt": "2025-12-01T21:09:58Z"
+      "fetchedAt": "2025-12-02T00:48:10Z"
     },
     {
       "accountId": 24040492,
@@ -525,11 +525,11 @@
     },
     {
       "accountId": 121158863,
-      "nickname": "JIauM",
-      "battles": 31411,
-      "wins": 20276,
+      "nickname": "Мои игровые профили:",
+      "battles": 31420,
+      "wins": 20282,
       "winRate": 64.55,
-      "avgDmg": 2947,
+      "avgDmg": 2948,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 70.26,
@@ -537,9 +537,9 @@
       "avgExp": 1157,
       "maxExp": 3563,
       "maxFrags": 12,
-      "masterCount": 183,
+      "masterCount": 184,
       "vehiclesCount": 243,
-      "fetchedAt": "2025-11-30T19:43:16Z"
+      "fetchedAt": "2025-12-02T00:43:33Z"
     },
     {
       "accountId": 123578506,

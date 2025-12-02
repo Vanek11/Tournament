@@ -1,3 +1,4 @@
+# python scrape_lesta.py --input participants.json
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """

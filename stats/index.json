@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-02T18:22:08Z",
+  "generatedAt": "2025-12-02T21:06:23Z",
   "players": [
     {
       "accountId": 170363,
@@ -130,20 +130,20 @@
     {
       "accountId": 4162197,
       "nickname": "AskidMobile",
-      "battles": 65974,
-      "wins": 35567,
-      "winRate": 53.91,
+      "battles": 65984,
+      "wins": 35579,
+      "winRate": 53.92,
       "avgDmg": 1621,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 66.55,
-      "global_rating": 9153,
+      "global_rating": 9154,
       "avgExp": 801,
       "maxExp": 2943,
       "maxFrags": 10,
       "masterCount": 144,
       "vehiclesCount": 402,
-      "fetchedAt": "2025-12-02T09:21:49Z"
+      "fetchedAt": "2025-12-02T21:05:44Z"
     },
     {
       "accountId": 10961226,
@@ -166,20 +166,20 @@
     {
       "accountId": 17864806,
       "nickname": "Aleksey4star",
-      "battles": 36820,
-      "wins": 19842,
-      "winRate": 53.89,
+      "battles": 36829,
+      "wins": 19851,
+      "winRate": 53.9,
       "avgDmg": 1491,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.73,
-      "global_rating": 8593,
+      "hitsPercents": 68.74,
+      "global_rating": 8594,
       "avgExp": 649,
       "maxExp": 2780,
       "maxFrags": 9,
       "masterCount": 144,
-      "vehiclesCount": 305,
-      "fetchedAt": "2025-12-02T08:01:38Z"
+      "vehiclesCount": 306,
+      "fetchedAt": "2025-12-02T21:04:36Z"
     },
     {
       "accountId": 20705422,
@@ -305,25 +305,25 @@
       "maxFrags": 9,
       "masterCount": 109,
       "vehiclesCount": 414,
-      "fetchedAt": "2025-12-02T08:01:47Z"
+      "fetchedAt": "2025-12-02T21:04:58Z"
     },
     {
       "accountId": 33974749,
       "nickname": "_WonderWul_",
-      "battles": 33262,
-      "wins": 19139,
-      "winRate": 57.54,
-      "avgDmg": 2296,
+      "battles": 33288,
+      "wins": 19157,
+      "winRate": 57.55,
+      "avgDmg": 2297,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.44,
-      "global_rating": 9972,
+      "hitsPercents": 73.45,
+      "global_rating": 9976,
       "avgExp": 889,
       "maxExp": 3215,
       "maxFrags": 10,
       "masterCount": 176,
       "vehiclesCount": 314,
-      "fetchedAt": "2025-12-02T15:01:54Z"
+      "fetchedAt": "2025-12-02T21:01:47Z"
     },
     {
       "accountId": 48487007,
@@ -363,21 +363,21 @@
     },
     {
       "accountId": 63280344,
-      "nickname": "Мои игровые профили:",
-      "battles": 50081,
-      "wins": 28626,
-      "winRate": 57.16,
-      "avgDmg": 1858,
+      "nickname": "11_vanek_11",
+      "battles": 50103,
+      "wins": 28644,
+      "winRate": 57.17,
+      "avgDmg": 1859,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.7,
-      "global_rating": 9186,
+      "global_rating": 9187,
       "avgExp": 817,
       "maxExp": 3671,
       "maxFrags": 10,
       "masterCount": 220,
       "vehiclesCount": 424,
-      "fetchedAt": "2025-12-02T08:01:06Z"
+      "fetchedAt": "2025-12-02T21:03:45Z"
     },
     {
       "accountId": 67463356,
@@ -489,21 +489,21 @@
     },
     {
       "accountId": 111965257,
-      "nickname": "Мои игровые профили:",
-      "battles": 31863,
-      "wins": 20854,
+      "nickname": "Punisherr",
+      "battles": 31906,
+      "wins": 20882,
       "winRate": 65.45,
-      "avgDmg": 3645,
+      "avgDmg": 3642,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 78.08,
-      "global_rating": 12449,
+      "global_rating": 12448,
       "avgExp": 1257,
       "maxExp": 3447,
       "maxFrags": 10,
       "masterCount": 189,
       "vehiclesCount": 208,
-      "fetchedAt": "2025-12-02T07:59:52Z"
+      "fetchedAt": "2025-12-02T21:02:55Z"
     },
     {
       "accountId": 115214305,
@@ -598,9 +598,9 @@
     {
       "accountId": 172140333,
       "nickname": "SIXsix",
-      "battles": 9242,
-      "wins": 5794,
-      "winRate": 62.69,
+      "battles": 9247,
+      "wins": 5796,
+      "winRate": 62.68,
       "avgDmg": 3302,
       "avgFrags": null,
       "surviveRate": null,
@@ -611,7 +611,7 @@
       "maxFrags": 9,
       "masterCount": 86,
       "vehiclesCount": 140,
-      "fetchedAt": "2025-12-02T07:59:21Z"
+      "fetchedAt": "2025-12-02T21:02:13Z"
     },
     {
       "accountId": 208174535,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 50,
-      "fetchedAt": "2025-12-02T07:59:26Z"
+      "fetchedAt": "2025-12-02T21:02:19Z"
     },
     {
       "accountId": 260637298,

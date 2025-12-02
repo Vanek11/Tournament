@@ -1,18 +1,18 @@
 {
   "accountId": 4162197,
   "nickname": "AskidMobile",
-  "battles": 65974,
-  "wins": 35567,
-  "winRate": 53.91,
+  "battles": 65984,
+  "wins": 35579,
+  "winRate": 53.92,
   "avgDmg": 1621,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 66.55,
-  "global_rating": 9153,
+  "global_rating": 9154,
   "avgExp": 801,
   "maxExp": 2943,
   "maxFrags": 10,
   "masterCount": 144,
   "vehiclesCount": 402,
-  "fetchedAt": "2025-12-02T09:21:49Z"
+  "fetchedAt": "2025-12-02T21:05:44Z"
 }

@@ -138,7 +138,10 @@ window.participants = [
     name: "ScreamMyNames",
     clan: "WEIDE",
     lestaUrl: "https://tanki.su/ru/community/accounts/70467784-ScreamMyNames/",
-    bucket: 2
+    bucket: 2,
+      streams: [
+        { platform: "vk",  url: "https://live.vkvideo.ru/11_vanek_11" }
+      ]
   },
   {
     name: "11_vanek_11",

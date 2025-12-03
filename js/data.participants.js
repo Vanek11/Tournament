@@ -63,9 +63,9 @@ window.participants = [
       ]
   },
   {
-    name: "PROKTOJlOG",
+    name: "CHl0C",
     clan: "Без клана",
-    lestaUrl: "https://tanki.su/ru/community/accounts/2455009-PROKTOJlOG/",
+    lestaUrl: "https://tanki.su/ru/community/accounts/2455009-CHl0C/",
     bucket: 1
   },
   {

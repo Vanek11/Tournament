@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-04T13:17:36Z",
+  "generatedAt": "2025-12-04T15:06:34Z",
   "players": [
     {
       "accountId": 170363,
@@ -94,20 +94,20 @@
     {
       "accountId": 2682543,
       "nickname": "Soind",
-      "battles": 74968,
-      "wins": 42649,
+      "battles": 75011,
+      "wins": 42674,
       "winRate": 56.89,
-      "avgDmg": 1574,
+      "avgDmg": 1575,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 69.19,
-      "global_rating": 9392,
-      "avgExp": 768,
+      "global_rating": 9395,
+      "avgExp": 769,
       "maxExp": 3633,
       "maxFrags": 11,
-      "masterCount": 312,
-      "vehiclesCount": 710,
-      "fetchedAt": "2025-12-02T18:17:03Z"
+      "masterCount": 314,
+      "vehiclesCount": 713,
+      "fetchedAt": "2025-12-04T15:03:34Z"
     },
     {
       "accountId": 3046685,
@@ -130,7 +130,7 @@
     {
       "accountId": 4162197,
       "nickname": "AskidMobile",
-      "battles": 65984,
+      "battles": 65985,
       "wins": 35579,
       "winRate": 53.92,
       "avgDmg": 1621,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 144,
       "vehiclesCount": 402,
-      "fetchedAt": "2025-12-03T12:23:26Z"
+      "fetchedAt": "2025-12-04T15:06:11Z"
     },
     {
       "accountId": 10961226,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 184,
       "vehiclesCount": 243,
-      "fetchedAt": "2025-12-04T00:43:29Z"
+      "fetchedAt": "2025-12-04T15:01:53Z"
     },
     {
       "accountId": 123578506,

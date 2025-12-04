@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-04T18:20:57Z",
+  "generatedAt": "2025-12-04T21:07:53Z",
   "players": [
     {
       "accountId": 170363,
@@ -292,20 +292,20 @@
     {
       "accountId": 31960984,
       "nickname": "__NeRV",
-      "battles": 61675,
-      "wins": 30122,
-      "winRate": 48.84,
-      "avgDmg": 1149,
+      "battles": 61731,
+      "wins": 30156,
+      "winRate": 48.85,
+      "avgDmg": 1150,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 67.22,
-      "global_rating": 6143,
+      "hitsPercents": 67.23,
+      "global_rating": 6150,
       "avgExp": 557,
       "maxExp": 2784,
       "maxFrags": 9,
       "masterCount": 109,
       "vehiclesCount": 414,
-      "fetchedAt": "2025-12-02T21:04:58Z"
+      "fetchedAt": "2025-12-04T21:06:30Z"
     },
     {
       "accountId": 33974749,
@@ -346,38 +346,38 @@
     {
       "accountId": 61780962,
       "nickname": "Hupper",
-      "battles": 46753,
-      "wins": 27743,
+      "battles": 46855,
+      "wins": 27804,
       "winRate": 59.34,
-      "avgDmg": 2358,
+      "avgDmg": 2359,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 76.07,
-      "global_rating": 10641,
+      "hitsPercents": 76.06,
+      "global_rating": 10645,
       "avgExp": 975,
       "maxExp": 3326,
       "maxFrags": 11,
       "masterCount": 215,
       "vehiclesCount": 348,
-      "fetchedAt": "2025-12-02T08:02:25Z"
+      "fetchedAt": "2025-12-04T21:07:42Z"
     },
     {
       "accountId": 63280344,
       "nickname": "11_vanek_11",
-      "battles": 50178,
-      "wins": 28682,
-      "winRate": 57.16,
-      "avgDmg": 1858,
+      "battles": 50245,
+      "wins": 28715,
+      "winRate": 57.15,
+      "avgDmg": 1856,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.71,
-      "global_rating": 9186,
+      "hitsPercents": 68.72,
+      "global_rating": 9180,
       "avgExp": 817,
       "maxExp": 3671,
       "maxFrags": 10,
       "masterCount": 220,
       "vehiclesCount": 424,
-      "fetchedAt": "2025-12-04T00:46:17Z"
+      "fetchedAt": "2025-12-04T21:04:55Z"
     },
     {
       "accountId": 67463356,
@@ -508,20 +508,20 @@
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 29146,
-      "wins": 16365,
+      "battles": 29154,
+      "wins": 16370,
       "winRate": 56.15,
       "avgDmg": 1806,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.01,
-      "global_rating": 8783,
+      "hitsPercents": 73.02,
+      "global_rating": 8784,
       "avgExp": 863,
       "maxExp": 2898,
       "maxFrags": 9,
       "masterCount": 76,
       "vehiclesCount": 242,
-      "fetchedAt": "2025-12-04T18:20:39Z"
+      "fetchedAt": "2025-12-04T21:07:28Z"
     },
     {
       "accountId": 121158863,

@@ -1,17 +1,17 @@
 {
   "teams": [
-    { "seed": 1,  "name": "Team #1",  "players": ["A1","B1","C1"] },
-    { "seed": 2,  "name": "Team #2",  "players": ["A2","B2","C2"] },
-    { "seed": 3,  "name": "Team #3",  "players": ["A3","B3","C3"] },
-    { "seed": 4,  "name": "Team #4",  "players": ["A4","B4","C4"] },
-    { "seed": 5,  "name": "Team #5",  "players": ["A5","B5","C5"] },
-    { "seed": 6,  "name": "Team #6",  "players": ["A6","B6","C6"] },
-    { "seed": 7,  "name": "Team #7",  "players": ["A7","B7","C7"] },
-    { "seed": 8,  "name": "Team #8",  "players": ["A8","B8","C8"] },
-    { "seed": 9,  "name": "Team #9",  "players": ["A9","B9","C9"] },
-    { "seed": 10, "name": "Team #10", "players": ["A10","B10","C10"] },
-    { "seed": 11, "name": "Team #11", "players": ["A11","B11","C11"] },
-    { "seed": 12, "name": "Team #12", "players": ["A12","B12","C12"] }
+    { "seed": 1,  "name": "DPM",  "players": ["Punisherr","DuT9l_4epHo6blJl9l","Mishgan61"] },
+    { "seed": 2,  "name": "Ф.Е.Я.",  "players": ["Fl0wers_","rHuJIb_9I","EHoTiK_TToJIoCKyH"] },
+    { "seed": 3,  "name": "NAWESMAN",  "players": ["HaIIuJIa","Awessome_","Weedman_Pro"] },
+    { "seed": 4,  "name": "EVOS",  "players": ["_WonderWul_","New_KPuBou","BuTaJIuK_u3_IIuTepa"] },
+    { "seed": 5,  "name": "Братишки",  "players": ["qDanya","Citramon4","Aleksey4star"] },
+    { "seed": 6,  "name": "OneGo Elite",  "players": ["JIauM","11_vanek_11","CrazylFoxy"] },
+    { "seed": 7,  "name": "UNiVePSALbl",  "players": ["I_WoLf__","IIac","O_k_Y_p_A_n_T"] },
+    { "seed": 8,  "name": "A-S-P Legion",  "players": ["CHl0C","ScreamMyNames","Arrow_134"] },
+    { "seed": 9,  "name": "siXVin",  "players": ["SIXsix","TheVinchester","Xsides"] },
+    { "seed": 10, "name": "Кибермоты", "players": ["AlexHelicopter","X0POLLIuu","__NeRV"] },
+    { "seed": 11, "name": "Песок", "players": ["_8888_8888_","Soind","AskidMobile"] },
+    { "seed": 12, "name": "Наджибаторы", "players": ["kalkylatorWN8_SST","CJIa6blu_Mycop","Hupper"] }
   ],
   "results": {
     "W-R1-M1": null,

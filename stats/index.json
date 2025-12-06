@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-06T09:06:21Z",
+  "generatedAt": "2025-12-06T12:20:17Z",
   "players": [
     {
       "accountId": 170363,
@@ -75,21 +75,21 @@
     },
     {
       "accountId": 2455009,
-      "nickname": "CHl0C",
-      "battles": 31410,
-      "wins": 16911,
-      "winRate": 53.84,
-      "avgDmg": 1492,
+      "nickname": "Мои игровые профили:",
+      "battles": 31434,
+      "wins": 16930,
+      "winRate": 53.86,
+      "avgDmg": 1495,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 59.07,
-      "global_rating": 7774,
+      "hitsPercents": 59.09,
+      "global_rating": 7782,
       "avgExp": 659,
       "maxExp": 3447,
       "maxFrags": 8,
       "masterCount": 129,
       "vehiclesCount": 397,
-      "fetchedAt": "2025-12-05T06:16:58Z"
+      "fetchedAt": "2025-12-06T12:16:04Z"
     },
     {
       "accountId": 2682543,
@@ -161,25 +161,25 @@
       "maxFrags": 11,
       "masterCount": 448,
       "vehiclesCount": 550,
-      "fetchedAt": "2025-12-06T09:03:39Z"
+      "fetchedAt": "2025-12-06T12:17:26Z"
     },
     {
       "accountId": 17864806,
       "nickname": "Aleksey4star",
-      "battles": 36829,
-      "wins": 19851,
-      "winRate": 53.9,
-      "avgDmg": 1491,
+      "battles": 36856,
+      "wins": 19873,
+      "winRate": 53.92,
+      "avgDmg": 1492,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.74,
-      "global_rating": 8594,
+      "hitsPercents": 68.73,
+      "global_rating": 8600,
       "avgExp": 649,
       "maxExp": 2780,
       "maxFrags": 9,
       "masterCount": 144,
-      "vehiclesCount": 306,
-      "fetchedAt": "2025-12-02T21:04:36Z"
+      "vehiclesCount": 307,
+      "fetchedAt": "2025-12-06T12:18:38Z"
     },
     {
       "accountId": 20705422,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 53,
       "vehiclesCount": 94,
-      "fetchedAt": "2025-12-06T00:44:19Z"
+      "fetchedAt": "2025-12-06T12:17:41Z"
     },
     {
       "accountId": 23948104,
@@ -327,21 +327,21 @@
     },
     {
       "accountId": 48487007,
-      "nickname": "Мои игровые профили:",
-      "battles": 28865,
-      "wins": 16609,
-      "winRate": 57.54,
-      "avgDmg": 2206,
+      "nickname": "Citramon4",
+      "battles": 28934,
+      "wins": 16663,
+      "winRate": 57.59,
+      "avgDmg": 2209,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 75.46,
-      "global_rating": 9617,
-      "avgExp": 861,
+      "hitsPercents": 75.47,
+      "global_rating": 9628,
+      "avgExp": 862,
       "maxExp": 2880,
       "maxFrags": 10,
       "masterCount": 128,
-      "vehiclesCount": 219,
-      "fetchedAt": "2025-12-02T08:01:12Z"
+      "vehiclesCount": 220,
+      "fetchedAt": "2025-12-06T12:18:05Z"
     },
     {
       "accountId": 61780962,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 140,
-      "fetchedAt": "2025-12-06T00:44:29Z"
+      "fetchedAt": "2025-12-06T12:17:46Z"
     },
     {
       "accountId": 72380096,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 63,
       "vehiclesCount": 92,
-      "fetchedAt": "2025-12-06T09:01:59Z"
+      "fetchedAt": "2025-12-06T12:15:45Z"
     },
     {
       "accountId": 130831468,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-07T00:54:14Z",
+  "generatedAt": "2025-12-07T03:55:35Z",
   "players": [
     {
       "accountId": 170363,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 97,
       "vehiclesCount": 307,
-      "fetchedAt": "2025-12-07T00:52:28Z"
+      "fetchedAt": "2025-12-07T03:54:40Z"
     },
     {
       "accountId": 1667936,
@@ -345,39 +345,39 @@
     },
     {
       "accountId": 61780962,
-      "nickname": "Мои игровые профили:",
-      "battles": 46877,
-      "wins": 27817,
+      "nickname": "Hupper",
+      "battles": 46915,
+      "wins": 27839,
       "winRate": 59.34,
       "avgDmg": 2359,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 76.06,
-      "global_rating": 10646,
+      "hitsPercents": 76.05,
+      "global_rating": 10647,
       "avgExp": 975,
       "maxExp": 3326,
       "maxFrags": 11,
       "masterCount": 216,
-      "vehiclesCount": 348,
-      "fetchedAt": "2025-12-06T07:01:35Z"
+      "vehiclesCount": 350,
+      "fetchedAt": "2025-12-07T03:55:26Z"
     },
     {
       "accountId": 63280344,
       "nickname": "11_vanek_11",
-      "battles": 50267,
-      "wins": 28728,
+      "battles": 50314,
+      "wins": 28754,
       "winRate": 57.15,
-      "avgDmg": 1857,
+      "avgDmg": 1858,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.72,
-      "global_rating": 9181,
+      "hitsPercents": 68.73,
+      "global_rating": 9184,
       "avgExp": 817,
       "maxExp": 3671,
       "maxFrags": 10,
       "masterCount": 220,
-      "vehiclesCount": 424,
-      "fetchedAt": "2025-12-05T21:05:11Z"
+      "vehiclesCount": 426,
+      "fetchedAt": "2025-12-07T03:53:56Z"
     },
     {
       "accountId": 67463356,
@@ -521,7 +521,7 @@
       "maxFrags": 9,
       "masterCount": 77,
       "vehiclesCount": 243,
-      "fetchedAt": "2025-12-07T00:53:50Z"
+      "fetchedAt": "2025-12-07T03:55:21Z"
     },
     {
       "accountId": 121158863,
@@ -562,56 +562,56 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8202,
-      "wins": 5365,
-      "winRate": 65.41,
-      "avgDmg": 3662,
+      "battles": 8217,
+      "wins": 5378,
+      "winRate": 65.45,
+      "avgDmg": 3663,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 77.41,
-      "global_rating": 10906,
+      "global_rating": 10911,
       "avgExp": 1184,
       "maxExp": 2802,
       "maxFrags": 11,
       "masterCount": 63,
       "vehiclesCount": 92,
-      "fetchedAt": "2025-12-06T12:15:45Z"
+      "fetchedAt": "2025-12-07T03:52:18Z"
     },
     {
       "accountId": 130831468,
       "nickname": "Fl0wers_",
-      "battles": 13800,
-      "wins": 8590,
-      "winRate": 62.25,
-      "avgDmg": 2908,
+      "battles": 13823,
+      "wins": 8609,
+      "winRate": 62.28,
+      "avgDmg": 2909,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 76.73,
-      "global_rating": 10600,
+      "hitsPercents": 76.74,
+      "global_rating": 10604,
       "avgExp": 1110,
       "maxExp": 3407,
       "maxFrags": 10,
       "masterCount": 98,
       "vehiclesCount": 155,
-      "fetchedAt": "2025-12-06T00:41:36Z"
+      "fetchedAt": "2025-12-07T03:52:12Z"
     },
     {
       "accountId": 172140333,
       "nickname": "SIXsix",
-      "battles": 9284,
-      "wins": 5825,
-      "winRate": 62.74,
+      "battles": 9300,
+      "wins": 5839,
+      "winRate": 62.78,
       "avgDmg": 3306,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 79.08,
-      "global_rating": 10422,
-      "avgExp": 1132,
+      "global_rating": 10425,
+      "avgExp": 1133,
       "maxExp": 2969,
       "maxFrags": 9,
       "masterCount": 86,
-      "vehiclesCount": 140,
-      "fetchedAt": "2025-12-06T15:02:09Z"
+      "vehiclesCount": 142,
+      "fetchedAt": "2025-12-07T03:52:24Z"
     },
     {
       "accountId": 208174535,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 50,
-      "fetchedAt": "2025-12-06T15:02:17Z"
+      "fetchedAt": "2025-12-07T03:52:30Z"
     },
     {
       "accountId": 260637298,

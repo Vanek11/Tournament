@@ -1,18 +1,18 @@
 {
   "accountId": 70467784,
   "nickname": "ScreamMyNames",
-  "battles": 11706,
-  "wins": 7226,
+  "battles": 11720,
+  "wins": 7235,
   "winRate": 61.73,
-  "avgDmg": 3167,
+  "avgDmg": 3166,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 80.33,
-  "global_rating": 10951,
+  "hitsPercents": 80.34,
+  "global_rating": 10952,
   "avgExp": 1064,
   "maxExp": 2847,
   "maxFrags": 10,
   "masterCount": 88,
   "vehiclesCount": 140,
-  "fetchedAt": "2025-12-08T06:18:54Z"
+  "fetchedAt": "2025-12-09T15:14:04Z"
 }

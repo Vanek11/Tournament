@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-09T06:20:12Z",
+  "generatedAt": "2025-12-09T09:18:29Z",
   "players": [
     {
       "accountId": 170363,
@@ -22,20 +22,20 @@
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 58920,
-      "wins": 30444,
+      "battles": 59000,
+      "wins": 30485,
       "winRate": 51.67,
-      "avgDmg": 1656,
+      "avgDmg": 1658,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.58,
-      "global_rating": 7763,
+      "global_rating": 7769,
       "avgExp": 672,
       "maxExp": 2605,
       "maxFrags": 10,
-      "masterCount": 97,
-      "vehiclesCount": 307,
-      "fetchedAt": "2025-12-08T03:52:22Z"
+      "masterCount": 98,
+      "vehiclesCount": 308,
+      "fetchedAt": "2025-12-09T09:16:56Z"
     },
     {
       "accountId": 1667936,
@@ -179,7 +179,7 @@
       "maxFrags": 9,
       "masterCount": 145,
       "vehiclesCount": 307,
-      "fetchedAt": "2025-12-08T06:19:35Z"
+      "fetchedAt": "2025-12-09T09:16:51Z"
     },
     {
       "accountId": 20705422,
@@ -220,20 +220,20 @@
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 35214,
-      "wins": 17589,
+      "battles": 35224,
+      "wins": 17594,
       "winRate": 49.95,
-      "avgDmg": 1100,
+      "avgDmg": 1101,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.67,
-      "global_rating": 6054,
+      "global_rating": 6057,
       "avgExp": 561,
       "maxExp": 2648,
       "maxFrags": 10,
       "masterCount": 49,
       "vehiclesCount": 271,
-      "fetchedAt": "2025-12-08T00:48:27Z"
+      "fetchedAt": "2025-12-09T09:18:27Z"
     },
     {
       "accountId": 24040492,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 223,
-      "fetchedAt": "2025-12-09T06:17:23Z"
+      "fetchedAt": "2025-12-09T09:16:16Z"
     },
     {
       "accountId": 61780962,
@@ -562,20 +562,20 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8217,
-      "wins": 5378,
-      "winRate": 65.45,
-      "avgDmg": 3663,
+      "battles": 8239,
+      "wins": 5391,
+      "winRate": 65.43,
+      "avgDmg": 3662,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.41,
-      "global_rating": 10911,
+      "hitsPercents": 77.4,
+      "global_rating": 10914,
       "avgExp": 1184,
       "maxExp": 2802,
       "maxFrags": 11,
       "masterCount": 63,
-      "vehiclesCount": 92,
-      "fetchedAt": "2025-12-07T09:01:58Z"
+      "vehiclesCount": 93,
+      "fetchedAt": "2025-12-09T09:13:53Z"
     },
     {
       "accountId": 130831468,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-11T04:21:15Z",
+  "generatedAt": "2025-12-11T06:19:50Z",
   "players": [
     {
       "accountId": 170363,
@@ -40,8 +40,8 @@
     {
       "accountId": 1667936,
       "nickname": "Weedman_Pro",
-      "battles": 64456,
-      "wins": 33246,
+      "battles": 64457,
+      "wins": 33247,
       "winRate": 51.58,
       "avgDmg": 1358,
       "avgFrags": null,
@@ -52,8 +52,8 @@
       "maxExp": 2942,
       "maxFrags": 9,
       "masterCount": 121,
-      "vehiclesCount": 345,
-      "fetchedAt": "2025-12-10T03:52:22Z"
+      "vehiclesCount": 346,
+      "fetchedAt": "2025-12-11T06:19:20Z"
     },
     {
       "accountId": 2213900,
@@ -107,7 +107,7 @@
       "maxFrags": 11,
       "masterCount": 314,
       "vehiclesCount": 717,
-      "fetchedAt": "2025-12-09T21:03:19Z"
+      "fetchedAt": "2025-12-11T06:17:24Z"
     },
     {
       "accountId": 3046685,
@@ -238,8 +238,8 @@
     {
       "accountId": 24040492,
       "nickname": "_8888_8888_",
-      "battles": 95306,
-      "wins": 57441,
+      "battles": 95315,
+      "wins": 57446,
       "winRate": 60.27,
       "avgDmg": 2637,
       "avgFrags": null,
@@ -251,7 +251,7 @@
       "maxFrags": 12,
       "masterCount": 275,
       "vehiclesCount": 451,
-      "fetchedAt": "2025-12-10T00:44:31Z"
+      "fetchedAt": "2025-12-11T06:16:15Z"
     },
     {
       "accountId": 28909483,
@@ -269,25 +269,25 @@
       "maxFrags": 10,
       "masterCount": 127,
       "vehiclesCount": 250,
-      "fetchedAt": "2025-12-11T00:46:25Z"
+      "fetchedAt": "2025-12-11T06:17:19Z"
     },
     {
       "accountId": 31734601,
       "nickname": "I_WoLf__",
-      "battles": 20852,
-      "wins": 13191,
-      "winRate": 63.26,
+      "battles": 20864,
+      "wins": 13201,
+      "winRate": 63.27,
       "avgDmg": 2830,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 75.23,
-      "global_rating": 11267,
+      "hitsPercents": 75.22,
+      "global_rating": 11268,
       "avgExp": 980,
       "maxExp": 3053,
       "maxFrags": 10,
       "masterCount": 183,
       "vehiclesCount": 263,
-      "fetchedAt": "2025-12-10T09:20:22Z"
+      "fetchedAt": "2025-12-11T06:17:08Z"
     },
     {
       "accountId": 31960984,
@@ -472,20 +472,20 @@
     {
       "accountId": 90586270,
       "nickname": "EHoTiK_TToJIoCKyH",
-      "battles": 24074,
-      "wins": 13291,
-      "winRate": 55.21,
-      "avgDmg": 1801,
+      "battles": 24097,
+      "wins": 13309,
+      "winRate": 55.23,
+      "avgDmg": 1802,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 65.43,
-      "global_rating": 9209,
+      "hitsPercents": 65.44,
+      "global_rating": 9215,
       "avgExp": 808,
       "maxExp": 2798,
       "maxFrags": 9,
       "masterCount": 110,
       "vehiclesCount": 316,
-      "fetchedAt": "2025-12-10T03:52:15Z"
+      "fetchedAt": "2025-12-11T06:19:15Z"
     },
     {
       "accountId": 111965257,
@@ -526,9 +526,9 @@
     {
       "accountId": 121158863,
       "nickname": "JIauM",
-      "battles": 31529,
-      "wins": 20355,
-      "winRate": 64.56,
+      "battles": 31535,
+      "wins": 20356,
+      "winRate": 64.55,
       "avgDmg": 2950,
       "avgFrags": null,
       "surviveRate": null,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 184,
       "vehiclesCount": 244,
-      "fetchedAt": "2025-12-10T03:49:06Z"
+      "fetchedAt": "2025-12-11T06:16:02Z"
     },
     {
       "accountId": 123578506,
@@ -562,20 +562,20 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8239,
-      "wins": 5391,
-      "winRate": 65.43,
-      "avgDmg": 3662,
+      "battles": 8249,
+      "wins": 5401,
+      "winRate": 65.47,
+      "avgDmg": 3664,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.4,
-      "global_rating": 10914,
-      "avgExp": 1184,
+      "hitsPercents": 77.41,
+      "global_rating": 10917,
+      "avgExp": 1185,
       "maxExp": 2802,
       "maxFrags": 11,
-      "masterCount": 63,
+      "masterCount": 64,
       "vehiclesCount": 93,
-      "fetchedAt": "2025-12-10T00:44:44Z"
+      "fetchedAt": "2025-12-11T06:16:27Z"
     },
     {
       "accountId": 130831468,

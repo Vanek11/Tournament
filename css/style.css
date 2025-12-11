@@ -1015,3 +1015,14 @@ tag_bucket {
   font-size: 12px;
   opacity: 0.7;
 }
+/* Стиль для подсвечивания победителей в GF и P3 */
+.slot.champion {
+  background-color: #ffd700 !important; /* Жёлтый фон */
+  background: linear-gradient(135deg, #ffd700, #ffc700) !important;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+.slot.champion:hover {
+  background: linear-gradient(135deg, #ffed4e, #ffd700) !important;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}

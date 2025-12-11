@@ -144,7 +144,7 @@
 
   function renderSlot(matchId, slot){
     const s = board[matchId].slots[slot-1];
-    s.el.classList.remove('win','lose');
+    s.el.classList.remove('win','lose','champion');
     s.el.innerHTML = slotHtml(s.team);
   }
 
@@ -174,6 +174,11 @@
     m.slots[1].el.classList.toggle('win',  winnerSlot===2);
     m.slots[0].el.classList.toggle('lose', winnerSlot===2);
     m.slots[1].el.classList.toggle('lose', winnerSlot===1);
+    if(matchId === 'GF' || matchId === 'P3'){
+      m.slots[0].el.classList.toggle('champion', winnerSlot===1);
+      m.slots[1].el.classList.toggle('champion', winnerSlot===2);
+}
+
 
     if(!propagate) return;
 

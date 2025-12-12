@@ -1,18 +1,18 @@
 {
   "accountId": 76905788,
   "nickname": "DuT9l_4epHo6blJl9l",
-  "battles": 21088,
-  "wins": 10664,
-  "winRate": 50.57,
-  "avgDmg": 1436,
+  "battles": 21102,
+  "wins": 10673,
+  "winRate": 50.58,
+  "avgDmg": 1438,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 66.01,
-  "global_rating": 6674,
+  "hitsPercents": 66.03,
+  "global_rating": 6681,
   "avgExp": 645,
   "maxExp": 2915,
   "maxFrags": 12,
   "masterCount": 65,
   "vehiclesCount": 274,
-  "fetchedAt": "2025-12-12T15:12:17Z"
+  "fetchedAt": "2025-12-12T21:03:13Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-12T15:16:43Z",
+  "generatedAt": "2025-12-12T18:18:52Z",
   "players": [
     {
       "accountId": 170363,
@@ -215,25 +215,25 @@
       "maxFrags": 10,
       "masterCount": 55,
       "vehiclesCount": 97,
-      "fetchedAt": "2025-12-12T15:12:32Z"
+      "fetchedAt": "2025-12-12T18:16:53Z"
     },
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 35269,
-      "wins": 17627,
-      "winRate": 49.98,
+      "battles": 35273,
+      "wins": 17626,
+      "winRate": 49.97,
       "avgDmg": 1102,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 67.67,
-      "global_rating": 6068,
+      "hitsPercents": 67.68,
+      "global_rating": 6067,
       "avgExp": 561,
       "maxExp": 2648,
       "maxFrags": 10,
       "masterCount": 49,
-      "vehiclesCount": 271,
-      "fetchedAt": "2025-12-12T12:21:50Z"
+      "vehiclesCount": 272,
+      "fetchedAt": "2025-12-12T18:18:50Z"
     },
     {
       "accountId": 24040492,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 223,
-      "fetchedAt": "2025-12-12T15:12:48Z"
+      "fetchedAt": "2025-12-12T18:17:12Z"
     },
     {
       "accountId": 61780962,
@@ -557,7 +557,7 @@
       "maxFrags": 12,
       "masterCount": 91,
       "vehiclesCount": 237,
-      "fetchedAt": "2025-12-12T15:12:53Z"
+      "fetchedAt": "2025-12-12T18:17:18Z"
     },
     {
       "accountId": 126453902,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2025-12-12T15:11:18Z"
+      "fetchedAt": "2025-12-12T18:15:14Z"
     },
     {
       "accountId": 172140333,

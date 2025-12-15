@@ -1,18 +1,18 @@
 {
   "accountId": 121158863,
   "nickname": "JIauM",
-  "battles": 31576,
-  "wins": 20382,
-  "winRate": 64.55,
+  "battles": 31589,
+  "wins": 20394,
+  "winRate": 64.56,
   "avgDmg": 2952,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 70.29,
-  "global_rating": 11953,
-  "avgExp": 1157,
+  "global_rating": 11954,
+  "avgExp": 1158,
   "maxExp": 3563,
   "maxFrags": 12,
   "masterCount": 184,
-  "vehiclesCount": 245,
-  "fetchedAt": "2025-12-14T18:12:57Z"
+  "vehiclesCount": 246,
+  "fetchedAt": "2025-12-15T03:58:17Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-16T19:14:19Z",
+  "generatedAt": "2025-12-16T21:07:31Z",
   "players": [
     {
       "accountId": 170363,
@@ -17,7 +17,7 @@
       "maxFrags": 11,
       "masterCount": 48,
       "vehiclesCount": 238,
-      "fetchedAt": "2025-12-16T03:55:14Z"
+      "fetchedAt": "2025-12-16T21:06:02Z"
     },
     {
       "accountId": 328441,
@@ -58,20 +58,20 @@
     {
       "accountId": 2213900,
       "nickname": "AlexHelicopter",
-      "battles": 19490,
-      "wins": 10951,
-      "winRate": 56.19,
-      "avgDmg": 1984,
+      "battles": 19520,
+      "wins": 10970,
+      "winRate": 56.2,
+      "avgDmg": 1987,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 71.61,
-      "global_rating": 9433,
-      "avgExp": 822,
+      "hitsPercents": 71.64,
+      "global_rating": 9440,
+      "avgExp": 823,
       "maxExp": 3366,
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2025-12-15T21:02:25Z"
+      "fetchedAt": "2025-12-16T21:03:04Z"
     },
     {
       "accountId": 2455009,
@@ -238,20 +238,20 @@
     {
       "accountId": 24040492,
       "nickname": "_8888_8888_",
-      "battles": 95383,
-      "wins": 57497,
+      "battles": 95404,
+      "wins": 57510,
       "winRate": 60.28,
       "avgDmg": 2638,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 74.05,
-      "global_rating": 11944,
+      "global_rating": 11945,
       "avgExp": 987,
       "maxExp": 4217,
       "maxFrags": 12,
       "masterCount": 277,
-      "vehiclesCount": 451,
-      "fetchedAt": "2025-12-16T06:16:04Z"
+      "vehiclesCount": 452,
+      "fetchedAt": "2025-12-16T21:02:12Z"
     },
     {
       "accountId": 28909483,
@@ -611,7 +611,7 @@
       "maxFrags": 9,
       "masterCount": 86,
       "vehiclesCount": 144,
-      "fetchedAt": "2025-12-16T15:13:49Z"
+      "fetchedAt": "2025-12-16T21:02:34Z"
     },
     {
       "accountId": 208174535,

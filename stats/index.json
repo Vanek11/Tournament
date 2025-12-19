@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-19T15:07:55Z",
+  "generatedAt": "2025-12-19T18:19:13Z",
   "players": [
     {
       "accountId": 170363,
@@ -53,7 +53,7 @@
       "maxFrags": 9,
       "masterCount": 121,
       "vehiclesCount": 348,
-      "fetchedAt": "2025-12-19T12:20:41Z"
+      "fetchedAt": "2025-12-19T18:18:40Z"
     },
     {
       "accountId": 2213900,
@@ -166,7 +166,7 @@
     {
       "accountId": 17864806,
       "nickname": "Aleksey4star",
-      "battles": 36884,
+      "battles": 36885,
       "wins": 19892,
       "winRate": 53.93,
       "avgDmg": 1493,
@@ -178,8 +178,8 @@
       "maxExp": 2780,
       "maxFrags": 9,
       "masterCount": 145,
-      "vehiclesCount": 307,
-      "fetchedAt": "2025-12-18T09:19:53Z"
+      "vehiclesCount": 308,
+      "fetchedAt": "2025-12-19T18:17:56Z"
     },
     {
       "accountId": 20705422,

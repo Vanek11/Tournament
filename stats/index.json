@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-19T09:18:35Z",
+  "generatedAt": "2025-12-19T12:21:10Z",
   "players": [
     {
       "accountId": 170363,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 98,
       "vehiclesCount": 310,
-      "fetchedAt": "2025-12-19T03:54:16Z"
+      "fetchedAt": "2025-12-19T12:20:05Z"
     },
     {
       "accountId": 1667936,
@@ -53,7 +53,7 @@
       "maxFrags": 9,
       "masterCount": 121,
       "vehiclesCount": 348,
-      "fetchedAt": "2025-12-19T09:18:00Z"
+      "fetchedAt": "2025-12-19T12:20:41Z"
     },
     {
       "accountId": 2213900,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 175,
       "vehiclesCount": 441,
-      "fetchedAt": "2025-12-19T06:18:09Z"
+      "fetchedAt": "2025-12-19T12:19:34Z"
     },
     {
       "accountId": 4162197,
@@ -418,20 +418,20 @@
     {
       "accountId": 72380096,
       "nickname": "O_k_Y_p_A_n_T",
-      "battles": 24235,
-      "wins": 13194,
+      "battles": 24238,
+      "wins": 13195,
       "winRate": 54.44,
       "avgDmg": 1723,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 65.48,
-      "global_rating": 8448,
+      "global_rating": 8447,
       "avgExp": 804,
       "maxExp": 2709,
       "maxFrags": 12,
       "masterCount": 84,
       "vehiclesCount": 292,
-      "fetchedAt": "2025-12-19T09:17:35Z"
+      "fetchedAt": "2025-12-19T12:20:20Z"
     },
     {
       "accountId": 76905788,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 186,
       "vehiclesCount": 247,
-      "fetchedAt": "2025-12-19T06:15:06Z"
+      "fetchedAt": "2025-12-19T12:17:08Z"
     },
     {
       "accountId": 123578506,
@@ -562,20 +562,20 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8331,
-      "wins": 5455,
+      "battles": 8345,
+      "wins": 5464,
       "winRate": 65.48,
       "avgDmg": 3669,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.45,
-      "global_rating": 10935,
+      "hitsPercents": 77.46,
+      "global_rating": 10937,
       "avgExp": 1185,
       "maxExp": 2802,
       "maxFrags": 11,
       "masterCount": 65,
       "vehiclesCount": 95,
-      "fetchedAt": "2025-12-19T00:45:18Z"
+      "fetchedAt": "2025-12-19T12:17:35Z"
     },
     {
       "accountId": 130831468,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2025-12-19T06:15:25Z"
+      "fetchedAt": "2025-12-19T12:17:29Z"
     },
     {
       "accountId": 172140333,

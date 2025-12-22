@@ -1,18 +1,18 @@
 {
   "accountId": 90586270,
   "nickname": "EHoTiK_TToJIoCKyH",
-  "battles": 24192,
-  "wins": 13364,
+  "battles": 24200,
+  "wins": 13368,
   "winRate": 55.24,
-  "avgDmg": 1805,
+  "avgDmg": 1806,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 65.47,
-  "global_rating": 9226,
-  "avgExp": 809,
+  "hitsPercents": 65.48,
+  "global_rating": 9228,
+  "avgExp": 810,
   "maxExp": 2798,
   "maxFrags": 9,
   "masterCount": 111,
   "vehiclesCount": 321,
-  "fetchedAt": "2025-12-21T09:05:31Z"
+  "fetchedAt": "2025-12-22T00:50:02Z"
 }

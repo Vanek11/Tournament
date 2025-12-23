@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-23T16:00:50Z",
+  "generatedAt": "2025-12-23T18:18:43Z",
   "players": [
     {
       "accountId": 170363,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 55,
       "vehiclesCount": 99,
-      "fetchedAt": "2025-12-22T06:18:15Z"
+      "fetchedAt": "2025-12-23T18:16:39Z"
     },
     {
       "accountId": 23948104,
@@ -382,20 +382,20 @@
     {
       "accountId": 67463356,
       "nickname": "CrazylFoxy",
-      "battles": 40249,
-      "wins": 21501,
+      "battles": 40274,
+      "wins": 21514,
       "winRate": 53.42,
       "avgDmg": 1502,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 66.29,
-      "global_rating": 8244,
+      "global_rating": 8245,
       "avgExp": 727,
       "maxExp": 2750,
       "maxFrags": 8,
       "masterCount": 102,
-      "vehiclesCount": 361,
-      "fetchedAt": "2025-12-22T06:18:53Z"
+      "vehiclesCount": 364,
+      "fetchedAt": "2025-12-23T18:17:28Z"
     },
     {
       "accountId": 70467784,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 140,
-      "fetchedAt": "2025-12-23T03:57:11Z"
+      "fetchedAt": "2025-12-23T18:16:48Z"
     },
     {
       "accountId": 72380096,
@@ -454,20 +454,20 @@
     {
       "accountId": 89288809,
       "nickname": "New_KPuBou",
-      "battles": 47821,
-      "wins": 28798,
+      "battles": 47823,
+      "wins": 28799,
       "winRate": 60.22,
       "avgDmg": 2596,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.69,
+      "hitsPercents": 68.7,
       "global_rating": 11319,
       "avgExp": 1001,
       "maxExp": 3432,
       "maxFrags": 9,
       "masterCount": 224,
       "vehiclesCount": 374,
-      "fetchedAt": "2025-12-23T06:18:13Z"
+      "fetchedAt": "2025-12-23T18:16:31Z"
     },
     {
       "accountId": 90586270,

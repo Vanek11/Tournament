@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-23T21:05:25Z",
+  "generatedAt": "2025-12-24T00:51:50Z",
   "players": [
     {
       "accountId": 170363,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2025-12-23T00:45:23Z"
+      "fetchedAt": "2025-12-24T00:46:47Z"
     },
     {
       "accountId": 2455009,
@@ -112,20 +112,20 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 80754,
-      "wins": 43430,
-      "winRate": 53.78,
-      "avgDmg": 1582,
+      "battles": 80766,
+      "wins": 43444,
+      "winRate": 53.79,
+      "avgDmg": 1583,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.6,
-      "global_rating": 8552,
+      "global_rating": 8553,
       "avgExp": 771,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 175,
       "vehiclesCount": 441,
-      "fetchedAt": "2025-12-22T21:05:30Z"
+      "fetchedAt": "2025-12-24T00:49:21Z"
     },
     {
       "accountId": 4162197,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 219,
       "vehiclesCount": 359,
-      "fetchedAt": "2025-12-23T06:20:17Z"
+      "fetchedAt": "2025-12-24T00:51:39Z"
     },
     {
       "accountId": 63280344,
@@ -634,20 +634,20 @@
     {
       "accountId": 260637298,
       "nickname": "Awessome_",
-      "battles": 5867,
-      "wins": 3479,
-      "winRate": 59.3,
-      "avgDmg": 2841,
+      "battles": 5890,
+      "wins": 3488,
+      "winRate": 59.22,
+      "avgDmg": 2844,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.06,
-      "global_rating": 9317,
+      "hitsPercents": 77.07,
+      "global_rating": 9321,
       "avgExp": 1045,
       "maxExp": 2843,
       "maxFrags": 9,
       "masterCount": 44,
       "vehiclesCount": 81,
-      "fetchedAt": "2025-12-23T06:19:03Z"
+      "fetchedAt": "2025-12-24T00:49:26Z"
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "accountId": 170363,
   "nickname": "Xsides",
-  "battles": 16431,
+  "battles": 16432,
   "wins": 8605,
   "winRate": 52.37,
   "avgDmg": 1263,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 64.6,
-  "global_rating": 6871,
+  "hitsPercents": 64.61,
+  "global_rating": 6872,
   "avgExp": 671,
   "maxExp": 2598,
   "maxFrags": 11,
   "masterCount": 48,
   "vehiclesCount": 238,
-  "fetchedAt": "2025-12-23T00:47:49Z"
+  "fetchedAt": "2025-12-24T03:54:50Z"
 }

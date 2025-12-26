@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-26T03:55:59Z",
+  "generatedAt": "2025-12-26T06:19:30Z",
   "players": [
     {
       "accountId": 170363,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2025-12-26T03:52:59Z"
+      "fetchedAt": "2025-12-26T06:16:38Z"
     },
     {
       "accountId": 2455009,
@@ -161,7 +161,7 @@
       "maxFrags": 11,
       "masterCount": 450,
       "vehiclesCount": 551,
-      "fetchedAt": "2025-12-26T03:53:36Z"
+      "fetchedAt": "2025-12-26T06:17:13Z"
     },
     {
       "accountId": 17864806,
@@ -269,7 +269,7 @@
       "maxFrags": 10,
       "masterCount": 127,
       "vehiclesCount": 253,
-      "fetchedAt": "2025-12-26T00:46:07Z"
+      "fetchedAt": "2025-12-26T06:16:55Z"
     },
     {
       "accountId": 31734601,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 225,
-      "fetchedAt": "2025-12-26T03:54:05Z"
+      "fetchedAt": "2025-12-26T06:17:50Z"
     },
     {
       "accountId": 61780962,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 219,
       "vehiclesCount": 359,
-      "fetchedAt": "2025-12-26T00:48:33Z"
+      "fetchedAt": "2025-12-26T06:19:17Z"
     },
     {
       "accountId": 63280344,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 84,
       "vehiclesCount": 295,
-      "fetchedAt": "2025-12-26T03:55:18Z"
+      "fetchedAt": "2025-12-26T06:18:42Z"
     },
     {
       "accountId": 76905788,
@@ -503,7 +503,7 @@
       "maxFrags": 11,
       "masterCount": 193,
       "vehiclesCount": 214,
-      "fetchedAt": "2025-12-26T03:53:12Z"
+      "fetchedAt": "2025-12-26T06:16:49Z"
     },
     {
       "accountId": 115214305,
@@ -562,20 +562,20 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8581,
-      "wins": 5616,
-      "winRate": 65.45,
-      "avgDmg": 3683,
+      "battles": 8608,
+      "wins": 5639,
+      "winRate": 65.51,
+      "avgDmg": 3685,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.55,
-      "global_rating": 10984,
-      "avgExp": 1186,
+      "hitsPercents": 77.56,
+      "global_rating": 10991,
+      "avgExp": 1187,
       "maxExp": 2802,
       "maxFrags": 11,
-      "masterCount": 66,
+      "masterCount": 67,
       "vehiclesCount": 95,
-      "fetchedAt": "2025-12-25T09:12:58Z"
+      "fetchedAt": "2025-12-26T06:15:56Z"
     },
     {
       "accountId": 130831468,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2025-12-26T03:51:46Z"
+      "fetchedAt": "2025-12-26T06:15:51Z"
     },
     {
       "accountId": 172140333,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 44,
       "vehiclesCount": 81,
-      "fetchedAt": "2025-12-26T00:47:16Z"
+      "fetchedAt": "2025-12-26T06:18:09Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-27T12:20:10Z",
+  "generatedAt": "2025-12-27T15:06:10Z",
   "players": [
     {
       "accountId": 170363,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 98,
       "vehiclesCount": 311,
-      "fetchedAt": "2025-12-27T12:19:00Z"
+      "fetchedAt": "2025-12-27T15:04:31Z"
     },
     {
       "accountId": 1667936,
@@ -53,7 +53,7 @@
       "maxFrags": 9,
       "masterCount": 121,
       "vehiclesCount": 350,
-      "fetchedAt": "2025-12-27T09:13:03Z"
+      "fetchedAt": "2025-12-27T15:05:08Z"
     },
     {
       "accountId": 2213900,
@@ -107,25 +107,25 @@
       "maxFrags": 11,
       "masterCount": 316,
       "vehiclesCount": 723,
-      "fetchedAt": "2025-12-27T12:17:29Z"
+      "fetchedAt": "2025-12-27T15:02:58Z"
     },
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 80831,
-      "wins": 43471,
+      "battles": 80852,
+      "wins": 43482,
       "winRate": 53.78,
-      "avgDmg": 1583,
+      "avgDmg": 1584,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.6,
-      "global_rating": 8553,
+      "global_rating": 8554,
       "avgExp": 771,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 175,
       "vehiclesCount": 441,
-      "fetchedAt": "2025-12-27T09:12:04Z"
+      "fetchedAt": "2025-12-27T15:04:02Z"
     },
     {
       "accountId": 4162197,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 55,
       "vehiclesCount": 99,
-      "fetchedAt": "2025-12-27T12:17:57Z"
+      "fetchedAt": "2025-12-27T15:03:28Z"
     },
     {
       "accountId": 23948104,
@@ -238,8 +238,8 @@
     {
       "accountId": 24040492,
       "nickname": "_8888_8888_",
-      "battles": 95542,
-      "wins": 57602,
+      "battles": 95553,
+      "wins": 57609,
       "winRate": 60.29,
       "avgDmg": 2639,
       "avgFrags": null,
@@ -251,7 +251,7 @@
       "maxFrags": 12,
       "masterCount": 277,
       "vehiclesCount": 452,
-      "fetchedAt": "2025-12-26T12:17:39Z"
+      "fetchedAt": "2025-12-27T15:01:32Z"
     },
     {
       "accountId": 28909483,
@@ -341,25 +341,25 @@
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 225,
-      "fetchedAt": "2025-12-27T09:11:51Z"
+      "fetchedAt": "2025-12-27T15:03:51Z"
     },
     {
       "accountId": 61780962,
       "nickname": "Hupper",
-      "battles": 47214,
-      "wins": 28040,
+      "battles": 47226,
+      "wins": 28048,
       "winRate": 59.39,
       "avgDmg": 2356,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 75.93,
-      "global_rating": 10651,
+      "global_rating": 10650,
       "avgExp": 975,
       "maxExp": 3326,
       "maxFrags": 11,
       "masterCount": 219,
-      "vehiclesCount": 359,
-      "fetchedAt": "2025-12-26T15:05:53Z"
+      "vehiclesCount": 360,
+      "fetchedAt": "2025-12-27T15:05:59Z"
     },
     {
       "accountId": 63280344,
@@ -418,20 +418,20 @@
     {
       "accountId": 72380096,
       "nickname": "O_k_Y_p_A_n_T",
-      "battles": 24408,
-      "wins": 13278,
+      "battles": 24428,
+      "wins": 13289,
       "winRate": 54.4,
       "avgDmg": 1720,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 65.54,
-      "global_rating": 8435,
+      "hitsPercents": 65.56,
+      "global_rating": 8437,
       "avgExp": 804,
       "maxExp": 2709,
       "maxFrags": 12,
       "masterCount": 84,
       "vehiclesCount": 295,
-      "fetchedAt": "2025-12-26T06:18:42Z"
+      "fetchedAt": "2025-12-27T15:04:44Z"
     },
     {
       "accountId": 76905788,
@@ -485,7 +485,7 @@
       "maxFrags": 9,
       "masterCount": 112,
       "vehiclesCount": 323,
-      "fetchedAt": "2025-12-27T06:17:41Z"
+      "fetchedAt": "2025-12-27T15:05:02Z"
     },
     {
       "accountId": 111965257,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2025-12-26T15:02:02Z"
+      "fetchedAt": "2025-12-27T15:01:37Z"
     },
     {
       "accountId": 172140333,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 44,
       "vehiclesCount": 81,
-      "fetchedAt": "2025-12-27T06:16:53Z"
+      "fetchedAt": "2025-12-27T15:04:10Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-27T09:13:28Z",
+  "generatedAt": "2025-12-27T12:20:10Z",
   "players": [
     {
       "accountId": 170363,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 98,
       "vehiclesCount": 311,
-      "fetchedAt": "2025-12-27T09:12:31Z"
+      "fetchedAt": "2025-12-27T12:19:00Z"
     },
     {
       "accountId": 1667936,
@@ -94,20 +94,20 @@
     {
       "accountId": 2682543,
       "nickname": "Soind",
-      "battles": 75198,
-      "wins": 42803,
+      "battles": 75232,
+      "wins": 42822,
       "winRate": 56.92,
       "avgDmg": 1577,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 69.2,
-      "global_rating": 9404,
+      "global_rating": 9405,
       "avgExp": 769,
       "maxExp": 3633,
       "maxFrags": 11,
-      "masterCount": 314,
+      "masterCount": 316,
       "vehiclesCount": 723,
-      "fetchedAt": "2025-12-26T03:53:25Z"
+      "fetchedAt": "2025-12-27T12:17:29Z"
     },
     {
       "accountId": 3046685,
@@ -161,7 +161,7 @@
       "maxFrags": 11,
       "masterCount": 450,
       "vehiclesCount": 551,
-      "fetchedAt": "2025-12-27T09:11:20Z"
+      "fetchedAt": "2025-12-27T12:17:42Z"
     },
     {
       "accountId": 17864806,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 55,
       "vehiclesCount": 99,
-      "fetchedAt": "2025-12-26T03:53:47Z"
+      "fetchedAt": "2025-12-27T12:17:57Z"
     },
     {
       "accountId": 23948104,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 49,
       "vehiclesCount": 276,
-      "fetchedAt": "2025-12-27T09:13:26Z"
+      "fetchedAt": "2025-12-27T12:20:07Z"
     },
     {
       "accountId": 24040492,
@@ -395,7 +395,7 @@
       "maxFrags": 8,
       "masterCount": 102,
       "vehiclesCount": 364,
-      "fetchedAt": "2025-12-26T12:19:55Z"
+      "fetchedAt": "2025-12-27T12:18:47Z"
     },
     {
       "accountId": 70467784,
@@ -562,20 +562,20 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8663,
-      "wins": 5673,
-      "winRate": 65.49,
-      "avgDmg": 3683,
+      "battles": 8677,
+      "wins": 5681,
+      "winRate": 65.47,
+      "avgDmg": 3681,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.57,
-      "global_rating": 11000,
+      "hitsPercents": 77.56,
+      "global_rating": 11001,
       "avgExp": 1186,
       "maxExp": 2802,
       "maxFrags": 11,
       "masterCount": 67,
       "vehiclesCount": 95,
-      "fetchedAt": "2025-12-27T06:14:36Z"
+      "fetchedAt": "2025-12-27T12:16:26Z"
     },
     {
       "accountId": 130831468,
@@ -616,20 +616,20 @@
     {
       "accountId": 208174535,
       "nickname": "HaIIuJIa",
-      "battles": 4552,
-      "wins": 2783,
-      "winRate": 61.14,
-      "avgDmg": 3103,
+      "battles": 4574,
+      "wins": 2793,
+      "winRate": 61.06,
+      "avgDmg": 3108,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 76.34,
-      "global_rating": 9153,
+      "hitsPercents": 76.39,
+      "global_rating": 9160,
       "avgExp": 1070,
       "maxExp": 2727,
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 50,
-      "fetchedAt": "2025-12-26T03:52:37Z"
+      "fetchedAt": "2025-12-27T12:16:41Z"
     },
     {
       "accountId": 260637298,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-28T12:20:20Z",
+  "generatedAt": "2025-12-28T15:05:07Z",
   "players": [
     {
       "accountId": 170363,
@@ -237,9 +237,9 @@
     },
     {
       "accountId": 24040492,
-      "nickname": "_8888_8888_",
-      "battles": 95553,
-      "wins": 57609,
+      "nickname": "Мои игровые профили:",
+      "battles": 95575,
+      "wins": 57622,
       "winRate": 60.29,
       "avgDmg": 2639,
       "avgFrags": null,
@@ -251,7 +251,7 @@
       "maxFrags": 12,
       "masterCount": 277,
       "vehiclesCount": 452,
-      "fetchedAt": "2025-12-27T15:01:32Z"
+      "fetchedAt": "2025-12-28T15:01:51Z"
     },
     {
       "accountId": 28909483,

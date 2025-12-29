@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-29T09:22:41Z",
+  "generatedAt": "2025-12-29T12:23:59Z",
   "players": [
     {
       "accountId": 170363,
@@ -562,20 +562,20 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8677,
-      "wins": 5681,
-      "winRate": 65.47,
-      "avgDmg": 3681,
+      "battles": 8720,
+      "wins": 5705,
+      "winRate": 65.42,
+      "avgDmg": 3680,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.56,
-      "global_rating": 11001,
+      "hitsPercents": 77.57,
+      "global_rating": 11008,
       "avgExp": 1186,
       "maxExp": 2802,
       "maxFrags": 11,
       "masterCount": 67,
       "vehiclesCount": 95,
-      "fetchedAt": "2025-12-27T12:16:26Z"
+      "fetchedAt": "2025-12-29T12:19:51Z"
     },
     {
       "accountId": 130831468,
@@ -634,20 +634,20 @@
     {
       "accountId": 260637298,
       "nickname": "Awessome_",
-      "battles": 6021,
-      "wins": 3578,
-      "winRate": 59.43,
-      "avgDmg": 2871,
+      "battles": 6052,
+      "wins": 3596,
+      "winRate": 59.42,
+      "avgDmg": 2873,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.16,
-      "global_rating": 9393,
+      "hitsPercents": 77.15,
+      "global_rating": 9402,
       "avgExp": 1049,
       "maxExp": 2843,
       "maxFrags": 9,
       "masterCount": 44,
       "vehiclesCount": 81,
-      "fetchedAt": "2025-12-28T12:18:57Z"
+      "fetchedAt": "2025-12-29T12:22:31Z"
     }
   ]
 }

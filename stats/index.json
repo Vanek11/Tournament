@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-30T09:19:32Z",
+  "generatedAt": "2025-12-30T12:23:59Z",
   "players": [
     {
       "accountId": 170363,
@@ -22,20 +22,20 @@
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 60348,
-      "wins": 31236,
+      "battles": 60366,
+      "wins": 31245,
       "winRate": 51.76,
-      "avgDmg": 1689,
+      "avgDmg": 1690,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 67.75,
-      "global_rating": 7871,
+      "hitsPercents": 67.76,
+      "global_rating": 7873,
       "avgExp": 679,
       "maxExp": 2605,
       "maxFrags": 10,
       "masterCount": 98,
       "vehiclesCount": 311,
-      "fetchedAt": "2025-12-30T06:19:12Z"
+      "fetchedAt": "2025-12-30T12:22:41Z"
     },
     {
       "accountId": 1667936,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 175,
       "vehiclesCount": 442,
-      "fetchedAt": "2025-12-30T00:47:40Z"
+      "fetchedAt": "2025-12-30T12:21:34Z"
     },
     {
       "accountId": 4162197,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2025-12-30T00:49:09Z"
+      "fetchedAt": "2025-12-30T12:23:35Z"
     },
     {
       "accountId": 10961226,
@@ -485,7 +485,7 @@
       "maxFrags": 9,
       "masterCount": 112,
       "vehiclesCount": 325,
-      "fetchedAt": "2025-12-30T06:19:40Z"
+      "fetchedAt": "2025-12-30T12:23:13Z"
     },
     {
       "accountId": 111965257,
@@ -521,7 +521,7 @@
       "maxFrags": 9,
       "masterCount": 79,
       "vehiclesCount": 250,
-      "fetchedAt": "2025-12-30T09:19:18Z"
+      "fetchedAt": "2025-12-30T12:23:41Z"
     },
     {
       "accountId": 121158863,
@@ -557,7 +557,7 @@
       "maxFrags": 12,
       "masterCount": 93,
       "vehiclesCount": 240,
-      "fetchedAt": "2025-12-30T09:17:09Z"
+      "fetchedAt": "2025-12-30T12:21:28Z"
     },
     {
       "accountId": 126453902,

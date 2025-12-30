@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-30T12:23:59Z",
+  "generatedAt": "2025-12-30T15:06:19Z",
   "players": [
     {
       "accountId": 170363,
@@ -89,7 +89,7 @@
       "maxFrags": 8,
       "masterCount": 130,
       "vehiclesCount": 400,
-      "fetchedAt": "2025-12-30T00:45:47Z"
+      "fetchedAt": "2025-12-30T15:02:51Z"
     },
     {
       "accountId": 2682543,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 175,
       "vehiclesCount": 442,
-      "fetchedAt": "2025-12-30T12:21:34Z"
+      "fetchedAt": "2025-12-30T15:04:27Z"
     },
     {
       "accountId": 4162197,
@@ -292,7 +292,7 @@
     {
       "accountId": 31960984,
       "nickname": "__NeRV",
-      "battles": 62270,
+      "battles": 62271,
       "wins": 30525,
       "winRate": 49.02,
       "avgDmg": 1164,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 114,
       "vehiclesCount": 420,
-      "fetchedAt": "2025-12-29T09:21:04Z"
+      "fetchedAt": "2025-12-30T15:04:58Z"
     },
     {
       "accountId": 33974749,
@@ -395,7 +395,7 @@
       "maxFrags": 8,
       "masterCount": 102,
       "vehiclesCount": 364,
-      "fetchedAt": "2025-12-30T03:58:04Z"
+      "fetchedAt": "2025-12-30T15:04:39Z"
     },
     {
       "accountId": 70467784,

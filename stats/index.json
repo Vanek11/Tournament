@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-01T04:09:09Z",
+  "generatedAt": "2026-01-01T06:20:20Z",
   "players": [
     {
       "accountId": 170363,
@@ -179,7 +179,7 @@
       "maxFrags": 9,
       "masterCount": 146,
       "vehiclesCount": 309,
-      "fetchedAt": "2026-01-01T04:08:02Z"
+      "fetchedAt": "2026-01-01T06:19:04Z"
     },
     {
       "accountId": 20705422,
@@ -251,7 +251,7 @@
       "maxFrags": 12,
       "masterCount": 277,
       "vehiclesCount": 452,
-      "fetchedAt": "2026-01-01T04:05:14Z"
+      "fetchedAt": "2026-01-01T06:16:25Z"
     },
     {
       "accountId": 28909483,
@@ -395,7 +395,7 @@
       "maxFrags": 8,
       "masterCount": 102,
       "vehiclesCount": 365,
-      "fetchedAt": "2025-12-31T21:04:04Z"
+      "fetchedAt": "2026-01-01T06:18:58Z"
     },
     {
       "accountId": 70467784,
@@ -503,25 +503,25 @@
       "maxFrags": 11,
       "masterCount": 193,
       "vehiclesCount": 214,
-      "fetchedAt": "2026-01-01T00:53:33Z"
+      "fetchedAt": "2026-01-01T06:17:29Z"
     },
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 29574,
-      "wins": 16624,
+      "battles": 29583,
+      "wins": 16629,
       "winRate": 56.21,
       "avgDmg": 1816,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.11,
+      "hitsPercents": 73.12,
       "global_rating": 8812,
       "avgExp": 865,
       "maxExp": 2898,
       "maxFrags": 9,
       "masterCount": 81,
       "vehiclesCount": 250,
-      "fetchedAt": "2025-12-31T09:18:04Z"
+      "fetchedAt": "2026-01-01T06:19:59Z"
     },
     {
       "accountId": 121158863,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2026-01-01T04:05:19Z"
+      "fetchedAt": "2026-01-01T06:16:30Z"
     },
     {
       "accountId": 172140333,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 50,
-      "fetchedAt": "2026-01-01T00:53:06Z"
+      "fetchedAt": "2026-01-01T06:16:50Z"
     },
     {
       "accountId": 260637298,

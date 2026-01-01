@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-31T21:05:14Z",
+  "generatedAt": "2026-01-01T00:56:11Z",
   "players": [
     {
       "accountId": 170363,
@@ -53,7 +53,7 @@
       "maxFrags": 9,
       "masterCount": 121,
       "vehiclesCount": 350,
-      "fetchedAt": "2025-12-31T21:04:47Z"
+      "fetchedAt": "2026-01-01T00:55:39Z"
     },
     {
       "accountId": 2213900,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2025-12-31T15:10:50Z"
+      "fetchedAt": "2026-01-01T00:53:22Z"
     },
     {
       "accountId": 2455009,
@@ -89,7 +89,7 @@
       "maxFrags": 8,
       "masterCount": 130,
       "vehiclesCount": 400,
-      "fetchedAt": "2025-12-31T15:10:35Z"
+      "fetchedAt": "2026-01-01T00:53:11Z"
     },
     {
       "accountId": 2682543,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2025-12-31T15:13:09Z"
+      "fetchedAt": "2026-01-01T00:55:46Z"
     },
     {
       "accountId": 10961226,
@@ -197,12 +197,12 @@
       "maxFrags": 11,
       "masterCount": 113,
       "vehiclesCount": 166,
-      "fetchedAt": "2025-12-31T18:15:05Z"
+      "fetchedAt": "2026-01-01T00:53:16Z"
     },
     {
       "accountId": 20778095,
       "nickname": "TheVinchester",
-      "battles": 14719,
+      "battles": 14720,
       "wins": 8078,
       "winRate": 54.88,
       "avgDmg": 1400,
@@ -215,25 +215,25 @@
       "maxFrags": 10,
       "masterCount": 55,
       "vehiclesCount": 99,
-      "fetchedAt": "2025-12-31T18:16:03Z"
+      "fetchedAt": "2026-01-01T00:54:10Z"
     },
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 35711,
-      "wins": 17888,
+      "battles": 35723,
+      "wins": 17894,
       "winRate": 50.09,
       "avgDmg": 1112,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.73,
       "global_rating": 6128,
-      "avgExp": 565,
+      "avgExp": 566,
       "maxExp": 2648,
       "maxFrags": 10,
       "masterCount": 49,
-      "vehiclesCount": 277,
-      "fetchedAt": "2025-12-31T03:58:06Z"
+      "vehiclesCount": 278,
+      "fetchedAt": "2026-01-01T00:56:08Z"
     },
     {
       "accountId": 24040492,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 225,
-      "fetchedAt": "2025-12-31T21:03:41Z"
+      "fetchedAt": "2026-01-01T00:54:27Z"
     },
     {
       "accountId": 61780962,
@@ -490,10 +490,10 @@
     {
       "accountId": 111965257,
       "nickname": "Punisherr",
-      "battles": 33163,
-      "wins": 21851,
+      "battles": 33169,
+      "wins": 21855,
       "winRate": 65.89,
-      "avgDmg": 3722,
+      "avgDmg": 3721,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 78.38,
@@ -503,7 +503,7 @@
       "maxFrags": 11,
       "masterCount": 193,
       "vehiclesCount": 214,
-      "fetchedAt": "2025-12-31T18:15:26Z"
+      "fetchedAt": "2026-01-01T00:53:33Z"
     },
     {
       "accountId": 115214305,
@@ -557,7 +557,7 @@
       "maxFrags": 12,
       "masterCount": 93,
       "vehiclesCount": 240,
-      "fetchedAt": "2025-12-31T18:16:25Z"
+      "fetchedAt": "2026-01-01T00:54:33Z"
     },
     {
       "accountId": 126453902,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 68,
       "vehiclesCount": 96,
-      "fetchedAt": "2025-12-31T12:18:35Z"
+      "fetchedAt": "2026-01-01T00:52:55Z"
     },
     {
       "accountId": 130831468,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 50,
-      "fetchedAt": "2025-12-31T15:10:26Z"
+      "fetchedAt": "2026-01-01T00:53:06Z"
     },
     {
       "accountId": 260637298,

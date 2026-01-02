@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-01-02T04:01:13Z",
+  "generatedAt": "2026-01-02T06:19:17Z",
   "players": [
     {
       "accountId": 170363,
       "nickname": "Xsides",
-      "battles": 16474,
-      "wins": 8626,
+      "battles": 16476,
+      "wins": 8627,
       "winRate": 52.36,
       "avgDmg": 1264,
       "avgFrags": null,
@@ -17,7 +17,7 @@
       "maxFrags": 11,
       "masterCount": 48,
       "vehiclesCount": 238,
-      "fetchedAt": "2026-01-01T09:16:59Z"
+      "fetchedAt": "2026-01-02T06:18:40Z"
     },
     {
       "accountId": 328441,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 98,
       "vehiclesCount": 311,
-      "fetchedAt": "2026-01-02T04:00:15Z"
+      "fetchedAt": "2026-01-02T06:18:21Z"
     },
     {
       "accountId": 1667936,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2026-01-02T03:58:31Z"
+      "fetchedAt": "2026-01-02T06:16:43Z"
     },
     {
       "accountId": 2455009,
@@ -89,7 +89,7 @@
       "maxFrags": 8,
       "masterCount": 130,
       "vehiclesCount": 400,
-      "fetchedAt": "2026-01-02T03:58:17Z"
+      "fetchedAt": "2026-01-02T06:16:32Z"
     },
     {
       "accountId": 2682543,
@@ -112,20 +112,20 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 80880,
-      "wins": 43497,
+      "battles": 80892,
+      "wins": 43504,
       "winRate": 53.78,
       "avgDmg": 1584,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.6,
-      "global_rating": 8554,
+      "global_rating": 8556,
       "avgExp": 771,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 175,
       "vehiclesCount": 442,
-      "fetchedAt": "2025-12-31T18:16:33Z"
+      "fetchedAt": "2026-01-02T06:18:00Z"
     },
     {
       "accountId": 4162197,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2026-01-01T09:17:14Z"
+      "fetchedAt": "2026-01-02T06:18:59Z"
     },
     {
       "accountId": 10961226,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 55,
       "vehiclesCount": 99,
-      "fetchedAt": "2026-01-01T04:07:13Z"
+      "fetchedAt": "2026-01-02T06:17:33Z"
     },
     {
       "accountId": 23948104,
@@ -233,15 +233,15 @@
       "maxFrags": 10,
       "masterCount": 49,
       "vehiclesCount": 278,
-      "fetchedAt": "2026-01-02T04:01:11Z"
+      "fetchedAt": "2026-01-02T06:19:15Z"
     },
     {
       "accountId": 24040492,
       "nickname": "_8888_8888_",
-      "battles": 95627,
-      "wins": 57654,
+      "battles": 95640,
+      "wins": 57661,
       "winRate": 60.29,
-      "avgDmg": 2639,
+      "avgDmg": 2640,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 74.07,
@@ -251,13 +251,13 @@
       "maxFrags": 12,
       "masterCount": 277,
       "vehiclesCount": 452,
-      "fetchedAt": "2026-01-01T09:14:01Z"
+      "fetchedAt": "2026-01-02T06:15:59Z"
     },
     {
       "accountId": 28909483,
       "nickname": "CJIa6blu_Mycop",
-      "battles": 44070,
-      "wins": 26292,
+      "battles": 44086,
+      "wins": 26302,
       "winRate": 59.66,
       "avgDmg": 2203,
       "avgFrags": null,
@@ -269,7 +269,7 @@
       "maxFrags": 10,
       "masterCount": 127,
       "vehiclesCount": 255,
-      "fetchedAt": "2025-12-31T18:15:33Z"
+      "fetchedAt": "2026-01-02T06:17:02Z"
     },
     {
       "accountId": 31734601,
@@ -323,7 +323,7 @@
       "maxFrags": 10,
       "masterCount": 180,
       "vehiclesCount": 319,
-      "fetchedAt": "2026-01-02T03:57:40Z"
+      "fetchedAt": "2026-01-02T06:15:54Z"
     },
     {
       "accountId": 48487007,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 225,
-      "fetchedAt": "2026-01-02T03:59:37Z"
+      "fetchedAt": "2026-01-02T06:17:49Z"
     },
     {
       "accountId": 61780962,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 227,
       "vehiclesCount": 431,
-      "fetchedAt": "2026-01-02T03:59:31Z"
+      "fetchedAt": "2026-01-02T06:17:43Z"
     },
     {
       "accountId": 67463356,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 140,
-      "fetchedAt": "2026-01-01T09:15:37Z"
+      "fetchedAt": "2026-01-02T06:17:38Z"
     },
     {
       "accountId": 72380096,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 84,
       "vehiclesCount": 298,
-      "fetchedAt": "2026-01-02T04:00:30Z"
+      "fetchedAt": "2026-01-02T06:18:34Z"
     },
     {
       "accountId": 76905788,
@@ -544,20 +544,20 @@
     {
       "accountId": 123578506,
       "nickname": "IIac",
-      "battles": 16067,
-      "wins": 8953,
+      "battles": 16074,
+      "wins": 8956,
       "winRate": 55.72,
       "avgDmg": 2378,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.62,
-      "global_rating": 9302,
+      "global_rating": 9303,
       "avgExp": 868,
       "maxExp": 2754,
       "maxFrags": 12,
       "masterCount": 93,
       "vehiclesCount": 240,
-      "fetchedAt": "2026-01-01T09:16:04Z"
+      "fetchedAt": "2026-01-02T06:17:54Z"
     },
     {
       "accountId": 126453902,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 68,
       "vehiclesCount": 96,
-      "fetchedAt": "2026-01-02T03:57:59Z"
+      "fetchedAt": "2026-01-02T06:16:11Z"
     },
     {
       "accountId": 130831468,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2026-01-02T03:57:53Z"
+      "fetchedAt": "2026-01-02T06:16:06Z"
     },
     {
       "accountId": 172140333,
@@ -611,7 +611,7 @@
       "maxFrags": 9,
       "masterCount": 87,
       "vehiclesCount": 145,
-      "fetchedAt": "2026-01-01T09:14:16Z"
+      "fetchedAt": "2026-01-02T06:16:18Z"
     },
     {
       "accountId": 208174535,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 44,
       "vehiclesCount": 81,
-      "fetchedAt": "2026-01-01T04:07:49Z"
+      "fetchedAt": "2026-01-02T06:18:05Z"
     }
   ]
 }

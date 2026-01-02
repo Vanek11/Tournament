@@ -1,8 +1,8 @@
 {
   "accountId": 61780962,
   "nickname": "Hupper",
-  "battles": 47237,
-  "wins": 28054,
+  "battles": 47244,
+  "wins": 28058,
   "winRate": 59.39,
   "avgDmg": 2356,
   "avgFrags": null,
@@ -12,7 +12,7 @@
   "avgExp": 975,
   "maxExp": 3326,
   "maxFrags": 11,
-  "masterCount": 219,
-  "vehiclesCount": 361,
-  "fetchedAt": "2026-01-02T04:01:05Z"
+  "masterCount": 220,
+  "vehiclesCount": 363,
+  "fetchedAt": "2026-01-02T12:20:46Z"
 }

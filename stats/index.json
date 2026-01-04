@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-04T00:55:47Z",
+  "generatedAt": "2026-01-04T04:11:07Z",
   "players": [
     {
       "accountId": 170363,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2026-01-03T12:17:10Z"
+      "fetchedAt": "2026-01-04T04:07:17Z"
     },
     {
       "accountId": 2455009,
@@ -94,20 +94,20 @@
     {
       "accountId": 2682543,
       "nickname": "Soind",
-      "battles": 75294,
-      "wins": 42865,
-      "winRate": 56.93,
-      "avgDmg": 1577,
+      "battles": 75340,
+      "wins": 42899,
+      "winRate": 56.94,
+      "avgDmg": 1578,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 69.2,
-      "global_rating": 9406,
+      "global_rating": 9409,
       "avgExp": 770,
       "maxExp": 3633,
       "maxFrags": 11,
       "masterCount": 316,
       "vehiclesCount": 724,
-      "fetchedAt": "2026-01-03T06:15:37Z"
+      "fetchedAt": "2026-01-04T04:07:46Z"
     },
     {
       "accountId": 3046685,
@@ -197,7 +197,7 @@
       "maxFrags": 11,
       "masterCount": 113,
       "vehiclesCount": 166,
-      "fetchedAt": "2026-01-03T09:02:48Z"
+      "fetchedAt": "2026-01-04T04:07:12Z"
     },
     {
       "accountId": 20778095,
@@ -328,20 +328,20 @@
     {
       "accountId": 48487007,
       "nickname": "Citramon4",
-      "battles": 29079,
-      "wins": 16750,
+      "battles": 29084,
+      "wins": 16752,
       "winRate": 57.6,
-      "avgDmg": 2213,
+      "avgDmg": 2214,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 75.49,
-      "global_rating": 9637,
+      "hitsPercents": 75.5,
+      "global_rating": 9638,
       "avgExp": 863,
       "maxExp": 2880,
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 225,
-      "fetchedAt": "2026-01-02T21:03:15Z"
+      "fetchedAt": "2026-01-04T04:08:39Z"
     },
     {
       "accountId": 61780962,
@@ -521,7 +521,7 @@
       "maxFrags": 9,
       "masterCount": 81,
       "vehiclesCount": 250,
-      "fetchedAt": "2026-01-03T06:17:48Z"
+      "fetchedAt": "2026-01-04T04:10:49Z"
     },
     {
       "accountId": 121158863,

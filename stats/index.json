@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-05T09:23:18Z",
+  "generatedAt": "2026-01-05T12:25:14Z",
   "players": [
     {
       "accountId": 170363,
@@ -53,7 +53,7 @@
       "maxFrags": 9,
       "masterCount": 121,
       "vehiclesCount": 350,
-      "fetchedAt": "2026-01-05T06:24:48Z"
+      "fetchedAt": "2026-01-05T12:24:38Z"
     },
     {
       "accountId": 2213900,
@@ -179,7 +179,7 @@
       "maxFrags": 9,
       "masterCount": 146,
       "vehiclesCount": 309,
-      "fetchedAt": "2026-01-05T06:24:05Z"
+      "fetchedAt": "2026-01-05T12:24:00Z"
     },
     {
       "accountId": 20705422,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 49,
       "vehiclesCount": 278,
-      "fetchedAt": "2026-01-05T06:25:11Z"
+      "fetchedAt": "2026-01-05T12:25:12Z"
     },
     {
       "accountId": 24040492,
@@ -274,20 +274,20 @@
     {
       "accountId": 31734601,
       "nickname": "I_WoLf__",
-      "battles": 21401,
-      "wins": 13573,
+      "battles": 21404,
+      "wins": 13574,
       "winRate": 63.42,
       "avgDmg": 2841,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 75.15,
-      "global_rating": 11304,
+      "global_rating": 11305,
       "avgExp": 985,
       "maxExp": 3053,
       "maxFrags": 10,
       "masterCount": 188,
       "vehiclesCount": 271,
-      "fetchedAt": "2026-01-05T06:22:16Z"
+      "fetchedAt": "2026-01-05T12:20:38Z"
     },
     {
       "accountId": 31960984,
@@ -323,7 +323,7 @@
       "maxFrags": 10,
       "masterCount": 181,
       "vehiclesCount": 322,
-      "fetchedAt": "2026-01-04T21:01:36Z"
+      "fetchedAt": "2026-01-05T12:19:34Z"
     },
     {
       "accountId": 48487007,
@@ -526,20 +526,20 @@
     {
       "accountId": 121158863,
       "nickname": "JIauM",
-      "battles": 31797,
-      "wins": 20535,
+      "battles": 31802,
+      "wins": 20538,
       "winRate": 64.58,
       "avgDmg": 2957,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 70.3,
+      "hitsPercents": 70.31,
       "global_rating": 11963,
       "avgExp": 1158,
       "maxExp": 3563,
       "maxFrags": 12,
       "masterCount": 189,
       "vehiclesCount": 253,
-      "fetchedAt": "2026-01-04T21:01:30Z"
+      "fetchedAt": "2026-01-05T12:19:27Z"
     },
     {
       "accountId": 123578506,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-06T12:24:44Z",
+  "generatedAt": "2026-01-06T15:16:43Z",
   "players": [
     {
       "accountId": 170363,
@@ -22,20 +22,20 @@
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 60622,
-      "wins": 31390,
+      "battles": 60650,
+      "wins": 31405,
       "winRate": 51.78,
-      "avgDmg": 1694,
+      "avgDmg": 1695,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 67.78,
-      "global_rating": 7889,
+      "hitsPercents": 67.79,
+      "global_rating": 7891,
       "avgExp": 680,
       "maxExp": 2605,
       "maxFrags": 10,
-      "masterCount": 100,
+      "masterCount": 102,
       "vehiclesCount": 311,
-      "fetchedAt": "2026-01-05T21:05:39Z"
+      "fetchedAt": "2026-01-06T15:15:30Z"
     },
     {
       "accountId": 1667936,
@@ -107,25 +107,25 @@
       "maxFrags": 11,
       "masterCount": 318,
       "vehiclesCount": 725,
-      "fetchedAt": "2026-01-06T12:21:18Z"
+      "fetchedAt": "2026-01-06T15:14:03Z"
     },
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 81031,
-      "wins": 43587,
+      "battles": 81059,
+      "wins": 43602,
       "winRate": 53.79,
       "avgDmg": 1586,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.6,
-      "global_rating": 8562,
+      "global_rating": 8563,
       "avgExp": 772,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 175,
       "vehiclesCount": 442,
-      "fetchedAt": "2026-01-05T21:05:06Z"
+      "fetchedAt": "2026-01-06T15:15:04Z"
     },
     {
       "accountId": 4162197,
@@ -310,8 +310,8 @@
     {
       "accountId": 33974749,
       "nickname": "_WonderWul_",
-      "battles": 33742,
-      "wins": 19459,
+      "battles": 33747,
+      "wins": 19462,
       "winRate": 57.67,
       "avgDmg": 2310,
       "avgFrags": null,
@@ -323,7 +323,7 @@
       "maxFrags": 10,
       "masterCount": 181,
       "vehiclesCount": 322,
-      "fetchedAt": "2026-01-05T21:02:40Z"
+      "fetchedAt": "2026-01-06T15:10:45Z"
     },
     {
       "accountId": 48487007,
@@ -382,20 +382,20 @@
     {
       "accountId": 67463356,
       "nickname": "CrazylFoxy",
-      "battles": 40327,
-      "wins": 21535,
+      "battles": 40358,
+      "wins": 21551,
       "winRate": 53.4,
       "avgDmg": 1504,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 66.31,
-      "global_rating": 8244,
+      "hitsPercents": 66.32,
+      "global_rating": 8245,
       "avgExp": 727,
       "maxExp": 2750,
       "maxFrags": 8,
       "masterCount": 102,
       "vehiclesCount": 365,
-      "fetchedAt": "2026-01-05T06:24:00Z"
+      "fetchedAt": "2026-01-06T15:15:18Z"
     },
     {
       "accountId": 70467784,
@@ -454,8 +454,8 @@
     {
       "accountId": 89288809,
       "nickname": "New_KPuBou",
-      "battles": 48045,
-      "wins": 28942,
+      "battles": 48058,
+      "wins": 28950,
       "winRate": 60.24,
       "avgDmg": 2597,
       "avgFrags": null,
@@ -467,7 +467,7 @@
       "maxFrags": 9,
       "masterCount": 225,
       "vehiclesCount": 375,
-      "fetchedAt": "2026-01-05T21:04:31Z"
+      "fetchedAt": "2026-01-06T15:14:23Z"
     },
     {
       "accountId": 90586270,
@@ -508,20 +508,20 @@
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 29583,
-      "wins": 16629,
-      "winRate": 56.21,
+      "battles": 29590,
+      "wins": 16630,
+      "winRate": 56.2,
       "avgDmg": 1816,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.12,
-      "global_rating": 8812,
+      "global_rating": 8811,
       "avgExp": 865,
       "maxExp": 2898,
       "maxFrags": 9,
       "masterCount": 81,
       "vehiclesCount": 250,
-      "fetchedAt": "2026-01-04T04:10:49Z"
+      "fetchedAt": "2026-01-06T15:16:28Z"
     },
     {
       "accountId": 121158863,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 68,
       "vehiclesCount": 96,
-      "fetchedAt": "2026-01-05T18:16:04Z"
+      "fetchedAt": "2026-01-06T15:11:10Z"
     },
     {
       "accountId": 130831468,

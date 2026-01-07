@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-07T04:01:38Z",
+  "generatedAt": "2026-01-07T06:20:54Z",
   "players": [
     {
       "accountId": 170363,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 55,
       "vehiclesCount": 99,
-      "fetchedAt": "2026-01-06T21:04:24Z"
+      "fetchedAt": "2026-01-07T06:18:47Z"
     },
     {
       "accountId": 23948104,
@@ -377,25 +377,25 @@
       "maxFrags": 10,
       "masterCount": 229,
       "vehiclesCount": 434,
-      "fetchedAt": "2026-01-07T00:48:16Z"
+      "fetchedAt": "2026-01-07T06:19:00Z"
     },
     {
       "accountId": 67463356,
       "nickname": "CrazylFoxy",
-      "battles": 40358,
-      "wins": 21551,
-      "winRate": 53.4,
-      "avgDmg": 1504,
+      "battles": 40413,
+      "wins": 21589,
+      "winRate": 53.42,
+      "avgDmg": 1505,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 66.32,
-      "global_rating": 8245,
+      "hitsPercents": 66.33,
+      "global_rating": 8251,
       "avgExp": 727,
       "maxExp": 2750,
       "maxFrags": 8,
       "masterCount": 102,
       "vehiclesCount": 365,
-      "fetchedAt": "2026-01-06T15:15:18Z"
+      "fetchedAt": "2026-01-07T06:19:36Z"
     },
     {
       "accountId": 70467784,
@@ -508,20 +508,20 @@
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 29590,
-      "wins": 16630,
-      "winRate": 56.2,
+      "battles": 29604,
+      "wins": 16640,
+      "winRate": 56.21,
       "avgDmg": 1816,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.12,
-      "global_rating": 8811,
+      "global_rating": 8812,
       "avgExp": 865,
       "maxExp": 2898,
       "maxFrags": 9,
-      "masterCount": 81,
+      "masterCount": 82,
       "vehiclesCount": 250,
-      "fetchedAt": "2026-01-06T15:16:28Z"
+      "fetchedAt": "2026-01-07T06:20:36Z"
     },
     {
       "accountId": 121158863,

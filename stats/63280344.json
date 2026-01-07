@@ -1,18 +1,18 @@
 {
   "accountId": 63280344,
   "nickname": "11_vanek_11",
-  "battles": 51865,
-  "wins": 29558,
-  "winRate": 56.99,
-  "avgDmg": 1843,
+  "battles": 52081,
+  "wins": 29702,
+  "winRate": 57.03,
+  "avgDmg": 1845,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 68.87,
-  "global_rating": 9131,
-  "avgExp": 815,
+  "hitsPercents": 68.9,
+  "global_rating": 9143,
+  "avgExp": 817,
   "maxExp": 3671,
   "maxFrags": 10,
-  "masterCount": 227,
-  "vehiclesCount": 431,
-  "fetchedAt": "2026-01-03T06:16:14Z"
+  "masterCount": 229,
+  "vehiclesCount": 434,
+  "fetchedAt": "2026-01-07T00:48:16Z"
 }

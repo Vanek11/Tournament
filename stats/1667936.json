@@ -1,18 +1,18 @@
 {
   "accountId": 1667936,
   "nickname": "Weedman_Pro",
-  "battles": 64543,
-  "wins": 33298,
-  "winRate": 51.59,
+  "battles": 64562,
+  "wins": 33301,
+  "winRate": 51.58,
   "avgDmg": 1359,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 68.74,
-  "global_rating": 7095,
-  "avgExp": 710,
+  "global_rating": 7094,
+  "avgExp": 711,
   "maxExp": 2942,
   "maxFrags": 9,
-  "masterCount": 121,
+  "masterCount": 122,
   "vehiclesCount": 350,
-  "fetchedAt": "2026-01-07T18:19:16Z"
+  "fetchedAt": "2026-01-08T04:00:13Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-09T00:49:17Z",
+  "generatedAt": "2026-01-09T04:05:01Z",
   "players": [
     {
       "accountId": 170363,
@@ -220,20 +220,20 @@
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 35938,
-      "wins": 18019,
+      "battles": 35948,
+      "wins": 18024,
       "winRate": 50.14,
       "avgDmg": 1119,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.79,
-      "global_rating": 6160,
+      "global_rating": 6161,
       "avgExp": 568,
       "maxExp": 2648,
       "maxFrags": 10,
       "masterCount": 49,
-      "vehiclesCount": 278,
-      "fetchedAt": "2026-01-08T21:14:44Z"
+      "vehiclesCount": 280,
+      "fetchedAt": "2026-01-09T04:04:58Z"
     },
     {
       "accountId": 24040492,
@@ -579,7 +579,7 @@
     },
     {
       "accountId": 130831468,
-      "nickname": "Fl0wers_",
+      "nickname": "Мои игровые профили:",
       "battles": 13936,
       "wins": 8700,
       "winRate": 62.43,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2026-01-08T09:17:28Z"
+      "fetchedAt": "2026-01-09T03:58:15Z"
     },
     {
       "accountId": 172140333,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-12T12:23:16Z",
+  "generatedAt": "2026-01-12T15:18:15Z",
   "players": [
     {
       "accountId": 170363,
@@ -22,20 +22,20 @@
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 60951,
-      "wins": 31567,
-      "winRate": 51.79,
+      "battles": 60987,
+      "wins": 31579,
+      "winRate": 51.78,
       "avgDmg": 1698,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.79,
-      "global_rating": 7898,
+      "global_rating": 7896,
       "avgExp": 681,
       "maxExp": 2605,
       "maxFrags": 10,
       "masterCount": 103,
-      "vehiclesCount": 313,
-      "fetchedAt": "2026-01-12T09:22:17Z"
+      "vehiclesCount": 316,
+      "fetchedAt": "2026-01-12T15:17:04Z"
     },
     {
       "accountId": 1667936,
@@ -57,7 +57,7 @@
     },
     {
       "accountId": 2213900,
-      "nickname": "AlexHelicopter",
+      "nickname": "Мои игровые профили:",
       "battles": 19531,
       "wins": 10976,
       "winRate": 56.2,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2026-01-12T09:20:45Z"
+      "fetchedAt": "2026-01-12T15:14:54Z"
     },
     {
       "accountId": 2455009,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 116,
       "vehiclesCount": 422,
-      "fetchedAt": "2026-01-12T09:22:22Z"
+      "fetchedAt": "2026-01-12T15:17:15Z"
     },
     {
       "accountId": 33974749,
@@ -395,7 +395,7 @@
       "maxFrags": 8,
       "masterCount": 102,
       "vehiclesCount": 365,
-      "fetchedAt": "2026-01-12T09:22:07Z"
+      "fetchedAt": "2026-01-12T15:16:46Z"
     },
     {
       "accountId": 70467784,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 84,
       "vehiclesCount": 300,
-      "fetchedAt": "2026-01-12T09:22:27Z"
+      "fetchedAt": "2026-01-12T15:17:21Z"
     },
     {
       "accountId": 76905788,
@@ -526,8 +526,8 @@
     {
       "accountId": 121158863,
       "nickname": "JIauM",
-      "battles": 31841,
-      "wins": 20566,
+      "battles": 31848,
+      "wins": 20571,
       "winRate": 64.59,
       "avgDmg": 2957,
       "avgFrags": null,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 189,
       "vehiclesCount": 253,
-      "fetchedAt": "2026-01-12T09:19:57Z"
+      "fetchedAt": "2026-01-12T15:13:47Z"
     },
     {
       "accountId": 123578506,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2026-01-12T09:20:13Z"
+      "fetchedAt": "2026-01-12T15:14:08Z"
     },
     {
       "accountId": 172140333,

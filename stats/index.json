@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-13T00:45:13Z",
+  "generatedAt": "2026-01-13T04:01:11Z",
   "players": [
     {
       "accountId": 170363,
@@ -22,9 +22,9 @@
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 60987,
-      "wins": 31579,
-      "winRate": 51.78,
+      "battles": 61013,
+      "wins": 31599,
+      "winRate": 51.79,
       "avgDmg": 1698,
       "avgFrags": null,
       "surviveRate": null,
@@ -33,9 +33,9 @@
       "avgExp": 681,
       "maxExp": 2605,
       "maxFrags": 10,
-      "masterCount": 103,
+      "masterCount": 104,
       "vehiclesCount": 316,
-      "fetchedAt": "2026-01-12T15:17:04Z"
+      "fetchedAt": "2026-01-13T04:00:06Z"
     },
     {
       "accountId": 1667936,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 175,
       "vehiclesCount": 442,
-      "fetchedAt": "2026-01-12T09:21:55Z"
+      "fetchedAt": "2026-01-13T03:59:08Z"
     },
     {
       "accountId": 4162197,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 84,
       "vehiclesCount": 300,
-      "fetchedAt": "2026-01-12T15:17:21Z"
+      "fetchedAt": "2026-01-13T04:00:20Z"
     },
     {
       "accountId": 76905788,
@@ -521,12 +521,12 @@
       "maxFrags": 9,
       "masterCount": 82,
       "vehiclesCount": 251,
-      "fetchedAt": "2026-01-13T00:45:00Z"
+      "fetchedAt": "2026-01-13T04:00:54Z"
     },
     {
       "accountId": 121158863,
       "nickname": "JIauM",
-      "battles": 31848,
+      "battles": 31849,
       "wins": 20571,
       "winRate": 64.59,
       "avgDmg": 2957,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 189,
       "vehiclesCount": 253,
-      "fetchedAt": "2026-01-12T15:13:47Z"
+      "fetchedAt": "2026-01-13T03:56:16Z"
     },
     {
       "accountId": 123578506,

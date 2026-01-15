@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-14T21:05:19Z",
+  "generatedAt": "2026-01-15T00:47:18Z",
   "players": [
     {
       "accountId": 170363,
@@ -544,20 +544,20 @@
     {
       "accountId": 123578506,
       "nickname": "IIac",
-      "battles": 16286,
-      "wins": 9101,
-      "winRate": 55.88,
-      "avgDmg": 2410,
+      "battles": 16314,
+      "wins": 9123,
+      "winRate": 55.92,
+      "avgDmg": 2416,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.77,
-      "global_rating": 9376,
-      "avgExp": 874,
+      "hitsPercents": 73.8,
+      "global_rating": 9388,
+      "avgExp": 875,
       "maxExp": 2754,
       "maxFrags": 12,
-      "masterCount": 94,
+      "masterCount": 96,
       "vehiclesCount": 243,
-      "fetchedAt": "2026-01-12T09:21:50Z"
+      "fetchedAt": "2026-01-15T00:45:54Z"
     },
     {
       "accountId": 126453902,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-18T09:05:18Z",
+  "generatedAt": "2026-01-18T12:21:16Z",
   "players": [
     {
       "accountId": 170363,
@@ -53,7 +53,7 @@
       "maxFrags": 9,
       "masterCount": 123,
       "vehiclesCount": 352,
-      "fetchedAt": "2026-01-18T06:17:23Z"
+      "fetchedAt": "2026-01-18T12:20:52Z"
     },
     {
       "accountId": 2213900,
@@ -467,7 +467,7 @@
       "maxFrags": 9,
       "masterCount": 226,
       "vehiclesCount": 377,
-      "fetchedAt": "2026-01-18T06:16:04Z"
+      "fetchedAt": "2026-01-18T12:18:25Z"
     },
     {
       "accountId": 90586270,
@@ -526,20 +526,20 @@
     {
       "accountId": 121158863,
       "nickname": "JIauM",
-      "battles": 31906,
-      "wins": 20618,
-      "winRate": 64.62,
+      "battles": 31914,
+      "wins": 20626,
+      "winRate": 64.63,
       "avgDmg": 2957,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 70.32,
-      "global_rating": 11967,
+      "global_rating": 11968,
       "avgExp": 1158,
       "maxExp": 3563,
       "maxFrags": 12,
       "masterCount": 189,
       "vehiclesCount": 255,
-      "fetchedAt": "2026-01-17T21:01:14Z"
+      "fetchedAt": "2026-01-18T12:16:22Z"
     },
     {
       "accountId": 123578506,

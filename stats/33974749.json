@@ -1,9 +1,9 @@
 {
   "accountId": 33974749,
   "nickname": "_WonderWul_",
-  "battles": 33970,
-  "wins": 19604,
-  "winRate": 57.71,
+  "battles": 33980,
+  "wins": 19606,
+  "winRate": 57.7,
   "avgDmg": 2316,
   "avgFrags": null,
   "surviveRate": null,
@@ -14,5 +14,5 @@
   "maxFrags": 10,
   "masterCount": 182,
   "vehiclesCount": 324,
-  "fetchedAt": "2026-01-20T12:20:22Z"
+  "fetchedAt": "2026-01-21T03:59:55Z"
 }

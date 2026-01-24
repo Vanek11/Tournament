@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-01-24T18:17:16Z",
+  "generatedAt": "2026-01-24T21:06:30Z",
   "players": [
     {
       "accountId": 170363,
       "nickname": "Xsides",
-      "battles": 16780,
-      "wins": 8799,
+      "battles": 16788,
+      "wins": 8804,
       "winRate": 52.44,
       "avgDmg": 1280,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 64.82,
-      "global_rating": 6929,
+      "hitsPercents": 64.83,
+      "global_rating": 6931,
       "avgExp": 676,
       "maxExp": 2598,
       "maxFrags": 11,
       "masterCount": 52,
       "vehiclesCount": 247,
-      "fetchedAt": "2026-01-24T09:12:33Z"
+      "fetchedAt": "2026-01-24T21:05:48Z"
     },
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 61503,
-      "wins": 31859,
-      "winRate": 51.8,
+      "battles": 61535,
+      "wins": 31869,
+      "winRate": 51.79,
       "avgDmg": 1701,
       "avgFrags": null,
       "surviveRate": null,
@@ -34,8 +34,8 @@
       "maxExp": 2605,
       "maxFrags": 10,
       "masterCount": 106,
-      "vehiclesCount": 319,
-      "fetchedAt": "2026-01-24T15:11:52Z"
+      "vehiclesCount": 320,
+      "fetchedAt": "2026-01-24T21:05:30Z"
     },
     {
       "accountId": 1667936,
@@ -71,25 +71,25 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2026-01-24T09:10:49Z"
+      "fetchedAt": "2026-01-24T21:02:32Z"
     },
     {
       "accountId": 2455009,
       "nickname": "CHl0C",
-      "battles": 31639,
-      "wins": 17063,
-      "winRate": 53.93,
-      "avgDmg": 1506,
+      "battles": 31658,
+      "wins": 17079,
+      "winRate": 53.95,
+      "avgDmg": 1507,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 59.22,
-      "global_rating": 7826,
+      "global_rating": 7830,
       "avgExp": 662,
       "maxExp": 3447,
       "maxFrags": 8,
       "masterCount": 130,
-      "vehiclesCount": 401,
-      "fetchedAt": "2026-01-24T09:10:39Z"
+      "vehiclesCount": 403,
+      "fetchedAt": "2026-01-24T21:02:20Z"
     },
     {
       "accountId": 2682543,
@@ -287,7 +287,7 @@
       "maxFrags": 10,
       "masterCount": 190,
       "vehiclesCount": 276,
-      "fetchedAt": "2026-01-24T09:10:55Z"
+      "fetchedAt": "2026-01-24T21:02:39Z"
     },
     {
       "accountId": 31960984,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 229,
       "vehiclesCount": 435,
-      "fetchedAt": "2026-01-24T09:11:42Z"
+      "fetchedAt": "2026-01-24T21:04:11Z"
     },
     {
       "accountId": 67463356,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 140,
-      "fetchedAt": "2026-01-23T12:21:33Z"
+      "fetchedAt": "2026-01-24T21:04:06Z"
     },
     {
       "accountId": 72380096,
@@ -521,7 +521,7 @@
       "maxFrags": 9,
       "masterCount": 82,
       "vehiclesCount": 252,
-      "fetchedAt": "2026-01-24T09:12:54Z"
+      "fetchedAt": "2026-01-24T21:06:14Z"
     },
     {
       "accountId": 121158863,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 256,
-      "fetchedAt": "2026-01-24T12:16:32Z"
+      "fetchedAt": "2026-01-24T21:01:33Z"
     },
     {
       "accountId": 123578506,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 69,
       "vehiclesCount": 97,
-      "fetchedAt": "2026-01-24T15:09:29Z"
+      "fetchedAt": "2026-01-24T21:02:02Z"
     },
     {
       "accountId": 130831468,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-01-23T21:10:40Z"
+      "fetchedAt": "2026-01-24T21:02:15Z"
     },
     {
       "accountId": 260637298,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 45,
       "vehiclesCount": 81,
-      "fetchedAt": "2026-01-24T12:19:14Z"
+      "fetchedAt": "2026-01-24T21:05:11Z"
     }
   ]
 }

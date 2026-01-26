@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-26T18:26:03Z",
+  "generatedAt": "2026-01-26T21:18:32Z",
   "players": [
     {
       "accountId": 170363,
@@ -40,20 +40,20 @@
     {
       "accountId": 1667936,
       "nickname": "Weedman_Pro",
-      "battles": 65101,
-      "wins": 33586,
+      "battles": 65108,
+      "wins": 33589,
       "winRate": 51.59,
       "avgDmg": 1364,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.8,
-      "global_rating": 7105,
-      "avgExp": 711,
+      "hitsPercents": 68.81,
+      "global_rating": 7106,
+      "avgExp": 712,
       "maxExp": 2942,
       "maxFrags": 9,
       "masterCount": 124,
       "vehiclesCount": 355,
-      "fetchedAt": "2026-01-26T09:25:21Z"
+      "fetchedAt": "2026-01-26T21:17:13Z"
     },
     {
       "accountId": 2213900,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2026-01-26T09:23:21Z"
+      "fetchedAt": "2026-01-26T21:14:18Z"
     },
     {
       "accountId": 2455009,
@@ -112,20 +112,20 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 81452,
-      "wins": 43821,
+      "battles": 81463,
+      "wins": 43827,
       "winRate": 53.8,
       "avgDmg": 1590,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.6,
-      "global_rating": 8574,
+      "global_rating": 8575,
       "avgExp": 772,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 178,
       "vehiclesCount": 444,
-      "fetchedAt": "2026-01-26T06:22:14Z"
+      "fetchedAt": "2026-01-26T21:15:45Z"
     },
     {
       "accountId": 4162197,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 140,
-      "fetchedAt": "2026-01-26T06:21:54Z"
+      "fetchedAt": "2026-01-26T21:15:17Z"
     },
     {
       "accountId": 72380096,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 69,
       "vehiclesCount": 97,
-      "fetchedAt": "2026-01-26T12:21:00Z"
+      "fetchedAt": "2026-01-26T21:13:19Z"
     },
     {
       "accountId": 130831468,

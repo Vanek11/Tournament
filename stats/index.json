@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-27T21:05:06Z",
+  "generatedAt": "2026-01-28T00:54:21Z",
   "players": [
     {
       "accountId": 170363,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 113,
       "vehiclesCount": 275,
-      "fetchedAt": "2026-01-26T21:14:18Z"
+      "fetchedAt": "2026-01-28T00:48:54Z"
     },
     {
       "accountId": 2455009,
@@ -94,38 +94,38 @@
     {
       "accountId": 2682543,
       "nickname": "Soind",
-      "battles": 75718,
-      "wins": 43114,
+      "battles": 75741,
+      "wins": 43127,
       "winRate": 56.94,
-      "avgDmg": 1581,
+      "avgDmg": 1582,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 69.2,
-      "global_rating": 9416,
+      "global_rating": 9417,
       "avgExp": 771,
       "maxExp": 3633,
       "maxFrags": 11,
       "masterCount": 320,
       "vehiclesCount": 731,
-      "fetchedAt": "2026-01-26T12:22:02Z"
+      "fetchedAt": "2026-01-28T00:49:27Z"
     },
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 81463,
-      "wins": 43827,
+      "battles": 81481,
+      "wins": 43837,
       "winRate": 53.8,
-      "avgDmg": 1590,
+      "avgDmg": 1591,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.6,
-      "global_rating": 8575,
+      "hitsPercents": 68.61,
+      "global_rating": 8576,
       "avgExp": 772,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 178,
       "vehiclesCount": 444,
-      "fetchedAt": "2026-01-26T21:15:45Z"
+      "fetchedAt": "2026-01-28T00:50:40Z"
     },
     {
       "accountId": 4162197,
@@ -292,20 +292,20 @@
     {
       "accountId": 31960984,
       "nickname": "__NeRV",
-      "battles": 62634,
-      "wins": 30747,
+      "battles": 62640,
+      "wins": 30750,
       "winRate": 49.09,
       "avgDmg": 1172,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.32,
-      "global_rating": 6270,
+      "global_rating": 6272,
       "avgExp": 563,
       "maxExp": 3060,
       "maxFrags": 9,
       "masterCount": 116,
       "vehiclesCount": 423,
-      "fetchedAt": "2026-01-26T09:24:59Z"
+      "fetchedAt": "2026-01-28T00:51:52Z"
     },
     {
       "accountId": 33974749,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 69,
       "vehiclesCount": 97,
-      "fetchedAt": "2026-01-27T09:21:14Z"
+      "fetchedAt": "2026-01-28T00:48:03Z"
     },
     {
       "accountId": 130831468,

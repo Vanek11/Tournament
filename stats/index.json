@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-28T12:27:07Z",
+  "generatedAt": "2026-01-28T15:28:29Z",
   "players": [
     {
       "accountId": 170363,
@@ -183,7 +183,7 @@
     },
     {
       "accountId": 20705422,
-      "nickname": "kalkylatorWN8_SST",
+      "nickname": "Мои игровые профили:",
       "battles": 12274,
       "wins": 7807,
       "winRate": 63.61,
@@ -197,7 +197,7 @@
       "maxFrags": 11,
       "masterCount": 113,
       "vehiclesCount": 166,
-      "fetchedAt": "2026-01-27T09:21:46Z"
+      "fetchedAt": "2026-01-28T15:22:31Z"
     },
     {
       "accountId": 20778095,
@@ -310,20 +310,20 @@
     {
       "accountId": 33974749,
       "nickname": "_WonderWul_",
-      "battles": 34204,
-      "wins": 19763,
+      "battles": 34218,
+      "wins": 19771,
       "winRate": 57.78,
       "avgDmg": 2319,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.55,
-      "global_rating": 10061,
+      "global_rating": 10062,
       "avgExp": 896,
       "maxExp": 3215,
       "maxFrags": 10,
       "masterCount": 183,
       "vehiclesCount": 327,
-      "fetchedAt": "2026-01-28T09:22:26Z"
+      "fetchedAt": "2026-01-28T15:20:56Z"
     },
     {
       "accountId": 48487007,
@@ -544,38 +544,38 @@
     {
       "accountId": 123578506,
       "nickname": "IIac",
-      "battles": 16358,
-      "wins": 9152,
+      "battles": 16365,
+      "wins": 9156,
       "winRate": 55.95,
-      "avgDmg": 2423,
+      "avgDmg": 2424,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.84,
-      "global_rating": 9405,
+      "global_rating": 9406,
       "avgExp": 876,
       "maxExp": 2754,
       "maxFrags": 12,
       "masterCount": 97,
       "vehiclesCount": 243,
-      "fetchedAt": "2026-01-27T12:23:51Z"
+      "fetchedAt": "2026-01-28T15:26:36Z"
     },
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8922,
-      "wins": 5830,
-      "winRate": 65.34,
-      "avgDmg": 3668,
+      "battles": 8934,
+      "wins": 5839,
+      "winRate": 65.36,
+      "avgDmg": 3669,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 77.51,
-      "global_rating": 11034,
+      "global_rating": 11037,
       "avgExp": 1183,
       "maxExp": 2802,
       "maxFrags": 11,
-      "masterCount": 69,
-      "vehiclesCount": 97,
-      "fetchedAt": "2026-01-28T00:48:03Z"
+      "masterCount": 70,
+      "vehiclesCount": 98,
+      "fetchedAt": "2026-01-28T15:21:16Z"
     },
     {
       "accountId": 130831468,

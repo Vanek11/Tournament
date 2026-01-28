@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-28T06:21:59Z",
+  "generatedAt": "2026-01-28T09:29:32Z",
   "players": [
     {
       "accountId": 170363,
@@ -256,8 +256,8 @@
     {
       "accountId": 28909483,
       "nickname": "CJIa6blu_Mycop",
-      "battles": 44304,
-      "wins": 26432,
+      "battles": 44306,
+      "wins": 26433,
       "winRate": 59.66,
       "avgDmg": 2208,
       "avgFrags": null,
@@ -269,25 +269,25 @@
       "maxFrags": 10,
       "masterCount": 129,
       "vehiclesCount": 257,
-      "fetchedAt": "2026-01-27T00:51:43Z"
+      "fetchedAt": "2026-01-28T09:24:09Z"
     },
     {
       "accountId": 31734601,
       "nickname": "I_WoLf__",
-      "battles": 21753,
-      "wins": 13809,
+      "battles": 21765,
+      "wins": 13816,
       "winRate": 63.48,
-      "avgDmg": 2852,
+      "avgDmg": 2853,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 75.2,
-      "global_rating": 11328,
+      "global_rating": 11329,
       "avgExp": 987,
       "maxExp": 3053,
       "maxFrags": 10,
       "masterCount": 191,
       "vehiclesCount": 277,
-      "fetchedAt": "2026-01-26T12:21:44Z"
+      "fetchedAt": "2026-01-28T09:23:55Z"
     },
     {
       "accountId": 31960984,
@@ -310,20 +310,20 @@
     {
       "accountId": 33974749,
       "nickname": "_WonderWul_",
-      "battles": 34117,
-      "wins": 19703,
-      "winRate": 57.75,
-      "avgDmg": 2320,
+      "battles": 34204,
+      "wins": 19763,
+      "winRate": 57.78,
+      "avgDmg": 2319,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.55,
-      "global_rating": 10055,
-      "avgExp": 895,
+      "global_rating": 10061,
+      "avgExp": 896,
       "maxExp": 3215,
       "maxFrags": 10,
       "masterCount": 183,
       "vehiclesCount": 327,
-      "fetchedAt": "2026-01-26T12:20:41Z"
+      "fetchedAt": "2026-01-28T09:22:26Z"
     },
     {
       "accountId": 48487007,

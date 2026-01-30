@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-30T04:28:33Z",
+  "generatedAt": "2026-01-30T06:39:34Z",
   "players": [
     {
       "accountId": 170363,
@@ -310,20 +310,20 @@
     {
       "accountId": 33974749,
       "nickname": "_WonderWul_",
-      "battles": 34218,
-      "wins": 19771,
-      "winRate": 57.78,
+      "battles": 34303,
+      "wins": 19827,
+      "winRate": 57.8,
       "avgDmg": 2319,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.55,
-      "global_rating": 10062,
+      "hitsPercents": 73.56,
+      "global_rating": 10065,
       "avgExp": 896,
       "maxExp": 3215,
       "maxFrags": 10,
-      "masterCount": 183,
-      "vehiclesCount": 327,
-      "fetchedAt": "2026-01-28T15:20:56Z"
+      "masterCount": 184,
+      "vehiclesCount": 329,
+      "fetchedAt": "2026-01-30T06:32:05Z"
     },
     {
       "accountId": 48487007,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 227,
-      "fetchedAt": "2026-01-29T21:18:38Z"
+      "fetchedAt": "2026-01-30T06:36:25Z"
     },
     {
       "accountId": 61780962,

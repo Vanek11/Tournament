@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-30T09:30:35Z",
+  "generatedAt": "2026-01-30T12:31:49Z",
   "players": [
     {
       "accountId": 170363,
@@ -35,25 +35,25 @@
       "maxFrags": 10,
       "masterCount": 108,
       "vehiclesCount": 321,
-      "fetchedAt": "2026-01-29T21:19:48Z"
+      "fetchedAt": "2026-01-30T12:30:33Z"
     },
     {
       "accountId": 1667936,
       "nickname": "Weedman_Pro",
-      "battles": 65135,
-      "wins": 33603,
+      "battles": 65147,
+      "wins": 33609,
       "winRate": 51.59,
-      "avgDmg": 1363,
+      "avgDmg": 1364,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.81,
-      "global_rating": 7105,
+      "global_rating": 7106,
       "avgExp": 712,
       "maxExp": 2942,
       "maxFrags": 9,
       "masterCount": 124,
-      "vehiclesCount": 355,
-      "fetchedAt": "2026-01-29T00:59:38Z"
+      "vehiclesCount": 356,
+      "fetchedAt": "2026-01-30T12:31:09Z"
     },
     {
       "accountId": 2213900,
@@ -166,20 +166,20 @@
     {
       "accountId": 17864806,
       "nickname": "Aleksey4star",
-      "battles": 37002,
-      "wins": 19955,
+      "battles": 37008,
+      "wins": 19958,
       "winRate": 53.93,
       "avgDmg": 1493,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.74,
-      "global_rating": 8608,
+      "global_rating": 8607,
       "avgExp": 650,
       "maxExp": 2780,
       "maxFrags": 9,
       "masterCount": 147,
       "vehiclesCount": 311,
-      "fetchedAt": "2026-01-27T15:23:53Z"
+      "fetchedAt": "2026-01-30T12:30:05Z"
     },
     {
       "accountId": 20705422,

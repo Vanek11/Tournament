@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-30T18:32:25Z",
+  "generatedAt": "2026-01-30T21:24:00Z",
   "players": [
     {
       "accountId": 170363,
@@ -220,20 +220,20 @@
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 36256,
-      "wins": 18201,
-      "winRate": 50.2,
-      "avgDmg": 1126,
+      "battles": 36489,
+      "wins": 18343,
+      "winRate": 50.27,
+      "avgDmg": 1132,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 67.83,
-      "global_rating": 6199,
-      "avgExp": 571,
+      "hitsPercents": 67.89,
+      "global_rating": 6236,
+      "avgExp": 574,
       "maxExp": 2648,
       "maxFrags": 10,
-      "masterCount": 51,
-      "vehiclesCount": 285,
-      "fetchedAt": "2026-01-27T00:54:52Z"
+      "masterCount": 53,
+      "vehiclesCount": 292,
+      "fetchedAt": "2026-01-30T21:23:57Z"
     },
     {
       "accountId": 24040492,
@@ -544,20 +544,20 @@
     {
       "accountId": 123578506,
       "nickname": "IIac",
-      "battles": 16365,
-      "wins": 9156,
-      "winRate": 55.95,
-      "avgDmg": 2424,
+      "battles": 16381,
+      "wins": 9168,
+      "winRate": 55.97,
+      "avgDmg": 2426,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.84,
-      "global_rating": 9406,
-      "avgExp": 876,
+      "hitsPercents": 73.85,
+      "global_rating": 9412,
+      "avgExp": 877,
       "maxExp": 2754,
       "maxFrags": 12,
-      "masterCount": 97,
+      "masterCount": 98,
       "vehiclesCount": 243,
-      "fetchedAt": "2026-01-28T15:26:36Z"
+      "fetchedAt": "2026-01-30T21:19:58Z"
     },
     {
       "accountId": 126453902,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2026-01-30T18:25:32Z"
+      "fetchedAt": "2026-01-30T21:16:33Z"
     },
     {
       "accountId": 172140333,

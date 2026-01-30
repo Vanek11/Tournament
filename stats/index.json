@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-01-30T15:27:29Z",
+  "generatedAt": "2026-01-30T18:32:25Z",
   "players": [
     {
       "accountId": 170363,
-      "nickname": "Xsides",
-      "battles": 16833,
-      "wins": 8826,
+      "nickname": "Мои игровые профили:",
+      "battles": 16841,
+      "wins": 8830,
       "winRate": 52.43,
       "avgDmg": 1283,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 64.86,
-      "global_rating": 6935,
+      "hitsPercents": 64.87,
+      "global_rating": 6936,
       "avgExp": 676,
       "maxExp": 2598,
       "maxFrags": 11,
       "masterCount": 52,
       "vehiclesCount": 248,
-      "fetchedAt": "2026-01-29T00:59:19Z"
+      "fetchedAt": "2026-01-30T18:31:09Z"
     },
     {
       "accountId": 328441,
@@ -179,7 +179,7 @@
       "maxFrags": 9,
       "masterCount": 147,
       "vehiclesCount": 311,
-      "fetchedAt": "2026-01-30T12:30:05Z"
+      "fetchedAt": "2026-01-30T18:29:46Z"
     },
     {
       "accountId": 20705422,
@@ -472,20 +472,20 @@
     {
       "accountId": 90586270,
       "nickname": "EHoTiK_TToJIoCKyH",
-      "battles": 24471,
-      "wins": 13542,
-      "winRate": 55.34,
+      "battles": 24477,
+      "wins": 13543,
+      "winRate": 55.33,
       "avgDmg": 1818,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 65.57,
-      "global_rating": 9274,
+      "global_rating": 9271,
       "avgExp": 813,
       "maxExp": 2798,
       "maxFrags": 9,
       "masterCount": 114,
-      "vehiclesCount": 334,
-      "fetchedAt": "2026-01-29T21:20:55Z"
+      "vehiclesCount": 336,
+      "fetchedAt": "2026-01-30T18:31:16Z"
     },
     {
       "accountId": 111965257,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2026-01-29T00:55:43Z"
+      "fetchedAt": "2026-01-30T18:25:32Z"
     },
     {
       "accountId": 172140333,

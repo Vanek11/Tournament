@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-30T21:24:00Z",
+  "generatedAt": "2026-01-31T01:00:24Z",
   "players": [
     {
       "accountId": 170363,
@@ -40,20 +40,20 @@
     {
       "accountId": 1667936,
       "nickname": "Weedman_Pro",
-      "battles": 65147,
-      "wins": 33609,
+      "battles": 65162,
+      "wins": 33617,
       "winRate": 51.59,
       "avgDmg": 1364,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.81,
-      "global_rating": 7106,
+      "global_rating": 7107,
       "avgExp": 712,
       "maxExp": 2942,
       "maxFrags": 9,
       "masterCount": 124,
       "vehiclesCount": 356,
-      "fetchedAt": "2026-01-30T15:26:45Z"
+      "fetchedAt": "2026-01-31T00:59:20Z"
     },
     {
       "accountId": 2213900,
@@ -557,25 +557,25 @@
       "maxFrags": 12,
       "masterCount": 98,
       "vehiclesCount": 243,
-      "fetchedAt": "2026-01-30T21:19:58Z"
+      "fetchedAt": "2026-01-31T00:57:20Z"
     },
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 8934,
-      "wins": 5839,
-      "winRate": 65.36,
-      "avgDmg": 3669,
+      "battles": 8947,
+      "wins": 5847,
+      "winRate": 65.35,
+      "avgDmg": 3667,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.51,
-      "global_rating": 11037,
+      "hitsPercents": 77.5,
+      "global_rating": 11038,
       "avgExp": 1183,
       "maxExp": 2802,
       "maxFrags": 11,
       "masterCount": 70,
       "vehiclesCount": 98,
-      "fetchedAt": "2026-01-28T15:21:16Z"
+      "fetchedAt": "2026-01-31T00:53:52Z"
     },
     {
       "accountId": 130831468,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-31T15:17:48Z",
+  "generatedAt": "2026-01-31T18:22:43Z",
   "players": [
     {
       "accountId": 170363,
@@ -616,20 +616,20 @@
     {
       "accountId": 208174535,
       "nickname": "HaIIuJIa",
-      "battles": 4891,
-      "wins": 2990,
-      "winRate": 61.13,
-      "avgDmg": 3152,
+      "battles": 4901,
+      "wins": 2997,
+      "winRate": 61.15,
+      "avgDmg": 3150,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 76.71,
+      "hitsPercents": 76.73,
       "global_rating": 9307,
       "avgExp": 1077,
       "maxExp": 2727,
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-01-30T15:22:37Z"
+      "fetchedAt": "2026-01-31T18:16:30Z"
     },
     {
       "accountId": 260637298,

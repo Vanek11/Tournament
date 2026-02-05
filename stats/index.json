@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-05T06:45:31Z",
+  "generatedAt": "2026-02-05T09:36:00Z",
   "players": [
     {
       "accountId": 170363,
@@ -220,20 +220,20 @@
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 36702,
-      "wins": 18468,
-      "winRate": 50.32,
-      "avgDmg": 1138,
+      "battles": 36717,
+      "wins": 18480,
+      "winRate": 50.33,
+      "avgDmg": 1139,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.96,
-      "global_rating": 6269,
+      "global_rating": 6271,
       "avgExp": 576,
       "maxExp": 2648,
       "maxFrags": 10,
       "masterCount": 53,
       "vehiclesCount": 293,
-      "fetchedAt": "2026-02-05T01:01:10Z"
+      "fetchedAt": "2026-02-05T09:35:57Z"
     },
     {
       "accountId": 24040492,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 116,
       "vehiclesCount": 423,
-      "fetchedAt": "2026-02-05T01:00:27Z"
+      "fetchedAt": "2026-02-05T09:34:58Z"
     },
     {
       "accountId": 33974749,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 85,
       "vehiclesCount": 305,
-      "fetchedAt": "2026-02-05T01:00:33Z"
+      "fetchedAt": "2026-02-05T09:35:08Z"
     },
     {
       "accountId": 76905788,
@@ -454,7 +454,7 @@
     {
       "accountId": 89288809,
       "nickname": "New_KPuBou",
-      "battles": 48682,
+      "battles": 48683,
       "wins": 29336,
       "winRate": 60.26,
       "avgDmg": 2605,
@@ -467,7 +467,7 @@
       "maxFrags": 9,
       "masterCount": 229,
       "vehiclesCount": 379,
-      "fetchedAt": "2026-02-05T00:59:26Z"
+      "fetchedAt": "2026-02-05T09:33:52Z"
     },
     {
       "accountId": 90586270,
@@ -503,7 +503,7 @@
       "maxFrags": 11,
       "masterCount": 201,
       "vehiclesCount": 224,
-      "fetchedAt": "2026-02-04T21:23:20Z"
+      "fetchedAt": "2026-02-05T09:33:09Z"
     },
     {
       "accountId": 115214305,

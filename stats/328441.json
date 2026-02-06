@@ -1,18 +1,18 @@
 {
   "accountId": 328441,
   "nickname": "Mishgan61",
-  "battles": 61918,
-  "wins": 32074,
+  "battles": 62000,
+  "wins": 32116,
   "winRate": 51.8,
   "avgDmg": 1700,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 67.69,
+  "hitsPercents": 67.7,
   "global_rating": 7914,
   "avgExp": 684,
   "maxExp": 2605,
   "maxFrags": 10,
-  "masterCount": 108,
+  "masterCount": 110,
   "vehiclesCount": 325,
-  "fetchedAt": "2026-02-05T01:00:22Z"
+  "fetchedAt": "2026-02-06T00:57:04Z"
 }

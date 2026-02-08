@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-08T06:38:17Z",
+  "generatedAt": "2026-02-08T09:22:30Z",
   "players": [
     {
       "accountId": 170363,
@@ -17,7 +17,7 @@
       "maxFrags": 11,
       "masterCount": 53,
       "vehiclesCount": 249,
-      "fetchedAt": "2026-02-08T06:37:30Z"
+      "fetchedAt": "2026-02-08T09:21:50Z"
     },
     {
       "accountId": 328441,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 111,
       "vehiclesCount": 325,
-      "fetchedAt": "2026-02-08T04:57:22Z"
+      "fetchedAt": "2026-02-08T09:21:30Z"
     },
     {
       "accountId": 1667936,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2026-02-08T04:57:58Z"
+      "fetchedAt": "2026-02-08T09:22:09Z"
     },
     {
       "accountId": 10961226,
@@ -197,7 +197,7 @@
       "maxFrags": 11,
       "masterCount": 113,
       "vehiclesCount": 166,
-      "fetchedAt": "2026-02-08T04:55:33Z"
+      "fetchedAt": "2026-02-08T09:19:32Z"
     },
     {
       "accountId": 20778095,
@@ -269,7 +269,7 @@
       "maxFrags": 10,
       "masterCount": 129,
       "vehiclesCount": 257,
-      "fetchedAt": "2026-02-08T01:15:15Z"
+      "fetchedAt": "2026-02-08T09:20:02Z"
     },
     {
       "accountId": 31734601,
@@ -382,20 +382,20 @@
     {
       "accountId": 67463356,
       "nickname": "CrazylFoxy",
-      "battles": 40687,
-      "wins": 21743,
+      "battles": 40719,
+      "wins": 21760,
       "winRate": 53.44,
       "avgDmg": 1509,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 66.39,
+      "hitsPercents": 66.38,
       "global_rating": 8265,
       "avgExp": 729,
       "maxExp": 2750,
       "maxFrags": 8,
       "masterCount": 103,
       "vehiclesCount": 370,
-      "fetchedAt": "2026-02-07T18:19:05Z"
+      "fetchedAt": "2026-02-08T09:21:17Z"
     },
     {
       "accountId": 70467784,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2026-02-08T06:34:35Z"
+      "fetchedAt": "2026-02-08T09:19:01Z"
     },
     {
       "accountId": 172140333,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-02-08T04:55:20Z"
+      "fetchedAt": "2026-02-08T09:19:19Z"
     },
     {
       "accountId": 260637298,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-10T13:02:02Z",
+  "generatedAt": "2026-02-10T15:58:24Z",
   "players": [
     {
       "accountId": 170363,
@@ -309,7 +309,7 @@
     },
     {
       "accountId": 33974749,
-      "nickname": "_WonderWul_",
+      "nickname": "Мои игровые профили:",
       "battles": 34713,
       "wins": 20071,
       "winRate": 57.82,
@@ -323,7 +323,7 @@
       "maxFrags": 10,
       "masterCount": 188,
       "vehiclesCount": 334,
-      "fetchedAt": "2026-02-10T09:45:49Z"
+      "fetchedAt": "2026-02-10T15:54:07Z"
     },
     {
       "accountId": 48487007,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 235,
       "vehiclesCount": 439,
-      "fetchedAt": "2026-02-10T09:47:30Z"
+      "fetchedAt": "2026-02-10T15:56:20Z"
     },
     {
       "accountId": 67463356,
@@ -526,9 +526,9 @@
     {
       "accountId": 121158863,
       "nickname": "JIauM",
-      "battles": 32001,
+      "battles": 32006,
       "wins": 20685,
-      "winRate": 64.64,
+      "winRate": 64.63,
       "avgDmg": 2958,
       "avgFrags": null,
       "surviveRate": null,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-02-09T12:36:34Z"
+      "fetchedAt": "2026-02-10T15:53:53Z"
     },
     {
       "accountId": 123578506,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 155,
-      "fetchedAt": "2026-02-10T09:46:00Z"
+      "fetchedAt": "2026-02-10T15:54:19Z"
     },
     {
       "accountId": 172140333,
@@ -611,7 +611,7 @@
       "maxFrags": 9,
       "masterCount": 87,
       "vehiclesCount": 146,
-      "fetchedAt": "2026-02-10T09:46:12Z"
+      "fetchedAt": "2026-02-10T15:54:34Z"
     },
     {
       "accountId": 208174535,

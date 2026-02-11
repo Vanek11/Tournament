@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-11T16:45:11Z",
+  "generatedAt": "2026-02-11T18:48:47Z",
   "players": [
     {
       "accountId": 170363,
@@ -490,10 +490,10 @@
     {
       "accountId": 111965257,
       "nickname": "Punisherr",
-      "battles": 33754,
-      "wins": 22295,
-      "winRate": 66.05,
-      "avgDmg": 3756,
+      "battles": 33771,
+      "wins": 22302,
+      "winRate": 66.04,
+      "avgDmg": 3755,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 78.49,
@@ -501,9 +501,9 @@
       "avgExp": 1274,
       "maxExp": 3617,
       "maxFrags": 11,
-      "masterCount": 201,
-      "vehiclesCount": 225,
-      "fetchedAt": "2026-02-10T18:48:50Z"
+      "masterCount": 202,
+      "vehiclesCount": 226,
+      "fetchedAt": "2026-02-11T18:45:55Z"
     },
     {
       "accountId": 115214305,

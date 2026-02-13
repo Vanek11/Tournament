@@ -1,10 +1,10 @@
 {
   "accountId": 89288809,
   "nickname": "New_KPuBou",
-  "battles": 48786,
-  "wins": 29394,
-  "winRate": 60.25,
-  "avgDmg": 2605,
+  "battles": 48808,
+  "wins": 29402,
+  "winRate": 60.24,
+  "avgDmg": 2606,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 68.73,
@@ -14,5 +14,5 @@
   "maxFrags": 9,
   "masterCount": 229,
   "vehiclesCount": 380,
-  "fetchedAt": "2026-02-13T09:32:45Z"
+  "fetchedAt": "2026-02-13T18:29:59Z"
 }

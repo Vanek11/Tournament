@@ -1,18 +1,18 @@
 {
   "accountId": 2682543,
   "nickname": "Soind",
-  "battles": 76119,
-  "wins": 43357,
+  "battles": 76148,
+  "wins": 43374,
   "winRate": 56.96,
-  "avgDmg": 1585,
+  "avgDmg": 1586,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 69.22,
-  "global_rating": 9429,
+  "global_rating": 9430,
   "avgExp": 772,
   "maxExp": 3633,
   "maxFrags": 11,
   "masterCount": 323,
-  "vehiclesCount": 733,
-  "fetchedAt": "2026-02-19T18:37:11Z"
+  "vehiclesCount": 734,
+  "fetchedAt": "2026-02-20T00:58:21Z"
 }

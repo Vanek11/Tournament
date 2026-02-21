@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-21T04:25:02Z",
+  "generatedAt": "2026-02-21T06:29:30Z",
   "players": [
     {
       "accountId": 170363,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2026-02-21T04:24:42Z"
+      "fetchedAt": "2026-02-21T06:29:11Z"
     },
     {
       "accountId": 10961226,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 53,
       "vehiclesCount": 297,
-      "fetchedAt": "2026-02-21T04:25:00Z"
+      "fetchedAt": "2026-02-21T06:29:27Z"
     },
     {
       "accountId": 24040492,
@@ -287,7 +287,7 @@
       "maxFrags": 10,
       "masterCount": 193,
       "vehiclesCount": 283,
-      "fetchedAt": "2026-02-21T04:22:41Z"
+      "fetchedAt": "2026-02-21T06:27:03Z"
     },
     {
       "accountId": 31960984,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-02-21T00:55:07Z"
+      "fetchedAt": "2026-02-21T06:26:02Z"
     },
     {
       "accountId": 123578506,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 48,
       "vehiclesCount": 81,
-      "fetchedAt": "2026-02-21T04:23:52Z"
+      "fetchedAt": "2026-02-21T06:28:18Z"
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "accountId": 260637298,
   "nickname": "Awessome_",
-  "battles": 6448,
-  "wins": 3854,
-  "winRate": 59.77,
-  "avgDmg": 2908,
+  "battles": 6460,
+  "wins": 3863,
+  "winRate": 59.8,
+  "avgDmg": 2912,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 77.2,
-  "global_rating": 9528,
-  "avgExp": 1053,
+  "hitsPercents": 77.23,
+  "global_rating": 9538,
+  "avgExp": 1054,
   "maxExp": 2843,
   "maxFrags": 9,
   "masterCount": 48,
-  "vehiclesCount": 81,
-  "fetchedAt": "2026-02-25T12:34:39Z"
+  "vehiclesCount": 82,
+  "fetchedAt": "2026-02-26T09:37:51Z"
 }

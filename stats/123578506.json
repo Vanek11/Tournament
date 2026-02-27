@@ -1,18 +1,18 @@
 {
   "accountId": 123578506,
   "nickname": "IIac",
-  "battles": 16484,
-  "wins": 9239,
+  "battles": 16488,
+  "wins": 9242,
   "winRate": 56.05,
   "avgDmg": 2436,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 73.9,
-  "global_rating": 9440,
+  "global_rating": 9441,
   "avgExp": 879,
   "maxExp": 2754,
   "maxFrags": 12,
   "masterCount": 100,
   "vehiclesCount": 247,
-  "fetchedAt": "2026-02-27T04:30:33Z"
+  "fetchedAt": "2026-02-27T21:19:00Z"
 }

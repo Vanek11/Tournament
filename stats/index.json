@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-27T15:30:50Z",
+  "generatedAt": "2026-02-27T18:27:26Z",
   "players": [
     {
       "accountId": 170363,
@@ -58,20 +58,20 @@
     {
       "accountId": 2213900,
       "nickname": "AlexHelicopter",
-      "battles": 19863,
-      "wins": 11189,
-      "winRate": 56.33,
-      "avgDmg": 1983,
+      "battles": 19885,
+      "wins": 11203,
+      "winRate": 56.34,
+      "avgDmg": 1982,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 71.8,
-      "global_rating": 9461,
+      "hitsPercents": 71.81,
+      "global_rating": 9465,
       "avgExp": 827,
       "maxExp": 3366,
       "maxFrags": 10,
       "masterCount": 114,
       "vehiclesCount": 277,
-      "fetchedAt": "2026-02-27T00:58:17Z"
+      "fetchedAt": "2026-02-27T18:24:38Z"
     },
     {
       "accountId": 2455009,
@@ -107,7 +107,7 @@
       "maxFrags": 11,
       "masterCount": 326,
       "vehiclesCount": 737,
-      "fetchedAt": "2026-02-27T04:29:48Z"
+      "fetchedAt": "2026-02-27T18:25:05Z"
     },
     {
       "accountId": 3046685,
@@ -161,7 +161,7 @@
       "maxFrags": 11,
       "masterCount": 465,
       "vehiclesCount": 565,
-      "fetchedAt": "2026-02-27T06:37:26Z"
+      "fetchedAt": "2026-02-27T18:25:19Z"
     },
     {
       "accountId": 17864806,
@@ -197,7 +197,7 @@
       "maxFrags": 11,
       "masterCount": 113,
       "vehiclesCount": 166,
-      "fetchedAt": "2026-02-27T00:58:12Z"
+      "fetchedAt": "2026-02-27T18:24:32Z"
     },
     {
       "accountId": 20778095,
@@ -256,20 +256,20 @@
     {
       "accountId": 28909483,
       "nickname": "CJIa6blu_Mycop",
-      "battles": 44664,
-      "wins": 26633,
+      "battles": 44677,
+      "wins": 26641,
       "winRate": 59.63,
       "avgDmg": 2215,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 70.97,
-      "global_rating": 10827,
+      "global_rating": 10828,
       "avgExp": 934,
       "maxExp": 2904,
       "maxFrags": 10,
       "masterCount": 129,
       "vehiclesCount": 259,
-      "fetchedAt": "2026-02-27T06:37:09Z"
+      "fetchedAt": "2026-02-27T18:24:58Z"
     },
     {
       "accountId": 31734601,
@@ -328,20 +328,20 @@
     {
       "accountId": 48487007,
       "nickname": "Citramon4",
-      "battles": 29494,
-      "wins": 16997,
+      "battles": 29503,
+      "wins": 17003,
       "winRate": 57.63,
       "avgDmg": 2231,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 75.53,
-      "global_rating": 9671,
+      "global_rating": 9673,
       "avgExp": 865,
       "maxExp": 2880,
       "maxFrags": 10,
       "masterCount": 132,
       "vehiclesCount": 230,
-      "fetchedAt": "2026-02-27T06:37:53Z"
+      "fetchedAt": "2026-02-27T18:25:54Z"
     },
     {
       "accountId": 61780962,
@@ -467,7 +467,7 @@
       "maxFrags": 9,
       "masterCount": 230,
       "vehiclesCount": 381,
-      "fetchedAt": "2026-02-27T04:30:05Z"
+      "fetchedAt": "2026-02-27T18:25:25Z"
     },
     {
       "accountId": 90586270,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 76,
       "vehiclesCount": 113,
-      "fetchedAt": "2026-02-27T06:36:21Z"
+      "fetchedAt": "2026-02-27T18:24:06Z"
     },
     {
       "accountId": 130831468,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-02-27T04:29:08Z"
+      "fetchedAt": "2026-02-27T18:24:19Z"
     },
     {
       "accountId": 260637298,

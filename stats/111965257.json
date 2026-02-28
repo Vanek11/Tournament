@@ -1,18 +1,18 @@
 {
   "accountId": 111965257,
   "nickname": "Punisherr",
-  "battles": 33964,
-  "wins": 22447,
-  "winRate": 66.09,
+  "battles": 33995,
+  "wins": 22471,
+  "winRate": 66.1,
   "avgDmg": 3763,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 78.53,
-  "global_rating": 12628,
+  "global_rating": 12630,
   "avgExp": 1276,
   "maxExp": 3617,
   "maxFrags": 11,
   "masterCount": 206,
   "vehiclesCount": 229,
-  "fetchedAt": "2026-02-27T06:37:03Z"
+  "fetchedAt": "2026-02-28T00:51:38Z"
 }

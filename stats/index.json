@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T04:28:55Z",
+  "generatedAt": "2026-03-06T06:35:20Z",
   "players": [
     {
       "accountId": 170363,
@@ -112,20 +112,20 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 82615,
-      "wins": 44521,
-      "winRate": 53.89,
-      "avgDmg": 1612,
+      "battles": 82641,
+      "wins": 44543,
+      "winRate": 53.9,
+      "avgDmg": 1613,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.73,
-      "global_rating": 8641,
-      "avgExp": 776,
+      "hitsPercents": 68.74,
+      "global_rating": 8644,
+      "avgExp": 777,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 179,
       "vehiclesCount": 449,
-      "fetchedAt": "2026-03-05T15:39:55Z"
+      "fetchedAt": "2026-03-06T06:34:01Z"
     },
     {
       "accountId": 4162197,
@@ -274,20 +274,20 @@
     {
       "accountId": 31734601,
       "nickname": "I_WoLf__",
-      "battles": 22511,
-      "wins": 14312,
-      "winRate": 63.58,
-      "avgDmg": 2862,
+      "battles": 22518,
+      "wins": 14315,
+      "winRate": 63.57,
+      "avgDmg": 2861,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 75.28,
-      "global_rating": 11367,
+      "global_rating": 11366,
       "avgExp": 992,
       "maxExp": 3213,
       "maxFrags": 10,
       "masterCount": 199,
       "vehiclesCount": 286,
-      "fetchedAt": "2026-03-05T06:34:44Z"
+      "fetchedAt": "2026-03-06T06:32:49Z"
     },
     {
       "accountId": 31960984,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 77,
       "vehiclesCount": 114,
-      "fetchedAt": "2026-03-06T01:03:08Z"
+      "fetchedAt": "2026-03-06T06:32:13Z"
     },
     {
       "accountId": 130831468,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-03-05T15:38:17Z"
+      "fetchedAt": "2026-03-06T06:32:25Z"
     },
     {
       "accountId": 260637298,

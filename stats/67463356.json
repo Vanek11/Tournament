@@ -1,10 +1,10 @@
 {
   "accountId": 67463356,
   "nickname": "CrazylFoxy",
-  "battles": 41004,
-  "wins": 21929,
-  "winRate": 53.48,
-  "avgDmg": 1511,
+  "battles": 41029,
+  "wins": 21938,
+  "winRate": 53.47,
+  "avgDmg": 1512,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 66.44,
@@ -13,6 +13,6 @@
   "maxExp": 2750,
   "maxFrags": 8,
   "masterCount": 104,
-  "vehiclesCount": 372,
-  "fetchedAt": "2026-03-09T15:46:08Z"
+  "vehiclesCount": 373,
+  "fetchedAt": "2026-03-09T21:22:23Z"
 }

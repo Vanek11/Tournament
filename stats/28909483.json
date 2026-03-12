@@ -1,9 +1,9 @@
 {
   "accountId": 28909483,
   "nickname": "CJIa6blu_Mycop",
-  "battles": 44928,
-  "wins": 26795,
-  "winRate": 59.64,
+  "battles": 44930,
+  "wins": 26792,
+  "winRate": 59.63,
   "avgDmg": 2221,
   "avgFrags": null,
   "surviveRate": null,
@@ -14,5 +14,5 @@
   "maxFrags": 10,
   "masterCount": 129,
   "vehiclesCount": 259,
-  "fetchedAt": "2026-03-11T21:20:41Z"
+  "fetchedAt": "2026-03-12T04:29:45Z"
 }

@@ -1,18 +1,18 @@
 {
   "accountId": 20705422,
   "nickname": "kalkylatorWN8_SST",
-  "battles": 12485,
-  "wins": 7942,
-  "winRate": 63.61,
-  "avgDmg": 3235,
+  "battles": 12522,
+  "wins": 7966,
+  "winRate": 63.62,
+  "avgDmg": 3238,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 80.32,
-  "global_rating": 11072,
+  "hitsPercents": 80.3,
+  "global_rating": 11078,
   "avgExp": 1174,
   "maxExp": 3273,
   "maxFrags": 11,
-  "masterCount": 113,
-  "vehiclesCount": 166,
-  "fetchedAt": "2026-03-18T18:41:02Z"
+  "masterCount": 114,
+  "vehiclesCount": 167,
+  "fetchedAt": "2026-03-19T09:31:37Z"
 }

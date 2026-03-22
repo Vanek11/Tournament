@@ -1,10 +1,10 @@
 {
   "accountId": 10961226,
   "nickname": "rHuJIb_9I",
-  "battles": 93382,
-  "wins": 55590,
+  "battles": 93399,
+  "wins": 55600,
   "winRate": 59.53,
-  "avgDmg": 1848,
+  "avgDmg": 1849,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 65.75,
@@ -13,6 +13,6 @@
   "maxExp": 3338,
   "maxFrags": 11,
   "masterCount": 473,
-  "vehiclesCount": 574,
-  "fetchedAt": "2026-03-22T15:15:36Z"
+  "vehiclesCount": 575,
+  "fetchedAt": "2026-03-22T21:16:09Z"
 }

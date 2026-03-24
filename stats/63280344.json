@@ -1,8 +1,8 @@
 {
   "accountId": 63280344,
   "nickname": "11_vanek_11",
-  "battles": 53631,
-  "wins": 30693,
+  "battles": 53639,
+  "wins": 30698,
   "winRate": 57.23,
   "avgDmg": 1850,
   "avgFrags": null,
@@ -14,5 +14,5 @@
   "maxFrags": 10,
   "masterCount": 242,
   "vehiclesCount": 446,
-  "fetchedAt": "2026-03-23T21:25:38Z"
+  "fetchedAt": "2026-03-24T09:43:49Z"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T16:23:16Z",
+  "generatedAt": "2026-03-24T18:46:41Z",
   "players": [
     {
       "accountId": 170363,
@@ -89,7 +89,7 @@
       "maxFrags": 8,
       "masterCount": 135,
       "vehiclesCount": 405,
-      "fetchedAt": "2026-03-24T09:42:44Z"
+      "fetchedAt": "2026-03-24T18:43:53Z"
     },
     {
       "accountId": 2682543,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 57,
       "vehiclesCount": 100,
-      "fetchedAt": "2026-03-24T12:40:00Z"
+      "fetchedAt": "2026-03-24T18:44:54Z"
     },
     {
       "accountId": 23948104,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 54,
       "vehiclesCount": 297,
-      "fetchedAt": "2026-03-24T12:41:40Z"
+      "fetchedAt": "2026-03-24T18:46:39Z"
     },
     {
       "accountId": 24040492,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 226,
       "vehiclesCount": 394,
-      "fetchedAt": "2026-03-24T12:41:34Z"
+      "fetchedAt": "2026-03-24T18:46:33Z"
     },
     {
       "accountId": 63280344,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 140,
-      "fetchedAt": "2026-03-24T12:40:06Z"
+      "fetchedAt": "2026-03-24T18:45:00Z"
     },
     {
       "accountId": 72380096,
@@ -454,9 +454,9 @@
     {
       "accountId": 89288809,
       "nickname": "New_KPuBou",
-      "battles": 49363,
+      "battles": 49370,
       "wins": 29731,
-      "winRate": 60.23,
+      "winRate": 60.22,
       "avgDmg": 2610,
       "avgFrags": null,
       "surviveRate": null,
@@ -466,8 +466,8 @@
       "maxExp": 3432,
       "maxFrags": 9,
       "masterCount": 233,
-      "vehiclesCount": 386,
-      "fetchedAt": "2026-03-24T12:39:54Z"
+      "vehiclesCount": 387,
+      "fetchedAt": "2026-03-24T18:44:49Z"
     },
     {
       "accountId": 90586270,
@@ -544,8 +544,8 @@
     {
       "accountId": 123578506,
       "nickname": "IIac",
-      "battles": 16534,
-      "wins": 9271,
+      "battles": 16536,
+      "wins": 9272,
       "winRate": 56.07,
       "avgDmg": 2441,
       "avgFrags": null,
@@ -557,7 +557,7 @@
       "maxFrags": 12,
       "masterCount": 101,
       "vehiclesCount": 248,
-      "fetchedAt": "2026-03-24T12:40:22Z"
+      "fetchedAt": "2026-03-24T18:45:18Z"
     },
     {
       "accountId": 126453902,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 78,
       "vehiclesCount": 115,
-      "fetchedAt": "2026-03-24T12:38:44Z"
+      "fetchedAt": "2026-03-24T18:43:35Z"
     },
     {
       "accountId": 130831468,

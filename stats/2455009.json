@@ -1,8 +1,8 @@
 {
   "accountId": 2455009,
   "nickname": "CHl0C",
-  "battles": 32240,
-  "wins": 17452,
+  "battles": 32248,
+  "wins": 17456,
   "winRate": 54.13,
   "avgDmg": 1530,
   "avgFrags": null,
@@ -14,5 +14,5 @@
   "maxFrags": 8,
   "masterCount": 135,
   "vehiclesCount": 405,
-  "fetchedAt": "2026-03-30T05:14:52Z"
+  "fetchedAt": "2026-03-30T18:42:31Z"
 }

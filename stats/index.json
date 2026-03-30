@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T21:22:46Z",
+  "generatedAt": "2026-03-30T01:12:11Z",
   "players": [
     {
       "accountId": 170363,
@@ -17,7 +17,7 @@
       "maxFrags": 11,
       "masterCount": 53,
       "vehiclesCount": 253,
-      "fetchedAt": "2026-03-29T21:22:10Z"
+      "fetchedAt": "2026-03-30T01:11:36Z"
     },
     {
       "accountId": 328441,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 180,
       "vehiclesCount": 450,
-      "fetchedAt": "2026-03-29T05:05:11Z"
+      "fetchedAt": "2026-03-30T01:10:58Z"
     },
     {
       "accountId": 4162197,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 57,
       "vehiclesCount": 100,
-      "fetchedAt": "2026-03-29T05:04:43Z"
+      "fetchedAt": "2026-03-30T01:10:29Z"
     },
     {
       "accountId": 23948104,
@@ -274,20 +274,20 @@
     {
       "accountId": 31734601,
       "nickname": "I_WoLf__",
-      "battles": 22823,
-      "wins": 14520,
-      "winRate": 63.62,
+      "battles": 22840,
+      "wins": 14529,
+      "winRate": 63.61,
       "avgDmg": 2853,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 75.42,
       "global_rating": 11372,
-      "avgExp": 994,
+      "avgExp": 995,
       "maxExp": 3213,
       "maxFrags": 10,
       "masterCount": 204,
       "vehiclesCount": 298,
-      "fetchedAt": "2026-03-28T21:19:03Z"
+      "fetchedAt": "2026-03-30T01:09:50Z"
     },
     {
       "accountId": 31960984,
@@ -323,7 +323,7 @@
       "maxFrags": 10,
       "masterCount": 190,
       "vehiclesCount": 342,
-      "fetchedAt": "2026-03-28T15:18:11Z"
+      "fetchedAt": "2026-03-30T01:08:59Z"
     },
     {
       "accountId": 48487007,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 226,
       "vehiclesCount": 394,
-      "fetchedAt": "2026-03-29T21:22:38Z"
+      "fetchedAt": "2026-03-30T01:12:04Z"
     },
     {
       "accountId": 63280344,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-03-29T21:19:28Z"
+      "fetchedAt": "2026-03-30T01:08:54Z"
     },
     {
       "accountId": 123578506,

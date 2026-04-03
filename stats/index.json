@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T21:28:08Z",
+  "generatedAt": "2026-04-03T01:09:56Z",
   "players": [
     {
       "accountId": 170363,
@@ -454,8 +454,8 @@
     {
       "accountId": 89288809,
       "nickname": "New_KPuBou",
-      "battles": 49537,
-      "wins": 29826,
+      "battles": 49542,
+      "wins": 29829,
       "winRate": 60.21,
       "avgDmg": 2613,
       "avgFrags": null,
@@ -467,7 +467,7 @@
       "maxFrags": 9,
       "masterCount": 234,
       "vehiclesCount": 387,
-      "fetchedAt": "2026-04-02T01:05:23Z"
+      "fetchedAt": "2026-04-03T01:07:53Z"
     },
     {
       "accountId": 90586270,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-04-02T21:24:19Z"
+      "fetchedAt": "2026-04-03T01:06:07Z"
     },
     {
       "accountId": 123578506,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T06:46:33Z",
+  "generatedAt": "2026-04-04T09:29:09Z",
   "players": [
     {
       "accountId": 170363,
@@ -328,20 +328,20 @@
     {
       "accountId": 48487007,
       "nickname": "Citramon4",
-      "battles": 29620,
-      "wins": 17070,
+      "battles": 29624,
+      "wins": 17072,
       "winRate": 57.63,
       "avgDmg": 2236,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 75.58,
-      "global_rating": 9682,
+      "global_rating": 9681,
       "avgExp": 865,
       "maxExp": 2880,
       "maxFrags": 10,
       "masterCount": 132,
       "vehiclesCount": 231,
-      "fetchedAt": "2026-04-01T12:47:18Z"
+      "fetchedAt": "2026-04-04T09:27:36Z"
     },
     {
       "accountId": 61780962,

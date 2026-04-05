@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T09:30:56Z",
+  "generatedAt": "2026-04-05T12:31:50Z",
   "players": [
     {
       "accountId": 170363,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 115,
       "vehiclesCount": 281,
-      "fetchedAt": "2026-04-04T21:20:12Z"
+      "fetchedAt": "2026-04-05T12:28:05Z"
     },
     {
       "accountId": 2455009,
@@ -292,20 +292,20 @@
     {
       "accountId": 31960984,
       "nickname": "__NeRV",
-      "battles": 63105,
-      "wins": 31048,
+      "battles": 63109,
+      "wins": 31050,
       "winRate": 49.2,
       "avgDmg": 1183,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 67.4,
-      "global_rating": 6325,
+      "hitsPercents": 67.39,
+      "global_rating": 6326,
       "avgExp": 567,
       "maxExp": 3060,
       "maxFrags": 9,
       "masterCount": 119,
       "vehiclesCount": 427,
-      "fetchedAt": "2026-04-05T05:07:37Z"
+      "fetchedAt": "2026-04-05T12:30:50Z"
     },
     {
       "accountId": 33974749,

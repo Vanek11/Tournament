@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T10:00:40Z",
+  "generatedAt": "2026-04-06T12:44:03Z",
   "players": [
     {
       "accountId": 170363,
@@ -400,20 +400,20 @@
     {
       "accountId": 70467784,
       "nickname": "ScreamMyNames",
-      "battles": 11720,
-      "wins": 7235,
+      "battles": 11733,
+      "wins": 7243,
       "winRate": 61.73,
       "avgDmg": 3166,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 80.34,
+      "hitsPercents": 80.33,
       "global_rating": 10952,
       "avgExp": 1064,
       "maxExp": 2847,
       "maxFrags": 10,
       "masterCount": 88,
-      "vehiclesCount": 140,
-      "fetchedAt": "2026-04-04T21:21:26Z"
+      "vehiclesCount": 142,
+      "fetchedAt": "2026-04-06T12:42:01Z"
     },
     {
       "accountId": 72380096,

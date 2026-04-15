@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T21:44:10Z",
+  "generatedAt": "2026-04-15T01:15:17Z",
   "players": [
     {
       "accountId": 170363,
@@ -256,20 +256,20 @@
     {
       "accountId": 28909483,
       "nickname": "CJIa6blu_Mycop",
-      "battles": 45034,
-      "wins": 26854,
+      "battles": 45044,
+      "wins": 26860,
       "winRate": 59.63,
       "avgDmg": 2223,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 71.01,
-      "global_rating": 10840,
+      "global_rating": 10841,
       "avgExp": 936,
       "maxExp": 2904,
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 262,
-      "fetchedAt": "2026-04-12T09:35:52Z"
+      "fetchedAt": "2026-04-15T01:12:57Z"
     },
     {
       "accountId": 31734601,

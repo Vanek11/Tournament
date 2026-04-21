@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T21:38:13Z",
+  "generatedAt": "2026-04-21T01:16:42Z",
   "players": [
     {
       "accountId": 170363,
@@ -184,8 +184,8 @@
     {
       "accountId": 20705422,
       "nickname": "kalkylatorWN8_SST",
-      "battles": 12887,
-      "wins": 8192,
+      "battles": 12889,
+      "wins": 8194,
       "winRate": 63.57,
       "avgDmg": 3248,
       "avgFrags": null,
@@ -196,8 +196,8 @@
       "maxExp": 3273,
       "maxFrags": 11,
       "masterCount": 115,
-      "vehiclesCount": 172,
-      "fetchedAt": "2026-04-20T21:35:38Z"
+      "vehiclesCount": 173,
+      "fetchedAt": "2026-04-21T01:13:59Z"
     },
     {
       "accountId": 20778095,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 54,
       "vehiclesCount": 298,
-      "fetchedAt": "2026-04-20T21:38:11Z"
+      "fetchedAt": "2026-04-21T01:16:39Z"
     },
     {
       "accountId": 24040492,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 119,
       "vehiclesCount": 428,
-      "fetchedAt": "2026-04-20T21:37:26Z"
+      "fetchedAt": "2026-04-21T01:15:53Z"
     },
     {
       "accountId": 33974749,
@@ -395,7 +395,7 @@
       "maxFrags": 8,
       "masterCount": 104,
       "vehiclesCount": 374,
-      "fetchedAt": "2026-04-20T21:37:10Z"
+      "fetchedAt": "2026-04-21T01:15:35Z"
     },
     {
       "accountId": 70467784,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-04-20T21:35:27Z"
+      "fetchedAt": "2026-04-21T01:13:47Z"
     },
     {
       "accountId": 260637298,

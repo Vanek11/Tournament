@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T18:35:29Z",
+  "generatedAt": "2026-04-25T21:27:38Z",
   "players": [
     {
       "accountId": 170363,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 115,
       "vehiclesCount": 281,
-      "fetchedAt": "2026-04-25T09:40:04Z"
+      "fetchedAt": "2026-04-25T21:25:07Z"
     },
     {
       "accountId": 2455009,
@@ -112,20 +112,20 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 83083,
-      "wins": 44815,
+      "battles": 83103,
+      "wins": 44826,
       "winRate": 53.94,
       "avgDmg": 1621,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.78,
-      "global_rating": 8673,
+      "hitsPercents": 68.79,
+      "global_rating": 8674,
       "avgExp": 778,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 180,
-      "vehiclesCount": 451,
-      "fetchedAt": "2026-04-25T09:41:17Z"
+      "vehiclesCount": 452,
+      "fetchedAt": "2026-04-25T21:26:21Z"
     },
     {
       "accountId": 4162197,
@@ -508,20 +508,20 @@
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 31029,
-      "wins": 17528,
-      "winRate": 56.49,
-      "avgDmg": 1824,
+      "battles": 31054,
+      "wins": 17546,
+      "winRate": 56.5,
+      "avgDmg": 1825,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.38,
-      "global_rating": 8874,
+      "global_rating": 8876,
       "avgExp": 869,
       "maxExp": 2898,
       "maxFrags": 9,
       "masterCount": 92,
       "vehiclesCount": 275,
-      "fetchedAt": "2026-04-25T12:35:35Z"
+      "fetchedAt": "2026-04-25T21:27:25Z"
     },
     {
       "accountId": 121158863,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 108,
       "vehiclesCount": 165,
-      "fetchedAt": "2026-04-25T09:39:30Z"
+      "fetchedAt": "2026-04-25T21:24:32Z"
     },
     {
       "accountId": 172140333,

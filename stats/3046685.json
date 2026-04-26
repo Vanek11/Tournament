@@ -1,8 +1,8 @@
 {
   "accountId": 3046685,
   "nickname": "X0POLLIuu",
-  "battles": 83104,
-  "wins": 44826,
+  "battles": 83110,
+  "wins": 44830,
   "winRate": 53.94,
   "avgDmg": 1621,
   "avgFrags": null,
@@ -14,5 +14,5 @@
   "maxFrags": 10,
   "masterCount": 180,
   "vehiclesCount": 452,
-  "fetchedAt": "2026-04-26T12:36:58Z"
+  "fetchedAt": "2026-04-26T18:34:47Z"
 }

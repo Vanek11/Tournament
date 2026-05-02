@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T18:41:20Z",
+  "generatedAt": "2026-05-02T21:31:06Z",
   "players": [
     {
       "accountId": 170363,
@@ -22,20 +22,20 @@
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 64015,
-      "wins": 33237,
-      "winRate": 51.92,
+      "battles": 64028,
+      "wins": 33250,
+      "winRate": 51.93,
       "avgDmg": 1711,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 67.83,
-      "global_rating": 7970,
-      "avgExp": 690,
+      "global_rating": 7971,
+      "avgExp": 691,
       "maxExp": 2605,
       "maxFrags": 10,
       "masterCount": 121,
       "vehiclesCount": 358,
-      "fetchedAt": "2026-05-02T18:40:30Z"
+      "fetchedAt": "2026-05-02T21:30:10Z"
     },
     {
       "accountId": 1667936,
@@ -112,8 +112,8 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 83193,
-      "wins": 44883,
+      "battles": 83196,
+      "wins": 44884,
       "winRate": 53.95,
       "avgDmg": 1623,
       "avgFrags": null,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 180,
       "vehiclesCount": 452,
-      "fetchedAt": "2026-05-02T18:40:09Z"
+      "fetchedAt": "2026-05-02T21:29:49Z"
     },
     {
       "accountId": 4162197,
@@ -489,7 +489,7 @@
     },
     {
       "accountId": 111965257,
-      "nickname": "Мои игровые профили:",
+      "nickname": "Punisherr",
       "battles": 34436,
       "wins": 22779,
       "winRate": 66.15,
@@ -503,25 +503,25 @@
       "maxFrags": 11,
       "masterCount": 208,
       "vehiclesCount": 231,
-      "fetchedAt": "2026-05-02T18:39:08Z"
+      "fetchedAt": "2026-05-02T21:28:49Z"
     },
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 31202,
-      "wins": 17638,
+      "battles": 31221,
+      "wins": 17649,
       "winRate": 56.53,
-      "avgDmg": 1825,
+      "avgDmg": 1824,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.4,
-      "global_rating": 8882,
+      "hitsPercents": 73.41,
+      "global_rating": 8881,
       "avgExp": 870,
       "maxExp": 2898,
       "maxFrags": 9,
       "masterCount": 93,
       "vehiclesCount": 275,
-      "fetchedAt": "2026-05-02T18:41:08Z"
+      "fetchedAt": "2026-05-02T21:30:52Z"
     },
     {
       "accountId": 121158863,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-05-02T18:38:06Z"
+      "fetchedAt": "2026-05-02T21:27:47Z"
     },
     {
       "accountId": 123578506,

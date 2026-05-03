@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T07:45:41Z",
+  "generatedAt": "2026-05-03T10:00:20Z",
   "players": [
     {
       "accountId": 170363,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 88,
       "vehiclesCount": 311,
-      "fetchedAt": "2026-05-02T18:40:40Z"
+      "fetchedAt": "2026-05-03T09:59:40Z"
     },
     {
       "accountId": 76905788,
@@ -615,7 +615,7 @@
     },
     {
       "accountId": 208174535,
-      "nickname": "HaIIuJIa",
+      "nickname": "Мои игровые профили:",
       "battles": 4937,
       "wins": 3023,
       "winRate": 61.23,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-05-02T12:39:06Z"
+      "fetchedAt": "2026-05-03T09:57:40Z"
     },
     {
       "accountId": 260637298,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 49,
       "vehiclesCount": 83,
-      "fetchedAt": "2026-05-02T18:40:14Z"
+      "fetchedAt": "2026-05-03T09:59:13Z"
     }
   ]
 }

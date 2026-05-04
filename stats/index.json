@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T19:11:41Z",
+  "generatedAt": "2026-05-04T21:52:47Z",
   "players": [
     {
       "accountId": 170363,
@@ -112,20 +112,20 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 83213,
-      "wins": 44893,
+      "battles": 83231,
+      "wins": 44903,
       "winRate": 53.95,
-      "avgDmg": 1623,
+      "avgDmg": 1624,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.8,
-      "global_rating": 8681,
+      "global_rating": 8683,
       "avgExp": 779,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 180,
       "vehiclesCount": 452,
-      "fetchedAt": "2026-05-04T05:54:41Z"
+      "fetchedAt": "2026-05-04T21:51:32Z"
     },
     {
       "accountId": 4162197,
@@ -251,7 +251,7 @@
       "maxFrags": 12,
       "masterCount": 292,
       "vehiclesCount": 471,
-      "fetchedAt": "2026-05-04T19:08:39Z"
+      "fetchedAt": "2026-05-04T21:49:37Z"
     },
     {
       "accountId": 28909483,
@@ -364,8 +364,8 @@
     {
       "accountId": 63280344,
       "nickname": "11_vanek_11",
-      "battles": 53985,
-      "wins": 30917,
+      "battles": 53990,
+      "wins": 30920,
       "winRate": 57.27,
       "avgDmg": 1853,
       "avgFrags": null,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 245,
       "vehiclesCount": 449,
-      "fetchedAt": "2026-05-04T19:10:13Z"
+      "fetchedAt": "2026-05-04T21:51:14Z"
     },
     {
       "accountId": 67463356,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 142,
-      "fetchedAt": "2026-05-04T19:10:07Z"
+      "fetchedAt": "2026-05-04T21:51:08Z"
     },
     {
       "accountId": 72380096,
@@ -508,20 +508,20 @@
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 31250,
-      "wins": 17666,
-      "winRate": 56.53,
+      "battles": 31277,
+      "wins": 17678,
+      "winRate": 56.52,
       "avgDmg": 1824,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.4,
-      "global_rating": 8881,
+      "hitsPercents": 73.41,
+      "global_rating": 8879,
       "avgExp": 870,
       "maxExp": 2898,
       "maxFrags": 9,
       "masterCount": 93,
-      "vehiclesCount": 275,
-      "fetchedAt": "2026-05-04T13:18:44Z"
+      "vehiclesCount": 276,
+      "fetchedAt": "2026-05-04T21:52:34Z"
     },
     {
       "accountId": 121158863,

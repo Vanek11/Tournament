@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T15:43:46Z",
+  "generatedAt": "2026-05-10T18:44:19Z",
   "players": [
     {
       "accountId": 170363,
@@ -112,9 +112,9 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 83321,
-      "wins": 44968,
-      "winRate": 53.97,
+      "battles": 83325,
+      "wins": 44962,
+      "winRate": 53.96,
       "avgDmg": 1626,
       "avgFrags": null,
       "surviveRate": null,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 180,
       "vehiclesCount": 453,
-      "fetchedAt": "2026-05-10T10:05:58Z"
+      "fetchedAt": "2026-05-10T18:43:05Z"
     },
     {
       "accountId": 4162197,
@@ -454,8 +454,8 @@
     {
       "accountId": 89288809,
       "nickname": "New_KPuBou",
-      "battles": 49906,
-      "wins": 30058,
+      "battles": 49910,
+      "wins": 30061,
       "winRate": 60.23,
       "avgDmg": 2615,
       "avgFrags": null,
@@ -467,7 +467,7 @@
       "maxFrags": 9,
       "masterCount": 236,
       "vehiclesCount": 394,
-      "fetchedAt": "2026-05-10T10:05:26Z"
+      "fetchedAt": "2026-05-10T18:42:31Z"
     },
     {
       "accountId": 90586270,
@@ -503,25 +503,25 @@
       "maxFrags": 11,
       "masterCount": 208,
       "vehiclesCount": 231,
-      "fetchedAt": "2026-05-10T12:45:43Z"
+      "fetchedAt": "2026-05-10T18:42:03Z"
     },
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 31429,
-      "wins": 17770,
-      "winRate": 56.54,
+      "battles": 31442,
+      "wins": 17774,
+      "winRate": 56.53,
       "avgDmg": 1821,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.42,
-      "global_rating": 8880,
+      "global_rating": 8879,
       "avgExp": 870,
       "maxExp": 2898,
       "maxFrags": 9,
       "masterCount": 93,
       "vehiclesCount": 279,
-      "fetchedAt": "2026-05-10T10:06:56Z"
+      "fetchedAt": "2026-05-10T18:44:06Z"
     },
     {
       "accountId": 121158863,

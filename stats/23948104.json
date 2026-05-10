@@ -1,10 +1,10 @@
 {
   "accountId": 23948104,
   "nickname": "BuTaJIuK_u3_IIuTepa",
-  "battles": 37555,
-  "wins": 18969,
+  "battles": 37558,
+  "wins": 18971,
   "winRate": 50.51,
-  "avgDmg": 1167,
+  "avgDmg": 1168,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 68.24,
@@ -14,5 +14,5 @@
   "maxFrags": 10,
   "masterCount": 55,
   "vehiclesCount": 299,
-  "fetchedAt": "2026-05-09T10:01:36Z"
+  "fetchedAt": "2026-05-10T07:53:34Z"
 }

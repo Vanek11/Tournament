@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T16:57:58Z",
+  "generatedAt": "2026-05-14T19:27:33Z",
   "players": [
     {
       "accountId": 170363,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 226,
       "vehiclesCount": 395,
-      "fetchedAt": "2026-05-14T13:24:44Z"
+      "fetchedAt": "2026-05-14T19:27:25Z"
     },
     {
       "accountId": 63280344,
@@ -503,7 +503,7 @@
       "maxFrags": 11,
       "masterCount": 208,
       "vehiclesCount": 231,
-      "fetchedAt": "2026-05-14T13:22:41Z"
+      "fetchedAt": "2026-05-14T19:25:18Z"
     },
     {
       "accountId": 115214305,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-05-14T13:21:43Z"
+      "fetchedAt": "2026-05-14T19:24:16Z"
     },
     {
       "accountId": 123578506,
@@ -580,20 +580,20 @@
     {
       "accountId": 130831468,
       "nickname": "Fl0wers_",
-      "battles": 15238,
-      "wins": 9496,
-      "winRate": 62.32,
-      "avgDmg": 2923,
+      "battles": 15259,
+      "wins": 9506,
+      "winRate": 62.3,
+      "avgDmg": 2925,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 77.1,
-      "global_rating": 10712,
+      "global_rating": 10714,
       "avgExp": 1111,
       "maxExp": 3407,
       "maxFrags": 10,
       "masterCount": 109,
       "vehiclesCount": 168,
-      "fetchedAt": "2026-05-14T13:21:59Z"
+      "fetchedAt": "2026-05-14T19:24:33Z"
     },
     {
       "accountId": 172140333,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-05-14T13:22:14Z"
+      "fetchedAt": "2026-05-14T19:24:50Z"
     },
     {
       "accountId": 260637298,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T16:59:18Z",
+  "generatedAt": "2026-05-25T19:13:08Z",
   "players": [
     {
       "accountId": 170363,
@@ -112,8 +112,8 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 83814,
-      "wins": 45276,
+      "battles": 83834,
+      "wins": 45287,
       "winRate": 54.02,
       "avgDmg": 1636,
       "avgFrags": null,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 181,
       "vehiclesCount": 454,
-      "fetchedAt": "2026-05-25T12:17:33Z"
+      "fetchedAt": "2026-05-25T19:11:51Z"
     },
     {
       "accountId": 4162197,
@@ -238,20 +238,20 @@
     {
       "accountId": 24040492,
       "nickname": "_8888_8888_",
-      "battles": 99064,
-      "wins": 59755,
+      "battles": 99079,
+      "wins": 59764,
       "winRate": 60.32,
       "avgDmg": 2646,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 74.15,
-      "global_rating": 11971,
+      "global_rating": 11970,
       "avgExp": 990,
       "maxExp": 4217,
       "maxFrags": 12,
       "masterCount": 292,
       "vehiclesCount": 471,
-      "fetchedAt": "2026-05-25T12:15:31Z"
+      "fetchedAt": "2026-05-25T19:09:58Z"
     },
     {
       "accountId": 28909483,
@@ -490,20 +490,20 @@
     {
       "accountId": 111965257,
       "nickname": "Punisherr",
-      "battles": 34477,
-      "wins": 22813,
+      "battles": 34482,
+      "wins": 22817,
       "winRate": 66.17,
-      "avgDmg": 3789,
+      "avgDmg": 3790,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 78.63,
-      "global_rating": 12665,
+      "global_rating": 12666,
       "avgExp": 1280,
       "maxExp": 3617,
       "maxFrags": 11,
       "masterCount": 208,
       "vehiclesCount": 231,
-      "fetchedAt": "2026-05-25T16:56:44Z"
+      "fetchedAt": "2026-05-25T19:10:48Z"
     },
     {
       "accountId": 115214305,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-05-25T12:15:19Z"
+      "fetchedAt": "2026-05-25T19:09:47Z"
     },
     {
       "accountId": 123578506,

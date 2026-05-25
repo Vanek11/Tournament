@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T19:13:08Z",
+  "generatedAt": "2026-05-25T22:01:00Z",
   "players": [
     {
       "accountId": 170363,
@@ -112,20 +112,20 @@
     {
       "accountId": 3046685,
       "nickname": "X0POLLIuu",
-      "battles": 83834,
-      "wins": 45287,
+      "battles": 83846,
+      "wins": 45294,
       "winRate": 54.02,
       "avgDmg": 1636,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.89,
-      "global_rating": 8721,
+      "global_rating": 8722,
       "avgExp": 781,
       "maxExp": 3144,
       "maxFrags": 10,
       "masterCount": 181,
-      "vehiclesCount": 454,
-      "fetchedAt": "2026-05-25T19:11:51Z"
+      "vehiclesCount": 455,
+      "fetchedAt": "2026-05-25T21:59:47Z"
     },
     {
       "accountId": 4162197,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-05-25T19:09:47Z"
+      "fetchedAt": "2026-05-25T21:57:46Z"
     },
     {
       "accountId": 123578506,

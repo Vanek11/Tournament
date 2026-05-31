@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T13:13:53Z",
+  "generatedAt": "2026-05-31T16:05:38Z",
   "players": [
     {
       "accountId": 170363,
@@ -53,7 +53,7 @@
       "maxFrags": 9,
       "masterCount": 126,
       "vehiclesCount": 367,
-      "fetchedAt": "2026-05-31T13:13:06Z"
+      "fetchedAt": "2026-05-31T16:04:46Z"
     },
     {
       "accountId": 2213900,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 132,
       "vehiclesCount": 233,
-      "fetchedAt": "2026-05-30T21:48:14Z"
+      "fetchedAt": "2026-05-31T16:02:23Z"
     },
     {
       "accountId": 61780962,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 245,
       "vehiclesCount": 450,
-      "fetchedAt": "2026-05-30T21:48:09Z"
+      "fetchedAt": "2026-05-31T16:02:15Z"
     },
     {
       "accountId": 67463356,
@@ -539,13 +539,13 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-05-30T15:55:37Z"
+      "fetchedAt": "2026-05-31T15:57:46Z"
     },
     {
       "accountId": 123578506,
-      "nickname": "Мои игровые профили:",
-      "battles": 16820,
-      "wins": 9436,
+      "nickname": "IIac",
+      "battles": 16824,
+      "wins": 9438,
       "winRate": 56.1,
       "avgDmg": 2459,
       "avgFrags": null,
@@ -557,7 +557,7 @@
       "maxFrags": 12,
       "masterCount": 103,
       "vehiclesCount": 259,
-      "fetchedAt": "2026-05-31T10:52:57Z"
+      "fetchedAt": "2026-05-31T16:02:29Z"
     },
     {
       "accountId": 126453902,

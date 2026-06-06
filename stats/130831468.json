@@ -1,18 +1,18 @@
 {
   "accountId": 130831468,
   "nickname": "Fl0wers_",
-  "battles": 15332,
-  "wins": 9546,
-  "winRate": 62.26,
-  "avgDmg": 2931,
+  "battles": 15344,
+  "wins": 9555,
+  "winRate": 62.27,
+  "avgDmg": 2932,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 77.13,
-  "global_rating": 10721,
+  "global_rating": 10723,
   "avgExp": 1111,
   "maxExp": 3407,
   "maxFrags": 10,
   "masterCount": 109,
-  "vehiclesCount": 168,
-  "fetchedAt": "2026-06-06T15:59:59Z"
+  "vehiclesCount": 169,
+  "fetchedAt": "2026-06-06T21:52:27Z"
 }

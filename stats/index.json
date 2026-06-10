@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T12:16:00Z",
+  "generatedAt": "2026-06-10T17:50:42Z",
   "players": [
     {
       "accountId": 170363,
@@ -17,7 +17,7 @@
       "maxFrags": 11,
       "masterCount": 53,
       "vehiclesCount": 255,
-      "fetchedAt": "2026-06-10T06:56:39Z"
+      "fetchedAt": "2026-06-10T17:50:06Z"
     },
     {
       "accountId": 328441,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 246,
       "vehiclesCount": 451,
-      "fetchedAt": "2026-06-10T06:55:40Z"
+      "fetchedAt": "2026-06-10T17:49:10Z"
     },
     {
       "accountId": 67463356,
@@ -472,20 +472,20 @@
     {
       "accountId": 90586270,
       "nickname": "EHoTiK_TToJIoCKyH",
-      "battles": 25727,
-      "wins": 14296,
-      "winRate": 55.57,
-      "avgDmg": 1859,
+      "battles": 25752,
+      "wins": 14305,
+      "winRate": 55.55,
+      "avgDmg": 1861,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 65.94,
-      "global_rating": 9409,
+      "global_rating": 9408,
       "avgExp": 822,
       "maxExp": 2877,
       "maxFrags": 9,
       "masterCount": 124,
       "vehiclesCount": 363,
-      "fetchedAt": "2026-06-10T06:56:44Z"
+      "fetchedAt": "2026-06-10T17:50:12Z"
     },
     {
       "accountId": 111965257,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-06-10T06:53:49Z"
+      "fetchedAt": "2026-06-10T17:46:50Z"
     },
     {
       "accountId": 123578506,

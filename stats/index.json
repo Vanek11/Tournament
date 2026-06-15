@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T22:04:16Z",
+  "generatedAt": "2026-06-15T02:16:07Z",
   "players": [
     {
       "accountId": 170363,
@@ -22,8 +22,8 @@
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 64809,
-      "wins": 33655,
+      "battles": 64810,
+      "wins": 33656,
       "winRate": 51.93,
       "avgDmg": 1720,
       "avgFrags": null,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 124,
       "vehiclesCount": 364,
-      "fetchedAt": "2026-06-14T22:03:26Z"
+      "fetchedAt": "2026-06-15T02:14:45Z"
     },
     {
       "accountId": 1667936,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2026-06-14T22:03:58Z"
+      "fetchedAt": "2026-06-15T02:15:17Z"
     },
     {
       "accountId": 10961226,
@@ -161,7 +161,7 @@
       "maxFrags": 11,
       "masterCount": 491,
       "vehiclesCount": 596,
-      "fetchedAt": "2026-06-14T22:02:29Z"
+      "fetchedAt": "2026-06-15T02:13:48Z"
     },
     {
       "accountId": 17864806,
@@ -179,7 +179,7 @@
       "maxFrags": 9,
       "masterCount": 147,
       "vehiclesCount": 314,
-      "fetchedAt": "2026-06-14T22:03:21Z"
+      "fetchedAt": "2026-06-15T02:14:40Z"
     },
     {
       "accountId": 20705422,
@@ -287,7 +287,7 @@
       "maxFrags": 10,
       "masterCount": 207,
       "vehiclesCount": 301,
-      "fetchedAt": "2026-06-14T22:02:02Z"
+      "fetchedAt": "2026-06-15T02:13:20Z"
     },
     {
       "accountId": 31960984,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 247,
       "vehiclesCount": 451,
-      "fetchedAt": "2026-06-14T22:02:50Z"
+      "fetchedAt": "2026-06-15T02:14:09Z"
     },
     {
       "accountId": 67463356,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 89,
       "vehiclesCount": 315,
-      "fetchedAt": "2026-06-14T22:03:37Z"
+      "fetchedAt": "2026-06-15T02:14:56Z"
     },
     {
       "accountId": 76905788,
@@ -503,7 +503,7 @@
       "maxFrags": 11,
       "masterCount": 210,
       "vehiclesCount": 233,
-      "fetchedAt": "2026-06-14T22:02:07Z"
+      "fetchedAt": "2026-06-15T02:13:25Z"
     },
     {
       "accountId": 115214305,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-06-14T22:00:36Z"
+      "fetchedAt": "2026-06-15T02:11:52Z"
     },
     {
       "accountId": 123578506,

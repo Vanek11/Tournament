@@ -1,10 +1,10 @@
 {
   "accountId": 61780962,
   "nickname": "Hupper",
-  "battles": 48170,
-  "wins": 28618,
-  "winRate": 59.41,
-  "avgDmg": 2352,
+  "battles": 48176,
+  "wins": 28626,
+  "winRate": 59.42,
+  "avgDmg": 2351,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 75.77,
@@ -14,5 +14,5 @@
   "maxFrags": 11,
   "masterCount": 226,
   "vehiclesCount": 403,
-  "fetchedAt": "2026-06-26T19:27:23Z"
+  "fetchedAt": "2026-06-27T06:21:22Z"
 }

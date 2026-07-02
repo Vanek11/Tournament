@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:14:56Z",
+  "generatedAt": "2026-07-02T01:58:30Z",
   "players": [
     {
       "accountId": 170363,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 181,
       "vehiclesCount": 455,
-      "fetchedAt": "2026-07-01T19:28:05Z"
+      "fetchedAt": "2026-07-02T01:57:16Z"
     },
     {
       "accountId": 4162197,
@@ -287,7 +287,7 @@
       "maxFrags": 10,
       "masterCount": 208,
       "vehiclesCount": 304,
-      "fetchedAt": "2026-07-01T19:26:58Z"
+      "fetchedAt": "2026-07-02T01:56:11Z"
     },
     {
       "accountId": 31960984,
@@ -364,20 +364,20 @@
     {
       "accountId": 63280344,
       "nickname": "11_vanek_11",
-      "battles": 54707,
-      "wins": 31380,
+      "battles": 54723,
+      "wins": 31389,
       "winRate": 57.36,
       "avgDmg": 1860,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 69.26,
-      "global_rating": 9227,
+      "global_rating": 9228,
       "avgExp": 827,
       "maxExp": 3671,
       "maxFrags": 10,
       "masterCount": 248,
       "vehiclesCount": 451,
-      "fetchedAt": "2026-07-01T19:27:46Z"
+      "fetchedAt": "2026-07-02T01:57:00Z"
     },
     {
       "accountId": 67463356,
@@ -508,8 +508,8 @@
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 32255,
-      "wins": 18247,
+      "battles": 32257,
+      "wins": 18248,
       "winRate": 56.57,
       "avgDmg": 1823,
       "avgFrags": null,
@@ -521,7 +521,7 @@
       "maxFrags": 10,
       "masterCount": 95,
       "vehiclesCount": 287,
-      "fetchedAt": "2026-07-01T19:29:06Z"
+      "fetchedAt": "2026-07-02T01:58:17Z"
     },
     {
       "accountId": 121158863,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-07-01T19:25:32Z"
+      "fetchedAt": "2026-07-02T01:55:09Z"
     },
     {
       "accountId": 123578506,
@@ -557,7 +557,7 @@
       "maxFrags": 12,
       "masterCount": 106,
       "vehiclesCount": 262,
-      "fetchedAt": "2026-07-01T19:27:58Z"
+      "fetchedAt": "2026-07-02T01:57:11Z"
     },
     {
       "accountId": 126453902,

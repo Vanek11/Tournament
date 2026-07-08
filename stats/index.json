@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T10:55:42Z",
+  "generatedAt": "2026-07-08T13:23:40Z",
   "players": [
     {
       "accountId": 170363,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2026-07-08T01:20:29Z"
+      "fetchedAt": "2026-07-08T13:23:20Z"
     },
     {
       "accountId": 10961226,
@@ -274,20 +274,20 @@
     {
       "accountId": 31734601,
       "nickname": "I_WoLf__",
-      "battles": 23585,
-      "wins": 15043,
-      "winRate": 63.78,
+      "battles": 23604,
+      "wins": 15057,
+      "winRate": 63.79,
       "avgDmg": 2906,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 75.55,
-      "global_rating": 11458,
+      "hitsPercents": 75.56,
+      "global_rating": 11460,
       "avgExp": 1004,
       "maxExp": 3213,
       "maxFrags": 10,
       "masterCount": 208,
       "vehiclesCount": 304,
-      "fetchedAt": "2026-07-08T01:18:26Z"
+      "fetchedAt": "2026-07-08T13:21:10Z"
     },
     {
       "accountId": 31960984,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-07-08T05:38:48Z"
+      "fetchedAt": "2026-07-08T13:20:14Z"
     },
     {
       "accountId": 123578506,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-07-08T01:18:04Z"
+      "fetchedAt": "2026-07-08T13:20:47Z"
     },
     {
       "accountId": 260637298,

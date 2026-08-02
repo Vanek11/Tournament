@@ -1,18 +1,18 @@
 {
   "accountId": 2455009,
   "nickname": "CHl0C",
-  "battles": 32739,
-  "wins": 17767,
-  "winRate": 54.27,
+  "battles": 32756,
+  "wins": 17783,
+  "winRate": 54.29,
   "avgDmg": 1552,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 59.71,
-  "global_rating": 8015,
+  "hitsPercents": 59.72,
+  "global_rating": 8018,
   "avgExp": 676,
   "maxExp": 3447,
   "maxFrags": 8,
   "masterCount": 136,
   "vehiclesCount": 413,
-  "fetchedAt": "2026-08-01T12:46:06Z"
+  "fetchedAt": "2026-08-02T21:41:36Z"
 }

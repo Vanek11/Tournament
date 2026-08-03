@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:03:55Z",
+  "generatedAt": "2026-08-03T09:46:20Z",
   "players": [
     {
       "accountId": 170363,
@@ -53,7 +53,7 @@
       "maxFrags": 9,
       "masterCount": 126,
       "vehiclesCount": 373,
-      "fetchedAt": "2026-08-03T06:03:31Z"
+      "fetchedAt": "2026-08-03T09:45:53Z"
     },
     {
       "accountId": 2213900,
@@ -89,7 +89,7 @@
       "maxFrags": 8,
       "masterCount": 136,
       "vehiclesCount": 413,
-      "fetchedAt": "2026-08-03T06:00:48Z"
+      "fetchedAt": "2026-08-03T09:42:27Z"
     },
     {
       "accountId": 2682543,
@@ -107,7 +107,7 @@
       "maxFrags": 11,
       "masterCount": 347,
       "vehiclesCount": 778,
-      "fetchedAt": "2026-08-03T01:22:16Z"
+      "fetchedAt": "2026-08-03T09:44:08Z"
     },
     {
       "accountId": 3046685,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 181,
       "vehiclesCount": 455,
-      "fetchedAt": "2026-08-03T06:02:11Z"
+      "fetchedAt": "2026-08-03T09:45:00Z"
     },
     {
       "accountId": 4162197,
@@ -143,13 +143,13 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2026-08-03T01:24:03Z"
+      "fetchedAt": "2026-08-03T09:45:59Z"
     },
     {
       "accountId": 10961226,
       "nickname": "rHuJIb_9I",
-      "battles": 96229,
-      "wins": 57458,
+      "battles": 96235,
+      "wins": 57462,
       "winRate": 59.71,
       "avgDmg": 1862,
       "avgFrags": null,
@@ -161,7 +161,7 @@
       "maxFrags": 11,
       "masterCount": 501,
       "vehiclesCount": 604,
-      "fetchedAt": "2026-08-03T01:22:27Z"
+      "fetchedAt": "2026-08-03T09:44:21Z"
     },
     {
       "accountId": 17864806,
@@ -179,25 +179,25 @@
       "maxFrags": 9,
       "masterCount": 148,
       "vehiclesCount": 315,
-      "fetchedAt": "2026-08-03T01:23:23Z"
+      "fetchedAt": "2026-08-03T09:45:18Z"
     },
     {
       "accountId": 20705422,
       "nickname": "kalkylatorWN8_SST",
-      "battles": 13958,
-      "wins": 8894,
-      "winRate": 63.72,
-      "avgDmg": 3279,
+      "battles": 13988,
+      "wins": 8910,
+      "winRate": 63.7,
+      "avgDmg": 3280,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 80.27,
-      "global_rating": 11223,
+      "global_rating": 11226,
       "avgExp": 1174,
       "maxExp": 3273,
       "maxFrags": 11,
       "masterCount": 121,
       "vehiclesCount": 183,
-      "fetchedAt": "2026-08-03T01:21:46Z"
+      "fetchedAt": "2026-08-03T09:42:33Z"
     },
     {
       "accountId": 20778095,
@@ -215,25 +215,25 @@
       "maxFrags": 10,
       "masterCount": 57,
       "vehiclesCount": 100,
-      "fetchedAt": "2026-08-03T01:22:38Z"
+      "fetchedAt": "2026-08-03T09:44:32Z"
     },
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 37933,
-      "wins": 19190,
-      "winRate": 50.59,
+      "battles": 37943,
+      "wins": 19199,
+      "winRate": 50.6,
       "avgDmg": 1179,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.31,
-      "global_rating": 6455,
+      "global_rating": 6457,
       "avgExp": 590,
       "maxExp": 2921,
       "maxFrags": 10,
       "masterCount": 57,
       "vehiclesCount": 305,
-      "fetchedAt": "2026-08-03T06:03:52Z"
+      "fetchedAt": "2026-08-03T09:46:18Z"
     },
     {
       "accountId": 24040492,
@@ -251,7 +251,7 @@
       "maxFrags": 12,
       "masterCount": 294,
       "vehiclesCount": 473,
-      "fetchedAt": "2026-08-02T21:41:06Z"
+      "fetchedAt": "2026-08-03T09:41:57Z"
     },
     {
       "accountId": 28909483,
@@ -269,7 +269,7 @@
       "maxFrags": 10,
       "masterCount": 130,
       "vehiclesCount": 263,
-      "fetchedAt": "2026-08-03T01:22:10Z"
+      "fetchedAt": "2026-08-03T09:44:03Z"
     },
     {
       "accountId": 31734601,
@@ -287,7 +287,7 @@
       "maxFrags": 10,
       "masterCount": 209,
       "vehiclesCount": 305,
-      "fetchedAt": "2026-08-03T01:21:58Z"
+      "fetchedAt": "2026-08-03T09:43:51Z"
     },
     {
       "accountId": 31960984,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 119,
       "vehiclesCount": 433,
-      "fetchedAt": "2026-08-03T01:23:35Z"
+      "fetchedAt": "2026-08-03T09:45:29Z"
     },
     {
       "accountId": 33974749,
@@ -323,7 +323,7 @@
       "maxFrags": 10,
       "masterCount": 192,
       "vehiclesCount": 345,
-      "fetchedAt": "2026-08-03T06:00:14Z"
+      "fetchedAt": "2026-08-03T09:41:51Z"
     },
     {
       "accountId": 48487007,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 132,
       "vehiclesCount": 235,
-      "fetchedAt": "2026-08-03T01:22:55Z"
+      "fetchedAt": "2026-08-03T09:44:48Z"
     },
     {
       "accountId": 61780962,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 226,
       "vehiclesCount": 403,
-      "fetchedAt": "2026-08-03T01:24:14Z"
+      "fetchedAt": "2026-08-03T09:46:12Z"
     },
     {
       "accountId": 63280344,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 252,
       "vehiclesCount": 460,
-      "fetchedAt": "2026-08-03T01:22:49Z"
+      "fetchedAt": "2026-08-03T09:44:43Z"
     },
     {
       "accountId": 67463356,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 142,
-      "fetchedAt": "2026-08-03T06:01:49Z"
+      "fetchedAt": "2026-08-03T09:44:38Z"
     },
     {
       "accountId": 72380096,
@@ -467,7 +467,7 @@
       "maxFrags": 13,
       "masterCount": 237,
       "vehiclesCount": 396,
-      "fetchedAt": "2026-08-03T01:22:33Z"
+      "fetchedAt": "2026-08-03T09:44:27Z"
     },
     {
       "accountId": 90586270,
@@ -503,7 +503,7 @@
       "maxFrags": 11,
       "masterCount": 210,
       "vehiclesCount": 234,
-      "fetchedAt": "2026-08-03T06:01:10Z"
+      "fetchedAt": "2026-08-03T09:43:56Z"
     },
     {
       "accountId": 115214305,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-08-03T06:00:09Z"
+      "fetchedAt": "2026-08-03T09:41:46Z"
     },
     {
       "accountId": 123578506,
@@ -562,9 +562,9 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 11762,
-      "wins": 7612,
-      "winRate": 64.72,
+      "battles": 11775,
+      "wins": 7618,
+      "winRate": 64.7,
       "avgDmg": 3589,
       "avgFrags": null,
       "surviveRate": null,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 83,
       "vehiclesCount": 124,
-      "fetchedAt": "2026-08-03T01:21:23Z"
+      "fetchedAt": "2026-08-03T09:42:09Z"
     },
     {
       "accountId": 130831468,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 109,
       "vehiclesCount": 169,
-      "fetchedAt": "2026-08-03T01:21:18Z"
+      "fetchedAt": "2026-08-03T09:42:03Z"
     },
     {
       "accountId": 172140333,
@@ -611,7 +611,7 @@
       "maxFrags": 10,
       "masterCount": 93,
       "vehiclesCount": 153,
-      "fetchedAt": "2026-08-03T06:00:36Z"
+      "fetchedAt": "2026-08-03T09:42:15Z"
     },
     {
       "accountId": 208174535,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-08-02T07:57:43Z"
+      "fetchedAt": "2026-08-03T09:42:21Z"
     },
     {
       "accountId": 260637298,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 50,
       "vehiclesCount": 83,
-      "fetchedAt": "2026-08-03T01:23:12Z"
+      "fetchedAt": "2026-08-03T09:45:06Z"
     }
   ]
 }

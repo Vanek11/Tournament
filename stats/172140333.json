@@ -1,18 +1,18 @@
 {
   "accountId": 172140333,
   "nickname": "SIXsix",
-  "battles": 10280,
-  "wins": 6471,
+  "battles": 10329,
+  "wins": 6502,
   "winRate": 62.95,
-  "avgDmg": 3325,
+  "avgDmg": 3321,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 79.18,
-  "global_rating": 10553,
+  "hitsPercents": 79.19,
+  "global_rating": 10552,
   "avgExp": 1140,
   "maxExp": 3330,
   "maxFrags": 10,
-  "masterCount": 93,
+  "masterCount": 94,
   "vehiclesCount": 154,
-  "fetchedAt": "2026-08-04T13:30:12Z"
+  "fetchedAt": "2026-08-04T22:01:03Z"
 }

@@ -1,18 +1,18 @@
 {
   "accountId": 115214305,
   "nickname": "Arrow_134",
-  "battles": 32683,
-  "wins": 18502,
+  "battles": 32697,
+  "wins": 18510,
   "winRate": 56.61,
   "avgDmg": 1826,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 73.42,
-  "global_rating": 8903,
+  "global_rating": 8902,
   "avgExp": 875,
   "maxExp": 2898,
   "maxFrags": 10,
   "masterCount": 99,
   "vehiclesCount": 287,
-  "fetchedAt": "2026-08-06T11:12:46Z"
+  "fetchedAt": "2026-08-06T22:36:03Z"
 }

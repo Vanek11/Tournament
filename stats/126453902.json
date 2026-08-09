@@ -1,10 +1,10 @@
 {
   "accountId": 126453902,
   "nickname": "qDanya",
-  "battles": 11805,
-  "wins": 7638,
-  "winRate": 64.7,
-  "avgDmg": 3589,
+  "battles": 11818,
+  "wins": 7644,
+  "winRate": 64.68,
+  "avgDmg": 3588,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 77.94,
@@ -12,7 +12,7 @@
   "avgExp": 1177,
   "maxExp": 2859,
   "maxFrags": 11,
-  "masterCount": 83,
-  "vehiclesCount": 125,
-  "fetchedAt": "2026-08-08T12:18:58Z"
+  "masterCount": 84,
+  "vehiclesCount": 126,
+  "fetchedAt": "2026-08-09T04:06:34Z"
 }

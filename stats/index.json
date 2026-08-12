@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T00:50:45Z",
+  "generatedAt": "2026-08-12T04:33:42Z",
   "players": [
     {
       "accountId": 170363,
@@ -472,20 +472,20 @@
     {
       "accountId": 90586270,
       "nickname": "EHoTiK_TToJIoCKyH",
-      "battles": 26092,
-      "wins": 14515,
+      "battles": 26109,
+      "wins": 14524,
       "winRate": 55.63,
       "avgDmg": 1874,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 66.1,
-      "global_rating": 9449,
+      "hitsPercents": 66.09,
+      "global_rating": 9450,
       "avgExp": 825,
       "maxExp": 2877,
       "maxFrags": 9,
       "masterCount": 129,
-      "vehiclesCount": 374,
-      "fetchedAt": "2026-08-11T12:36:16Z"
+      "vehiclesCount": 379,
+      "fetchedAt": "2026-08-12T04:33:10Z"
     },
     {
       "accountId": 111965257,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T12:20:44Z",
+  "generatedAt": "2026-08-18T15:21:38Z",
   "players": [
     {
       "accountId": 170363,
@@ -89,7 +89,7 @@
       "maxFrags": 8,
       "masterCount": 136,
       "vehiclesCount": 414,
-      "fetchedAt": "2026-08-17T21:13:37Z"
+      "fetchedAt": "2026-08-18T15:18:55Z"
     },
     {
       "accountId": 2682543,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 181,
       "vehiclesCount": 455,
-      "fetchedAt": "2026-08-17T21:14:59Z"
+      "fetchedAt": "2026-08-18T15:20:21Z"
     },
     {
       "accountId": 4162197,
@@ -341,7 +341,7 @@
       "maxFrags": 10,
       "masterCount": 132,
       "vehiclesCount": 235,
-      "fetchedAt": "2026-08-18T06:20:56Z"
+      "fetchedAt": "2026-08-18T15:20:09Z"
     },
     {
       "accountId": 61780962,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 226,
       "vehiclesCount": 403,
-      "fetchedAt": "2026-08-17T21:16:05Z"
+      "fetchedAt": "2026-08-18T15:21:30Z"
     },
     {
       "accountId": 63280344,
@@ -436,20 +436,20 @@
     {
       "accountId": 76905788,
       "nickname": "DuT9l_4epHo6blJl9l",
-      "battles": 23523,
-      "wins": 12213,
-      "winRate": 51.92,
+      "battles": 23531,
+      "wins": 12222,
+      "winRate": 51.94,
       "avgDmg": 1685,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 68.42,
-      "global_rating": 7545,
+      "global_rating": 7549,
       "avgExp": 704,
       "maxExp": 2915,
       "maxFrags": 12,
       "masterCount": 80,
       "vehiclesCount": 292,
-      "fetchedAt": "2026-08-17T21:14:17Z"
+      "fetchedAt": "2026-08-18T15:19:35Z"
     },
     {
       "accountId": 89288809,
@@ -521,7 +521,7 @@
       "maxFrags": 10,
       "masterCount": 99,
       "vehiclesCount": 287,
-      "fetchedAt": "2026-08-17T21:15:59Z"
+      "fetchedAt": "2026-08-18T15:21:23Z"
     },
     {
       "accountId": 121158863,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-08-18T00:25:43Z"
+      "fetchedAt": "2026-08-18T15:18:13Z"
     },
     {
       "accountId": 123578506,

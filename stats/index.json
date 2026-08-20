@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:16:29Z",
+  "generatedAt": "2026-08-20T00:29:18Z",
   "players": [
     {
       "accountId": 170363,
@@ -220,20 +220,20 @@
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 38638,
-      "wins": 19566,
-      "winRate": 50.64,
-      "avgDmg": 1194,
+      "battles": 38701,
+      "wins": 19594,
+      "winRate": 50.63,
+      "avgDmg": 1195,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.46,
-      "global_rating": 6513,
-      "avgExp": 596,
+      "hitsPercents": 68.48,
+      "global_rating": 6514,
+      "avgExp": 597,
       "maxExp": 2921,
       "maxFrags": 10,
       "masterCount": 62,
       "vehiclesCount": 317,
-      "fetchedAt": "2026-08-19T21:16:26Z"
+      "fetchedAt": "2026-08-20T00:29:16Z"
     },
     {
       "accountId": 24040492,

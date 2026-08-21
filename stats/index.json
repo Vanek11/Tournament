@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T03:42:13Z",
+  "generatedAt": "2026-08-21T06:24:13Z",
   "players": [
     {
       "accountId": 170363,
@@ -76,8 +76,8 @@
     {
       "accountId": 2455009,
       "nickname": "CHl0C",
-      "battles": 32952,
-      "wins": 17909,
+      "battles": 32959,
+      "wins": 17913,
       "winRate": 54.35,
       "avgDmg": 1557,
       "avgFrags": null,
@@ -89,7 +89,7 @@
       "maxFrags": 8,
       "masterCount": 136,
       "vehiclesCount": 414,
-      "fetchedAt": "2026-08-20T09:21:12Z"
+      "fetchedAt": "2026-08-21T06:21:35Z"
     },
     {
       "accountId": 2682543,
@@ -125,7 +125,7 @@
       "maxFrags": 10,
       "masterCount": 181,
       "vehiclesCount": 455,
-      "fetchedAt": "2026-08-19T18:15:57Z"
+      "fetchedAt": "2026-08-21T06:23:00Z"
     },
     {
       "accountId": 4162197,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 226,
       "vehiclesCount": 403,
-      "fetchedAt": "2026-08-20T15:23:58Z"
+      "fetchedAt": "2026-08-21T06:24:05Z"
     },
     {
       "accountId": 63280344,
@@ -490,8 +490,8 @@
     {
       "accountId": 111965257,
       "nickname": "Punisherr",
-      "battles": 35247,
-      "wins": 23418,
+      "battles": 35248,
+      "wins": 23419,
       "winRate": 66.44,
       "avgDmg": 3850,
       "avgFrags": null,
@@ -502,8 +502,8 @@
       "maxExp": 3617,
       "maxFrags": 11,
       "masterCount": 212,
-      "vehiclesCount": 235,
-      "fetchedAt": "2026-08-20T12:19:26Z"
+      "vehiclesCount": 236,
+      "fetchedAt": "2026-08-21T06:21:58Z"
     },
     {
       "accountId": 115214305,

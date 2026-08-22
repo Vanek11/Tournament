@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:12:38Z",
+  "generatedAt": "2026-08-22T21:12:25Z",
   "players": [
     {
       "accountId": 170363,
@@ -197,7 +197,7 @@
       "maxFrags": 11,
       "masterCount": 122,
       "vehiclesCount": 183,
-      "fetchedAt": "2026-08-22T12:12:36Z"
+      "fetchedAt": "2026-08-22T21:09:55Z"
     },
     {
       "accountId": 20778095,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 62,
       "vehiclesCount": 317,
-      "fetchedAt": "2026-08-22T12:15:06Z"
+      "fetchedAt": "2026-08-22T21:12:23Z"
     },
     {
       "accountId": 24040492,
@@ -251,7 +251,7 @@
       "maxFrags": 12,
       "masterCount": 294,
       "vehiclesCount": 473,
-      "fetchedAt": "2026-08-22T18:09:39Z"
+      "fetchedAt": "2026-08-22T21:09:21Z"
     },
     {
       "accountId": 28909483,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 89,
       "vehiclesCount": 319,
-      "fetchedAt": "2026-08-21T18:19:50Z"
+      "fetchedAt": "2026-08-22T21:11:45Z"
     },
     {
       "accountId": 76905788,
@@ -490,20 +490,20 @@
     {
       "accountId": 111965257,
       "nickname": "Punisherr",
-      "battles": 35250,
-      "wins": 23420,
-      "winRate": 66.44,
-      "avgDmg": 3850,
+      "battles": 35278,
+      "wins": 23442,
+      "winRate": 66.45,
+      "avgDmg": 3853,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 78.82,
-      "global_rating": 12745,
-      "avgExp": 1289,
+      "hitsPercents": 78.83,
+      "global_rating": 12748,
+      "avgExp": 1290,
       "maxExp": 3617,
       "maxFrags": 11,
       "masterCount": 212,
       "vehiclesCount": 236,
-      "fetchedAt": "2026-08-21T21:12:04Z"
+      "fetchedAt": "2026-08-22T21:10:13Z"
     },
     {
       "accountId": 115214305,
@@ -629,7 +629,7 @@
       "maxFrags": 7,
       "masterCount": 29,
       "vehiclesCount": 51,
-      "fetchedAt": "2026-08-22T12:12:25Z"
+      "fetchedAt": "2026-08-22T21:09:43Z"
     },
     {
       "accountId": 260637298,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 51,
       "vehiclesCount": 83,
-      "fetchedAt": "2026-08-22T12:14:02Z"
+      "fetchedAt": "2026-08-22T21:11:19Z"
     }
   ]
 }

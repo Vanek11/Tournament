@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T03:42:01Z",
+  "generatedAt": "2026-08-23T06:21:28Z",
   "players": [
     {
       "accountId": 170363,
@@ -274,8 +274,8 @@
     {
       "accountId": 31734601,
       "nickname": "I_WoLf__",
-      "battles": 23956,
-      "wins": 15262,
+      "battles": 23962,
+      "wins": 15266,
       "winRate": 63.71,
       "avgDmg": 2894,
       "avgFrags": null,
@@ -287,7 +287,7 @@
       "maxFrags": 10,
       "masterCount": 210,
       "vehiclesCount": 309,
-      "fetchedAt": "2026-08-22T09:15:18Z"
+      "fetchedAt": "2026-08-23T06:18:55Z"
     },
     {
       "accountId": 31960984,

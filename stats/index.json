@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T07:11:14Z",
+  "generatedAt": "2026-09-05T12:13:48Z",
   "players": [
     {
       "accountId": 170363,
@@ -148,8 +148,8 @@
     {
       "accountId": 10961226,
       "nickname": "rHuJIb_9I",
-      "battles": 97312,
-      "wins": 58163,
+      "battles": 97345,
+      "wins": 58183,
       "winRate": 59.77,
       "avgDmg": 1865,
       "avgFrags": null,
@@ -161,7 +161,7 @@
       "maxFrags": 11,
       "masterCount": 509,
       "vehiclesCount": 614,
-      "fetchedAt": "2026-09-05T07:09:21Z"
+      "fetchedAt": "2026-09-05T12:11:45Z"
     },
     {
       "accountId": 17864806,

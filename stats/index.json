@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T07:43:01Z",
+  "generatedAt": "2026-09-18T13:16:29Z",
   "players": [
     {
       "accountId": 170363,
@@ -269,7 +269,7 @@
       "maxFrags": 10,
       "masterCount": 131,
       "vehiclesCount": 263,
-      "fetchedAt": "2026-09-17T23:10:30Z"
+      "fetchedAt": "2026-09-18T13:13:20Z"
     },
     {
       "accountId": 31734601,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 257,
       "vehiclesCount": 497,
-      "fetchedAt": "2026-09-17T23:11:07Z"
+      "fetchedAt": "2026-09-18T13:14:30Z"
     },
     {
       "accountId": 67463356,
@@ -485,7 +485,7 @@
       "maxFrags": 9,
       "masterCount": 131,
       "vehiclesCount": 386,
-      "fetchedAt": "2026-09-17T23:12:04Z"
+      "fetchedAt": "2026-09-18T13:16:00Z"
     },
     {
       "accountId": 111965257,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-09-17T23:08:55Z"
+      "fetchedAt": "2026-09-18T13:11:43Z"
     },
     {
       "accountId": 123578506,
@@ -562,10 +562,10 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 12085,
-      "wins": 7803,
-      "winRate": 64.57,
-      "avgDmg": 3582,
+      "battles": 12092,
+      "wins": 7807,
+      "winRate": 64.56,
+      "avgDmg": 3581,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 77.78,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 87,
       "vehiclesCount": 130,
-      "fetchedAt": "2026-09-17T23:09:15Z"
+      "fetchedAt": "2026-09-18T13:12:04Z"
     },
     {
       "accountId": 130831468,

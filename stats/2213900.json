@@ -1,18 +1,18 @@
 {
   "accountId": 2213900,
   "nickname": "AlexHelicopter",
-  "battles": 20785,
-  "wins": 11687,
+  "battles": 20786,
+  "wins": 11688,
   "winRate": 56.23,
   "avgDmg": 1991,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 72.18,
-  "global_rating": 9480,
+  "hitsPercents": 72.17,
+  "global_rating": 9481,
   "avgExp": 834,
   "maxExp": 3366,
   "maxFrags": 10,
   "masterCount": 116,
   "vehiclesCount": 287,
-  "fetchedAt": "2026-09-22T23:19:30Z"
+  "fetchedAt": "2026-09-23T08:00:31Z"
 }

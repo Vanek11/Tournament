@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-09-24T13:53:58Z",
+  "generatedAt": "2026-09-24T18:46:21Z",
   "players": [
     {
       "accountId": 170363,
       "nickname": "Xsides",
-      "battles": 18029,
+      "battles": 18030,
       "wins": 9516,
       "winRate": 52.78,
       "avgDmg": 1338,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 65.55,
-      "global_rating": 7159,
+      "global_rating": 7158,
       "avgExp": 693,
       "maxExp": 2598,
       "maxFrags": 11,
       "masterCount": 54,
-      "vehiclesCount": 268,
-      "fetchedAt": "2026-09-23T08:02:56Z"
+      "vehiclesCount": 269,
+      "fetchedAt": "2026-09-24T18:45:45Z"
     },
     {
       "accountId": 328441,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 124,
       "vehiclesCount": 453,
-      "fetchedAt": "2026-09-24T01:47:34Z"
+      "fetchedAt": "2026-09-24T18:45:34Z"
     },
     {
       "accountId": 33974749,
@@ -490,20 +490,20 @@
     {
       "accountId": 111965257,
       "nickname": "Punisherr",
-      "battles": 35689,
-      "wins": 23733,
-      "winRate": 66.5,
-      "avgDmg": 3877,
+      "battles": 35699,
+      "wins": 23743,
+      "winRate": 66.51,
+      "avgDmg": 3878,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 78.91,
-      "global_rating": 12780,
+      "global_rating": 12781,
       "avgExp": 1293,
       "maxExp": 3617,
       "maxFrags": 11,
       "masterCount": 212,
       "vehiclesCount": 238,
-      "fetchedAt": "2026-09-23T08:00:42Z"
+      "fetchedAt": "2026-09-24T18:43:37Z"
     },
     {
       "accountId": 115214305,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-09-24T01:44:30Z"
+      "fetchedAt": "2026-09-24T18:42:35Z"
     },
     {
       "accountId": 123578506,

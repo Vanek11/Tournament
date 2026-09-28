@@ -1,18 +1,18 @@
 {
   "accountId": 31960984,
   "nickname": "__NeRV",
-  "battles": 64627,
-  "wins": 32023,
+  "battles": 64637,
+  "wins": 32028,
   "winRate": 49.55,
   "avgDmg": 1216,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 67.49,
-  "global_rating": 6511,
+  "hitsPercents": 67.5,
+  "global_rating": 6513,
   "avgExp": 577,
   "maxExp": 3060,
   "maxFrags": 9,
   "masterCount": 124,
   "vehiclesCount": 453,
-  "fetchedAt": "2026-09-28T02:08:26Z"
+  "fetchedAt": "2026-09-28T22:42:34Z"
 }

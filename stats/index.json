@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T09:12:49Z",
+  "generatedAt": "2026-09-29T17:07:41Z",
   "players": [
     {
       "accountId": 170363,
@@ -22,8 +22,8 @@
     {
       "accountId": 328441,
       "nickname": "Mishgan61",
-      "battles": 66120,
-      "wins": 34376,
+      "battles": 66134,
+      "wins": 34383,
       "winRate": 51.99,
       "avgDmg": 1728,
       "avgFrags": null,
@@ -35,7 +35,7 @@
       "maxFrags": 10,
       "masterCount": 129,
       "vehiclesCount": 378,
-      "fetchedAt": "2026-09-29T02:53:09Z"
+      "fetchedAt": "2026-09-29T17:06:49Z"
     },
     {
       "accountId": 1667936,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 124,
       "vehiclesCount": 453,
-      "fetchedAt": "2026-09-29T09:12:06Z"
+      "fetchedAt": "2026-09-29T17:06:54Z"
     },
     {
       "accountId": 33974749,
@@ -323,7 +323,7 @@
       "maxFrags": 10,
       "masterCount": 193,
       "vehiclesCount": 345,
-      "fetchedAt": "2026-09-29T09:08:42Z"
+      "fetchedAt": "2026-09-29T17:04:32Z"
     },
     {
       "accountId": 48487007,
@@ -503,7 +503,7 @@
       "maxFrags": 11,
       "masterCount": 215,
       "vehiclesCount": 242,
-      "fetchedAt": "2026-09-29T09:10:42Z"
+      "fetchedAt": "2026-09-29T17:05:28Z"
     },
     {
       "accountId": 115214305,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-09-28T22:39:38Z"
+      "fetchedAt": "2026-09-29T17:04:25Z"
     },
     {
       "accountId": 123578506,
@@ -593,7 +593,7 @@
       "maxFrags": 10,
       "masterCount": 110,
       "vehiclesCount": 171,
-      "fetchedAt": "2026-09-29T09:08:52Z"
+      "fetchedAt": "2026-09-29T17:04:43Z"
     },
     {
       "accountId": 172140333,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 51,
       "vehiclesCount": 84,
-      "fetchedAt": "2026-09-29T02:52:52Z"
+      "fetchedAt": "2026-09-29T17:06:32Z"
     }
   ]
 }

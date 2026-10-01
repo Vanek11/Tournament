@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:37:36Z",
+  "generatedAt": "2026-10-01T22:05:22Z",
   "players": [
     {
       "accountId": 170363,
@@ -274,20 +274,20 @@
     {
       "accountId": 31734601,
       "nickname": "I_WoLf__",
-      "battles": 24115,
-      "wins": 15361,
-      "winRate": 63.7,
-      "avgDmg": 2893,
+      "battles": 24161,
+      "wins": 15393,
+      "winRate": 63.71,
+      "avgDmg": 2895,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 75.61,
-      "global_rating": 11467,
+      "hitsPercents": 75.62,
+      "global_rating": 11471,
       "avgExp": 1005,
       "maxExp": 3213,
       "maxFrags": 10,
       "masterCount": 211,
-      "vehiclesCount": 310,
-      "fetchedAt": "2026-09-29T21:34:26Z"
+      "vehiclesCount": 311,
+      "fetchedAt": "2026-10-01T22:03:02Z"
     },
     {
       "accountId": 31960984,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-10-01T17:33:16Z"
+      "fetchedAt": "2026-10-01T22:02:08Z"
     },
     {
       "accountId": 123578506,

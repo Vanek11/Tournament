@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:38:09Z",
+  "generatedAt": "2026-10-01T02:37:25Z",
   "players": [
     {
       "accountId": 170363,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 65,
       "vehiclesCount": 323,
-      "fetchedAt": "2026-09-30T02:35:18Z"
+      "fetchedAt": "2026-10-01T02:37:23Z"
     },
     {
       "accountId": 24040492,
@@ -251,7 +251,7 @@
       "maxFrags": 12,
       "masterCount": 294,
       "vehiclesCount": 473,
-      "fetchedAt": "2026-09-30T02:32:17Z"
+      "fetchedAt": "2026-10-01T02:34:24Z"
     },
     {
       "accountId": 28909483,
@@ -503,7 +503,7 @@
       "maxFrags": 11,
       "masterCount": 216,
       "vehiclesCount": 242,
-      "fetchedAt": "2026-09-30T17:03:18Z"
+      "fetchedAt": "2026-10-01T02:35:14Z"
     },
     {
       "accountId": 115214305,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-09-30T21:33:50Z"
+      "fetchedAt": "2026-10-01T02:34:13Z"
     },
     {
       "accountId": 123578506,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 87,
       "vehiclesCount": 130,
-      "fetchedAt": "2026-09-30T02:32:27Z"
+      "fetchedAt": "2026-10-01T02:34:35Z"
     },
     {
       "accountId": 130831468,
@@ -634,20 +634,20 @@
     {
       "accountId": 260637298,
       "nickname": "Awessome_",
-      "battles": 6701,
-      "wins": 3999,
-      "winRate": 59.68,
+      "battles": 6705,
+      "wins": 4001,
+      "winRate": 59.67,
       "avgDmg": 2939,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.44,
-      "global_rating": 9594,
+      "hitsPercents": 77.45,
+      "global_rating": 9595,
       "avgExp": 1055,
       "maxExp": 2843,
       "maxFrags": 9,
       "masterCount": 51,
       "vehiclesCount": 84,
-      "fetchedAt": "2026-09-30T02:34:13Z"
+      "fetchedAt": "2026-10-01T02:36:19Z"
     }
   ]
 }

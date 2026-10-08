@@ -1,18 +1,18 @@
 {
   "accountId": 20778095,
   "nickname": "TheVinchester",
-  "battles": 14867,
-  "wins": 8174,
-  "winRate": 54.98,
-  "avgDmg": 1408,
+  "battles": 14876,
+  "wins": 8177,
+  "winRate": 54.97,
+  "avgDmg": 1409,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 74.7,
-  "global_rating": 8147,
+  "hitsPercents": 74.69,
+  "global_rating": 8149,
   "avgExp": 652,
   "maxExp": 2942,
   "maxFrags": 10,
   "masterCount": 57,
   "vehiclesCount": 100,
-  "fetchedAt": "2026-10-07T22:44:15Z"
+  "fetchedAt": "2026-10-08T20:19:04Z"
 }

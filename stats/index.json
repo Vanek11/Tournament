@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T00:46:44Z",
+  "generatedAt": "2026-10-09T09:50:31Z",
   "players": [
     {
       "accountId": 170363,
@@ -89,25 +89,25 @@
       "maxFrags": 8,
       "masterCount": 136,
       "vehiclesCount": 414,
-      "fetchedAt": "2026-10-07T22:43:19Z"
+      "fetchedAt": "2026-10-09T09:41:49Z"
     },
     {
       "accountId": 2682543,
-      "nickname": "Soind",
-      "battles": 78410,
-      "wins": 44835,
+      "nickname": "Мои игровые профили:",
+      "battles": 78414,
+      "wins": 44837,
       "winRate": 57.18,
-      "avgDmg": 1599,
+      "avgDmg": 1600,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 69.32,
-      "global_rating": 9498,
+      "global_rating": 9499,
       "avgExp": 779,
       "maxExp": 3633,
       "maxFrags": 11,
       "masterCount": 352,
       "vehiclesCount": 794,
-      "fetchedAt": "2026-10-08T20:18:38Z"
+      "fetchedAt": "2026-10-09T09:44:47Z"
     },
     {
       "accountId": 3046685,
@@ -269,7 +269,7 @@
       "maxFrags": 10,
       "masterCount": 131,
       "vehiclesCount": 263,
-      "fetchedAt": "2026-10-08T20:18:32Z"
+      "fetchedAt": "2026-10-09T09:44:11Z"
     },
     {
       "accountId": 31734601,

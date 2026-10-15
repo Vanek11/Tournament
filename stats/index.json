@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:09:46Z",
+  "generatedAt": "2026-10-15T02:04:34Z",
   "players": [
     {
       "accountId": 170363,
@@ -58,9 +58,9 @@
     {
       "accountId": 2213900,
       "nickname": "AlexHelicopter",
-      "battles": 20971,
-      "wins": 11805,
-      "winRate": 56.29,
+      "battles": 20974,
+      "wins": 11804,
+      "winRate": 56.28,
       "avgDmg": 2004,
       "avgFrags": null,
       "surviveRate": null,
@@ -71,7 +71,7 @@
       "maxFrags": 10,
       "masterCount": 116,
       "vehiclesCount": 289,
-      "fetchedAt": "2026-10-14T03:27:15Z"
+      "fetchedAt": "2026-10-15T02:00:40Z"
     },
     {
       "accountId": 2455009,
@@ -89,7 +89,7 @@
       "maxFrags": 8,
       "masterCount": 136,
       "vehiclesCount": 414,
-      "fetchedAt": "2026-10-14T10:41:35Z"
+      "fetchedAt": "2026-10-15T01:59:46Z"
     },
     {
       "accountId": 2682543,
@@ -161,7 +161,7 @@
       "maxFrags": 11,
       "masterCount": 515,
       "vehiclesCount": 616,
-      "fetchedAt": "2026-10-14T21:05:00Z"
+      "fetchedAt": "2026-10-15T02:02:07Z"
     },
     {
       "accountId": 17864806,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 226,
       "vehiclesCount": 407,
-      "fetchedAt": "2026-10-13T02:25:04Z"
+      "fetchedAt": "2026-10-15T02:04:22Z"
     },
     {
       "accountId": 63280344,
@@ -449,7 +449,7 @@
       "maxFrags": 12,
       "masterCount": 81,
       "vehiclesCount": 295,
-      "fetchedAt": "2026-10-14T21:04:54Z"
+      "fetchedAt": "2026-10-15T02:02:00Z"
     },
     {
       "accountId": 89288809,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 191,
       "vehiclesCount": 258,
-      "fetchedAt": "2026-10-14T10:40:35Z"
+      "fetchedAt": "2026-10-15T01:57:29Z"
     },
     {
       "accountId": 123578506,
@@ -611,7 +611,7 @@
       "maxFrags": 10,
       "masterCount": 95,
       "vehiclesCount": 156,
-      "fetchedAt": "2026-10-14T21:02:21Z"
+      "fetchedAt": "2026-10-15T01:59:17Z"
     },
     {
       "accountId": 208174535,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 51,
       "vehiclesCount": 84,
-      "fetchedAt": "2026-10-14T21:06:25Z"
+      "fetchedAt": "2026-10-15T02:03:22Z"
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
   "accountId": 31734601,
   "nickname": "I_WoLf__",
-  "battles": 24368,
-  "wins": 15537,
-  "winRate": 63.76,
-  "avgDmg": 2899,
+  "battles": 24384,
+  "wins": 15550,
+  "winRate": 63.77,
+  "avgDmg": 2900,
   "avgFrags": null,
   "surviveRate": null,
-  "hitsPercents": 75.64,
-  "global_rating": 11484,
-  "avgExp": 1006,
+  "hitsPercents": 75.65,
+  "global_rating": 11486,
+  "avgExp": 1007,
   "maxExp": 3213,
   "maxFrags": 10,
-  "masterCount": 212,
+  "masterCount": 213,
   "vehiclesCount": 313,
-  "fetchedAt": "2026-10-15T23:21:46Z"
+  "fetchedAt": "2026-10-16T23:06:44Z"
 }

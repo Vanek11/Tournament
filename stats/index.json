@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T01:41:36Z",
+  "generatedAt": "2026-10-18T07:30:29Z",
   "players": [
     {
       "accountId": 170363,
@@ -472,8 +472,8 @@
     {
       "accountId": 90586270,
       "nickname": "EHoTiK_TToJIoCKyH",
-      "battles": 26419,
-      "wins": 14729,
+      "battles": 26422,
+      "wins": 14730,
       "winRate": 55.75,
       "avgDmg": 1883,
       "avgFrags": null,
@@ -485,7 +485,7 @@
       "maxFrags": 9,
       "masterCount": 131,
       "vehiclesCount": 391,
-      "fetchedAt": "2026-10-16T01:50:58Z"
+      "fetchedAt": "2026-10-18T07:29:57Z"
     },
     {
       "accountId": 111965257,

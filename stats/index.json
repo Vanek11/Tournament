@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T23:49:17Z",
+  "generatedAt": "2026-10-22T02:05:20Z",
   "players": [
     {
       "accountId": 170363,
@@ -508,20 +508,20 @@
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 33609,
-      "wins": 19043,
+      "battles": 33626,
+      "wins": 19052,
       "winRate": 56.66,
       "avgDmg": 1836,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.46,
-      "global_rating": 8920,
+      "global_rating": 8921,
       "avgExp": 877,
       "maxExp": 2898,
       "maxFrags": 10,
       "masterCount": 100,
-      "vehiclesCount": 288,
-      "fetchedAt": "2026-10-21T14:14:14Z"
+      "vehiclesCount": 289,
+      "fetchedAt": "2026-10-22T02:05:08Z"
     },
     {
       "accountId": 121158863,

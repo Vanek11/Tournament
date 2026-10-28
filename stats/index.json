@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T17:31:16Z",
+  "generatedAt": "2026-10-28T21:59:36Z",
   "players": [
     {
       "accountId": 170363,
@@ -58,20 +58,20 @@
     {
       "accountId": 2213900,
       "nickname": "AlexHelicopter",
-      "battles": 21125,
-      "wins": 11889,
-      "winRate": 56.28,
+      "battles": 21133,
+      "wins": 11892,
+      "winRate": 56.27,
       "avgDmg": 2003,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 72.33,
-      "global_rating": 9518,
+      "global_rating": 9517,
       "avgExp": 838,
       "maxExp": 3366,
       "maxFrags": 10,
       "masterCount": 119,
       "vehiclesCount": 294,
-      "fetchedAt": "2026-10-28T17:28:45Z"
+      "fetchedAt": "2026-10-28T21:56:49Z"
     },
     {
       "accountId": 2455009,
@@ -215,13 +215,13 @@
       "maxFrags": 10,
       "masterCount": 57,
       "vehiclesCount": 101,
-      "fetchedAt": "2026-10-28T17:29:32Z"
+      "fetchedAt": "2026-10-28T21:57:41Z"
     },
     {
       "accountId": 23948104,
       "nickname": "BuTaJIuK_u3_IIuTepa",
-      "battles": 39825,
-      "wins": 20247,
+      "battles": 39832,
+      "wins": 20251,
       "winRate": 50.84,
       "avgDmg": 1216,
       "avgFrags": null,
@@ -233,7 +233,7 @@
       "maxFrags": 10,
       "masterCount": 65,
       "vehiclesCount": 326,
-      "fetchedAt": "2026-10-28T17:31:13Z"
+      "fetchedAt": "2026-10-28T21:59:34Z"
     },
     {
       "accountId": 24040492,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 125,
       "vehiclesCount": 454,
-      "fetchedAt": "2026-10-28T17:30:29Z"
+      "fetchedAt": "2026-10-28T21:58:46Z"
     },
     {
       "accountId": 33974749,
@@ -377,7 +377,7 @@
       "maxFrags": 10,
       "masterCount": 259,
       "vehiclesCount": 503,
-      "fetchedAt": "2026-10-28T17:29:43Z"
+      "fetchedAt": "2026-10-28T21:57:57Z"
     },
     {
       "accountId": 67463356,
@@ -395,7 +395,7 @@
       "maxFrags": 8,
       "masterCount": 106,
       "vehiclesCount": 383,
-      "fetchedAt": "2026-10-28T17:30:12Z"
+      "fetchedAt": "2026-10-28T21:58:27Z"
     },
     {
       "accountId": 70467784,
@@ -575,7 +575,7 @@
       "maxFrags": 11,
       "masterCount": 88,
       "vehiclesCount": 134,
-      "fetchedAt": "2026-10-28T17:28:16Z"
+      "fetchedAt": "2026-10-28T21:56:16Z"
     },
     {
       "accountId": 130831468,

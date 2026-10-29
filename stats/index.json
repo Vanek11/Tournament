@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:41:12Z",
+  "generatedAt": "2026-10-29T22:08:05Z",
   "players": [
     {
       "accountId": 170363,
@@ -76,20 +76,20 @@
     {
       "accountId": 2455009,
       "nickname": "CHl0C",
-      "battles": 33095,
-      "wins": 17997,
+      "battles": 33096,
+      "wins": 17998,
       "winRate": 54.38,
       "avgDmg": 1562,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 59.87,
-      "global_rating": 8067,
+      "global_rating": 8068,
       "avgExp": 680,
       "maxExp": 3447,
       "maxFrags": 8,
       "masterCount": 136,
       "vehiclesCount": 415,
-      "fetchedAt": "2026-10-28T00:07:14Z"
+      "fetchedAt": "2026-10-29T22:04:22Z"
     },
     {
       "accountId": 2682543,
@@ -436,8 +436,8 @@
     {
       "accountId": 76905788,
       "nickname": "DuT9l_4epHo6blJl9l",
-      "battles": 23741,
-      "wins": 12357,
+      "battles": 23742,
+      "wins": 12358,
       "winRate": 52.05,
       "avgDmg": 1703,
       "avgFrags": null,
@@ -449,7 +449,7 @@
       "maxFrags": 12,
       "masterCount": 81,
       "vehiclesCount": 295,
-      "fetchedAt": "2026-10-28T17:29:15Z"
+      "fetchedAt": "2026-10-29T22:05:34Z"
     },
     {
       "accountId": 89288809,
@@ -485,7 +485,7 @@
       "maxFrags": 9,
       "masterCount": 132,
       "vehiclesCount": 393,
-      "fetchedAt": "2026-10-29T17:40:43Z"
+      "fetchedAt": "2026-10-29T22:07:35Z"
     },
     {
       "accountId": 111965257,
@@ -562,20 +562,20 @@
     {
       "accountId": 126453902,
       "nickname": "qDanya",
-      "battles": 12308,
-      "wins": 7941,
-      "winRate": 64.52,
-      "avgDmg": 3583,
+      "battles": 12324,
+      "wins": 7954,
+      "winRate": 64.54,
+      "avgDmg": 3584,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 77.58,
-      "global_rating": 11387,
+      "hitsPercents": 77.55,
+      "global_rating": 11391,
       "avgExp": 1178,
       "maxExp": 2990,
       "maxFrags": 11,
       "masterCount": 88,
       "vehiclesCount": 134,
-      "fetchedAt": "2026-10-28T21:56:16Z"
+      "fetchedAt": "2026-10-29T22:03:33Z"
     },
     {
       "accountId": 130831468,

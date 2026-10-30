@@ -1,18 +1,18 @@
 {
   "accountId": 24040492,
   "nickname": "_8888_8888_",
-  "battles": 99936,
-  "wins": 60331,
+  "battles": 99961,
+  "wins": 60346,
   "winRate": 60.37,
-  "avgDmg": 2660,
+  "avgDmg": 2661,
   "avgFrags": null,
   "surviveRate": null,
   "hitsPercents": 74.23,
-  "global_rating": 11993,
+  "global_rating": 11994,
   "avgExp": 992,
   "maxExp": 4217,
   "maxFrags": 12,
   "masterCount": 295,
   "vehiclesCount": 474,
-  "fetchedAt": "2026-10-27T19:46:08Z"
+  "fetchedAt": "2026-10-30T21:43:10Z"
 }

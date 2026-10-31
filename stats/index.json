@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T19:03:43Z",
+  "generatedAt": "2026-10-31T23:52:46Z",
   "players": [
     {
       "accountId": 170363,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 125,
       "vehiclesCount": 454,
-      "fetchedAt": "2026-10-31T09:02:05Z"
+      "fetchedAt": "2026-10-31T23:51:29Z"
     },
     {
       "accountId": 33974749,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 51,
       "vehiclesCount": 86,
-      "fetchedAt": "2026-10-31T02:53:55Z"
+      "fetchedAt": "2026-10-31T23:51:06Z"
     }
   ]
 }

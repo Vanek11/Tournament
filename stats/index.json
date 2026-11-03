@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:58:29Z",
+  "generatedAt": "2026-11-03T02:46:06Z",
   "players": [
     {
       "accountId": 170363,
@@ -238,20 +238,20 @@
     {
       "accountId": 24040492,
       "nickname": "_8888_8888_",
-      "battles": 99970,
-      "wins": 60352,
+      "battles": 99979,
+      "wins": 60357,
       "winRate": 60.37,
       "avgDmg": 2661,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 74.23,
-      "global_rating": 11994,
+      "global_rating": 11995,
       "avgExp": 992,
       "maxExp": 4217,
       "maxFrags": 12,
       "masterCount": 295,
       "vehiclesCount": 474,
-      "fetchedAt": "2026-11-02T02:52:10Z"
+      "fetchedAt": "2026-11-03T02:41:32Z"
     },
     {
       "accountId": 28909483,
@@ -526,10 +526,10 @@
     {
       "accountId": 121158863,
       "nickname": "JIauM",
-      "battles": 32184,
-      "wins": 20807,
+      "battles": 32191,
+      "wins": 20811,
       "winRate": 64.65,
-      "avgDmg": 2958,
+      "avgDmg": 2959,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 70.36,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 192,
       "vehiclesCount": 261,
-      "fetchedAt": "2026-11-02T20:54:33Z"
+      "fetchedAt": "2026-11-03T02:41:19Z"
     },
     {
       "accountId": 123578506,

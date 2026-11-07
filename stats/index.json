@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:05:20Z",
+  "generatedAt": "2026-11-07T21:10:31Z",
   "players": [
     {
       "accountId": 170363,
@@ -215,7 +215,7 @@
       "maxFrags": 10,
       "masterCount": 57,
       "vehiclesCount": 101,
-      "fetchedAt": "2026-11-07T09:20:40Z"
+      "fetchedAt": "2026-11-07T21:08:50Z"
     },
     {
       "accountId": 23948104,
@@ -413,7 +413,7 @@
       "maxFrags": 10,
       "masterCount": 88,
       "vehiclesCount": 143,
-      "fetchedAt": "2026-11-01T09:52:00Z"
+      "fetchedAt": "2026-11-07T21:08:56Z"
     },
     {
       "accountId": 72380096,
@@ -454,20 +454,20 @@
     {
       "accountId": 89288809,
       "nickname": "New_KPuBou",
-      "battles": 50514,
-      "wins": 30430,
+      "battles": 50559,
+      "wins": 30457,
       "winRate": 60.24,
       "avgDmg": 2625,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 68.85,
-      "global_rating": 11380,
+      "hitsPercents": 68.84,
+      "global_rating": 11381,
       "avgExp": 1006,
       "maxExp": 3432,
       "maxFrags": 13,
       "masterCount": 240,
       "vehiclesCount": 400,
-      "fetchedAt": "2026-11-02T02:53:49Z"
+      "fetchedAt": "2026-11-07T21:08:45Z"
     },
     {
       "accountId": 90586270,
@@ -526,8 +526,8 @@
     {
       "accountId": 121158863,
       "nickname": "JIauM",
-      "battles": 32205,
-      "wins": 20821,
+      "battles": 32217,
+      "wins": 20828,
       "winRate": 64.65,
       "avgDmg": 2959,
       "avgFrags": null,
@@ -539,7 +539,7 @@
       "maxFrags": 12,
       "masterCount": 192,
       "vehiclesCount": 261,
-      "fetchedAt": "2026-11-04T18:54:40Z"
+      "fetchedAt": "2026-11-07T21:06:46Z"
     },
     {
       "accountId": 123578506,

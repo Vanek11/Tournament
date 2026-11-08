@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:20:20Z",
+  "generatedAt": "2026-11-08T21:27:35Z",
   "players": [
     {
       "accountId": 170363,
@@ -40,20 +40,20 @@
     {
       "accountId": 1667936,
       "nickname": "Weedman_Pro",
-      "battles": 66730,
-      "wins": 34499,
+      "battles": 66745,
+      "wins": 34507,
       "winRate": 51.7,
       "avgDmg": 1374,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 69.03,
-      "global_rating": 7161,
+      "global_rating": 7162,
       "avgExp": 716,
       "maxExp": 2942,
       "maxFrags": 9,
       "masterCount": 133,
       "vehiclesCount": 398,
-      "fetchedAt": "2026-11-08T09:40:21Z"
+      "fetchedAt": "2026-11-08T21:26:59Z"
     },
     {
       "accountId": 2213900,
@@ -328,20 +328,20 @@
     {
       "accountId": 48487007,
       "nickname": "Citramon4",
-      "battles": 30027,
-      "wins": 17314,
-      "winRate": 57.66,
+      "battles": 30049,
+      "wins": 17329,
+      "winRate": 57.67,
       "avgDmg": 2240,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 75.61,
-      "global_rating": 9698,
-      "avgExp": 868,
+      "global_rating": 9699,
+      "avgExp": 869,
       "maxExp": 2880,
       "maxFrags": 10,
       "masterCount": 133,
       "vehiclesCount": 237,
-      "fetchedAt": "2026-11-08T09:39:22Z"
+      "fetchedAt": "2026-11-08T21:25:54Z"
     },
     {
       "accountId": 61780962,

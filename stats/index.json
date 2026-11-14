@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T03:45:19Z",
+  "generatedAt": "2026-11-14T12:37:40Z",
   "players": [
     {
       "accountId": 170363,
@@ -418,8 +418,8 @@
     {
       "accountId": 72380096,
       "nickname": "O_k_Y_p_A_n_T",
-      "battles": 25827,
-      "wins": 14068,
+      "battles": 25830,
+      "wins": 14070,
       "winRate": 54.47,
       "avgDmg": 1729,
       "avgFrags": null,
@@ -431,7 +431,7 @@
       "maxFrags": 12,
       "masterCount": 91,
       "vehiclesCount": 331,
-      "fetchedAt": "2026-11-12T14:04:14Z"
+      "fetchedAt": "2026-11-14T12:36:59Z"
     },
     {
       "accountId": 76905788,
@@ -508,20 +508,20 @@
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 33740,
-      "wins": 19114,
+      "battles": 33743,
+      "wins": 19115,
       "winRate": 56.65,
       "avgDmg": 1838,
       "avgFrags": null,
       "surviveRate": null,
-      "hitsPercents": 73.46,
-      "global_rating": 8923,
+      "hitsPercents": 73.47,
+      "global_rating": 8922,
       "avgExp": 877,
       "maxExp": 2898,
       "maxFrags": 10,
       "masterCount": 100,
       "vehiclesCount": 293,
-      "fetchedAt": "2026-11-13T13:31:38Z"
+      "fetchedAt": "2026-11-14T12:37:26Z"
     },
     {
       "accountId": 121158863,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 51,
       "vehiclesCount": 86,
-      "fetchedAt": "2026-11-12T04:30:15Z"
+      "fetchedAt": "2026-11-14T12:36:31Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T14:47:37Z",
+  "generatedAt": "2026-11-19T22:32:33Z",
   "players": [
     {
       "accountId": 170363,
@@ -40,20 +40,20 @@
     {
       "accountId": 1667936,
       "nickname": "Weedman_Pro",
-      "battles": 66824,
-      "wins": 34541,
-      "winRate": 51.69,
+      "battles": 66834,
+      "wins": 34553,
+      "winRate": 51.7,
       "avgDmg": 1374,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 69.04,
-      "global_rating": 7163,
+      "global_rating": 7164,
       "avgExp": 716,
       "maxExp": 2942,
       "maxFrags": 9,
       "masterCount": 133,
       "vehiclesCount": 398,
-      "fetchedAt": "2026-11-19T14:47:14Z"
+      "fetchedAt": "2026-11-19T22:32:07Z"
     },
     {
       "accountId": 2213900,
@@ -143,7 +143,7 @@
       "maxFrags": 10,
       "masterCount": 145,
       "vehiclesCount": 404,
-      "fetchedAt": "2026-11-19T14:47:20Z"
+      "fetchedAt": "2026-11-19T22:32:12Z"
     },
     {
       "accountId": 10961226,
@@ -305,7 +305,7 @@
       "maxFrags": 9,
       "masterCount": 125,
       "vehiclesCount": 454,
-      "fetchedAt": "2026-11-19T14:46:54Z"
+      "fetchedAt": "2026-11-19T22:31:44Z"
     },
     {
       "accountId": 33974749,
@@ -359,7 +359,7 @@
       "maxFrags": 11,
       "masterCount": 227,
       "vehiclesCount": 409,
-      "fetchedAt": "2026-11-19T14:47:30Z"
+      "fetchedAt": "2026-11-19T22:32:25Z"
     },
     {
       "accountId": 63280344,
@@ -503,25 +503,25 @@
       "maxFrags": 11,
       "masterCount": 216,
       "vehiclesCount": 242,
-      "fetchedAt": "2026-11-19T14:45:30Z"
+      "fetchedAt": "2026-11-19T22:30:16Z"
     },
     {
       "accountId": 115214305,
       "nickname": "Arrow_134",
-      "battles": 33790,
-      "wins": 19145,
+      "battles": 33808,
+      "wins": 19156,
       "winRate": 56.66,
       "avgDmg": 1838,
       "avgFrags": null,
       "surviveRate": null,
       "hitsPercents": 73.47,
-      "global_rating": 8924,
+      "global_rating": 8922,
       "avgExp": 877,
       "maxExp": 2898,
       "maxFrags": 10,
       "masterCount": 101,
       "vehiclesCount": 295,
-      "fetchedAt": "2026-11-19T14:47:25Z"
+      "fetchedAt": "2026-11-19T22:32:18Z"
     },
     {
       "accountId": 121158863,
@@ -647,7 +647,7 @@
       "maxFrags": 9,
       "masterCount": 51,
       "vehiclesCount": 86,
-      "fetchedAt": "2026-11-19T14:46:33Z"
+      "fetchedAt": "2026-11-19T22:31:22Z"
     }
   ]
 }

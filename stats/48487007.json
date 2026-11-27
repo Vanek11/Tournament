@@ -1,8 +1,8 @@
 {
   "accountId": 48487007,
   "nickname": "Citramon4",
-  "battles": 30263,
-  "wins": 17462,
+  "battles": 30270,
+  "wins": 17466,
   "winRate": 57.7,
   "avgDmg": 2246,
   "avgFrags": null,
@@ -14,5 +14,5 @@
   "maxFrags": 10,
   "masterCount": 133,
   "vehiclesCount": 237,
-  "fetchedAt": "2026-11-26T01:14:32Z"
+  "fetchedAt": "2026-11-27T15:43:20Z"
 }
